@@ -76,8 +76,7 @@
             <xsl:when test="$categorytype='misc'">
 				<xsl:call-template name="listPubs">
 					<xsl:with-param name="sortype" select="$sorttype" />
-					<!-- following is equal to ends-with(@name, 'MISC'), but ends-with not available -->
-					<xsl:with-param name="query" select="entries/entry[entrytype='misc' and substring-after(@name, substring-before(@name,'MISC'))='MISC']" />
+					<xsl:with-param name="query" select="entries/entry[entrytype='misc'] />
 					<xsl:with-param name="bebophome" select="$bebophome" />
 					<xsl:with-param name="bebopembeddingurl" select="$bebopembeddingurl" />
 				</xsl:call-template>			

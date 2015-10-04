@@ -255,26 +255,34 @@ body {
 .bebop a.book { 
 	background-image:url("img/B.png"); 
 }
-.bebop a.incollection { 
-	background-image:url("img/BC.png"); 
-}
-.bebop a.techreport { 
-	background-image:url("img/TR.png"); 
-}
-.bebop a.mastersthesis { 
-	background-image:url("img/MS.png"); 
-}
-.bebop a.mastersproject { 
-	background-image:url("img/MAS.png"); 
-}
-.bebop a.phdthesis { 
-	background-image:url("img/PhD.png"); 
-}
-.bebop a.patent { 
-	background-image:url("img/patent.png"); 
-}
+/*.bebop a.incollection { */
+/*background-image:url("img/BC.png"); */
+/*}*/
+/*.bebop a.techreport { */
+/*background-image:url("img/TR.png"); */
+/*}*/
+/*.bebop a.mastersthesis { */
+/*background-image:url("img/MS.png"); */
+/*}*/
+/*.bebop a.mastersproject { */
+/*background-image:url("img/MAS.png"); */
+/*}*/
+/*.bebop a.phdthesis { */
+/*background-image:url("img/PhD.png"); */
+/*}*/
+/*.bebop a.patent { */
+/*background-image:url("img/patent.png"); */
+/*}*/
 .bebop a.misc { 
 	background-image:url("img/misc.png"); 
+}
+/*Son malditos divs (como siempre termina siendo) y levanta la img de la izaquierda de la*/
+/*entrada, acorde al class={entrytype}, asi que cuidado.*/
+.bebop a.musica { 
+	background-image:url("img/MS.png"); 
+}
+.bebop a.video { 
+	background-image:url("img/patentpng"); 
 }
 
 /* Start Tag Cloud CSS */

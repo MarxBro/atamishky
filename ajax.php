@@ -2,10 +2,9 @@
 include_once("functions.inc.php");
 include_once("user.conf.inc.php");
 
-//set to null if no action, yb or pub is called (and avoid bunch of stupid errors!)
-$action=$_GET["action"] || null;
-$by=$_GET["by"]         || null;
-$pub=$_GET["pub"]       || null;
+$action=$_GET["action"];
+$by=$_GET["by"]        ;
+$pub=$_GET["pub"]      ;
 
 if($action != null){
     if($action == "showbib")
