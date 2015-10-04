@@ -1,0 +1,419 @@
+/*
+* {
+	color:				rgb(68,68,68);
+        font-family: 			arial;
+}
+*/
+
+body {
+	margin: 0px;
+	background-color: #FFFFFF;
+	padding: 0px 0px 0px 0px;
+}
+
+.bebop {
+ 	float: left;
+ 	margin:5px;
+	width: 848px;
+	color:				rgb(68,68,68);
+        font-family: 			arial;
+	font-size: 12px;
+}
+
+.bebop .content {
+	position: relative;
+	width: 796px;
+	background-color: #FFFFFF;
+	padding-left: 9px; /*26px;onemli*/
+	padding-top: 20px;
+	padding-right: 26px;
+
+}
+
+/* overriding settings of the included header file: special fix for my homepage */
+.bebop #banner p.emptyy {
+	bottom: -16px;
+}
+
+.bebop #banner img {
+	position: relative;
+	bottom: 14px;
+}
+/* end of override */
+
+.bebop .loading {
+	position: relative;
+	/*width: 796px;*/
+	background-image:url(img/indicator.gif);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	padding-left: 26px;
+	padding-right: 26px;
+
+}
+.bebop .whitebox {
+	position: relative;
+	background-color: #FFFFFF;
+	border-bottom: 5px solid #d9e2d9;
+	margin-bottom: 11px;
+	padding-bottom: 7px;
+}
+.bebop .entry, .entry1 {
+	position: relative;
+	width: 770px;
+	min-height: 38px;
+	background-color: #FFFFFF; /*#E6E5E5;*/
+	margin-top: 5px;
+	border: 1px solid #CBCACA;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 17px;
+	background-position:left;
+	background-repeat:repeat-y;
+}
+.bebop .entry1 {
+	background-image:url(img/b_oncelikli2.gif);
+}
+
+.bebop .entry1 span {
+	text-decoration: none;
+	border-bottom:1px dotted;
+	cursor: pointer;
+}
+
+.bebop .entry1 a {
+	text-decoration: none;
+	/*border-bottom:1px solid #AAAAAA;*/
+	color: #000000;
+	cursor: pointer;
+}
+
+.bebop .entry1 a:hover {
+	text-decoration: none;
+	border-bottom:1px solid #000000;
+	color: #000000;
+	cursor: pointer;
+}
+
+/* entry layout */
+/* I inlined this one to enhance embeddability of Bebop. 
+.bebop .sprites {
+	 background-image:url("img/sprites.gif");
+	 margin:2px 0 0 0;
+}
+*/
+.bebop .bibtexSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:0px -25px;
+	   top:4px;
+}
+.bebop .permalinkSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-125px -25px;
+	   top:4px;
+}
+.bebop .pdfSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-25px -25px;
+	   top:4px;
+}
+.bebop .htmlSprite {
+	    width:20px;
+	    height:20px;
+	    background-position:-25px 0;
+	    top:4px;
+}
+.bebop .slidesSprite {
+	    width:20px;
+	    height:20px;
+	    background-position:0px -50px;
+	    top:4px;
+}
+.bebop .posterSprite {
+	    width:20px;
+	    height:20px;
+	    background-position:-100px -25px;
+	    top:4px;
+}
+.bebop .moreButton {
+	    width:20px;
+	    height:20px;
+	    border: 0px;
+}
+.bebop .entrybody {
+	position: relative; 
+	left: 48px; 
+	top:3px;
+	width: 720px;
+	text-align: justify;
+	visibility: visible; /*hidden;*/
+}
+
+.bebop .entrybody table {                                                                          
+        border: none;                                                                              
+}                                                                                                  
+.bebop .entrybody td {
+    vertical-align: top;
+    border: none;
+    text-align: justify;
+}
+.bebop .entrybody ul {
+	padding: 0px;
+	margin-left: 15px;
+}
+.bebop .bibbody {
+	position: relative; 
+	/*margin-top: 10px;*/
+	background: #EEEEEE;
+	left: 48px; 
+	top:3px;
+	width: 720px;
+	text-align: justify;
+	font-family: monospace;
+	visibility: hidden;
+}
+
+.bebop .poster{
+	position: relative; 
+	left: 48px; 
+	/*bottom: 14px;*/
+	text-align: right;
+	width: 720px;
+}
+.bebop .title {
+	position: relative; 
+	top: 0px; 
+	left: 48px; 
+	width: 700px;
+	font-weight:bold;
+	font-family:Georgia, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	cursor: pointer;
+}
+.bebop a.title {
+	left: 0px; 
+	color: #000;
+	text-decoration:none;
+	cursor: pointer;
+}
+.bebop .topright{
+	position: absolute; top: 7px; right: 7px; text-align:right; width: 90px; z-index: 11;
+}
+.bebop .topleft{
+	position: absolute; top: 7px; left: 7px; 
+}
+.bebop .bottomright{
+	position: relative; 
+	text-align:right; 
+	z-index: 11; 
+	padding-left: 10px;
+}
+.bebop .bottomright a:hover {
+		     text-decoration: none;
+		     border-bottom: 0px;
+}
+.bebop .bottomleft {
+	position: relative; 
+	top: 3px;
+	left: 48px; 
+	width: 720px;
+	color:#666666; 
+	z-index:10;
+}
+.bebop .entryimages {
+	float:right;
+	position: relative;
+	padding-left: 10px;
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.bebop .article, .inproceedings, .inbook, .conference, .book, .incollection, .techreport, .mastersthesis, .mastersproject, .phdthesis, .patent, .misc
+{
+	position:absolute;
+	height: 36px;
+	width: 36px;
+	background-repeat: no-repeat;
+}
+
+.bebop a.article { 
+	background-image:url("img/J.png"); 
+}
+.bebop a.inproceedings {
+	background-image:url("img/C.png"); 
+}
+.bebop a.inbook { 
+	background-image:url("img/BC.png"); 
+}
+.bebop a.conference { 
+	background-image:url("img/C.png"); 
+}
+.bebop a.book { 
+	background-image:url("img/B.png"); 
+}
+.bebop a.incollection { 
+	background-image:url("img/BC.png"); 
+}
+.bebop a.techreport { 
+	background-image:url("img/TR.png"); 
+}
+.bebop a.mastersthesis { 
+	background-image:url("img/MS.png"); 
+}
+.bebop a.mastersproject { 
+	background-image:url("img/MAS.png"); 
+}
+.bebop a.phdthesis { 
+	background-image:url("img/PhD.png"); 
+}
+.bebop a.patent { 
+	background-image:url("img/patent.png"); 
+}
+.bebop a.misc { 
+	background-image:url("img/misc.png"); 
+}
+
+/* Start Tag Cloud CSS */
+.bebop #keywordsCloud {padding:1px; line-height:30px;text-align:justify;}
+.bebop .bigLinks a {text-decoration:none;padding:0px;color:#000000;}
+.bebop .bigLinks a:hover {text-decoration:underline;}
+.bebop .authorListLinks a {text-decoration:none;padding:0px;color:#000000;}
+
+.bebop .total {
+	text-decoration:none;
+	padding:0px;
+	color:#000000;
+	font-size:10px;
+	position: absolute; 
+	text-align:right;
+	top: 30px; right: 30px; 
+}
+.bebop span.tag8 {
+	text-decoration:none;
+	padding:0px;
+	color:#000000;
+	font-size:20px;
+	font-weight:300;
+}
+
+.bebop a.tag1{
+font-size:12px;
+}
+.bebop a.tag2, a.tag3 {
+font-size:13px;
+font-weight:200;
+}
+
+.bebop a.tag4 ,a.tag5, a.tag6 {
+font-size:16px;
+font-weight:300;
+}
+
+.bebop a.tag7, .tag8, a.tag9 {
+font-size:20px;
+font-weight:300;
+}
+
+.bebop a.tag10, a.tag11, a.tag12 {
+font-size:24px;
+font-weight:300;
+}
+
+.bebop a.tag13, a.tag14, a.tag15 {
+font-size:28px;
+font-weight:400;
+}
+
+.bebop a.tag16, a.tag17, a.tag18 {
+font-size:30px;
+font-weight:400;
+}
+
+.bebop a.tag19, a.tag20, a.tag21 {
+font-size:32px;
+font-weight:500;
+}
+
+.bebop a.tag22, a.tag23, a.tag24 {
+font-size:34px;
+font-weight:500;
+}
+
+.bebop a.tag25, a.tag26, a.tag27 {
+font-size:36px;
+font-weight:900;
+}
+
+.bebop a.tag28, a.tag29, a.tag30 {
+font-size:38px;
+font-weight:900;
+}
+/* End Tag Cloud CSS */
+
+/* horizontal menu matrix */
+.bebop #filters {
+    border: none;
+    margin: 0;
+}
+
+.bebop #filters tr td {
+    display: block;
+    float: left;
+    clear: left;
+}
+.bebop #filters ul li {
+    float: left;
+    margin: 0px 10px 10px 10px;
+    list-style-position:outside;
+    list-style-type: disc;
+}
+
+.bebop ul li {
+    font-size: 12px;
+    line-height: 18px;
+    list-style-position:outside;
+    list-style-type: disc;
+}
+
+div.sociable { margin: 0px 0; }
+
+.sociable a {
+    text-decoration: none;
+    border-bottom: 0px !important;
+}
+.sociable ul {
+    display: inline;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.sociable ul li {
+    background: none;
+    display: inline !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+}
+.sociable ul li:before { content: ""; }
+.sociable img {
+    float: none;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sociable-hovers {
+    opacity: .4;
+    -moz-opacity: .4;
+    filter: alpha(opacity=40);
+}
+.sociable-hovers:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
