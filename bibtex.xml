@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="bibtex.xsl"?>
+
 <entries>
 
 <!--prueba musica-->
@@ -83,7 +86,3 @@
 </entry>
 
 </entries>
-
-<!--Desde aca los genere con sparkup (zencoding clon)-->
-<!--entry[name=""]> entrytype{} + title{} + year{} + address{} + publisher{} + bibliografia{} + keywords{} + authors>author{}-->
-
