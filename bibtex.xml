@@ -1,0 +1,89 @@
+<entries>
+
+<!--prueba musica-->
+<entry name="mu11">
+    <entrytype>musica</entrytype>
+    <title>Arturo</title>
+    <year>2000</year>
+    <address>CABA</address>
+    <publisher>hh</publisher>
+    <!--<bibliografia></bibliografia>-->
+    <keywords>Arturo</keywords>
+    <authors>
+        <author>Edelstein</author>
+    </authors>
+</entry>
+
+<!--prueba video 1-->
+<entry name="vid1">
+    <entrytype>video</entrytype>
+    <title>asdf</title>
+    <year>1999</year>
+    <address>Nagoya</address>
+    <publisher>GatoVision</publisher>
+    <!--<bibliografia></bibliografia>-->
+    <keywords>Kurosawa</keywords>
+    <authors>
+        <author>Kurosawa</author>
+    </authors>
+</entry>
+<!--prueba un par de libros-->
+<entry name="book1">
+    <entrytype>book</entrytype>
+    <title>La importancia de llamarse Ernesto</title>
+    <year>1960</year>
+    <address>CABA</address>
+    <publisher>HH</publisher>
+    <bibliografia>literatura</bibliografia>
+    <keywords>Wilde</keywords>
+    <authors>
+        <author>Oscar Wilde</author>
+    </authors>
+</entry>
+
+<entry name="book2">
+    <entrytype>book</entrytype>
+    <title>Something else</title>
+    <year>2015</year>
+    <address>Nanjing</address>
+    <publisher>HoChiMing</publisher>
+    <bibliografia>catedra</bibliografia>
+    <keywords>libro loco</keywords>
+    <authors>
+        <author>Alejandro maco</author>
+    </authors>
+</entry>
+
+<entry name="book3">
+    <entrytype>book</entrytype>
+    <title>another book</title>
+    <year>2002</year>
+    <address>gsgsg</address>
+    <publisher>CC</publisher>
+    <bibliografia>carrera</bibliografia>
+    <keywords>magnificent</keywords>
+    <authors>
+        <author>Lucila Tanga</author>
+    </authors>
+</entry>
+
+<!--prueba un misc-->
+<entry name=""mm5"">
+    <entrytype>misc</entrytype>
+    <title>Gente</title>
+    <year>1983</year>
+    <!--probando el city en vez de address-->
+    <city>CABA</city>
+    <publisher>Editorial Perfil</publisher>
+    <bibliografia>catedra</bibliografia>
+    <keywords>gumer</keywords>
+    <authors>
+        <author>Varios</author>
+    </authors>
+</entry>
+
+</entries>
+
+<!--Desde aca los genere con sparkup (zencoding clon)-->
+<!--entry[name=""]> entrytype{} + title{} + year{} + address{} + publisher{} + bibliografia{} + keywords{} + authors>author{}-->
+
