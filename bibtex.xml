@@ -11,7 +11,9 @@
     <address>CABA</address>
     <publisher>hh</publisher>
     <!--<bibliografia></bibliografia>-->
-    <keywords>Arturo</keywords>
+    <keywords>
+        <keyword>Arturo</keyword>
+    </keywords>
     <authors>
         <author>Edelstein</author>
     </authors>
@@ -25,7 +27,9 @@
     <address>Nagoya</address>
     <publisher>GatoVision</publisher>
     <!--<bibliografia></bibliografia>-->
-    <keywords>Kurosawa</keywords>
+    <keywords>
+        <keyword>Kurosawa</keyword>
+    </keywords>
     <authors>
         <author>Kurosawa</author>
     </authors>
@@ -38,7 +42,9 @@
     <address>CABA</address>
     <publisher>HH</publisher>
     <bibliografia>literatura</bibliografia>
-    <keywords>Wilde</keywords>
+    <keywords>
+        <keyword>Wilde</keyword>
+    </keywords>
     <authors>
         <author>Oscar Wilde</author>
     </authors>
@@ -51,7 +57,9 @@
     <address>Nanjing</address>
     <publisher>HoChiMing</publisher>
     <bibliografia>catedra</bibliografia>
-    <keywords>libro loco</keywords>
+    <keywords>
+        <keyword>libro loco</keyword>
+    </keywords>
     <authors>
         <author>Alejandro maco</author>
     </authors>
@@ -64,7 +72,9 @@
     <address>gsgsg</address>
     <publisher>CC</publisher>
     <bibliografia>carrera</bibliografia>
-    <keywords>magnificent</keywords>
+    <keywords>
+        <keyword>magnificent</keyword>
+    </keywords>
     <authors>
         <author>Lucila Tanga</author>
     </authors>
@@ -79,7 +89,9 @@
     <city>CABA</city>
     <publisher>Editorial Perfil</publisher>
     <bibliografia>catedra</bibliografia>
-    <keywords>gumer</keywords>
+    <keywords>
+        <keyword>gumer</keyword>
+    </keywords>
     <authors>
         <author>Varios</author>
     </authors>

@@ -16,16 +16,16 @@
 <xsl:output omit-xml-declaration="yes" />
 
 <xsl:param name="pubid">371690</xsl:param>
-<xsl:param name="bebophome">http</xsl:param>
-<xsl:param name="bebopembeddingurl">http</xsl:param>
+<xsl:param name="atamishkyhome">http</xsl:param>
+<xsl:param name="atamishkyembeddingurl">http</xsl:param>
 
 <xsl:template match="/">
 
       <xsl:for-each select="entries/entry[@name=$pubid]">
 	<xsl:call-template name="printEntryDetails">
 	  <xsl:with-param name="pubid" select="$pubid" />
-	  <xsl:with-param name="bebophome" select="$bebophome" />
-	  <xsl:with-param name="bebopembeddingurl" select="$bebopembeddingurl" />
+	  <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+	  <xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 	</xsl:call-template>
 
       </xsl:for-each>
@@ -34,8 +34,8 @@
 
 <xsl:template name="printEntryDetails">
 <xsl:param name="pubid" />
-<xsl:param name="bebophome" />
-<xsl:param name="bebopembeddingurl" />
+<xsl:param name="atamishkyhome" />
+<xsl:param name="atamishkyembeddingurl" />
 
 			<hr />
 			<table>
@@ -47,7 +47,7 @@
                     <!---->
 				<tr><td><b>Document</b></td>
 				    <td>
-				      <img align="absmiddle" src="{$bebophome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$bebophome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$bebopembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">permanent link</a>
+				      <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">permanent link</a>
 				</td></tr>
 
                 <!--<tr><td><b>Share</b></td>-->
@@ -55,11 +55,11 @@
 
                 <!--<div class="sociable">-->
                 <!--<ul>-->
-<!--li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}%26body={$bebophome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$bebophome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$bebophome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li-->
-<!--<li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$bebopembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;via=bibpub" title="Twitter"><img src="{$bebophome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$bebophome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>-->
+<!--li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}%26body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li-->
+<!--<li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;via=bibpub" title="Twitter"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>-->
 <!---->
 <!---->
-<!--<li><a rel="nofollow"  target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]={$bebopembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;p[title]={title}&amp;p[summary]={$abstract}&amp;p[images][0]={$bebophome}/img/bebop-logo_w100.png" title="Facebook"><img src="{$bebophome}/img/services-sprite.gif" title="Facebook" alt="" style="width: 16px; height: 16px; background: transparent url('{$bebophome}/img/services-sprite.png') no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>-->
+<!--<li><a rel="nofollow"  target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]={$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;p[title]={title}&amp;p[summary]={$abstract}&amp;p[images][0]={$atamishkyhome}/img/atamishky-logo_w100.png" title="Facebook"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Facebook" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>-->
 <!---->
 <!--</ul>-->
 <!---->

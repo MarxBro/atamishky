@@ -20,20 +20,20 @@ print "<meta name=\"keywords\" content=\"".$PAGE_KEYWORDS."\" />";
 print "<meta name=\"description\" content=\"".$PAGE_DESCRIPTION."\"/>";
 print "<title>".$PAGE_TITLE."</title>";
 print "<link rel=\"shortcut icon\" href=\"".$FAVICON."\" />";    
-print "<link rel=\"unapi-server\" type=\"application/xml\" title=\"unAPI\" href=\"".$BEBOP_HOME."/unapi.php\" />";
+print "<link rel=\"unapi-server\" type=\"application/xml\" title=\"unAPI\" href=\"".$atamishky_HOME."/unapi.php\" />";
 if(isset($EXTERNAL_CSS))
   print "<link href=\"".$EXTERNAL_CSS."\" rel=\"stylesheet\" type=\"text/css\" />";
 
-print "<link href=\"".$BEBOP_HOME."/site.css\" rel=\"stylesheet\" type=\"text/css\" />";
+print "<link href=\"".$atamishky_HOME."/site.css\" rel=\"stylesheet\" type=\"text/css\" />";
 
-print "<script id=\"bebopjs\" src=\"".$BEBOP_HOME."/ajax.js\" type=\"text/javascript\"></script>";
+print "<script id=\"atamishkyjs\" src=\"".$atamishky_HOME."/ajax.js\" type=\"text/javascript\"></script>";
 ?>
 
 </head>
   <body>
 
 <?php
-include "bebop.php";
+include "atamishky.php";
 ?>
 
   </body>

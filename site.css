@@ -1,9 +1,10 @@
-/*
+
 * {
-	color:				rgb(68,68,68);
-        font-family: 			arial;
+    /*color:				rgb(68,68,68);*/
+    font-family: monospace;
+    font-size:14px;
 }
-*/
+
 
 body {
 	margin: 0px;
@@ -11,7 +12,7 @@ body {
 	padding: 0px 0px 0px 0px;
 }
 
-.bebop {
+.atamishky {
  	float: left;
  	margin:5px;
 	width: 848px;
@@ -20,7 +21,7 @@ body {
 	font-size: 12px;
 }
 
-.bebop .content {
+.atamishky .content {
 	position: relative;
 	width: 796px;
 	background-color: #FFFFFF;
@@ -31,17 +32,17 @@ body {
 }
 
 /* overriding settings of the included header file: special fix for my homepage */
-.bebop #banner p.emptyy {
+.atamishky #banner p.emptyy {
 	bottom: -16px;
 }
 
-.bebop #banner img {
+.atamishky #banner img {
 	position: relative;
 	bottom: 14px;
 }
 /* end of override */
 
-.bebop .loading {
+.atamishky .loading {
 	position: relative;
 	/*width: 796px;*/
 	background-image:url(img/indicator.gif);
@@ -51,14 +52,14 @@ body {
 	padding-right: 26px;
 
 }
-.bebop .whitebox {
+.atamishky .whitebox {
 	position: relative;
 	background-color: #FFFFFF;
 	border-bottom: 5px solid #d9e2d9;
 	margin-bottom: 11px;
 	padding-bottom: 7px;
 }
-.bebop .entry, .entry1 {
+.atamishky .entry, .entry1 {
 	position: relative;
 	width: 770px;
 	min-height: 38px;
@@ -72,24 +73,24 @@ body {
 	background-position:left;
 	background-repeat:repeat-y;
 }
-.bebop .entry1 {
+.atamishky .entry1 {
 	background-image:url(img/b_oncelikli2.gif);
 }
 
-.bebop .entry1 span {
+.atamishky .entry1 span {
 	text-decoration: none;
 	border-bottom:1px dotted;
 	cursor: pointer;
 }
 
-.bebop .entry1 a {
+.atamishky .entry1 a {
 	text-decoration: none;
 	/*border-bottom:1px solid #AAAAAA;*/
 	color: #000000;
 	cursor: pointer;
 }
 
-.bebop .entry1 a:hover {
+.atamishky .entry1 a:hover {
 	text-decoration: none;
 	border-bottom:1px solid #000000;
 	color: #000000;
@@ -97,54 +98,54 @@ body {
 }
 
 /* entry layout */
-/* I inlined this one to enhance embeddability of Bebop. 
-.bebop .sprites {
+/* I inlined this one to enhance embeddability of atamishky. 
+.atamishky .sprites {
 	 background-image:url("img/sprites.gif");
 	 margin:2px 0 0 0;
 }
 */
-.bebop .bibtexSprite {
+.atamishky .bibtexSprite {
 	   width:20px;
 	   height:20px;
 	   background-position:0px -25px;
 	   top:4px;
 }
-.bebop .permalinkSprite {
+.atamishky .permalinkSprite {
 	   width:20px;
 	   height:20px;
 	   background-position:-125px -25px;
 	   top:4px;
 }
-.bebop .pdfSprite {
+.atamishky .pdfSprite {
 	   width:20px;
 	   height:20px;
 	   background-position:-25px -25px;
 	   top:4px;
 }
-.bebop .htmlSprite {
+.atamishky .htmlSprite {
 	    width:20px;
 	    height:20px;
 	    background-position:-25px 0;
 	    top:4px;
 }
-.bebop .slidesSprite {
+.atamishky .slidesSprite {
 	    width:20px;
 	    height:20px;
 	    background-position:0px -50px;
 	    top:4px;
 }
-.bebop .posterSprite {
+.atamishky .posterSprite {
 	    width:20px;
 	    height:20px;
 	    background-position:-100px -25px;
 	    top:4px;
 }
-.bebop .moreButton {
+.atamishky .moreButton {
 	    width:20px;
 	    height:20px;
 	    border: 0px;
 }
-.bebop .entrybody {
+.atamishky .entrybody {
 	position: relative; 
 	left: 48px; 
 	top:3px;
@@ -153,19 +154,19 @@ body {
 	visibility: visible; /*hidden;*/
 }
 
-.bebop .entrybody table {                                                                          
+.atamishky .entrybody table {                                                                          
         border: none;                                                                              
 }                                                                                                  
-.bebop .entrybody td {
+.atamishky .entrybody td {
     vertical-align: top;
     border: none;
     text-align: justify;
 }
-.bebop .entrybody ul {
+.atamishky .entrybody ul {
 	padding: 0px;
 	margin-left: 15px;
 }
-.bebop .bibbody {
+.atamishky .bibbody {
 	position: relative; 
 	/*margin-top: 10px;*/
 	background: #EEEEEE;
@@ -177,14 +178,14 @@ body {
 	visibility: hidden;
 }
 
-.bebop .poster{
+.atamishky .poster{
 	position: relative; 
 	left: 48px; 
 	/*bottom: 14px;*/
 	text-align: right;
 	width: 720px;
 }
-.bebop .title {
+.atamishky .title {
 	position: relative; 
 	top: 0px; 
 	left: 48px; 
@@ -194,29 +195,29 @@ body {
 	font-size:14px;
 	cursor: pointer;
 }
-.bebop a.title {
+.atamishky a.title {
 	left: 0px; 
 	color: #000;
 	text-decoration:none;
 	cursor: pointer;
 }
-.bebop .topright{
+.atamishky .topright{
 	position: absolute; top: 7px; right: 7px; text-align:right; width: 90px; z-index: 11;
 }
-.bebop .topleft{
+.atamishky .topleft{
 	position: absolute; top: 7px; left: 7px; 
 }
-.bebop .bottomright{
+.atamishky .bottomright{
 	position: relative; 
 	text-align:right; 
 	z-index: 11; 
 	padding-left: 10px;
 }
-.bebop .bottomright a:hover {
+.atamishky .bottomright a:hover {
 		     text-decoration: none;
 		     border-bottom: 0px;
 }
-.bebop .bottomleft {
+.atamishky .bottomleft {
 	position: relative; 
 	top: 3px;
 	left: 48px; 
@@ -224,7 +225,7 @@ body {
 	color:#666666; 
 	z-index:10;
 }
-.bebop .entryimages {
+.atamishky .entryimages {
 	float:right;
 	position: relative;
 	padding-left: 10px;
@@ -232,7 +233,7 @@ body {
 	padding-bottom: 20px;
 }
 
-.bebop .article, .inproceedings, .inbook, .conference, .book, .incollection, .techreport, .mastersthesis, .mastersproject, .phdthesis, .patent, .misc
+.atamishky .article, .inproceedings, .musica, .video, .inbook, .conference, .book, .incollection, .techreport, .mastersthesis, .mastersproject, .phdthesis, .patent, .misc
 {
 	position:absolute;
 	height: 36px;
@@ -240,58 +241,58 @@ body {
 	background-repeat: no-repeat;
 }
 
-.bebop a.article { 
+.atamishky a.article { 
 	background-image:url("img/J.png"); 
 }
-.bebop a.inproceedings {
+.atamishky a.inproceedings {
 	background-image:url("img/C.png"); 
 }
-.bebop a.inbook { 
+.atamishky a.inbook { 
 	background-image:url("img/BC.png"); 
 }
-.bebop a.conference { 
+.atamishky a.conference { 
 	background-image:url("img/C.png"); 
 }
-.bebop a.book { 
+.atamishky a.book { 
 	background-image:url("img/B.png"); 
 }
-/*.bebop a.incollection { */
+/*.atamishky a.incollection { */
 /*background-image:url("img/BC.png"); */
 /*}*/
-/*.bebop a.techreport { */
+/*.atamishky a.techreport { */
 /*background-image:url("img/TR.png"); */
 /*}*/
-/*.bebop a.mastersthesis { */
+/*.atamishky a.mastersthesis { */
 /*background-image:url("img/MS.png"); */
 /*}*/
-/*.bebop a.mastersproject { */
+/*.atamishky a.mastersproject { */
 /*background-image:url("img/MAS.png"); */
 /*}*/
-/*.bebop a.phdthesis { */
+/*.atamishky a.phdthesis { */
 /*background-image:url("img/PhD.png"); */
 /*}*/
-/*.bebop a.patent { */
+/*.atamishky a.patent { */
 /*background-image:url("img/patent.png"); */
 /*}*/
-.bebop a.misc { 
+.atamishky a.misc { 
 	background-image:url("img/misc.png"); 
 }
 /*Son malditos divs (como siempre termina siendo) y levanta la img de la izaquierda de la*/
 /*entrada, acorde al class={entrytype}, asi que cuidado.*/
-.bebop a.musica { 
+.atamishky a.musica { 
 	background-image:url("img/MS.png"); 
 }
-.bebop a.video { 
-	background-image:url("img/patentpng"); 
+.atamishky a.video { 
+	background-image:url("img/patent.png"); 
 }
 
 /* Start Tag Cloud CSS */
-.bebop #keywordsCloud {padding:1px; line-height:30px;text-align:justify;}
-.bebop .bigLinks a {text-decoration:none;padding:0px;color:#000000;}
-.bebop .bigLinks a:hover {text-decoration:underline;}
-.bebop .authorListLinks a {text-decoration:none;padding:0px;color:#000000;}
+.atamishky #keywordsCloud {padding:1px; line-height:30px;text-align:justify;}
+.atamishky .bigLinks a {text-decoration:none;padding:0px;color:#000000;}
+.atamishky .bigLinks a:hover {text-decoration:underline;}
+.atamishky .authorListLinks a {text-decoration:none;padding:0px;color:#000000;}
 
-.bebop .total {
+.atamishky .total {
 	text-decoration:none;
 	padding:0px;
 	color:#000000;
@@ -300,7 +301,7 @@ body {
 	text-align:right;
 	top: 30px; right: 30px; 
 }
-.bebop span.tag8 {
+.atamishky span.tag8 {
 	text-decoration:none;
 	padding:0px;
 	color:#000000;
@@ -308,79 +309,79 @@ body {
 	font-weight:300;
 }
 
-.bebop a.tag1{
+.atamishky a.tag1{
 font-size:12px;
 }
-.bebop a.tag2, a.tag3 {
+.atamishky a.tag2, a.tag3 {
 font-size:13px;
 font-weight:200;
 }
 
-.bebop a.tag4 ,a.tag5, a.tag6 {
+.atamishky a.tag4 ,a.tag5, a.tag6 {
 font-size:16px;
 font-weight:300;
 }
 
-.bebop a.tag7, .tag8, a.tag9 {
+.atamishky a.tag7, .tag8, a.tag9 {
 font-size:20px;
 font-weight:300;
 }
 
-.bebop a.tag10, a.tag11, a.tag12 {
+.atamishky a.tag10, a.tag11, a.tag12 {
 font-size:24px;
 font-weight:300;
 }
 
-.bebop a.tag13, a.tag14, a.tag15 {
+.atamishky a.tag13, a.tag14, a.tag15 {
 font-size:28px;
 font-weight:400;
 }
 
-.bebop a.tag16, a.tag17, a.tag18 {
+.atamishky a.tag16, a.tag17, a.tag18 {
 font-size:30px;
 font-weight:400;
 }
 
-.bebop a.tag19, a.tag20, a.tag21 {
+.atamishky a.tag19, a.tag20, a.tag21 {
 font-size:32px;
 font-weight:500;
 }
 
-.bebop a.tag22, a.tag23, a.tag24 {
+.atamishky a.tag22, a.tag23, a.tag24 {
 font-size:34px;
 font-weight:500;
 }
 
-.bebop a.tag25, a.tag26, a.tag27 {
+.atamishky a.tag25, a.tag26, a.tag27 {
 font-size:36px;
 font-weight:900;
 }
 
-.bebop a.tag28, a.tag29, a.tag30 {
+.atamishky a.tag28, a.tag29, a.tag30 {
 font-size:38px;
 font-weight:900;
 }
 /* End Tag Cloud CSS */
 
 /* horizontal menu matrix */
-.bebop #filters {
+.atamishky #filters {
     border: none;
     margin: 0;
 }
 
-.bebop #filters tr td {
+.atamishky #filters tr td {
     display: block;
     float: left;
     clear: left;
 }
-.bebop #filters ul li {
+.atamishky #filters ul li {
     float: left;
     margin: 0px 10px 10px 10px;
     list-style-position:outside;
     list-style-type: disc;
 }
 
-.bebop ul li {
+.atamishky ul li {
     font-size: 12px;
     line-height: 18px;
     list-style-position:outside;

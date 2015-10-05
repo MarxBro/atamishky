@@ -19,8 +19,8 @@ if($action != null){
 	$xmlfile='bibtex.xml';
 	$xslfile='showentrydetail.xsl';
 	$params['pubid'] = $pub;
-	$params['bebophome'] = $BEBOP_HOME;
-	$params['bebopembeddingurl'] = $BEBOP_EMBEDDING_URL;
+	$params['atamishkyhome'] = $atamishky_HOME;
+	$params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
 	echo transform($xmlfile, $xslfile, $params);
       }
     else if($action == "showkeywordscloud")
@@ -53,8 +53,8 @@ if($action != null){
 	$params['sorttype'] = $sorttype;
 	$params['breadcrumb1'] = $breadcrumb1;
 	$params['breadcrumb2'] = $breadcrumb2;
-	$params['bebophome'] = $BEBOP_HOME;
-	$params['bebopembeddingurl'] = $BEBOP_EMBEDDING_URL;
+	$params['atamishkyhome'] = $atamishky_HOME;
+	$params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
 	echo transform($xmlfile, $xslfile, $params);
       }
     else if($action == 'copyright')
@@ -71,8 +71,8 @@ if($action != null){
      $params['sorttype'] = "year";
      $params['breadcrumb1'] = "by year";
      $params['breadcrumb2'] = "all";
-     $params['bebophome'] = $BEBOP_HOME;
-     $params['bebopembeddingurl'] = $BEBOP_EMBEDDING_URL;
+     $params['atamishkyhome'] = $atamishky_HOME;
+     $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
      echo transform($xmlfile, $xslfile, $params);
    }
 
@@ -87,8 +87,8 @@ if($action != null && $action != "showentrydetail" && $action != "showbib" && $a
 
     ////$http_part = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"]=="on") ? "https://" : "http://";
     ////$permalink=$http_part . $_SERVER["SERVER_NAME"] . $_SERVER['REQUEST_URI'];
-    //$permalink=$BEBOP_EMBEDDING_URL . "?action=" . $action;
-    ////$permalink=$http_part . $BEBOP_INCLUDING_FILE . "?action=" . $action;
+    //$permalink=$atamishky_EMBEDDING_URL . "?action=" . $action;
+    ////$permalink=$http_part . $atamishky_INCLUDING_FILE . "?action=" . $action;
     //if($by != null)
       //$permalink = $permalink."&amp;by=".$by;
     //if($pub != null)

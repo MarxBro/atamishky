@@ -5,10 +5,10 @@ var toggleKeywordsCloud = 'h';
 var toggleAuthorList = 'h';
 var loadingMessage = "<div class=\"loading\">Loading...</div>";
 
-var jspathel = document.getElementById('bebopjs');
+var jspathel = document.getElementById('atamishkyjs');
 var jspath = jspathel.getAttribute('src');
-var bebop_home_dir = jspath.substring(0, jspath.lastIndexOf('/')+1); 
-// e.g. http://www.aaa.com/bebop/
+var atamishky_home_dir = jspath.substring(0, jspath.lastIndexOf('/')+1); 
+// e.g. http://www.aaa.com/atamishky/
 
 function showCategory(strBy, str)
 { 
@@ -49,7 +49,7 @@ else
      else
 	 document.getElementById("keywordsCloud").innerHTML="";
 
-  var url=bebop_home_dir+"ajax.php"
+  var url=atamishky_home_dir+"ajax.php"
   url=url+"?action=showcategory&by="+strBy+"&pub="+str
   url=url+"&sid="+Math.random()
   xmlHttp.onreadystatechange=stateChanged 
@@ -85,7 +85,7 @@ if(toggleBib[pub]!='s')
 	 return
 	 } 
 	// alert ("getBib called")
-	var url=bebop_home_dir+"ajax.php"
+	var url=atamishky_home_dir+"ajax.php"
 	url=url+"?action=showbib&pub="+pub
 	url=url+"&sid="+Math.random()
 	xmlHttp.onreadystatechange=function () { 
@@ -128,7 +128,7 @@ if(toggleEntryDetail[pub]!='s')
 	 return
 	 } 
 	// alert ("getEntryDetail called")
-	var url=bebop_home_dir+"ajax.php"
+	var url=atamishky_home_dir+"ajax.php"
 	url=url+"?action=showentrydetail&pub="+pub
 	url=url+"&sid="+Math.random()
 	xmlHttp.onreadystatechange=function () { 
@@ -200,7 +200,7 @@ if (xmlHttp==null)
 
 //alert ("showKeywordsCloud called");
 
-var url=bebop_home_dir+"ajax.php"
+var url=atamishky_home_dir+"ajax.php"
 url=url+"?action=showkeywordscloud"
 url=url+"&sid="+Math.random()
 xmlHttp.onreadystatechange=stateChangedKeywords
@@ -221,7 +221,7 @@ if (xmlHttp==null)
 
 //alert ("showAuthorList called");
 
-var url=bebop_home_dir+"ajax.php"
+var url=atamishky_home_dir+"ajax.php"
 url=url+"?action=showauthorlist"
 url=url+"&sid="+Math.random()
 xmlHttp.onreadystatechange=stateChangedKeywords

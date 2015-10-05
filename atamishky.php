@@ -5,7 +5,7 @@ include_once("user.conf.inc.php");
 $action=$_GET["action"];
 ?>
 
-<div class="bebop">
+<div class="atamishky">
 
 <?php 
   if(isset($EXTERNAL_HEADER))
@@ -51,18 +51,18 @@ foreach ($MENU as $_category => $items)
   print "<td>";
   if($_category == "keywords")
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
       //      print "<b><a href=\"index.php?action=showkeywordscloud\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
     }
 
   else if($_category == "author")
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
       //      print "<b><a href=\"index.php?action=showauthorlist\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
     }
   else
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('$_category','all')\">by ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('$_category','all')\">por ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
 
 //      print "<b><a href=\"index.php?action=showcategory&amp;by=".$_category."&amp;pub=all\">by ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
     }
@@ -142,7 +142,7 @@ ATAM - IUNA. 2015.
 </span><br/><br/><br/>&nbsp;
 </div> 
 
-</div> <!-- bebop -->
+</div> <!-- atamishky -->
 
 <?php 
   if(isset($EXTERNAL_FOOTER))
