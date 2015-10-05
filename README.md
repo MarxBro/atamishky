@@ -1,3 +1,5 @@
 # Atamishky - probando
 
-Originado de bebop y cambiado/reelaborado libre y pelotudamente.
+Este ekeko bibliografico esta basado en bebop.
+
+Bebop usa bibtex, nosotros usamos csv...
