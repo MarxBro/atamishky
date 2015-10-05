@@ -81,22 +81,22 @@ if($action != null){
 if($action != null && $action != "showentrydetail" && $action != "showbib" && $action != "showkeywordscloud" && $action != "showauthorlist" && $action != "copyright" && $action != "search")
   {
     echo "<div class=\"content\">";
-    //echo "<div class=\"entry1\">";
-    //echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
-    //echo "Use this URL to link to this page: <br/>";
+    echo "<div class=\"entry1\">";
+    echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
+    echo "Use this URL to link to this page: <br/>";
 
-    ////$http_part = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"]=="on") ? "https://" : "http://";
-    ////$permalink=$http_part . $_SERVER["SERVER_NAME"] . $_SERVER['REQUEST_URI'];
-    //$permalink=$atamishky_EMBEDDING_URL . "?action=" . $action;
-    ////$permalink=$http_part . $atamishky_INCLUDING_FILE . "?action=" . $action;
-    //if($by != null)
-      //$permalink = $permalink."&amp;by=".$by;
-    //if($pub != null)
-      //$permalink = $permalink."&amp;pub=".$pub;
+    //$http_part = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"]=="on") ? "https://" : "http://";
+    //$permalink=$http_part . $_SERVER["SERVER_NAME"] . $_SERVER['REQUEST_URI'];
+    $permalink=$atamishky_EMBEDDING_URL . "?action=" . $action;
+    //$permalink=$http_part . $atamishky_INCLUDING_FILE . "?action=" . $action;
+    if($by != null)
+        $permalink = $permalink."&amp;by=".$by;
+    if($pub != null)
+        $permalink = $permalink."&amp;pub=".$pub;
 
-    //echo "<a href=\"".$permalink."\">".$permalink."</a>";
-    //echo "</div>";
-    //echo "</div>";
+    echo "<a href=\"".$permalink."\">".$permalink."</a>";
+    echo "</div>";
+    echo "</div>";
     echo "</div>";
 
   }

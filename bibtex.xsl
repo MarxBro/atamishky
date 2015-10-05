@@ -157,8 +157,6 @@
 <xsl:sort select="year" order="descending"/>
 <xsl:sort 
            select="string-length(concat(substring-before($vMonthNames,substring-before(month,' ')), substring-before($vMonthNames,month)))" data-type="number" order="descending" />
-<!-- sort by year and month anyway, month field is sometimes filled with only the month name(e.g. April) and sometimes as month name and days(e.g. April 2-4). -->
-
 
 <!-- Paper box -->
 <div class="entry1">
@@ -202,12 +200,6 @@
 <div class="bottomright">
 <a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" /></a>
 </div>
-
-<!-- IDEA: show details by default when it's a paper being shown by its ID (permalink to a paper) 
-     if permalink-to-a-paper then call also showentrydetails.xsl
-     else print empty entrybody and bibbody
-     debug: <xsl:value-of select="$categorybyID" />
--->
 
 <xsl:choose>
   <xsl:when test="$categorybyID='true'">
@@ -364,6 +356,5 @@
         Sin fecha.
 		</xsl:if>
 </xsl:template>
-
 
 </xsl:stylesheet>

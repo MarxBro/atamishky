@@ -12,18 +12,8 @@ $action=$_GET["action"];
     include $EXTERNAL_HEADER 
 ?>
 
-<!-- header -->
 <div class="whitebox">
-
-<!--
-<div class="header">
-
-   <a href="rss.php" class="logout"><span>RSS</span></a>
-   <a href="." class="logo"><span>Publications</span></a> 
-</div>--> <!-- /header -->
-
 <div class="content">
-
 <div align="right">
 <form name="searchform" action="javascript:doSearch()" method="post">
    Find in Title
@@ -31,7 +21,6 @@ $action=$_GET["action"];
    <input type="submit" value="Go" />
 </form>
 </div>
-
 <div class="entry1">
   <div class="entrybody" style="visibility:visible;">
 <?php
@@ -52,19 +41,16 @@ foreach ($MENU as $_category => $items)
   if($_category == "keywords")
     {
       print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
-      //      print "<b><a href=\"index.php?action=showkeywordscloud\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
     }
 
   else if($_category == "author")
     {
       print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
-      //      print "<b><a href=\"index.php?action=showauthorlist\">by ".$_category."</a></b>&#160;&#160;&#160;<br />";
     }
   else
     {
       print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('$_category','all')\">por ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
 
-//      print "<b><a href=\"index.php?action=showcategory&amp;by=".$_category."&amp;pub=all\">by ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
     }
 
   print "<ul>";
@@ -72,21 +58,17 @@ foreach ($MENU as $_category => $items)
   if($_category == "keywords")
     {
       print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">show all</a></li>"; 
-      //      print "<li><a href=\"index.php?action=showkeywordscloud\">show all</a></li>"; 
     }
   if($_category == "author")
     {
       print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">show all</a></li>"; 
-      //      print "<li><a href=\"index.php?action=showauthorlist\">show all</a></li>"; 
     }
 
   foreach ($items as $_item)
   {
     $_itemtext = ($_category == "entrytype") ? $longnameEntrytype[$_item] : $_item;
     print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('$_category','$_item')\">".$_itemtext."</a></li>"; 
-    //    print "<li><a href=\"index.php?action=showcategory&amp;by=".$_category."&amp;pub=".$_item."\">".$_itemtext."</a></li>"; 
   }
-
   print "</ul>";
   print "</td>";
 }
@@ -137,7 +119,7 @@ echo "</div>";
 
 <div class="bottomleft">
   <span>
-<a href="index.php?action=copyright">Copyright notice</a> &#149;
+<a href="index.php?action=copyright">Copyright</a> &#149;
 ATAM - IUNA. 2015.
 </span><br/><br/><br/>&nbsp;
 </div> 

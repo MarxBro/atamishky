@@ -4,9 +4,6 @@ include_once("functions.inc.php");
 $id=$_GET['id'];
 $format=$_GET['format'];
 
-//$id="OtReLa07";
-//$format="bibtex";
-
 if($id == null)
   {
     echo "Needs to be called with a publication id!";
