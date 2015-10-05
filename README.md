@@ -1,3 +1,3 @@
 # Atamishky - probando
 
-Originado de bebop y cambiado/reelaborado libremente.
+Originado de bebop y cambiado/reelaborado libre y pelotudamente.

@@ -244,7 +244,7 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printBiblio" />
+    <!--<xsl:call-template name="printBiblio" />-->
 	<xsl:call-template name="printYear" />
 </xsl:template>
 

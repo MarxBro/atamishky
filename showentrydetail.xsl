@@ -37,19 +37,34 @@
 <xsl:param name="atamishkyhome" />
 <xsl:param name="atamishkyembeddingurl" />
 
-			<hr />
-			<table>
-				<tr><td><b>Keywords</b></td>
-				    <td><xsl:for-each select="keywords/keyword">
-					<a href="javascript:void(0)" onclick="showCategory('keyword','{.}')"><xsl:value-of select="." /></a><xsl:if test="position()!=last()">,&#160;</xsl:if></xsl:for-each></td></tr>
-                    <!--<tr><td><b>Research area</b></td>-->
-                    <!--<td><a href="javascript:void(0)" onclick="showCategory('researcharea','{researcharea}')"><xsl:value-of select="researcharea"/></a></td></tr>-->
-                    <!---->
-				<tr><td><b>Document</b></td>
-				    <td>
-				      <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">permanent link</a>
-				</td></tr>
+<hr />
+<table>
+    <tr><td><b>Keywords</b></td>
+        <td><xsl:for-each select="keywords/keyword">
+        <a href="javascript:void(0)" onclick="showCategory('keyword','{.}')"><xsl:value-of select="." /></a><xsl:if test="position()!=last()">,&#160;</xsl:if></xsl:for-each></td></tr>
+        <!--<tr><td><b>Research area</b></td>-->
+        <!--<td><a href="javascript:void(0)" onclick="showCategory('researcharea','{researcharea}')"><xsl:value-of select="researcharea"/></a></td></tr>-->
+        <!---->
 
+    <xsl:if test="bibliografia">
+    <tr><td><b>Bibliografia</b></td>
+        <td><xsl:value-of select="bibliografia" /></td></tr>
+    </xsl:if>
+
+    <xsl:if test="soporte">
+    <tr><td><b>Soporte</b></td>
+        <td><xsl:value-of select="soporte" /></td></tr>
+    </xsl:if>
+    
+    <tr><td><b>Document</b></td><td><img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
+    <xsl:if test="link">
+          <a href="{link}"><xsl:value-of select="link" />Descarga</a>
+    </xsl:if>
+    <xsl:if test="not(link)">
+          <a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia</a>
+    </xsl:if>
+    </td></tr>
+                
                 <!--<tr><td><b>Share</b></td>-->
                 <!--<td>-->
 
@@ -64,8 +79,6 @@
 <!--</ul>-->
 <!---->
 <!--</div>-->
-<!---->
-<!---->
 <!---->
 <!--</td>-->
                 <!--</tr>-->

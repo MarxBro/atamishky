@@ -123,10 +123,8 @@ echo "</div>";
 ATAM - IUNA. 2015.
 </span><br/><br/><br/>&nbsp;
 </div> 
-
-</div> <!-- atamishky -->
-
 <?php 
   if(isset($EXTERNAL_FOOTER))
     include $EXTERNAL_FOOTER 
 ?>
+</div> <!-- atamishky -->
