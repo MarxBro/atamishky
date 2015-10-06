@@ -8,13 +8,13 @@ $pub=$_GET["pub"];
 
 print "<?xml version=\"1.0\" encoding=\"utf-8\"?>
 <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
-    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">"
+\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">"
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
-  <head>
-  	<meta http-equiv="Content-type" content="text/xhtml+xml; charset=utf-8" />
-  	<meta name="robots" content="index,follow" />
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-AR" xml:lang="en-US">
+<head>
+<meta http-equiv="Content-type" content="text/xhtml+xml; charset=utf-8" />
+<meta name="robots" content="index,follow" />
 <?php
 print "<meta name=\"keywords\" content=\"".$PAGE_KEYWORDS."\" />";
 print "<meta name=\"description\" content=\"".$PAGE_DESCRIPTION."\"/>";
@@ -22,19 +22,15 @@ print "<title>".$PAGE_TITLE."</title>";
 print "<link rel=\"shortcut icon\" href=\"".$FAVICON."\" />";    
 print "<link rel=\"unapi-server\" type=\"application/xml\" title=\"unAPI\" href=\"".$atamishky_HOME."/unapi.php\" />";
 if(isset($EXTERNAL_CSS))
-  print "<link href=\"".$EXTERNAL_CSS."\" rel=\"stylesheet\" type=\"text/css\" />";
-
-print "<link href=\"".$atamishky_HOME."/site.css\" rel=\"stylesheet\" type=\"text/css\" />";
-
-print "<script id=\"atamishkyjs\" src=\"".$atamishky_HOME."/ajax.js\" type=\"text/javascript\"></script>";
+    print "<link href=\"".$EXTERNAL_CSS."\" rel=\"stylesheet\" type=\"text/css\" />";
+    print "<link href=\"".$atamishky_HOME."/site.css\" rel=\"stylesheet\" type=\"text/css\" />";
+    print "<script id=\"atamishkyjs\" src=\"".$atamishky_HOME."/ajax.js\" type=\"text/javascript\"></script>";
 ?>
 
 </head>
-  <body>
-
+<body>
 <?php
 include "atamishky.php";
 ?>
-
-  </body>
-  </html>
+</body>
+</html>

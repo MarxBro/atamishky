@@ -2,7 +2,7 @@
 
 $longname['year'] = 'Año';
 $longname['researcharea'] = 'research area';
-$longname['entrytype'] = 'document type';
+$longname['entrytype'] = 'Tipo de Recurso';
 $longname['ID'] = 'ID';
 $longname['author'] = 'Autor';
 $longname['keyword'] = 'keyword';
@@ -11,13 +11,13 @@ $longname['searchtitle'] = 'title containing';
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';
 //$longnameEntrytype['inbookincollection'] = 'Book chapter';
-$longnameEntrytype['book'] = 'Book';
+$longnameEntrytype['book'] = 'Libro';
 //$longnameEntrytype['mastersthesis'] = 'MS thesis';
 //$longnameEntrytype['mastersproject'] = 'MAS project';
 //$longnameEntrytype['phdthesis'] = 'PhD thesis';
 //$longnameEntrytype['techreport'] = 'Technical report';
 //$longnameEntrytype['patent'] = 'Patent';
-$longnameEntrytype['misc'] = 'Miscellaneous';
+$longnameEntrytype['misc'] = 'Varios';
 $longnameEntrytype['musica'] = 'Musica';
 $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'all';

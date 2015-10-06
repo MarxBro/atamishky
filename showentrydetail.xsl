@@ -55,6 +55,11 @@
     <tr><td><b>Soporte</b></td>
         <td><xsl:value-of select="soporte" /></td></tr>
     </xsl:if>
+
+    <xsl:if test="descripcion">
+    <tr><td><b>descripcion</b></td>
+        <td><xsl:value-of select="descripcion" /></td></tr>
+    </xsl:if>
     
     <tr><td><b>Document</b></td><td><img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
     <xsl:if test="link">

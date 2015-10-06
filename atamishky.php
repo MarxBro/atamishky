@@ -21,7 +21,7 @@ $action=$_GET["action"];
    T&iacute;tulo:      <input type="radio" name="tipo" id="t" checked="checked" />
    Descripci&oacute;n: <input type="radio" name="tipo" id="d" />
    <input type="text" name="q" />
-   <input type="submit" value="Go" />
+   <input type="submit" value="Buscar" />
 </fieldset>
 </form>
 </div>
@@ -44,12 +44,13 @@ foreach ($MENU as $_category => $items)
   print "<td>";
   if($_category == "keywords")
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
+        //print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
+        print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por "."Tags"."</a></b>&#160;&#160;&#160;<br />";
     }
 
   else if($_category == "author")
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por "."Autor"."</a></b>&#160;&#160;&#160;<br />";
     }
   else if($_category == "bibliografia")
     {
