@@ -66,15 +66,15 @@ foreach ($MENU as $_category => $items)
 
   if($_category == "keywords")
     {
-      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">show all</a></li>"; 
+      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">ver todos</a></li>"; 
     }
   if($_category == "author")
     {
-      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">show all</a></li>"; 
+      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">ver todos</a></li>"; 
     }
   if($_category == "bibliografia")
     {
-      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showbibliografia')\">show all</a></li>"; 
+      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showbibliografia')\">ver todos</a></li>"; 
     }
 
   foreach ($items as $_item)

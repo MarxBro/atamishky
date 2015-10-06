@@ -2,10 +2,10 @@
 
 $longname['year'] = 'Año';
 $longname['researcharea'] = 'research area';
-$longname['entrytype'] = 'Tipo de Recurso';
+$longname['entrytype'] = 'tipo';
 $longname['ID'] = 'ID';
-$longname['author'] = 'Autor';
-$longname['keyword'] = 'keyword';
+$longname['author'] = 'autor';
+$longname['keyword'] = 'tag';
 $longname['searchtitle'] = 'title containing';
 
 //$longnameEntrytype['paper'] = 'Journal article';
@@ -20,7 +20,7 @@ $longnameEntrytype['book'] = 'Libro';
 $longnameEntrytype['misc'] = 'Varios';
 $longnameEntrytype['musica'] = 'Musica';
 $longnameEntrytype['video'] = 'Video';
-$longnameEntrytype['all'] = 'all';
+$longnameEntrytype['all'] = 'Todos';
 
 
 function transform($xmlfile, $xslfile, $params){

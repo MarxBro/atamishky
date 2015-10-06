@@ -1,8 +1,3 @@
-# Atamishky - probando
+# Atamishky
 
-               _                       
- _ __   ___   | |_ ___   ___ __ _ _ __ 
-| '_ \ / _ \  | __/ _ \ / __/ _` | '__|
-| | | | (_) | | || (_) | (_| (_| | |   
-|_| |_|\___/   \__\___/ \___\__,_|_|   
-                                       
+Experimentando con un sistema de referencias bibliograficas y busqueda.
