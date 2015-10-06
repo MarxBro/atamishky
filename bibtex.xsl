@@ -43,6 +43,14 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
+	<xsl:when test="$categoryby='bibliografia'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[bibliografia=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
 	<xsl:when test="$categoryby='entrytype'">
 		<xsl:choose>
 			<xsl:when test="$categorytype='book'">
@@ -67,14 +75,6 @@
 				<xsl:call-template name="listPubs">
 					<xsl:with-param name="sortype" select="$sorttype" />
 					<xsl:with-param name="query" select="entries/entry[entrytype='video']" />
-					<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
-					<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
-				</xsl:call-template>			
-			</xsl:when>
-			<xsl:when test="$categorytype='bibliografia'">
-				<xsl:call-template name="listPubs">
-					<xsl:with-param name="sortype" select="$sorttype" />
-					<xsl:with-param name="query" select="entries/entry[entrytype='bibliografia']" />
 					<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 					<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 				</xsl:call-template>			
