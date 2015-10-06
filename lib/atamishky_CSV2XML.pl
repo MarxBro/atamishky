@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 ######################################################################
-# csv2xml
+# csv2xml :: 
+# Transform a stupid csv into something even more stupid: a XML
 ######################################################################
-
 use strict;
 use autodie;
 use feature             "say";
@@ -37,7 +37,7 @@ foreach my $ln_csv (@csv_lns){
     #Estos campos son directos.
     my $tipo            = $campos[0];
     my $titulo          = $campos[1];
-    my $editorial       = $campos[3];
+    my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
     my $city            = $campos[5];
 
@@ -46,25 +46,31 @@ foreach my $ln_csv (@csv_lns){
     my $link            = $campos[7] || "none";
     my $soporte         = $campos[8] || "none";
     my $descripcion     = $campos[9] || "none";
-    unless ($bibliografia eq 'none'){
-        my $apr = "\t" . '<bibliografia>' . $bibliografia . '</bibliografia>' . "\n";
+    unless ( $bibliografia eq 'none' ) {
+        my $apr =
+          "\t" . '<bibliografia>' . $bibliografia . '</bibliografia>' . "\n";
         $bibliografia = $apr;
     }
-    unless ($link eq 'none'){
+    unless ( $link eq 'none' ) {
         my $apl = "\t" . '<link>' . $link . '</link>' . "\n";
         $link = $apl;
     }
-    unless ($agno eq 'none'){
+    unless ( $agno eq 'none' ) {
         my $apy = "\t" . '<year>' . $agno . '</year>' . "\n";
         $agno = $apy;
     }
-    unless ($soporte eq 'none'){
+    unless ( $soporte eq 'none' ) {
         my $aps = "\t" . '<soporte>' . $soporte . '</soporte>' . "\n";
         $soporte = $aps;
     }
-    unless ($descripcion eq 'none'){
-        my $apv = "\t" . '<descripcion>' . $descripcion . '</descripcion>' . "\n";
+    unless ( $descripcion eq 'none' ) {
+        my $apv =
+          "\t" . '<descripcion>' . $descripcion . '</descripcion>' . "\n";
         $descripcion = $apv;
+    }
+    unless ( $editorial eq 'none' ) {
+        my $tapv = "\t" . '<editorial>' . $editorial . '</editorial>' . "\n";
+        $editorial = $tapv;
     }
 
     #son keywords todas las palabras del titulo de mas de 4 letras.
