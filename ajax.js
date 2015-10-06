@@ -36,6 +36,12 @@ else if(str == "showauthors")
   toggleAuthorList = 's';
   showAuthorList();
  }
+else if(str == "showbibliografia")
+ {
+// s for show
+  toggleBiblioList = 's';
+  showbibiografialist();
+ }
 else
  {
 // h for hide
@@ -229,6 +235,28 @@ xmlHttp.open("GET",url,true)
 xmlHttp.send(null)
 }
 
+//agregado 
+
+function showbibiografialist()
+{ 
+toggleBiblioList='s';
+
+xmlHttp=GetXmlHttpObject()
+if (xmlHttp==null)
+ {
+ alert ("Browser does not support HTTP Request")
+ return
+ } 
+
+var url=atamishky_home_dir+"ajax.php"
+url=url+"?action=showbibliografia"
+url=url+"&sid="+Math.random()
+xmlHttp.onreadystatechange=stateChangedKeywords
+xmlHttp.open("GET",url,true)
+xmlHttp.send(null)
+}
+
+
 function stateChangedKeywords() 
 { 
   if (xmlHttp.readyState<4)
@@ -246,6 +274,9 @@ function stateChangedKeywords()
 function doSearch()
 {
     var query = document.forms['searchform'].q.value;
-
-    showCategory('searchtitle', query.toLowerCase());
+    if (document.getElementById('d').checked) {
+        showCategory('searchdescripcion', query.toLowerCase());
+    } else {
+        showCategory('searchtitle', query.toLowerCase());
+    }
 }

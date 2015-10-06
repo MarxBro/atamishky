@@ -1,5 +1,8 @@
 # Atamishky - probando
 
-Este ekeko bibliografico esta basado en bebop.
-
-Bebop usa bibtex, nosotros usamos csv...
+               _                       
+ _ __   ___   | |_ ___   ___ __ _ _ __ 
+| '_ \ / _ \  | __/ _ \ / __/ _` | '__|
+| | | | (_) | | || (_) | (_| (_| | |   
+|_| |_|\___/   \__\___/ \___\__,_|_|   
+                                       

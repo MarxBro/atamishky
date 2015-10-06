@@ -35,6 +35,12 @@ if($action != null){
 	$xslfile='showauthorlist.xsl';
 	echo transform($xmlfile, $xslfile, $params);
       }
+    else if($action == "showbibliografia")
+      {
+	$xmlfile='bibtex.xml';
+	$xslfile='showbibliografia.xsl';
+	echo transform($xmlfile, $xslfile, $params);
+      }
     else if($action == "showcategory")
       {	
 	$categoryby = $by;
@@ -78,12 +84,12 @@ if($action != null){
 
 
 
-if($action != null && $action != "showentrydetail" && $action != "showbib" && $action != "showkeywordscloud" && $action != "showauthorlist" && $action != "copyright" && $action != "search")
+if($action != null && $action != "showentrydetail" && $action != "showbibliografia" && $action != "showbib" && $action != "showkeywordscloud" && $action != "showauthorlist" && $action != "copyright" && $action != "search")
   {
     echo "<div class=\"content\">";
     echo "<div class=\"entry1\">";
     echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
-    echo "Use this URL to link to this page: <br/>";
+    echo "Permalink: <br/>";
 
     //$http_part = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"]=="on") ? "https://" : "http://";
     //$permalink=$http_part . $_SERVER["SERVER_NAME"] . $_SERVER['REQUEST_URI'];

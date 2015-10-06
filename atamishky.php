@@ -16,9 +16,13 @@ $action=$_GET["action"];
 <div class="content">
 <div align="right">
 <form name="searchform" action="javascript:doSearch()" method="post">
-   Find in Title
+<fieldset>
+<legend>B&uacute;squeda</legend>
+   T&iacute;tulo:      <input type="radio" name="tipo" id="t" checked="checked" />
+   Descripci&oacute;n: <input type="radio" name="tipo" id="d" />
    <input type="text" name="q" />
    <input type="submit" value="Go" />
+</fieldset>
 </form>
 </div>
 <div class="entry1">
@@ -47,6 +51,10 @@ foreach ($MENU as $_category => $items)
     {
       print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
     }
+  else if($_category == "bibliografia")
+    {
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showbibliografia')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
+    }
   else
     {
       print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('$_category','all')\">por ".$longname[$_category]."</a></b>&#160;&#160;&#160;<br />";
@@ -62,6 +70,10 @@ foreach ($MENU as $_category => $items)
   if($_category == "author")
     {
       print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">show all</a></li>"; 
+    }
+  if($_category == "bibliografia")
+    {
+      print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showbibliografia')\">show all</a></li>"; 
     }
 
   foreach ($items as $_item)

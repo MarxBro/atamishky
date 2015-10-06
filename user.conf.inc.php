@@ -28,7 +28,8 @@ $MENU = array(
 	      //"researcharea" => array('Your research area', 'Your other research area'),
 	      "keywords" => array(),
 	      "entrytype" => array('book', 'misc','musica', 'video'),
-	      "author" => array()
+	      "author" => array(),
+          "bibliografia" => array()
 	      );
 
 $EXTERNAL_HEADER="includes/h.html";
