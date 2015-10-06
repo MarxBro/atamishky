@@ -45,12 +45,12 @@ foreach ($MENU as $_category => $items)
   if($_category == "keywords")
     {
         //print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por ".$_category."</a></b>&#160;&#160;&#160;<br />";
-        print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por "."Tags"."</a></b>&#160;&#160;&#160;<br />";
+        print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">por "."tags"."</a></b>&#160;&#160;&#160;<br />";
     }
 
   else if($_category == "author")
     {
-      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por "."Autor"."</a></b>&#160;&#160;&#160;<br />";
+      print "<b><a href=\"javascript:void(0)\" onclick=\"showCategory('','showauthors')\">por "."autor"."</a></b>&#160;&#160;&#160;<br />";
     }
   else if($_category == "bibliografia")
     {

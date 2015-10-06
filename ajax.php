@@ -89,7 +89,7 @@ if($action != null && $action != "showentrydetail" && $action != "showbibliograf
     echo "<div class=\"content\">";
     echo "<div class=\"entry1\">";
     echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
-    echo "Permalink: <br/>";
+    echo "Enlace a esta pagina (Permalink): <br/>";
 
     //$http_part = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"]=="on") ? "https://" : "http://";
     //$permalink=$http_part . $_SERVER["SERVER_NAME"] . $_SERVER['REQUEST_URI'];

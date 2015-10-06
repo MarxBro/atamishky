@@ -39,7 +39,7 @@
 
 <hr />
 <table>
-    <tr><td><b>Keywords</b></td>
+   <tr><td><b>Tags</b></td>
         <td><xsl:for-each select="keywords/keyword">
         <a href="javascript:void(0)" onclick="showCategory('keyword','{.}')"><xsl:value-of select="." /></a><xsl:if test="position()!=last()">,&#160;</xsl:if></xsl:for-each></td></tr>
         <!--<tr><td><b>Research area</b></td>-->
@@ -57,11 +57,11 @@
     </xsl:if>
 
     <xsl:if test="descripcion">
-    <tr><td><b>descripcion</b></td>
+    <tr><td><b>Descripcion</b></td>
         <td><xsl:value-of select="descripcion" /></td></tr>
     </xsl:if>
     
-    <tr><td><b>Document</b></td><td><img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
+    <tr><td><b>Documento</b></td><td><img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
     <xsl:if test="link">
           <a href="{link}"><xsl:value-of select="link" />Descarga</a>
     </xsl:if>
