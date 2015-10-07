@@ -69,7 +69,7 @@ foreach my $ln_csv (@csv_lns){
         $descripcion = $apv;
     }
     unless ( $editorial eq 'none' ) {
-        my $tapv = "\t" . '<editorial>' . $editorial . '</editorial>' . "\n";
+        my $tapv = "\t" . '<publisher>' . $editorial . '</publisher>' . "\n";
         $editorial = $tapv;
     }
 
@@ -89,7 +89,7 @@ my $esqueleto_entry =
     <title>@@TITULO@@</title>
     @@AGNO@@
     <address>@@CIUDAD@@</address>
-    <publisher>@@EDITORIAL@@</publisher>
+    @@EDITORIAL@@
     @@KEYWORDS@@
     @@AUTORES@@
     @@BIBLIOGRAFIA@@
@@ -160,10 +160,11 @@ sub make_keywords {
 
 sub make_authors {
     my $st = shift;    
-    my @autores = split /,/, $st;
+    my @autores = split /;/, $st;
     my $finalputos = '<authors>'  . "\n";
     foreach my $au (@autores){
         chomp($au);
+        lc($au);
         capitalize($au);
         $au =~ s/^ //g;
         $au =~ s/ $//g;
@@ -235,7 +236,9 @@ Los tipos posibles son :
 
 =head3 Autores
 
-Si la entrada tiene mas de un autor, separar con comas.
+Si la entrada tiene mas de un autor, separar con punto y coma.
+
+No poner "y" al final, la plantilla se encarga de eso.
 
 =head3 valores vacios
 

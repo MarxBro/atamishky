@@ -304,14 +304,14 @@
 			<xsl:when test="count(author)=2">
 				<a href="javascript:void(0)" onclick="showCategory('author','{author[1]}')">
 					<xsl:value-of select="author[1]"/>
-				</a>&#160;and&#160;
+				</a>&#160;y&#160;
 				<a href="javascript:void(0)" onclick="showCategory('author','{author[2]}')">
 					<xsl:value-of select="author[2]"/>
 				</a>,&#160;
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:for-each select="author">
-					<xsl:if test="position()=last()">and&#160;</xsl:if>
+					<xsl:if test="position()=last()">y&#160;</xsl:if>
 					<a href="javascript:void(0)" onclick="showCategory('author','{.}')">
 						<xsl:value-of select="."/>
 					</a>,&#160;
