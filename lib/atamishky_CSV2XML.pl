@@ -24,7 +24,7 @@ if ($opts{h}){
 
 my @csv_lns = read_file( "$archivo_in", binmode => ':utf8' );
 my $padre_del_xml = 'entries';
-my $index     = 2666;
+my $index     = 837;
 my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
 foreach my $ln_csv (@csv_lns){
@@ -80,7 +80,7 @@ foreach my $ln_csv (@csv_lns){
     my $autores         = make_authors($campos[2]);
 
     # Index unico e irrepetible para el nombre de la entrada... chiotto.
-    my $nombre = $index . '_prueba';
+    my $nombre = $tipo . '2015-' . $index ;
        
    #Esta cabeceada evita quilombos 
 my $esqueleto_entry = 
@@ -112,6 +112,8 @@ my $esqueleto_entry =
    $esqueleto_entry =~ s/\@\@SOPORTE\@\@/$soporte/gi;
    $esqueleto_entry =~ s/\@\@DESCRIPCION\@\@/$descripcion/gi;
    $esqueleto_entry =~ s/none//gi; # Esto vuela las etiquetas vacias.
+   # MEJORAR:: reemplazar ciegamente las comillas simples por espacios para evitar problemas con js en el runtime.
+   $esqueleto_entry =~ s/\'/ /gi;  
 
    $index++;
 
