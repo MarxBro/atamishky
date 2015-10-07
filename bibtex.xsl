@@ -332,7 +332,7 @@
 
 <xsl:template name="printPublisher">
 	<xsl:if test="publisher">
-      		<xsl:value-of select="publisher"/>,&#160;
+		<a href="javascript:void(0)" onclick="showCategory('publisher','{.}')"><xsl:value-of select="publisher"/>,</a>&#160;
 	</xsl:if>
 </xsl:template>
 

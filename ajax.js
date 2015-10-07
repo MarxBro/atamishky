@@ -47,6 +47,7 @@ else
 // h for hide
   toggleKeywordsCloud = 'h';
   toggleAuthorList = 'h';
+  toggleBiblioList = 'h';
      
      // this if-else is because div with id keywordsCloud appears alone for some cases and inside div (class entry1) in some other cases.
      kc=document.getElementById("keywordsCloud");
