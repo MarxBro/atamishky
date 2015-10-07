@@ -46,9 +46,11 @@
         <!--<td><a href="javascript:void(0)" onclick="showCategory('researcharea','{researcharea}')"><xsl:value-of select="researcharea"/></a></td></tr>-->
         <!---->
 
-    <xsl:if test="bibliografia">
+   <xsl:if test="bibliografia">
     <tr><td><b>Bibliografia</b></td>
-        <td><xsl:value-of select="bibliografia" /></td></tr>
+        <td><xsl:for-each select="bibliografia">
+        <a href="javascript:void(0)" onclick="showCategory('bibliografia','{.}')"><xsl:value-of select="." /></a>
+        </xsl:for-each></td></tr>
     </xsl:if>
 
     <xsl:if test="soporte">
