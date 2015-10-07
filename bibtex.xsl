@@ -311,7 +311,7 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:for-each select="author">
-					<xsl:if test="position()=last()">y&#160.</xsl:if>
+					<xsl:if test="position()=last()">y&#160;</xsl:if>
 					<a href="javascript:void(0)" onclick="showCategory('author','{.}')">
 						<xsl:value-of select="."/>
 					</a>;&#160;
