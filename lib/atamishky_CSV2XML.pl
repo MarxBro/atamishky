@@ -146,11 +146,15 @@ sub make_keywords {
     my $t = shift;
     my @palabras = grep { length > 4 } split ' ', $t;
     my $gf = '<keywords>' . "\n";
-    foreach my $gy (@palabras){
-        lc($gy);
+    foreach my $gypa (@palabras){
+        my $gy = lc($gypa);
         chomp($gy);
         $gy =~ s/^ //g;
         $gy =~ s/ $//g;
+        $gy =~ s/\,$//g;
+        $gy =~ s/\;$//g;
+        $gy =~ s/\:$//g;
+        $gy =~ s/\.$//g;
         my $str = "\t" . '<keyword>' . $gy . '</keyword>' . "\n"; 
         $gf .= $str;
     }

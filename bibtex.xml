@@ -6,8 +6,8 @@
     <address>Buenos Aires</address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
-	<keyword>Estética</keyword>
-	<keyword>Relacional</keyword>
+	<keyword>estética</keyword>
+	<keyword>relacional</keyword>
 	</keywords>
     <authors>
 	<author>Bourriaud, Nicolás</author>
@@ -21,7 +21,7 @@
     <address>Buenos Aires</address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
-	<keyword>Postproducción</keyword>
+	<keyword>postproducción</keyword>
 	</keywords>
     <authors>
 	<author>Bourriaud, Nicolás</author>
@@ -35,7 +35,7 @@
     <address>Buenos Aires</address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
-	<keyword>Radicante</keyword>
+	<keyword>radicante</keyword>
 	</keywords>
     <authors>
 	<author>Bourriaud, Nicolás</author>
@@ -49,8 +49,8 @@
     <address>España</address>
     	<publisher>Alianza</publisher>
     <keywords>
-	<keyword>Percepción</keyword>
-	<keyword>Visual</keyword>
+	<keyword>percepción</keyword>
+	<keyword>visual</keyword>
 	</keywords>
     <authors>
 	<author>Arnheim, Rudolf</author>
@@ -64,7 +64,7 @@
     <address>Buenos Aires</address>
     	<publisher>Anagrama</publisher>
     <keywords>
-	<keyword>Catedral</keyword>
+	<keyword>catedral</keyword>
 	</keywords>
     <authors>
 	<author>Carver, Raymond</author>
@@ -78,7 +78,7 @@
     <address>Buenos Aires</address>
     	<publisher>Argonauta</publisher>
     <keywords>
-	<keyword>Manifiestos</keyword>
+	<keyword>manifiestos</keyword>
 	<keyword>surrealismo</keyword>
 	</keywords>
     <authors>
@@ -93,11 +93,11 @@
     <address>USA</address>
     	<publisher>Basic Books</publisher>
     <keywords>
-	<keyword>Reflective</keyword>
-	<keyword>Practitioner.</keyword>
-	<keyword>Professionals</keyword>
-	<keyword>Think</keyword>
-	<keyword>Action</keyword>
+	<keyword>reflective</keyword>
+	<keyword>practitioner</keyword>
+	<keyword>professionals</keyword>
+	<keyword>think</keyword>
+	<keyword>action</keyword>
 	</keywords>
     <authors>
 	<author>Schon, Donald</author>
@@ -111,7 +111,7 @@
     <address>Buenos Aires</address>
     	<publisher>Biblos</publisher>
     <keywords>
-	<keyword>Entre</keyword>
+	<keyword>entre</keyword>
 	<keyword>tecnociencia</keyword>
 	<keyword>deseo</keyword>
 	</keywords>
@@ -127,7 +127,7 @@
     <address>Buenos Aires</address>
     	<publisher>Cactus</publisher>
     <keywords>
-	<keyword>Bergson</keyword>
+	<keyword>bergson</keyword>
 	<keyword>imágenes</keyword>
 	</keywords>
     <authors>
@@ -142,7 +142,7 @@
     <address>Buenos Aires</address>
     	<publisher>Caja Negra</publisher>
     <keywords>
-	<keyword>Desconfiar</keyword>
+	<keyword>desconfiar</keyword>
 	<keyword>imágenes</keyword>
 	</keywords>
     <authors>
@@ -157,7 +157,7 @@
     <address>Buenos Aires</address>
     	<publisher>Caja Negra</publisher>
     <keywords>
-	<keyword>Pensamientos</keyword>
+	<keyword>pensamientos</keyword>
 	<keyword>verticales</keyword>
 	</keywords>
     <authors>
@@ -188,8 +188,8 @@
     <address>Buenos Aires</address>
     	<publisher>Colihue</publisher>
     <keywords>
-	<keyword>Madame</keyword>
-	<keyword>Bovary</keyword>
+	<keyword>madame</keyword>
+	<keyword>bovary</keyword>
 	</keywords>
     <authors>
 	<author>Flaubert, Gustave</author>
@@ -203,9 +203,9 @@
     <address>España</address>
     	<publisher>Ediciones Akal</publisher>
     <keywords>
-	<keyword>Dialéctica</keyword>
-	<keyword>Ilustración.</keyword>
-	<keyword>Completa</keyword>
+	<keyword>dialéctica</keyword>
+	<keyword>ilustración</keyword>
+	<keyword>completa</keyword>
 	</keywords>
     <authors>
 	<author>Adorno, Theodor Ludwig</author>
@@ -219,18 +219,18 @@
     <address>España</address>
     	<publisher>Ediciones Akal</publisher>
     <keywords>
-	<keyword>Monografías</keyword>
-	<keyword>musicales.</keyword>
-	<keyword>Ensayo</keyword>
+	<keyword>monografías</keyword>
+	<keyword>musicales</keyword>
+	<keyword>ensayo</keyword>
 	<keyword>sobre</keyword>
-	<keyword>Wagner.</keyword>
-	<keyword>Mahler,</keyword>
+	<keyword>wagner</keyword>
+	<keyword>mahler</keyword>
 	<keyword>fisionomía</keyword>
-	<keyword>musical.</keyword>
-	<keyword>Berg,</keyword>
+	<keyword>musical</keyword>
+	<keyword>berg</keyword>
 	<keyword>maestro</keyword>
 	<keyword>transición</keyword>
-	<keyword>mínima.</keyword>
+	<keyword>mínima</keyword>
 	</keywords>
     <authors>
 	<author>Adorno, Theodor Ludwig</author>
@@ -244,8 +244,8 @@
     <address>España</address>
     	<publisher>Ediciones Akal</publisher>
     <keywords>
-	<keyword>Teoría</keyword>
-	<keyword>Estética</keyword>
+	<keyword>teoría</keyword>
+	<keyword>estética</keyword>
 	</keywords>
     <authors>
 	<author>Adorno, Theodor Ludwig</author>
@@ -260,7 +260,7 @@
     	<publisher>Ediciones Akal</publisher>
     <keywords>
 	<keyword>retorno</keyword>
-	<keyword>real.</keyword>
+	<keyword>real</keyword>
 	<keyword>vanguardia</keyword>
 	<keyword>finales</keyword>
 	<keyword>siglo</keyword>
@@ -277,9 +277,9 @@
     <address>Buenos Aires</address>
     	<publisher>Ediciones Atalanta</publisher>
     <keywords>
-	<keyword>Imagen</keyword>
-	<keyword>mito.</keyword>
-	<keyword>Ariadna</keyword>
+	<keyword>imagen</keyword>
+	<keyword>mito</keyword>
+	<keyword>ariadna</keyword>
 	</keywords>
     <authors>
 	<author>Campbell, Joseph</author>
@@ -293,7 +293,7 @@
     <address>Buenos Aires</address>
     	<publisher>Ediciones Corregidor</publisher>
     <keywords>
-	<keyword>Montaje</keyword>
+	<keyword>montaje</keyword>
 	<keyword>montajes</keyword>
 	</keywords>
     <authors>
@@ -309,8 +309,8 @@
     	<publisher>Ediciones Infinito</publisher>
     <keywords>
 	<keyword>poder</keyword>
-	<keyword>imagen.</keyword>
-	<keyword>Reflexiones</keyword>
+	<keyword>imagen</keyword>
+	<keyword>reflexiones</keyword>
 	<keyword>sobre</keyword>
 	<keyword>comunicación</keyword>
 	<keyword>visual</keyword>
@@ -372,9 +372,9 @@
     <address>España</address>
     	<publisher>Editorial Arena</publisher>
     <keywords>
-	<keyword>Francis</keyword>
-	<keyword>Bacon.</keyword>
-	<keyword>Lógica</keyword>
+	<keyword>francis</keyword>
+	<keyword>bacon</keyword>
+	<keyword>lógica</keyword>
 	<keyword>sensación</keyword>
 	</keywords>
     <authors>
@@ -389,8 +389,8 @@
     <address>Buenos Aires</address>
     	<publisher>Editorial Distal</publisher>
     <keywords>
-	<keyword>Tratado</keyword>
-	<keyword>Pintura</keyword>
+	<keyword>tratado</keyword>
+	<keyword>pintura</keyword>
 	</keywords>
     <authors>
 	<author>Da Vinci, Leonardo</author>
@@ -404,8 +404,8 @@
     <address>Buenos Aires</address>
     	<publisher>El Cuenco de Plata</publisher>
     <keywords>
-	<keyword>Historias</keyword>
-	<keyword>Películas</keyword>
+	<keyword>historias</keyword>
+	<keyword>películas</keyword>
 	</keywords>
     <authors>
 	<author>Alsina Thevenet, Homero</author>
@@ -419,8 +419,8 @@
     <address>Buenos Aires</address>
     	<publisher>Emecé</publisher>
     <keywords>
-	<keyword>Obras</keyword>
-	<keyword>Completas</keyword>
+	<keyword>obras</keyword>
+	<keyword>completas</keyword>
 	</keywords>
     <authors>
 	<author>Borges, Jorge Luis</author>
@@ -434,8 +434,8 @@
     <address>Buenos Aires</address>
     	<publisher>Emecé</publisher>
     <keywords>
-	<keyword>Obras</keyword>
-	<keyword>Completas</keyword>
+	<keyword>obras</keyword>
+	<keyword>completas</keyword>
 	</keywords>
     <authors>
 	<author>Borges, Jorge Luis</author>
@@ -449,8 +449,8 @@
     <address>Buenos Aires</address>
     	<publisher>Emecé</publisher>
     <keywords>
-	<keyword>Obras</keyword>
-	<keyword>Completas</keyword>
+	<keyword>obras</keyword>
+	<keyword>completas</keyword>
 	</keywords>
     <authors>
 	<author>Borges, Jorge Luis</author>
@@ -465,7 +465,7 @@
     	<publisher>Eterna Cadencia Editora</publisher>
     <keywords>
 	<keyword>parís</keyword>
-	<keyword>Baudelaire</keyword>
+	<keyword>baudelaire</keyword>
 	</keywords>
     <authors>
 	<author>Benjamin, Walter</author>
@@ -479,8 +479,8 @@
     <address>Buenos Aires</address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
-	<keyword>Modernidad</keyword>
-	<keyword>Líquida</keyword>
+	<keyword>modernidad</keyword>
+	<keyword>líquida</keyword>
 	</keywords>
     <authors>
 	<author>Bauman, Zygmunt</author>
@@ -494,7 +494,7 @@
     <address>Buenos Aires</address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
-	<keyword>Relatos</keyword>
+	<keyword>relatos</keyword>
 	<keyword>poder</keyword>
 	</keywords>
     <authors>
@@ -509,8 +509,8 @@
     <address>Buenos Aires</address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
-	<keyword>Viaje</keyword>
-	<keyword>Ixtlan</keyword>
+	<keyword>viaje</keyword>
+	<keyword>ixtlan</keyword>
 	</keywords>
     <authors>
 	<author>Castaneda, Carlos</author>
@@ -524,7 +524,7 @@
     <address>España</address>
     	<publisher>Gredos</publisher>
     <keywords>
-	<keyword>Física</keyword>
+	<keyword>física</keyword>
 	</keywords>
     <authors>
 	<author>Aristóteles</author>
@@ -538,9 +538,9 @@
     <address>USA</address>
     	<publisher>Hal Leonard</publisher>
     <keywords>
-	<keyword>Sound</keyword>
-	<keyword>Reinforcement</keyword>
-	<keyword>Handbook</keyword>
+	<keyword>sound</keyword>
+	<keyword>reinforcement</keyword>
+	<keyword>handbook</keyword>
 	</keywords>
     <authors>
 	<author>Davis, Gary</author>
@@ -555,8 +555,8 @@
     <address>Uruguay</address>
     	<publisher>HUM CCE CCEBA</publisher>
     <keywords>
-	<keyword>Didáctica</keyword>
-	<keyword>liberación.</keyword>
+	<keyword>didáctica</keyword>
+	<keyword>liberación</keyword>
 	<keyword>conceptualista</keyword>
 	<keyword>latinoamericano</keyword>
 	</keywords>
@@ -573,7 +573,7 @@
     	<publisher>Infinito</publisher>
     <keywords>
 	<keyword>objeto</keyword>
-	<keyword>Interfase</keyword>
+	<keyword>interfase</keyword>
 	</keywords>
     <authors>
 	<author>Bonsiepe, Gui</author>
@@ -602,9 +602,9 @@
     <address>Buenos Aires</address>
     	<publisher>Interzona Editora</publisher>
     <keywords>
-	<keyword>Personas</keyword>
-	<keyword>Loop.</keyword>
-	<keyword>Ensayos</keyword>
+	<keyword>personas</keyword>
+	<keyword>loop</keyword>
+	<keyword>ensayos</keyword>
 	<keyword>sobre</keyword>
 	<keyword>cultura</keyword>
 	</keywords>
@@ -620,8 +620,8 @@
     <address>Buenos Aires</address>
     	<publisher>La Crujía</publisher>
     <keywords>
-	<keyword>Imagen</keyword>
-	<keyword>Corporativa</keyword>
+	<keyword>imagen</keyword>
+	<keyword>corporativa</keyword>
 	<keyword>siglo</keyword>
 	</keywords>
     <authors>
@@ -651,7 +651,7 @@
     <address>Buenos Aires</address>
     	<publisher>Las cuarenta</publisher>
     <keywords>
-	<keyword>Estética</keyword>
+	<keyword>estética</keyword>
 	<keyword>política</keyword>
 	</keywords>
     <authors>
@@ -666,7 +666,7 @@
     <address>España</address>
     	<publisher>Las Ediciones de la Piqueta</publisher>
     <keywords>
-	<keyword>Rizoma</keyword>
+	<keyword>rizoma</keyword>
 	</keywords>
     <authors>
 	<author>Deleuze, Gilles</author>
@@ -680,8 +680,8 @@
     <address>Buenos Aires</address>
     	<publisher>Leviatán</publisher>
     <keywords>
-	<keyword>Diario</keyword>
-	<keyword>Intimo</keyword>
+	<keyword>diario</keyword>
+	<keyword>intimo</keyword>
 	</keywords>
     <authors>
 	<author>Gauguin, Paul</author>
@@ -695,13 +695,13 @@
     <address>Madrid</address>
     	<publisher>Machado Libros</publisher>
     <keywords>
-	<keyword>Historia</keyword>
+	<keyword>historia</keyword>
 	<keyword>ideas</keyword>
 	<keyword>estéticas</keyword>
 	<keyword>teorías</keyword>
 	<keyword>artísticas</keyword>
-	<keyword>contemporáneas.</keyword>
-	<keyword>Volumen</keyword>
+	<keyword>contemporáneas</keyword>
+	<keyword>volumen</keyword>
 	</keywords>
     <authors>
 	<author>Bozal, Valeriano</author>
@@ -715,8 +715,8 @@
     <address>USA</address>
     	<publisher>Mit Press</publisher>
     <keywords>
-	<keyword>Spatial</keyword>
-	<keyword>Hearing.</keyword>
+	<keyword>spatial</keyword>
+	<keyword>hearing</keyword>
 	<keyword>psychophysics</keyword>
 	<keyword>human</keyword>
 	<keyword>sound</keyword>
@@ -734,8 +734,8 @@
     <address>Buenos Aires</address>
     	<publisher>Nobuko</publisher>
     <keywords>
-	<keyword>Había</keyword>
-	<keyword>vez…Cómo</keyword>
+	<keyword>había</keyword>
+	<keyword>vez…cómo</keyword>
 	<keyword>escribir</keyword>
 	<keyword>guión</keyword>
 	</keywords>
@@ -752,7 +752,7 @@
     <address>USA</address>
     	<publisher>O'Reilly</publisher>
     <keywords>
-	<keyword>Visualizing</keyword>
+	<keyword>visualizing</keyword>
 	</keywords>
     <authors>
 	<author>Fry, Ben</author>
@@ -766,10 +766,10 @@
     <address>USA</address>
     	<publisher>O'Reilly</publisher>
     <keywords>
-	<keyword>Building</keyword>
-	<keyword>Wireless</keyword>
-	<keyword>Sensor</keyword>
-	<keyword>Networks</keyword>
+	<keyword>building</keyword>
+	<keyword>wireless</keyword>
+	<keyword>sensor</keyword>
+	<keyword>networks</keyword>
 	</keywords>
     <authors>
 	<author>Faludi, Robert</author>
@@ -825,7 +825,7 @@
     <address>Buenos Aires</address>
     	<publisher>Paidós</publisher>
     <keywords>
-	<keyword>Estética</keyword>
+	<keyword>estética</keyword>
 	</keywords>
     <authors>
 	<author>Aumont, Jacques</author>
@@ -853,7 +853,7 @@
     <address>Buenos Aires</address>
     	<publisher>Paidós</publisher>
     <keywords>
-	<keyword>Teoría</keyword>
+	<keyword>teoría</keyword>
 	<keyword>crítica</keyword>
 	</keywords>
     <authors>
@@ -911,8 +911,8 @@
     <address>Buenos Aires</address>
     	<publisher>Paidós</publisher>
     <keywords>
-	<keyword>Después</keyword>
-	<keyword>arte.</keyword>
+	<keyword>después</keyword>
+	<keyword>arte</keyword>
 	<keyword>contemporáneo</keyword>
 	<keyword>linde</keyword>
 	<keyword>historia</keyword>
@@ -930,8 +930,8 @@
     	<publisher>Paidós</publisher>
     <keywords>
 	<keyword>pensamiento</keyword>
-	<keyword>Lateral.</keyword>
-	<keyword>Manual</keyword>
+	<keyword>lateral</keyword>
+	<keyword>manual</keyword>
 	<keyword>creatividad</keyword>
 	</keywords>
     <authors>
@@ -947,10 +947,10 @@
     	<publisher>Paidós</publisher>
     <keywords>
 	<keyword>muerte</keyword>
-	<keyword>imagen.</keyword>
-	<keyword>Historia</keyword>
+	<keyword>imagen</keyword>
+	<keyword>historia</keyword>
 	<keyword>mirada</keyword>
-	<keyword>Occidente</keyword>
+	<keyword>occidente</keyword>
 	</keywords>
     <authors>
 	<author>Debray, Régis</author>
@@ -980,8 +980,8 @@
     	<publisher>Paidós</publisher>
     <keywords>
 	<keyword>imagen</keyword>
-	<keyword>tiempo.</keyword>
-	<keyword>Estudios</keyword>
+	<keyword>tiempo</keyword>
+	<keyword>estudios</keyword>
 	<keyword>sobre</keyword>
 	</keywords>
     <authors>
@@ -996,7 +996,7 @@
     <address>Buenos Aires</address>
     	<publisher>Paidós</publisher>
     <keywords>
-	<keyword>Lógica</keyword>
+	<keyword>lógica</keyword>
 	<keyword>sentido</keyword>
 	</keywords>
     <authors>
@@ -1040,7 +1040,7 @@
     <address>España</address>
     	<publisher>Pre Textos</publisher>
     <keywords>
-	<keyword>Conversaciones</keyword>
+	<keyword>conversaciones</keyword>
 	</keywords>
     <authors>
 	<author>Deleuze, Gilles</author>
@@ -1054,9 +1054,9 @@
     <address>USA</address>
     	<publisher>Prentice Hall</publisher>
     <keywords>
-	<keyword>Digital</keyword>
-	<keyword>Signal</keyword>
-	<keyword>Processing</keyword>
+	<keyword>digital</keyword>
+	<keyword>signal</keyword>
+	<keyword>processing</keyword>
 	</keywords>
     <authors>
 	<author>Oppenheim, Alan Victor</author>
@@ -1071,7 +1071,7 @@
     <address>USA</address>
     	<publisher>Princeton Architectural Press</publisher>
     <keywords>
-	<keyword>Generative</keyword>
+	<keyword>generative</keyword>
 	<keyword>design</keyword>
 	</keywords>
     <authors>
@@ -1089,7 +1089,7 @@
     <address>Buenos Aires</address>
     	<publisher>Prometeo Libros</publisher>
     <keywords>
-	<keyword>Pequeño</keyword>
+	<keyword>pequeño</keyword>
 	<keyword>manual</keyword>
 	<keyword>inestética</keyword>
 	</keywords>
@@ -1119,9 +1119,9 @@
     <address>Buenos Aires</address>
     	<publisher>Santiago Arcos editor</publisher>
     <keywords>
-	<keyword>Escribir</keyword>
-	<keyword>español.</keyword>
-	<keyword>Claves</keyword>
+	<keyword>escribir</keyword>
+	<keyword>español</keyword>
+	<keyword>claves</keyword>
 	<keyword>corrección</keyword>
 	<keyword>estilo</keyword>
 	</keywords>
@@ -1137,9 +1137,9 @@
     <address>USA</address>
     	<publisher>Schirmer</publisher>
     <keywords>
-	<keyword>Computer</keyword>
-	<keyword>Music</keyword>
-	<keyword>Synthesis,</keyword>
+	<keyword>computer</keyword>
+	<keyword>music</keyword>
+	<keyword>synthesis</keyword>
 	<keyword>composition</keyword>
 	<keyword>performance</keyword>
 	</keywords>
@@ -1199,7 +1199,7 @@
     <address>Inglaterra</address>
     	<publisher>Thames and Hudson</publisher>
     <keywords>
-	<keyword>Internet</keyword>
+	<keyword>internet</keyword>
 	</keywords>
     <authors>
 	<author>Greene, Rachel</author>
@@ -1213,10 +1213,10 @@
     <address>Inglaterra</address>
     	<publisher>The MIT Press</publisher>
     <keywords>
-	<keyword>Computer</keyword>
-	<keyword>Models</keyword>
-	<keyword>Musical</keyword>
-	<keyword>Creativit</keyword>
+	<keyword>computer</keyword>
+	<keyword>models</keyword>
+	<keyword>musical</keyword>
+	<keyword>creativit</keyword>
 	</keywords>
     <authors>
 	<author>Cope, David</author>
@@ -1230,7 +1230,7 @@
     <address>Buenos Aires</address>
     	<publisher>Tinta Limón</publisher>
     <keywords>
-	<keyword>Pensamientos,</keyword>
+	<keyword>pensamientos</keyword>
 	<keyword>prácticas</keyword>
 	<keyword>acciones</keyword>
 	</keywords>
@@ -1246,9 +1246,9 @@
     <address>Inglaterra</address>
     	<publisher>Wiley Academy</publisher>
     <keywords>
-	<keyword>Collective</keyword>
-	<keyword>Intelligence</keyword>
-	<keyword>Design</keyword>
+	<keyword>collective</keyword>
+	<keyword>intelligence</keyword>
+	<keyword>design</keyword>
 	</keywords>
     <authors>
 	<author>Architectural Design</author>
@@ -1262,10 +1262,10 @@
     <address>Inglaterra</address>
     	<publisher>Wiley Academy</publisher>
     <keywords>
-	<keyword>Techniques</keyword>
-	<keyword>Technologies</keyword>
-	<keyword>Morphogenetic</keyword>
-	<keyword>Design</keyword>
+	<keyword>techniques</keyword>
+	<keyword>technologies</keyword>
+	<keyword>morphogenetic</keyword>
+	<keyword>design</keyword>
 	</keywords>
     <authors>
 	<author>Architectural Design</author>
@@ -1279,11 +1279,11 @@
     <address>Inglaterra</address>
     	<publisher>Yale</publisher>
     <keywords>
-	<keyword>Interaction</keyword>
-	<keyword>Color.</keyword>
-	<keyword>Revised</keyword>
+	<keyword>interaction</keyword>
+	<keyword>color</keyword>
+	<keyword>revised</keyword>
 	<keyword>expanded</keyword>
-	<keyword>edition.</keyword>
+	<keyword>edition</keyword>
 	</keywords>
     <authors>
 	<author>Albers, Josef</author>
