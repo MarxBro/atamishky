@@ -50,6 +50,13 @@
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
+	<xsl:when test="$categoryby='publisher'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[publisher=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
 	</xsl:when>
 	<xsl:when test="$categoryby='entrytype'">
 		<xsl:choose>
@@ -332,7 +339,9 @@
 
 <xsl:template name="printPublisher">
 	<xsl:if test="publisher">
-		<a href="javascript:void(0)" onclick="showCategory('publisher','{.}')"><xsl:value-of select="publisher"/>,</a>&#160;
+		<a href="javascript:void(0)" onclick="showCategory('publisher','{publisher}')">
+        <xsl:value-of select="publisher"/>
+        </a>,&#160;
 	</xsl:if>
 </xsl:template>
 

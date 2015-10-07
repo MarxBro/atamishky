@@ -46,7 +46,7 @@ if($action != null){
 	$categoryby = $by;
 	$categorytype = $pub;
 	$sorttype = $by; // year mi olsa
-	$breadcrumb1 = "by ".$longname[$categoryby];
+	$breadcrumb1 = "por ".$longname[$categoryby];
 	if($categoryby == 'entrytype')
 	  $breadcrumb2 = $longnameEntrytype[$categorytype];
 	else
