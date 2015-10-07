@@ -7,6 +7,7 @@ $longname['ID'] = 'ID';
 $longname['author'] = 'autor';
 $longname['keyword'] = 'tag';
 $longname['bibliografia'] = 'bibliografia';
+$longname['publisher'] = 'editorial';
 $longname['searchtitle'] = 'title containing';
 
 //$longnameEntrytype['paper'] = 'Journal article';

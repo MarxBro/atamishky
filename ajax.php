@@ -75,8 +75,8 @@ if($action != null){
      $params['categoryby'] = "year";
      $params['categorytype'] = "all";
      $params['sorttype'] = "year";
-     $params['breadcrumb1'] = "by year";
-     $params['breadcrumb2'] = "all";
+     $params['breadcrumb1'] = "por año";
+     $params['breadcrumb2'] = "todos";
      $params['atamishkyhome'] = $atamishky_HOME;
      $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
      echo transform($xmlfile, $xslfile, $params);
