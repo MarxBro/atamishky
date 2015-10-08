@@ -241,20 +241,20 @@ body {
 	background-repeat: no-repeat;
 }
 
-.atamishky a.article { 
-	background-image:url("img/J.png"); 
-}
-.atamishky a.inproceedings {
-	background-image:url("img/C.png"); 
-}
-.atamishky a.inbook { 
-	background-image:url("img/BC.png"); 
-}
-.atamishky a.conference { 
-	background-image:url("img/C.png"); 
-}
+/*.atamishky a.article { */
+/*background-image:url("img/J.png"); */
+/*}*/
+/*.atamishky a.inproceedings {*/
+/*background-image:url("img/C.png"); */
+/*}*/
+/*.atamishky a.inbook { */
+/*background-image:url("img/BC.png"); */
+/*}*/
+/*.atamishky a.conference { */
+/*background-image:url("img/C.png"); */
+/*}*/
 .atamishky a.book { 
-	background-image:url("img/B.png"); 
+	background-image:url("img/type-icons/book.png"); 
 }
 /*.atamishky a.incollection { */
 /*background-image:url("img/BC.png"); */
@@ -275,15 +275,15 @@ body {
 /*background-image:url("img/patent.png"); */
 /*}*/
 .atamishky a.misc { 
-	background-image:url("img/misc.png"); 
+	background-image:url("img/type-icons/misc.png"); 
 }
 /*Son malditos divs (como siempre termina siendo) y levanta la img de la izaquierda de la*/
 /*entrada, acorde al class={entrytype}, asi que cuidado.*/
 .atamishky a.musica { 
-	background-image:url("img/MS.png"); 
+	background-image:url("img/type-icons/musica.png"); 
 }
 .atamishky a.video { 
-	background-image:url("img/patent.png"); 
+	background-image:url("img/type-icons/video.png"); 
 }
 
 /* Start Tag Cloud CSS */
