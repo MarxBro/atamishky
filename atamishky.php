@@ -36,7 +36,7 @@ if(isset($EXTERNAL_HEADER)){
 //Menu
 if ($MENU_STYLE == "HORIZONTAL"){
     print "<table id=\"filters\" width=\"100%\">";
-} else 
+} else {
 //asumir menu VERTICAL
     print "<table width=\"100%\">";
 }
