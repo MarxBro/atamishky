@@ -10,10 +10,8 @@ use Getopt::Std;
 use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
-use XML::Entities;
-use HTML::Entities;
-
-$|++;
+#use XML::Entities;
+#use HTML::Entities;
 
 my %opts = ();
 getopts( 'hdco:f:', \%opts );
@@ -103,18 +101,18 @@ my $esqueleto_entry =
 </entry>
 ';
    
-   $esqueleto_entry =~ s/\@\@NOMBRE\@\@/       escapar_xml_chars($nombre)/gixe; 
-   $esqueleto_entry =~ s/\@\@TITULO\@\@/       escapar_xml_chars($titulo)/gixe; 
-   $esqueleto_entry =~ s/\@\@TIPO\@\@/         escapar_xml_chars($tipo)/gixe; 
-   $esqueleto_entry =~ s/\@\@AGNO\@\@/         escapar_xml_chars($agno)/gixe; 
-   $esqueleto_entry =~ s/\@\@CIUDAD\@\@/       escapar_xml_chars($city)/gixe; 
-   $esqueleto_entry =~ s/\@\@EDITORIAL\@\@/    escapar_xml_chars($editorial)/gixe; 
-   $esqueleto_entry =~ s/\@\@BIBLIOGRAFIA\@\@/ escapar_xml_chars($bibliografia)/gixe;
-   $esqueleto_entry =~ s/\@\@AUTORES\@\@/      escapar_xml_chars($autores)/gixe; 
-   $esqueleto_entry =~ s/\@\@LINK\@\@/         escapar_xml_chars($link)/gixe;
-   $esqueleto_entry =~ s/\@\@KEYWORDS\@\@/     escapar_xml_chars($keywords)/gixe;
-   $esqueleto_entry =~ s/\@\@SOPORTE\@\@/      escapar_xml_chars($soporte)/gixe;
-   $esqueleto_entry =~ s/\@\@DESCRIPCION\@\@/  escapar_xml_chars($descripcion)/gixe;
+   $esqueleto_entry =~ s/\@\@NOMBRE\@\@/$nombre/gi; 
+   $esqueleto_entry =~ s/\@\@TITULO\@\@/$titulo/gi; 
+   $esqueleto_entry =~ s/\@\@TIPO\@\@/$tipo/gi; 
+   $esqueleto_entry =~ s/\@\@AGNO\@\@/$agno/gi; 
+   $esqueleto_entry =~ s/\@\@CIUDAD\@\@/$city/gi; 
+   $esqueleto_entry =~ s/\@\@EDITORIAL\@\@/$editorial/gi; 
+   $esqueleto_entry =~ s/\@\@BIBLIOGRAFIA\@\@/$bibliografia/gi;
+   $esqueleto_entry =~ s/\@\@AUTORES\@\@/$autores/gi; 
+   $esqueleto_entry =~ s/\@\@LINK\@\@/$link/gi;
+   $esqueleto_entry =~ s/\@\@KEYWORDS\@\@/$keywords/gi;
+   $esqueleto_entry =~ s/\@\@SOPORTE\@\@/$soporte/gi;
+   $esqueleto_entry =~ s/\@\@DESCRIPCION\@\@/$descripcion/gi;
 
    $esqueleto_entry =~ s/none//gi; # Esto vuela las etiquetas vacias.
    
@@ -195,14 +193,15 @@ sub compactar {
     return $input;
 }
 
-sub escapar_xml_chars {
-    my $innie = shift;
-    %HTML::Entities::char2entity = %{
-        XML::Entities::Data::char2entity('all');
-    };
-    my $a = encode_entities($innie);
-    return $a;
-}
+#sub escapar_xml_chars {
+    #my $innie = shift;
+    #%HTML::Entities::char2entity = %{
+        #XML::Entities::Data::char2entity('all');
+    #};
+    #my $a = encode_entities($innie,q|"'<>&|);
+    #XML::Entities::numify('all',$a);
+    #return $a;
+#}
 
 =pod
 
