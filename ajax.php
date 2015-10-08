@@ -36,6 +36,11 @@ if($action != null){
         $xslfile = 'showbibliografia.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
+    else if($action == "showaddress") {
+        $xmlfile = 'bibtex.xml';
+        $xslfile = 'showaddress.xsl';
+        echo transform($xmlfile, $xslfile, $params);
+    }
     else if($action == "showcategory") {	
         $categoryby   = $by;
         $categorytype = $pub;
@@ -81,6 +86,7 @@ if($action != null){
 if (    $action != null && 
         $action != "showentrydetail" && 
         $action != "showbibliografia" && 
+        $action != "showaddress" && 
         $action != "showbib" && 
         $action != "showkeywordscloud" && 
         $action != "showauthorlist" && 

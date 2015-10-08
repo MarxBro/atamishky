@@ -42,6 +42,12 @@ else if(str == "showbibliografia")
   toggleBiblioList = 's';
   showbibiografialist();
  }
+else if(str == "showaddress")
+ {
+// s for show
+  toggleAdList = 's';
+  showaddresslist();
+ }
 else
  {
 // h for hide
@@ -257,6 +263,25 @@ xmlHttp.open("GET",url,true)
 xmlHttp.send(null)
 }
 
+/*agregado*/
+function showaddresslist()
+{ 
+toggleAdList='s';
+
+xmlHttp=GetXmlHttpObject()
+if (xmlHttp==null)
+ {
+ alert ("Browser does not support HTTP Request")
+ return
+ } 
+
+var url=atamishky_home_dir+"ajax.php"
+url=url+"?action=showiaddress"
+url=url+"&sid="+Math.random()
+xmlHttp.onreadystatechange=stateChangedKeywords
+xmlHttp.open("GET",url,true)
+xmlHttp.send(null)
+}
 
 function stateChangedKeywords() 
 { 
