@@ -222,8 +222,7 @@
 <!-- /bottomleft -->
 
 <div class="bottomright">
-<a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" /></a>
-<span>mas info</span>
+<a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" />mas info</a>
 </div>
 
 <xsl:choose>
