@@ -223,6 +223,7 @@
 
 <div class="bottomright">
 <a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" /></a>
+<span>mas info</span>
 </div>
 
 <xsl:choose>
@@ -268,6 +269,7 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
+	<xsl:call-template name="printAddress" />
     <!--<xsl:call-template name="printBiblio" />-->
 	<xsl:call-template name="printYear" />
 </xsl:template>
@@ -278,6 +280,7 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
+	<xsl:call-template name="printAddress" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 <!--Videos-->
@@ -286,17 +289,20 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
+	<xsl:call-template name="printAddress" />
 	<xsl:call-template name="printYear" />
-	<xsl:call-template name="printSoporte" />
+    <!--<xsl:call-template name="printSoporte" />-->
 </xsl:template>
 <!--BASTA-->
 
 <xsl:template name="printMisc">
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
-	<xsl:if test="howpublished">
-		<xsl:value-of select="howpublished" />,&#160;
-	</xsl:if>
+    <!--<xsl:if test="howpublished">-->
+    <!--<xsl:value-of select="howpublished" />,&#160;-->
+    <!--</xsl:if>-->
+	<xsl:call-template name="printPublisher" />
+	<xsl:call-template name="printAddress" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 
@@ -342,7 +348,7 @@
 	<xsl:if test="publisher">
 		<a href="javascript:void(0)" onclick="showCategory('publisher','{publisher}')">
         <xsl:value-of select="publisher"/>
-        </a>,&#160;
+        </a>.&#160;
 	</xsl:if>
 </xsl:template>
 
