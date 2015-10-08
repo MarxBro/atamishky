@@ -62,16 +62,17 @@
     <tr><td><b>Descripcion</b></td>
         <td><xsl:value-of select="descripcion" /></td></tr>
     </xsl:if>
-    
-    <tr><td><b>Documento</b></td><td><img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
+   
+    <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
+    <tr><td><b>Documento</b></td><td>
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" />
+    <a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
     <xsl:if test="link">
-          <a href="{link}"><xsl:value-of select="link" />Descarga</a>
+          <td><a href="{link}"><xsl:value-of select="link" />Documento./a></td>
     </xsl:if>
-    <xsl:if test="not(link)">
-          <a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia</a>
-    </xsl:if>
+
     </td></tr>
-                
+    
                 <!--<tr><td><b>Share</b></td>-->
                 <!--<td>-->
 
