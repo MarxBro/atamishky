@@ -6,8 +6,6 @@ La idea es permitir la búsqueda en un catálogo bibliográfico, que sea simple 
  
 El catálogo completo es un único archivo xml. No necesita DB.
  
-Está hecho en base a Bebop, aunque fue reelaborado y muchas de sus partes reemplazadas.
- 
 
 ## Nótese
 
@@ -29,4 +27,5 @@ Por el momento, BSD License.
  
 -----
 Acerca de Bebop: http://people.alari.ch/derino/Software/Bebop/
+
 Licencia de Bebop: http://people.alari.ch/derino/Software/Bebop/LICENSE.txt
