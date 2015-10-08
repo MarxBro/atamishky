@@ -360,12 +360,10 @@
 </xsl:template>
 
 <xsl:template name="printAddress">
-<!--fijarse si es "address" o "city"-->
 		<xsl:if test="address">
-			<xsl:value-of select="address" />,&#160;
-		</xsl:if>
-		<xsl:if test="city">
-			<xsl:value-of select="city" />,&#160;
+            <a href="javascript:void(0)" onclick="showCategory('address','{address}')">
+            <xsl:value-of select="address" />
+            </a>.&#160;
 		</xsl:if>
 </xsl:template>
 
