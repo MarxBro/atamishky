@@ -22,8 +22,8 @@
 
 <xsl:template match="/">
 <br />
-<div class="content">
 <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
+<div class="content_pager">
 
 
 <xsl:choose>

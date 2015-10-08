@@ -68,7 +68,7 @@
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
     </td>
     <xsl:if test="link">
-          <td><a href="{link}"><xsl:value-of select="link" />Documento./a></td>
+          <td><a href="{link}"><xsl:value-of select="link" />Documento.</a></td>
     </xsl:if>
     </tr>
 

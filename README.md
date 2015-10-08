@@ -13,8 +13,6 @@ Está hecho en base a Bebop, aunque fue reelaborado y muchas de sus partes reemp
 
 Los iconos son del kit Faenza (una version vieja que estaba por ahi) .
 
-Incluye quickpager para la paginación.
-
 Por el momento el estamos usando csv para pasar todo a xml: de un formato estúpido a uno más estúpido! :P
 
 

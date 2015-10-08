@@ -21,7 +21,7 @@ body {
 	font-size: 12px;
 }
 
-.atamishky .content {
+.atamishky .content .content_pager{
 	position: relative;
 	width: 796px;
 	background-color: #FFFFFF;
@@ -425,4 +425,8 @@ div.sociable { margin: 0px 0; }
     opacity: 1;
     -moz-opacity: 1;
     filter: alpha(opacity=100);
+}
+/*Pager*/
+ul.simplePagerNav li{
+    display: block;    
 }
