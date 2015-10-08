@@ -276,7 +276,7 @@ if (xmlHttp==null)
  } 
 
 var url=atamishky_home_dir+"ajax.php"
-url=url+"?action=showiaddress"
+url=url+"?action=showaddress"
 url=url+"&sid="+Math.random()
 xmlHttp.onreadystatechange=stateChangedKeywords
 xmlHttp.open("GET",url,true)
