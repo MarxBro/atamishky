@@ -158,6 +158,7 @@ sub make_keywords {
     foreach my $gypa (@palabras){
         my $gy = lc($gypa);
         chomp($gy);
+        next if ($gy =~ /\&/);
         $gy =~ s/^ //g;
         $gy =~ s/ $//g;
         $gy =~ s/\,$//g;
@@ -172,7 +173,7 @@ sub make_keywords {
 }
 
 sub make_authors {
-    my $st = shift;    
+    my $st = shift; 
     my @autores = split /; /, $st;
     my $finalputos = '<authors>'  . "\n";
     foreach my $au (@autores){
