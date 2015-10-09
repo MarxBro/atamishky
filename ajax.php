@@ -8,13 +8,13 @@ $pub    = $_GET["pub"]   ;
 
 if($action != null){
     if($action == "showbib"){
-        $xmlfile         = 'bibtex.xml';
+        $xmlfile         = 'catalogo.xml';
         $xslfile         = 'showbib.xsl';
         $params['pubid'] = $pub;
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showentrydetail") {
-        $xmlfile                         = 'bibtex.xml';
+        $xmlfile                         = 'catalogo.xml';
         $xslfile                         = 'showentrydetail.xsl';
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
@@ -22,22 +22,22 @@ if($action != null){
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showkeywordscloud") {
-        $xmlfile = 'bibtex.xml';
+        $xmlfile = 'catalogo.xml';
         $xslfile = 'showkeywordscloud.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showauthorlist") {
-        $xmlfile = 'bibtex.xml';
+        $xmlfile = 'catalogo.xml';
         $xslfile = 'showauthorlist.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showbibliografia") {
-        $xmlfile = 'bibtex.xml';
+        $xmlfile = 'catalogo.xml';
         $xslfile = 'showbibliografia.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showaddress") {
-        $xmlfile = 'bibtex.xml';
+        $xmlfile = 'catalogo.xml';
         $xslfile = 'showaddress.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
@@ -52,8 +52,8 @@ if($action != null){
             $breadcrumb2 = $categorytype;
         }
 
-        $xmlfile                         = 'bibtex.xml';
-        $xslfile                         = 'bibtex.xsl';
+        $xmlfile                         = 'catalogo.xml';
+        $xslfile                         = 'catalogo.xsl';
         $params['categoryby']            = $categoryby;
         $params['categorytype']          = $categorytype;
         $params['sorttype']              = $sorttype;
@@ -68,8 +68,8 @@ if($action != null){
     }
 } else {
     // $pub empty, action empty -> index.php
-    $xmlfile                         = 'bibtex.xml';
-    $xslfile                         = 'bibtex.xsl';
+    $xmlfile                         = 'catalogo.xml';
+    $xslfile                         = 'catalogo.xsl';
     $params['categoryby']            = "year";
     $params['categorytype']          = "all";
     $params['sorttype']              = "year";
