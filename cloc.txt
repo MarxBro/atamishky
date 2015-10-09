@@ -1,18 +1,18 @@
-      26 text files.
-classified 26 files      26 unique files.                              
-      10 files ignored.
+      30 text files.
+classified 30 files      30 unique files.                              
+      12 files ignored.
 
-http://cloc.sourceforge.net v 1.64  T=0.70 s (25.6 files/s, 4791.1 lines/s)
+http://cloc.sourceforge.net v 1.64  T=0.59 s (34.0 files/s, 7849.0 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-XML                              1              0              0           1293
-XSLT                             5             68             54            449
-CSS                              1             36             50            346
-Javascript                       2             59             30            308
-PHP                              6             51             56            303
-Perl                             1             56             58            154
+XML                              1              0              0           2434
+XSLT                             6             72             57            481
+CSS                              1             36             51            345
+Javascript                       2             61             32            329
+PHP                              6             51             56            310
+Perl                             2             62             60            181
 HTML                             2              0              0              3
 -------------------------------------------------------------------------------
-SUM:                            18            270            248           2856
+SUM:                            20            282            256           4083
 -------------------------------------------------------------------------------

@@ -10,8 +10,6 @@ use Getopt::Std;
 use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
-#use XML::Entities;
-#use HTML::Entities;
 
 my %opts = ();
 getopts( 'hdco:f:', \%opts );
@@ -29,10 +27,15 @@ my $padre_del_xml = 'entries';
 my $index     = 837;
 my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
-foreach my $ln_csv (@csv_lns){
+# para codificar las entidades: funcionó mejor regexearlo que usar XML::Entities.
+my @entities_bare=qw/&(?!\w{2,4};) " ' < >/;
+my @entities_encoded=qw/&amp; &quot; &apos; &lt; &gt;/;
+
+foreach my $ln_csv_raw (@csv_lns){
     #saltearse la linea de encabezados.
-    next if ($ln_csv =~ m/^tipo\|/i);
-    chomp($ln_csv);
+    next if ($ln_csv_raw =~ m/^tipo\|/i);
+    chomp($ln_csv_raw);
+    my $ln_csv         = encode_some_shitty_entities($ln_csv_raw);
 
     my @campos = split /\|/, $ln_csv;
     
@@ -170,7 +173,7 @@ sub make_keywords {
 
 sub make_authors {
     my $st = shift;    
-    my @autores = split /;/, $st;
+    my @autores = split /; /, $st;
     my $finalputos = '<authors>'  . "\n";
     foreach my $au (@autores){
         chomp($au);
@@ -193,15 +196,15 @@ sub compactar {
     return $input;
 }
 
-#sub escapar_xml_chars {
-    #my $innie = shift;
-    #%HTML::Entities::char2entity = %{
-        #XML::Entities::Data::char2entity('all');
-    #};
-    #my $a = encode_entities($innie,q|"'<>&|);
-    #XML::Entities::numify('all',$a);
-    #return $a;
-#}
+sub encode_some_shitty_entities {
+    my $string=shift;
+    for(my $n=0;$n<scalar @entities_bare;++$n){
+        if(not $string=~s/$entities_bare[$n]/$entities_encoded[$n]/g){
+        }
+        $string =~ s/$entities_bare[$n]/$entities_encoded[$n]/gie;
+    }
+    return $string;
+}
 
 =pod
 

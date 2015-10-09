@@ -302,6 +302,9 @@ function doSearch()
     var query = document.forms['searchform'].q.value;
     if (document.getElementById('d').checked) {
         showCategory('searchdescripcion', query.toLowerCase());
+    }
+    if (document.getElementById('a').checked) {
+        showCategory('searchautor', query.toLowerCase());
     } else {
         showCategory('searchtitle', query.toLowerCase());
     }
