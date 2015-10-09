@@ -189,8 +189,8 @@
     select="'|January|February|March|April|May|June|July|August|September|October|November|December'"/>
 
 
-<xsl:variable name="count_total" select="count($query)"/>
-<div class="total">Total: <xsl:value-of select="$count_total" /></div>
+<xsl:variable name="count" select="count($query)"/>
+<div class="total">Total: <xsl:value-of select="$count" /></div>
 
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
