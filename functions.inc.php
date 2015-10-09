@@ -9,7 +9,8 @@ $longname['keyword'] = 'tag';
 $longname['address'] = 'ciudad - país';
 $longname['bibliografia'] = 'bibliografía';
 $longname['publisher'] = 'editorial';
-$longname['searchtitle'] = 'title containing';
+$longname['searchtitle'] = 'titulo';
+$longname['searchautor'] = 'autor';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';

@@ -23,7 +23,7 @@ if(isset($EXTERNAL_HEADER)){
 <fieldset>
 <legend>B&uacute;squeda</legend>
    T&iacute;tulo:      <input type="radio" name="tipo" id="t" checked="checked" />
-   Autor:              <input type="radio" name="tipo" id="a" checked="checked" />
+   Autor:              <input type="radio" name="tipo" id="a" />
    Descripci&oacute;n: <input type="radio" name="tipo" id="d" />
    <input type="text" name="q" />
    <input type="submit" value="Buscar" />
