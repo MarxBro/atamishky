@@ -338,7 +338,9 @@ function stateChangedKeywords_filter(){
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-        var lista_resultado_query = xmlHttp.responseText;
+        var resultado_query = xmlHttp.responseText;
+        var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+        var lista_resultado_query = parser.parseFromString(resultado_query,"text/html");
         var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
         // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "gi");
