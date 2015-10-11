@@ -328,19 +328,19 @@ function search_autores(buscado){
     var url=atamishky_home_dir+"ajax.php";
     url=url+"?action=showauthorlist";
     url=url+"&sid="+Math.random();
-    xmlHttp.onreadystatechange=stateChangedKeywords_filter;
+    xmlHttp.onreadystatechange=stateChangedKeywords_filter(buscado);
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
 }
 /*esta funcion es llamada por lo de arriba*/
-function stateChangedKeywords_filter(){
+function stateChangedKeywords_filter(buscado){
     if (xmlHttp.readyState<4) { 
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
         var resultado_query = xmlHttp.responseText;
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
-        var lista_resultado_query = parser.parseFromString(resultado_query,"text/html");
+        var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
         // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "gi");
