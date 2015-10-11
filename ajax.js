@@ -303,8 +303,54 @@ function doSearch()
     if (document.getElementById('d').checked) {
         showCategory('searchdescripcion', query.toLowerCase());
     } else if (document.getElementById('a').checked) {
-        showCategory('searchautor', query.toLowerCase());
+        //showCategory('searchautor', query.toLowerCase());
+        // vamos a probar algo nuevo.
+        search_autores(query.toLowerCase());
     } else {
         showCategory('searchtitle', query.toLowerCase());
     }
+}
+
+/*
+Esto anduvo. No es muy elegante, pero xsl me tiene los huevos emplatados.
+Si la busqueda es por autor
+    1 - Traer toda a lista de autores,
+    2 - Filtar los nombres de autores que no coinciden.
+    3 - Escribir el HTML resultante (como si nada hubiera pasado).
+*/
+function search_autores(buscado){
+    toggleAuthorList='s';
+    xmlHttp=GetXmlHttpObject()
+    if (xmlHttp==null){
+        alert ("Browser does not support HTTP Request");
+        return;
+    } 
+    
+    var url=atamishky_home_dir+"ajax.php"
+    url=url+"?action=showauthorlist"
+    url=url+"&sid="+Math.random()
+    /*xmlHttp.onreadystatechange=stateChangedKeywords*/
+    xmlHttp.open("GET",url,true)
+    xmlHttp.send(null)
+
+    if (xmlHttp.readyState<4) { 
+        document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
+        document.getElementById("CfPTable").innerHTML="";
+    } 
+    else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+        var lista_resultado_query = xmlHttp.responseText;
+        var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
+        // Hacer algun tipo de filtrado en la busqueda, no?
+        var re = new RegExp(buscado, "gi");
+        for(var i=0; li=lis[i]; i++) {
+            var puto = lis[i].children[0];
+            var text = puto.innerText || puto.textContent;
+            if (!(re.test(text))) {
+                li.parentNode.removeChild(li);
+            }
+        }
+        document.getElementById("keywordsCloud").innerHTML=lista; 
+        document.getElementById("CfPTable").innerHTML="";
+    } 
+
 }
