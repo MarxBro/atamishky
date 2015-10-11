@@ -325,14 +325,15 @@ function search_autores(buscado){
         alert ("Browser does not support HTTP Request");
         return;
     } 
-    
     var url=atamishky_home_dir+"ajax.php"
     url=url+"?action=showauthorlist"
     url=url+"&sid="+Math.random()
-    /*xmlHttp.onreadystatechange=stateChangedKeywords*/
+    xmlHttp.onreadystatechange=stateChangedKeywords_filter
     xmlHttp.open("GET",url,true)
     xmlHttp.send(null)
-
+}
+/*esta funcion es llamada por lo de arriba*/
+function stateChangedKeywords_filter{
     if (xmlHttp.readyState<4) { 
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
@@ -352,5 +353,4 @@ function search_autores(buscado){
         document.getElementById("keywordsCloud").innerHTML=lista; 
         document.getElementById("CfPTable").innerHTML="";
     } 
-
 }
