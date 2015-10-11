@@ -333,7 +333,7 @@ function search_autores(buscado){
     xmlHttp.send(null);
 }
 /*esta funcion es llamada por lo de arriba*/
-function stateChangedKeywords_filter{
+function stateChangedKeywords_filter(){
     if (xmlHttp.readyState<4) { 
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
