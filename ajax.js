@@ -320,25 +320,24 @@ Si la busqueda es por autor
 */
 function search_autores(buscado){
     toggleAuthorList='s';
-    xmlHttp=GetXmlHttpObject()
+    xmlHttp=GetXmlHttpObject();
     if (xmlHttp==null){
         alert ("Browser does not support HTTP Request");
         return;
     } 
-    var url=atamishky_home_dir+"ajax.php"
-    url=url+"?action=showauthorlist"
-    url=url+"&sid="+Math.random()
-    xmlHttp.onreadystatechange=stateChangedKeywords_filter
-    xmlHttp.open("GET",url,true)
-    xmlHttp.send(null)
+    var url=atamishky_home_dir+"ajax.php";
+    url=url+"?action=showauthorlist";
+    url=url+"&sid="+Math.random();
+    xmlHttp.onreadystatechange=stateChangedKeywords_filter;
+    xmlHttp.open("GET",url,true);
+    xmlHttp.send(null);
 }
 /*esta funcion es llamada por lo de arriba*/
 function stateChangedKeywords_filter{
     if (xmlHttp.readyState<4) { 
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
-    } 
-    else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+    } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
         var lista_resultado_query = xmlHttp.responseText;
         var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
         // Hacer algun tipo de filtrado en la busqueda, no?
