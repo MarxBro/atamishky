@@ -350,7 +350,7 @@ function stateChangedKeywords_filter{
                 li.parentNode.removeChild(li);
             }
         }
-        document.getElementById("keywordsCloud").innerHTML=lista; 
+        document.getElementById("keywordsCloud").innerHTML=lista_resultado_query; 
         document.getElementById("CfPTable").innerHTML="";
     } 
 }
