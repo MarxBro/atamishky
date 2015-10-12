@@ -7,22 +7,15 @@ $atamishky_EMBEDDING_URL=$atamishky_HOME."/";
 
 // OPTIONAL: page title
 $PAGE_TITLE="ATAM bibliografía";
-$pagetitle = $PAGE_TITLE;
 // OPTIONAL: page description
 $PAGE_DESCRIPTION="Búsqueda de bibliografía en la Mediateca del ATAM";
-$pagedescription = $PAGE_DESCRIPTION;
 // OPTIONAL: page keywords
-$PAGE_KEYWORDS="Publications";
+$PAGE_KEYWORDS="Bibliografia";
 // OPTIONAL: favicon - used for the page and the RSS feed
 $FAVICON=$atamishky_EMBEDDING_URL."favicon.ico";
 $favicon=$FAVICON;
 
-
-// MANDATORY: The year of the earliest publication
-$START_YEAR = 1999;
-
-// Style of the publication filtering menu. Possible values: "HORIZONTAL", "VERTICAL"
-// Prefer horizontal if the year list is too long. The default value is vertical.
+// Estilo MENU: "HORIZONTAL", "VERTICAL"
 $MENU_STYLE = "VERTICAL";
 
 // MANDATORY: Menu matrix - comment out the rows to exclude.
