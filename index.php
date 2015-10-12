@@ -20,22 +20,11 @@ print "<meta name=\"keywords\" content=\"".$PAGE_KEYWORDS."\" />";
 print "<meta name=\"description\" content=\"".$PAGE_DESCRIPTION."\"/>";
 print "<title>".$PAGE_TITLE."</title>";
 print "<link rel=\"shortcut icon\" href=\"".$FAVICON."\" />";    
-print "<link rel=\"unapi-server\" type=\"application/xml\" title=\"unAPI\" href=\"".$atamishky_HOME."/unapi.php\" />";
+print "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"".$PAGE_TITLE."\" href=\"rss.php\" />";
 if(isset($EXTERNAL_CSS))
     print "<link href=\"".$EXTERNAL_CSS."\" rel=\"stylesheet\" type=\"text/css\" />";
     print "<link href=\"".$atamishky_HOME."/site.css\" rel=\"stylesheet\" type=\"text/css\" />";
     print "<script id=\"atamishkyjs\" src=\"".$atamishky_HOME."/ajax.js\" type=\"text/javascript\"></script>";
-?>
-<?php
-//<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
-//<script type="text/javascript" src="/includes/qp.js"></script>
-//<script type="text/javascript">
-//$(document).ready(function() {
-        ////$("ul.paging").quickPager();
-	//$("div.content").quickPager({pagerLocation:"both"});
-
-//});
-//</script>
 ?>
 </head>
 <body>
