@@ -328,7 +328,7 @@ function search_autores(buscado){
     var url=atamishky_home_dir+"ajax.php";
     url=url+"?action=showauthorlist";
     url=url+"&sid="+Math.random();
-    xmlHttp.onreadystatechange=stateChangedKeywords_filter(buscado);
+    xmlHttp.onreadystatechange=function(){ stateChangedKeywords_filter(buscado); };
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
 }
