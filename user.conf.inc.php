@@ -7,8 +7,10 @@ $atamishky_EMBEDDING_URL=$atamishky_HOME."/";
 
 // OPTIONAL: page title
 $PAGE_TITLE="ATAM bibliografía";
+$pagetitle = $PAGE_TITLE;
 // OPTIONAL: page description
 $PAGE_DESCRIPTION="Búsqueda de bibliografía en la Mediateca del ATAM";
+$pagedescription = $PAGE_DESCRIPTION;
 // OPTIONAL: page keywords
 $PAGE_KEYWORDS="Publications";
 // OPTIONAL: favicon - used for the page and the RSS feed
