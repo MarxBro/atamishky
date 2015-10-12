@@ -6,6 +6,7 @@ $xmlfile='catalogo.xml';
 $xslfile='rss.xsl';
 $params['atamishkyhome'] = $atamishky_HOME;
 $params['pagetitle'] = $PAGE_TITLE;
+$params['title'] = $PAGE_TITLE;
 $params['pagedescription'] = $PAGE_DESCRIPTION;
 $params['favicon'] = $FAVICON;
 echo transform($xmlfile, $xslfile, $params);
