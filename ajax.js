@@ -344,14 +344,15 @@ function stateChangedKeywords_filter(buscado){
         var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
         // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "gi");
+        var vergo = '';
         for(var i=0; li=lis[i]; i++) {
             var puto = lis[i].children[0];
             var text = puto.innerText || puto.textContent;
-            if (!(re.test(text))) {
-                li.parentNode.removeChild(li);
+            if (re.test(text)) {
+                vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + li.textContent + '\')">' + li.textContent + '</a></li>';
             }
         }
-        document.getElementById("keywordsCloud").innerHTML=lista_resultado_query; 
+        document.getElementById("keywordsCloud").innerHTML='<ul>'+ vergo +'</ul>'; 
         document.getElementById("CfPTable").innerHTML="";
     } 
 }
