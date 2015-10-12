@@ -1,5 +1,6 @@
 <?php
 
+
 $longname['year'] = 'Año';
 $longname['researcharea'] = 'research area';
 $longname['entrytype'] = 'tipo';
@@ -54,20 +55,16 @@ function transform($xmlfile, $xslfile, $params){
       trigger_error('XSL transformation failed.', E_USER_ERROR);
      } 
 
-} //function transform
+}
 
-//esta funcion es pelotudisima y no la quiero ni ver.
-
-//contributed by Turgut Durduran
-//function yearArraySince($startYear)
-//{
-  //$current_year = date('Y');
-  //$yeararray = array();
-  //for ($i = 0; $current_year-$i >= $startYear ; $i++)
-    //{
-      //$yeararray[$i] = $current_year-$i;
-    //}
-  //return $yeararray;
-//}
+function sano ($input){
+    $output_sano = trim($input);
+    $output_sano = stripslashes($output_sano);
+    $output_sano = filter_var($output_sano,FILTER_SANITIZE_STRING);
+    //$output_sano = htmlspecialchars($output_sano);
+    if(filter_var($output_sano,FILTER_VALIDATE_REGEXP,array("options"=>array("regexp"=>'/([\w\d\s-_()@,;."!?:]+)/')))){
+        return $output_sano;
+    } 
+}
 
 ?>
