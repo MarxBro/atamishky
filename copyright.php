@@ -2,7 +2,7 @@
 <div class="entry1">
 <div class="title">Copyright Notice</div>
 <div class="entrybody">
-<p>Todo el material presente, pertenece al ATAM, Universidad Nacional del Arte.</p>
+<p>Si sos restrictivo con el copyright, sos un vigilante.... Nah, reemplazar por lo que corresponda.</p>
 </div>
 </div>
 </div>

@@ -2,13 +2,13 @@
 
 include_once("functions.inc.php");
 
-$atamishky_HOME="http://biblio.atamvirtual.com.ar";
+$atamishky_HOME="http://some.website.com";
 $atamishky_EMBEDDING_URL=$atamishky_HOME."/";
 
 // OPTIONAL: page title
-$PAGE_TITLE="ATAM bibliografía";
+$PAGE_TITLE="Atamishky";
 // OPTIONAL: page description
-$PAGE_DESCRIPTION="Búsqueda de bibliografía en la Mediateca del ATAM";
+$PAGE_DESCRIPTION="Búsqueda de bibliografía";
 // OPTIONAL: page keywords
 $PAGE_KEYWORDS="Bibliografia";
 // OPTIONAL: favicon - used for the page and the RSS feed

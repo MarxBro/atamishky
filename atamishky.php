@@ -123,7 +123,7 @@ echo "</div>";
 <div class="bottomleft">
 <span>
 <a href="index.php?action=copyright">Copyright</a> &#149;
-ATAM - IUNA. 2015.
+2015.
 </span><br/><br/><br/>&nbsp;
 </div> 
 <?php 

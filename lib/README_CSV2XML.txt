@@ -10,18 +10,34 @@ SYNOPSIS
     h (Esta) Ayuda.
     d Debug.
 
+  Por ejemplo.
+    ./atamishky_CSV2XML.pl -f minimo_pruebas.csv -o catalogo.xml -t
+    
+    Va a producir los archivos catalogo.xml y catalogo.txt.
+
 Archivo en la entrada
     El archivo csv tiene que respetar en su encabezado, el siguiente orden:
 
-    * tipo * titulo * autores * editorial * año * ciudad * bibliografia *
-    link * soporte * descripcion
+    * tipo 
+    * titulo 
+    * autores 
+    * editorial 
+    * año 
+    * ciudad 
+    * bibliografia 
+    * link 
+    * soporte 
+    * descripcion
 
     Los valores en todo el csv se separan con la pipa |.
 
    tipos
     Los tipos posibles son :
 
-    * musica * video * book * misc
+    * musica 
+    * video 
+    * book 
+    * misc
 
    Autores
     Si la entrada tiene mas de un autor, separar con punto y coma.
