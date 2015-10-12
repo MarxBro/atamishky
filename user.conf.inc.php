@@ -13,6 +13,7 @@ $PAGE_DESCRIPTION="Búsqueda de bibliografía en la Mediateca del ATAM";
 $PAGE_KEYWORDS="Publications";
 // OPTIONAL: favicon - used for the page and the RSS feed
 $FAVICON=$atamishky_EMBEDDING_URL."favicon.ico";
+$favicon=$FAVICON;
 
 
 // MANDATORY: The year of the earliest publication

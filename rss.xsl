@@ -32,13 +32,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:variable name="pubid" select="@name" />
 	<link><xsl:value-of select="$atamishkyhome" />/index.php?action=showcategory&amp;by=ID&amp;pub=<xsl:value-of select="@name"/></link>
 	<description>
-    <!--poner solamente la data de la cosa...-->
+    <html><body>
 	    <p><xsl:value-of select="decripcion"/></p>
 	    <p><xsl:value-of select="entrtype"/></p>
 	    <p><xsl:value-of select="address"/></p>
 	    <p><xsl:value-of select="year"/></p>
 	    <p><xsl:value-of select="publisher"/></p>
 	    <p><xsl:value-of select="link"/></p>
+        </body></html>
 	</description>
     	</item>
       	</xsl:for-each>
