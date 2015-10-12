@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 ######################################################################
 # csv2xml :: 
-# Transform a stupid csv into something even more stupid: a XML
+# Transform a stupid csv into something even more stupid: XML !
 ######################################################################
 use strict;
 use autodie;
@@ -12,7 +12,7 @@ use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
 
 my %opts = ();
-getopts( 'hdcpo:f:', \%opts );
+getopts( 'hdcto:f:', \%opts );
 
 my $debug = $opts{d} || 0;
 my $archivo_in = $opts{f};
@@ -28,32 +28,44 @@ my $index     = 837;
 my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
 # para codificar las entidades: funcionó mejor regexearlo que usar XML::Entities.
-my @entities_bare=qw/&(?!\w{2,4};) " ' < >/;
-my @entities_encoded=qw/&amp; &quot; &apos; &lt; &gt;/;
+my @entities_bare          = qw/&(?!\w{2,4};) " ' < >/;
+my @entities_bare_txt_pass = qw/& " ' < >/;
+my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
+
+my $catalogo_txt = ''; # berreta.
 
 foreach my $ln_csv_raw (@csv_lns){
-    #saltearse la linea de encabezados.
+#saltearse la linea de encabezados.
     next if ($ln_csv_raw =~ m/^tipo\|/i);
     chomp($ln_csv_raw);
     my $ln_csv         = encode_some_shitty_entities($ln_csv_raw);
 
     my @campos = split /\|/, $ln_csv;
-    
-    #Estos campos son directos.
+
+#Estos campos son directos.
     my $tipo            = $campos[0];
     my $titulo          = $campos[1];
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
     my $city            = $campos[5];
 
-    #estos necesitan atencion
+#estos necesitan atencion
     my $bibliografia    = $campos[6] || "none";
     my $link            = $campos[7] || "none";
     my $soporte         = $campos[8] || "none";
     my $descripcion     = $campos[9] || "none";
+
+#salida a un mugroso txt.
+#author . titulo . editorial . ciudad , año
+    my $autores_txt = $campos[2];
+    my $catalogo_txt_add = join('. ',$autores_txt,$titulo,$editorial,$city);
+    $catalogo_txt_add .= ', ' . $agno . '.';
+    $catalogo_txt .= decode_some_shitty_entities($catalogo_txt_add);
+    $catalogo_txt .= "\n";
+
     unless ( $bibliografia eq 'none' ) {
         my $apr =
-          "\t" . '<bibliografia>' . $bibliografia . '</bibliografia>' . "\n";
+            "\t" . '<bibliografia>' . $bibliografia . '</bibliografia>' . "\n";
         $bibliografia = $apr;
     }
     unless ( $link eq 'none' ) {
@@ -70,7 +82,7 @@ foreach my $ln_csv_raw (@csv_lns){
     }
     unless ( $descripcion eq 'none' ) {
         my $apv =
-          "\t" . '<descripcion>' . $descripcion . '</descripcion>' . "\n";
+            "\t" . '<descripcion>' . $descripcion . '</descripcion>' . "\n";
         $descripcion = $apv;
     }
     unless ( $editorial eq 'none' ) {
@@ -78,16 +90,16 @@ foreach my $ln_csv_raw (@csv_lns){
         $editorial = $tapv;
     }
 
-    #son keywords todas las palabras del titulo de mas de 4 letras.
+#son keywords todas las palabras del titulo de mas de 4 letras.
     my $keywords = make_keywords($titulo);
 
-    #Los autores son un quilombo,
+#Los autores son un quilombo,
     my $autores         = make_authors($campos[2]);
 
-    # Index unico e irrepetible para el nombre de la entrada... chiotto.
+# Index unico e irrepetible para el nombre de la entrada... chiotto.
     my $nombre = $tipo . '2015-' . $index ;
-       
-   #Esta cabeceada evita quilombos 
+
+#Esta cabeceada evita quilombos 
 my $esqueleto_entry = 
 '<entry name="@@NOMBRE@@">
     <entrytype>@@TIPO@@</entrytype>
@@ -132,6 +144,7 @@ my $esqueleto_entry =
    #$TUTTI_XML .= $esqueleto_entry;
    $TUTTI_XML .= $fix_string . "\n";
 
+
 }
 
 $TUTTI_XML .= '</' . $padre_del_xml . '>';
@@ -141,6 +154,7 @@ if ($opts{c}){
 }
 print $TUTTI_XML unless $opts{o};
 write_file("$opts{o}",{ binmode => ':utf8' }, $TUTTI_XML) if $opts{o}; 
+write_file("catalogo.txt",{ binmode => ':utf8' }, $catalogo_txt) if $opts{t}; 
 exit 0;
 
 ######################################################################
@@ -198,13 +212,19 @@ sub compactar {
 }
 
 sub encode_some_shitty_entities {
-    my $string=shift;
+    my $string = shift;
     for(my $n=0;$n<scalar @entities_bare;++$n){
-        if(not $string=~s/$entities_bare[$n]/$entities_encoded[$n]/g){
-        }
         $string =~ s/$entities_bare[$n]/$entities_encoded[$n]/gie;
     }
     return $string;
+}
+
+sub decode_some_shitty_entities {
+    my $stringy = shift;
+    for(my $ni=0;$ni<scalar @entities_encoded;++$ni){
+        $stringy =~ s/$entities_encoded[$ni]/$entities_bare_txt_pass[$ni]/gie;
+    }
+    return $stringy;
 }
 
 =pod
@@ -220,17 +240,17 @@ como catalogo o indice de la bibliografia de Atamishky.
 
 =over
 
-=item c         Salida compacta : sin saltos de linea, ni espacios.
+=item B<c>         Salida compacta : sin saltos de linea, ni espacios.
 
-=item f         Archivo input : Ver debajo sobre el formato (csv),
+=item B<f>         Archivo input : Ver debajo sobre el formato (csv),
 
-=item o         Archivo Output : Opcional, por defecto STDOUT.
+=item B<o>         Archivo Output : Opcional, por defecto STDOUT.
 
-=item p         Archivo pdf: genera "catalogo.pdf" desde el csv.
+=item B<t>         Archivo txt: genera "catalogo.txt" desde el csv.
 
-=item h         (Esta) Ayuda.
+=item B<h>         (Esta) Ayuda.
 
-=item d         Debug.
+=item B<d>         Debug.
 
 =back
 
@@ -273,6 +293,15 @@ Si no hay bibliografia o link que poner, no poner nada.
 =head3 Soporte
 
 El campo soporte solo tiene sentido si el tipo de entrada es igual a video.
+
+=head3 Salidas
+
+Manejar las salidas a gusto, xml, txt y stdout son las opciones.
+
+Estaba a punto de programar algo que lo convierta a pdf pero es un gasto 
+innecesario de energia, pasarlo a un txt es mucho mas util calculo.
+
+Para todo lo demas existe pandoc.
 
 =head1 Autor y Licencia.
 
