@@ -33,18 +33,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<link><xsl:value-of select="$atamishkyhome" />/index.php?action=showcategory&amp;by=ID&amp;pub=<xsl:value-of select="@name"/></link>
 	<description>
     <html><body>
+        <h1><xsl:value-of select="title"/></h1>
         <xsl:for-each select="authors/author">
-            <xsl:if test="position()=last()">y&#160;</xsl:if>
-            <xsl:value-of select="."/>
+            <h2><xsl:value-of select="."/>
             ;&#160;
+            </h2>
         </xsl:for-each>
-        <p><xsl:value-of select="title"/></p>
-	    <p><xsl:value-of select="decripcion"/></p>
-	    <p><xsl:value-of select="entrytype"/></p>
-	    <p><xsl:value-of select="address"/></p>
-	    <p><xsl:value-of select="year"/></p>
-	    <p><xsl:value-of select="publisher"/></p>
-	    <p><xsl:value-of select="link"/></p>
+	    <p>Tipo:<xsl:value-of select="entrytype"/></p>
+	    <p><xsl:value-of select="publisher"/>. <xsl:value-of select="address"/>, <xsl:value-of select="year"/>.</p>
+        <!--IFEAR ESOS DOS LOCOS...-->
+        <!--<p><xsl:value-of select="link"/></p>-->
+        <!--<p><xsl:value-of select="decripcion"/></p>-->
         </body></html>
 	</description>
     	</item>
