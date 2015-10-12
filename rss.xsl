@@ -33,7 +33,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<link><xsl:value-of select="$atamishkyhome" />/index.php?action=showcategory&amp;by=ID&amp;pub=<xsl:value-of select="@name"/></link>
 	<description>
     <html><body>
-        <xsl:for-each select="author">
+        <xsl:for-each select="authors/author">
             <xsl:if test="position()=last()">y&#160;</xsl:if>
             <xsl:value-of select="."/>
             ;&#160;
