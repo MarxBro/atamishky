@@ -349,12 +349,17 @@ function stateChangedKeywords_filter(buscado){
         // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "gi");
         var vergo = '';
+        var cuenta = 0;
         for(var i=0; li=lis[i]; i++) {
             var puto = lis[i].firstChild;
             var text = puto.innerText || puto.textContent;
             if (re.test(text)) {
                 vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + li.textContent + '\')">' + li.textContent + '</a></li>';
+                cuenta++;
             }
+        }
+        if (cuenta == 0){
+            vergo = "No hubo resultados";
         }
         document.getElementById("keywordsCloud").innerHTML='<ul>'+ vergo +'</ul>'; 
         document.getElementById("CfPTable").innerHTML="";
