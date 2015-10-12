@@ -1,3 +1,6 @@
+/*TODO HERE*/
+/*urgently needing some input sanitization of some kind.*/
+
 var xmlHttp;
 var toggleBib = {};
 var toggleEntryDetail = {};
@@ -312,11 +315,13 @@ function doSearch()
 }
 
 /*
-Esto anduvo. No es muy elegante, pero xsl me tiene los huevos emplatados.
-Si la busqueda es por autor
-    1 - Traer toda a lista de autores,
-    2 - Filtar los nombres de autores que no coinciden.
-    3 - Escribir el HTML resultante (como si nada hubiera pasado).
+    Esto anduvo. No es muy elegante, pero xsl me tiene los huevos emplatados.
+    Si la busqueda es por autor
+        1 - Traer toda a lista de autores,
+        2 - Filtar los nombres de autores que no coinciden.
+        3 - Escribir el HTML resultante (como si nada hubiera pasado).
+       
+        No es muy elegante, pero funcionó.
 */
 function search_autores(buscado){
     toggleAuthorList='s';
@@ -332,7 +337,6 @@ function search_autores(buscado){
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
 }
-/*esta funcion es llamada por lo de arriba*/
 function stateChangedKeywords_filter(buscado){
     if (xmlHttp.readyState<4) { 
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
@@ -341,12 +345,12 @@ function stateChangedKeywords_filter(buscado){
         var resultado_query = xmlHttp.responseText;
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
-        var lis = lista_resultado_query.querySelectorAll('#keywordsCloud li');
+        var lis = lista_resultado_query.querySelectorAll('ul li');
         // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "gi");
         var vergo = '';
         for(var i=0; li=lis[i]; i++) {
-            var puto = lis[i].children[0];
+            var puto = lis[i].firstChild;
             var text = puto.innerText || puto.textContent;
             if (re.test(text)) {
                 vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + li.textContent + '\')">' + li.textContent + '</a></li>';
