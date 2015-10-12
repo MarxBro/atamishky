@@ -12,7 +12,7 @@ use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
 
 my %opts = ();
-getopts( 'hdco:f:', \%opts );
+getopts( 'hdcpo:f:', \%opts );
 
 my $debug = $opts{d} || 0;
 my $archivo_in = $opts{f};
@@ -225,6 +225,8 @@ como catalogo o indice de la bibliografia de Atamishky.
 =item f         Archivo input : Ver debajo sobre el formato (csv),
 
 =item o         Archivo Output : Opcional, por defecto STDOUT.
+
+=item p         Archivo pdf: genera "catalogo.pdf" desde el csv.
 
 =item h         (Esta) Ayuda.
 

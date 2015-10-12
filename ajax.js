@@ -321,7 +321,10 @@ function doSearch()
         2 - Filtar los nombres de autores que no coinciden.
         3 - Escribir el HTML resultante (como si nada hubiera pasado).
        
-        No es muy elegante, pero funcionó.
+        No es muy elegante, pero funcionó en :
+        Chrome      V
+        Firefox     X
+        Opera       X
 */
 function search_autores(buscado){
     toggleAuthorList='s';
@@ -354,7 +357,8 @@ function stateChangedKeywords_filter(buscado){
             var puto = lis[i].firstChild;
             var text = puto.innerText || puto.textContent;
             if (re.test(text)) {
-                vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + li.textContent + '\')">' + li.textContent + '</a></li>';
+                var litexto = li.innerText || li.textContent;
+                vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + litexto + '\')">' + litexto + '</a></li>';
                 cuenta++;
             }
         }
