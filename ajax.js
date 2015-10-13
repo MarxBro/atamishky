@@ -345,7 +345,7 @@ function stateChangedKeywords_filter(buscado){
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-        var resultado_query = xmlHttp.responseText;
+        var resultado_query = '<html>' + xmlHttp.responseText + '</html>';
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('ul li');
