@@ -22,9 +22,11 @@ if(isset($EXTERNAL_HEADER)){
 <form name="searchform" action="javascript:doSearch()" method="post">
 <fieldset>
 <legend>B&uacute;squeda</legend>
-   T&iacute;tulo: <input type="radio" name="tipo" id="t" checked="checked" />
-   Autor: <input type="radio" name="tipo" id="a" />
-   Descripci&oacute;n: <input type="radio" name="tipo" id="d" />
+    <select name="tipo">
+        <option value="titulo" id="t">T&iacute;tulo</option>
+        <option value="autor" id="a">Autor</option>
+        <option value="descripcion" id="d">Descripci&oacute;n</option>
+   </select>
    <input type="text" name="q" />
    <input type="submit" value="Buscar" />
 </fieldset>
@@ -123,7 +125,7 @@ echo "</div>";
 <div class="bottomleft">
 <span>
 <a href="index.php?action=copyright">Copyright</a> &#149;
-ATAM - IUNA. 2015.
+2015.
 </span><br/><br/><br/>&nbsp;
 </div> 
 <?php 

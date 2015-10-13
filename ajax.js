@@ -303,9 +303,9 @@ function stateChangedKeywords()
 function doSearch()
 {
     var query = document.forms['searchform'].q.value;
-    if (document.getElementById('d').checked) {
+    if (document.getElementById('d').selected ) {
         showCategory('searchdescripcion', query.toLowerCase());
-    } else if (document.getElementById('a').checked) {
+    } else if (document.getElementById('a').selected) {
         //showCategory('searchautor', query.toLowerCase());
         // vamos a probar algo nuevo.
         search_autores(query.toLowerCase());
@@ -320,11 +320,6 @@ function doSearch()
         1 - Traer toda a lista de autores,
         2 - Filtar los nombres de autores que no coinciden.
         3 - Escribir el HTML resultante (como si nada hubiera pasado).
-       
-        No es muy elegante, pero funcionó en :
-        Chrome      V
-        Firefox     X
-        Opera       X
 */
 function search_autores(buscado){
     toggleAuthorList='s';
