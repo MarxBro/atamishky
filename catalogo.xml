@@ -1858,7 +1858,6 @@
     <keywords>
 	<keyword>programming</keyword>
 	<keyword>interactivity</keyword>
-	<keyword>designer&apos;s</keyword>
 	<keyword>guide</keyword>
 	<keyword>processing</keyword>
 	<keyword>arduino</keyword>
@@ -2591,7 +2590,6 @@
     <address>USA</address>
     	<publisher>Daw Fantasy</publisher>
     <keywords>
-	<keyword>changer&apos;s</keyword>
 	<keyword>moon</keyword>
 	<keyword>final</keyword>
 	<keyword>novel</keyword>
@@ -2667,7 +2665,6 @@
     <address>Inglaterra</address>
     	<publisher>Futura Publications</publisher>
     <keywords>
-	<keyword>vidal&apos;s</keyword>
 	<keyword>caligula</keyword>
 	</keywords>
     <authors>
@@ -3214,5 +3211,683 @@
 	<author>Wodehouse, Pelham Grenville</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
+</entry>
+<entry name="musica2015-1038">
+    <entrytype>musica</entrytype>
+    <title>Gloria. Vivaldi. Corelli. A. Scarlatti.</title>
+    	<year>1993</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>gloria</keyword>
+	<keyword>vivaldi</keyword>
+	<keyword>corelli</keyword>
+	<keyword>scarlatti</keyword>
+	</keywords>
+    <authors>
+	<author>Archiv Produktion.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1039">
+    <entrytype>musica</entrytype>
+    <title>Gabriel Brnčić.</title>
+    	<year>2005</year>
+    <address>Chile</address>
+    <keywords>
+	<keyword>gabriel</keyword>
+	<keyword>brnčić</keyword>
+	</keywords>
+    <authors>
+	<author>Ars Harmonica.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1040">
+    <entrytype>musica</entrytype>
+    <title>Figuración de Gabino Betinotti. Obra musical de Pablo Di Liscia basada en el libro homónimo de Oscar Steimberg.</title>
+    	<year>2009</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>figuración</keyword>
+	<keyword>gabino</keyword>
+	<keyword>betinotti</keyword>
+	<keyword>musical</keyword>
+	<keyword>pablo</keyword>
+	<keyword>liscia</keyword>
+	<keyword>basada</keyword>
+	<keyword>libro</keyword>
+	<keyword>homónimo</keyword>
+	<keyword>oscar</keyword>
+	<keyword>steimberg</keyword>
+	</keywords>
+    <authors>
+	<author>BAU Records.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1041">
+    <entrytype>musica</entrytype>
+    <title>On Nothing.</title>
+    	<year>2008</year>
+    <address>España</address>
+    <keywords>
+	<keyword>nothing</keyword>
+	</keywords>
+    <authors>
+	<author>Berenguer, José Manuel.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1042">
+    <entrytype>musica</entrytype>
+    <title>Carrera de Composición con Medios Electroacústicos. Obras Electroacústicas Premiadas en el Concurso Universitario de Composición Musical 2002. Composiciones de: Yaya Aguilar, Alarcón, Giuliani, Laub, Sorrentino, Torres.</title>
+    	<year>2003</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>carrera</keyword>
+	<keyword>composición</keyword>
+	<keyword>medios</keyword>
+	<keyword>electroacústicos</keyword>
+	<keyword>obras</keyword>
+	<keyword>electroacústicas</keyword>
+	<keyword>premiadas</keyword>
+	<keyword>concurso</keyword>
+	<keyword>universitario</keyword>
+	<keyword>composición</keyword>
+	<keyword>musical</keyword>
+	<keyword>2002</keyword>
+	<keyword>composiciones</keyword>
+	<keyword>aguilar</keyword>
+	<keyword>alarcón</keyword>
+	<keyword>giuliani</keyword>
+	<keyword>laub</keyword>
+	<keyword>sorrentino</keyword>
+	<keyword>torres</keyword>
+	</keywords>
+    <authors>
+	<author>Departamento de Ciencias Sociales.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1043">
+    <entrytype>musica</entrytype>
+    <title>Also sprach Zarathustra. Till Eulenspiegels lustige Streiche. Salomes Tanz. Michel Schwalbé, Solo-Violine. Berliner Philharmoniker. Herbert von Karajan.</title>
+    	<year>1979</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>sprach</keyword>
+	<keyword>zarathustra</keyword>
+	<keyword>eulenspiegels</keyword>
+	<keyword>lustige</keyword>
+	<keyword>streiche</keyword>
+	<keyword>salomes</keyword>
+	<keyword>tanz</keyword>
+	<keyword>michel</keyword>
+	<keyword>schwalbé</keyword>
+	<keyword>solo-violine</keyword>
+	<keyword>berliner</keyword>
+	<keyword>philharmoniker</keyword>
+	<keyword>herbert</keyword>
+	<keyword>karajan</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1044">
+    <entrytype>musica</entrytype>
+    <title>Gyorgy Ligeti. Chamber Concerto. Ramifications. String Quarter No. 2. Aventures. Lux aeterna.</title>
+    	<year>1983</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>gyorgy</keyword>
+	<keyword>ligeti</keyword>
+	<keyword>chamber</keyword>
+	<keyword>concerto</keyword>
+	<keyword>ramifications</keyword>
+	<keyword>string</keyword>
+	<keyword>quarter</keyword>
+	<keyword>aventures</keyword>
+	<keyword>aeterna</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1045">
+    <entrytype>musica</entrytype>
+    <title>Olivier Messiaen. Et Exspecto Resurrectionem Mortuorum. Chronochromie. La Ville d’en haut. The Cleveland Orchestra. Pierre Boulez.</title>
+    	<year>1995</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>olivier</keyword>
+	<keyword>messiaen</keyword>
+	<keyword>exspecto</keyword>
+	<keyword>resurrectionem</keyword>
+	<keyword>mortuorum</keyword>
+	<keyword>chronochromie</keyword>
+	<keyword>ville</keyword>
+	<keyword>haut</keyword>
+	<keyword>cleveland</keyword>
+	<keyword>orchestra</keyword>
+	<keyword>pierre</keyword>
+	<keyword>boulez</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1046">
+    <entrytype>musica</entrytype>
+    <title>Olivier Messiaen. Quatuor pour la Fin du Temps.</title>
+    	<year>1979</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>olivier</keyword>
+	<keyword>messiaen</keyword>
+	<keyword>quatuor</keyword>
+	<keyword>temps</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1047">
+    <entrytype>musica</entrytype>
+    <title>Ravel. Piano Concertos.</title>
+    	<year>1988</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>ravel</keyword>
+	<keyword>piano</keyword>
+	<keyword>concertos</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1048">
+    <entrytype>musica</entrytype>
+    <title>Ravel: Boléro. Daphnis et Chloé. Alborada del Gracioso. London Symphony Orchestra. Abbado.</title>
+    	<year>1989</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>ravel</keyword>
+	<keyword>boléro</keyword>
+	<keyword>daphnis</keyword>
+	<keyword>chloé</keyword>
+	<keyword>alborada</keyword>
+	<keyword>gracioso</keyword>
+	<keyword>london</keyword>
+	<keyword>symphony</keyword>
+	<keyword>orchestra</keyword>
+	<keyword>abbado</keyword>
+	</keywords>
+    <authors>
+	<author>Deutsche Grammophon.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1049">
+    <entrytype>musica</entrytype>
+    <title>La Teoría Sagrada del Espacio Acústico. Libro Suite</title>
+    	<year>2004</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>teoría</keyword>
+	<keyword>sagrada</keyword>
+	<keyword>espacio</keyword>
+	<keyword>acústico</keyword>
+	<keyword>libro</keyword>
+	<keyword>suite</keyword>
+	</keywords>
+    <authors>
+	<author>Edelstein, Oscar.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1050">
+    <entrytype>musica</entrytype>
+    <title>Barboza, Raúl. Dos Improntus. Piano y Acordeón.</title>
+    	<year>2006</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>barboza</keyword>
+	<keyword>raúl</keyword>
+	<keyword>improntus</keyword>
+	<keyword>piano</keyword>
+	<keyword>acordeón</keyword>
+	</keywords>
+    <authors>
+	<author>Edelstein, Oscar</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1051">
+    <entrytype>musica</entrytype>
+    <title>O Tempo A Condena</title>
+    	<year>1999</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>tempo</keyword>
+	<keyword>condena</keyword>
+	</keywords>
+    <authors>
+	<author>Edelstein, Oscar</author>
+	<author>Davini, Silvia</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1052">
+    <entrytype>musica</entrytype>
+    <title>Ensamble Nacional del Sur. Estudios sobre la Grilla Acústica-Libro II.</title>
+    	<year>2011</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>ensamble</keyword>
+	<keyword>nacional</keyword>
+	<keyword>estudios</keyword>
+	<keyword>sobre</keyword>
+	<keyword>grilla</keyword>
+	<keyword>acústica-libro</keyword>
+	</keywords>
+    <authors>
+	<author>Edelstein, Oscar</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1053">
+    <entrytype>musica</entrytype>
+    <title>Penderecki. Threnody to the Victims of Hiroshima. Canticum Canticorum Salomonis. De Natura Sonoris Nos. 1 &amp; 2.</title>
+    	<year>1994</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>penderecki</keyword>
+	<keyword>threnody</keyword>
+	<keyword>victims</keyword>
+	<keyword>hiroshima</keyword>
+	<keyword>canticum</keyword>
+	<keyword>canticorum</keyword>
+	<keyword>salomonis</keyword>
+	<keyword>natura</keyword>
+	<keyword>sonoris</keyword>
+	</keywords>
+    <authors>
+	<author>EMI Classics</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1054">
+    <entrytype>musica</entrytype>
+    <title>Figuración de Gabino Betinotti</title>
+    	<year>2009</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>figuración</keyword>
+	<keyword>gabino</keyword>
+	<keyword>betinotti</keyword>
+	</keywords>
+    <authors>
+	<author>Di Liscia, Pablo</author>
+	<author>Steimberg Oscar</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1055">
+    <entrytype>musica</entrytype>
+    <title>Celestial Voices.</title>
+    	<year>1998</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>celestial</keyword>
+	<keyword>voices</keyword>
+	</keywords>
+    <authors>
+	<author>García, Orlando Jacinto</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1056">
+    <entrytype>musica</entrytype>
+    <title>Boulez Conducts Debussy. La Mer. L’Apres-midi d’un faun. Jeux. New Philarmonia Orchestra.</title>
+    	<year>1985</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>boulez</keyword>
+	<keyword>conducts</keyword>
+	<keyword>debussy</keyword>
+	<keyword>l’apres-midi</keyword>
+	<keyword>faun</keyword>
+	<keyword>jeux</keyword>
+	<keyword>philarmonia</keyword>
+	<keyword>orchestra</keyword>
+	</keywords>
+    <authors>
+	<author>Great Performances</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1057">
+    <entrytype>musica</entrytype>
+    <title>Karlheinz Stockhausen Stimmung. Singcircle. Gregory Rose (Director).</title>
+    	<year>1986</year>
+    <address>Inglaterra</address>
+    <keywords>
+	<keyword>karlheinz</keyword>
+	<keyword>stockhausen</keyword>
+	<keyword>stimmung</keyword>
+	<keyword>singcircle</keyword>
+	<keyword>gregory</keyword>
+	<keyword>(director)</keyword>
+	</keywords>
+    <authors>
+	<author>Hyperion</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1058">
+    <entrytype>musica</entrytype>
+    <title>Piano Ex Machina.</title>
+    	<year>2007</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>piano</keyword>
+	<keyword>machina</keyword>
+	</keywords>
+    <authors>
+	<author>Kasakoff, Susana</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1059">
+    <entrytype>musica</entrytype>
+    <title>Música Contemporánea Electroacústica.</title>
+    	<year>2007</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>música</keyword>
+	<keyword>contemporánea</keyword>
+	<keyword>electroacústica</keyword>
+	</keywords>
+    <authors>
+	<author>LIPM. Laboratorio de Investigación y Producción Musical</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1060">
+    <entrytype>musica</entrytype>
+    <title>Música Contemporánea Electroacústica.</title>
+    	<year>2008</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>música</keyword>
+	<keyword>contemporánea</keyword>
+	<keyword>electroacústica</keyword>
+	</keywords>
+    <authors>
+	<author>LIPM. Laboratorio de Investigación y Producción Musical</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1061">
+    <entrytype>musica</entrytype>
+    <title>Ravel. Bolero. Daphnis et Chloé (Suite No. 1). Ma mère l’oye. Valses nobles et sentimentales.</title>
+    	<year>1989</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>ravel</keyword>
+	<keyword>bolero</keyword>
+	<keyword>daphnis</keyword>
+	<keyword>chloé</keyword>
+	<keyword>(suite</keyword>
+	<keyword>l’oye</keyword>
+	<keyword>valses</keyword>
+	<keyword>nobles</keyword>
+	<keyword>sentimentales</keyword>
+	</keywords>
+    <authors>
+	<author>Naxos</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1062">
+    <entrytype>musica</entrytype>
+    <title>Strauss. Don Juan. Death and Transfiguration. Till Eulenspiegel. Alemania, Philips Classics Productions. Bartók. The 6 String Quartets.</title>
+    	<year>1994</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>strauss</keyword>
+	<keyword>juan</keyword>
+	<keyword>death</keyword>
+	<keyword>transfiguration</keyword>
+	<keyword>eulenspiegel</keyword>
+	<keyword>alemania</keyword>
+	<keyword>philips</keyword>
+	<keyword>classics</keyword>
+	<keyword>productions</keyword>
+	<keyword>bartók</keyword>
+	<keyword>string</keyword>
+	<keyword>quartets</keyword>
+	</keywords>
+    <authors>
+	<author>Naxos</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1063">
+    <entrytype>musica</entrytype>
+    <title>Igor Stravinsky. The Great Ballets</title>
+    	<year>1993</year>
+    <address>Alemania.</address>
+    <keywords>
+	<keyword>stravinsky</keyword>
+	<keyword>great</keyword>
+	<keyword>ballets</keyword>
+	</keywords>
+    <authors>
+	<author>Philips Classics Productions</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1064">
+    <entrytype>musica</entrytype>
+    <title>Ravel. Complete Music for Piano Solo. Complete Piano Concertos.</title>
+    	<year>1993</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>ravel</keyword>
+	<keyword>complete</keyword>
+	<keyword>music</keyword>
+	<keyword>piano</keyword>
+	<keyword>solo</keyword>
+	<keyword>complete</keyword>
+	<keyword>piano</keyword>
+	<keyword>concertos</keyword>
+	</keywords>
+    <authors>
+	<author>Philips Classics Productions</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1065">
+    <entrytype>musica</entrytype>
+    <title>Compositores Javerianos III. Música para Piano. Radostina Petkova.</title>
+    	<year>2007</year>
+    <address>Colombia</address>
+    <keywords>
+	<keyword>compositores</keyword>
+	<keyword>javerianos</keyword>
+	<keyword>música</keyword>
+	<keyword>piano</keyword>
+	<keyword>radostina</keyword>
+	<keyword>petkova</keyword>
+	</keywords>
+    <authors>
+	<author>Pontificia Universidad Javeriana</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1066">
+    <entrytype>musica</entrytype>
+    <title>Compositores Javerianos IV. Música para Cuerdas. Cuarteto-Manolov.</title>
+    	<year>2009</year>
+    <address>Colombia</address>
+    <keywords>
+	<keyword>compositores</keyword>
+	<keyword>javerianos</keyword>
+	<keyword>música</keyword>
+	<keyword>cuerdas</keyword>
+	<keyword>cuarteto-manolov</keyword>
+	</keywords>
+    <authors>
+	<author>Pontificia Universidad Javeriana</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1067">
+    <entrytype>musica</entrytype>
+    <title>Volumen 1.</title>
+    	<year>2006</year>
+    <address>México</address>
+    <keywords>
+	<keyword>volumen</keyword>
+	</keywords>
+    <authors>
+	<author>RedASLA. Red de Arte Sonoro Latinoamericano.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1068">
+    <entrytype>musica</entrytype>
+    <title>Riccordo.</title>
+    	<year>2005</year>
+    <address>Argentina</address>
+    <keywords>
+	<keyword>riccordo</keyword>
+	</keywords>
+    <authors>
+	<author>Schachter, Daniel</author>
+	<author>Martin, Saul.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1069">
+    <entrytype>musica</entrytype>
+    <title>B-Blind C-Ciego.</title>
+    	<year>2008</year>
+    <address>México</address>
+    <keywords>
+	<keyword>b-blind</keyword>
+	<keyword>c-ciego</keyword>
+	</keywords>
+    <authors>
+	<author>Sigal, Rodrigo.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1070">
+    <entrytype>musica</entrytype>
+    <title>Space Within.</title>
+    	<year>2004</year>
+    <address>México</address>
+    <keywords>
+	<keyword>space</keyword>
+	<keyword>within</keyword>
+	</keywords>
+    <authors>
+	<author>Sigal, Rodrigo.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1071">
+    <entrytype>musica</entrytype>
+    <title>Edgar Varse. New York Philarmonic. Ensemble InterContemporain.  Pierre Boulez, Conductor.</title>
+    	<year>1990</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>edgar</keyword>
+	<keyword>varse</keyword>
+	<keyword>philarmonic</keyword>
+	<keyword>ensemble</keyword>
+	<keyword>intercontemporain</keyword>
+	<keyword>pierre</keyword>
+	<keyword>boulez</keyword>
+	<keyword>conductor</keyword>
+	</keywords>
+    <authors>
+	<author>Sony Classical</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1072">
+    <entrytype>musica</entrytype>
+    <title>Marche Slav and the other Russian Favorites. Leonard Slatkin. Saint Louis Symphony Orchestra.</title>
+    	<year>1982</year>
+    <address>Japón</address>
+    <keywords>
+	<keyword>marche</keyword>
+	<keyword>other</keyword>
+	<keyword>russian</keyword>
+	<keyword>favorites</keyword>
+	<keyword>leonard</keyword>
+	<keyword>slatkin</keyword>
+	<keyword>saint</keyword>
+	<keyword>louis</keyword>
+	<keyword>symphony</keyword>
+	<keyword>orchestra</keyword>
+	</keywords>
+    <authors>
+	<author>Telarc Digital.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1073">
+    <entrytype>musica</entrytype>
+    <title>St Luke Passion.</title>
+    	<year>1990</year>
+    <address>USA</address>
+    <keywords>
+	<keyword>passion</keyword>
+	</keywords>
+    <authors>
+	<author>The Decca Record Company Limited. Penderecki</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1074">
+    <entrytype>musica</entrytype>
+    <title>VI Jornadas argentinas de música contemporánea e investigación.</title>
+    	<year>2009</year>
+    <address>Córdoba</address>
+    <keywords>
+	<keyword>jornadas</keyword>
+	<keyword>argentinas</keyword>
+	<keyword>música</keyword>
+	<keyword>contemporánea</keyword>
+	<keyword>investigación</keyword>
+	</keywords>
+    <authors>
+	<author>Universidad Nacional de Córdoba. Subsecretaría de Cultura, Extensión Universitaria Corat, arte para todos.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+</entry>
+<entry name="musica2015-1075">
+    <entrytype>musica</entrytype>
+    <title>Music of our Century.</title>
+    	<year>1988</year>
+    <address>Alemania</address>
+    <keywords>
+	<keyword>music</keyword>
+	<keyword>century</keyword>
+	</keywords>
+    <authors>
+	<author>Wergo Collection.</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
 </entry>
 </entries>
