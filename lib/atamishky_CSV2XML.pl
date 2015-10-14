@@ -29,8 +29,10 @@ my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
 # para codificar las entidades: funcionó mejor regexearlo que usar XML::Entities.
 my @entities_bare          = qw/&(?!\w{2,4};) " ' < >/;
-my @entities_bare_txt_pass = qw/& " ' < >/;
-my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
+#my @entities_bare_txt_pass = qw/& " ' < >/;
+#my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
+my @entities_bare_txt_pass = qw/& < >/;
+my @entities_encoded       = qw/&amp; &lt; &gt;/;
 
 my $catalogo_txt = ''; # berreta.
 

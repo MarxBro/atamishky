@@ -2,12 +2,12 @@
 include_once ( "functions.inc.php" );
 include_once ( "user.conf.inc.php" );
 
-//$action = sano( $_GET["action"] );
-//$by     = sano( $_GET["by"]     );
-//$pub    = sano( $_GET["pub"]    );
-$action = $_GET["action"] ;
-$by     = $_GET["by"]     ;
-$pub    = $_GET["pub"]    ;
+$action = sano( $_GET["action"] );
+$by     = sano( $_GET["by"]     );
+$pub    = sano( $_GET["pub"]    );
+//$action = $_GET["action"] ;
+//$by     = $_GET["by"]     ;
+//$pub    = $_GET["pub"]    ;
 
 if($action != null){
     if($action == "showbib"){
