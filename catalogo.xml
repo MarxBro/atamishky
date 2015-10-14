@@ -34,7 +34,7 @@
 </entry>
 <entry name="book2015-839">
     <entrytype>book</entrytype>
-    <title>Monografías musicales. Ensayo sobre Wagner. Mahler, una fisionomía musical. Berg, el maestro de la transición mínima.</title>
+    <title>Monografías musicales. Ensayo sobre Wagner. Mahler, una fisionomía musical. Berg, el maestro de la transición mínima</title>
     	<year>2008</year>
     <address>España</address>
     	<publisher>Ediciones Akal</publisher>
@@ -74,7 +74,7 @@
 </entry>
 <entry name="book2015-841">
     <entrytype>book</entrytype>
-    <title>Interaction of Color. Revised and expanded edition.</title>
+    <title>Interaction of Color. Revised and expanded edition</title>
     	<year>2006</year>
     <address>Inglaterra</address>
     	<publisher>Yale</publisher>
@@ -1083,7 +1083,7 @@
     <title>Building Wireless Sensor Networks</title>
     	<year>2011</year>
     <address>USA</address>
-    	<publisher>O’Reilly</publisher>
+    	<publisher>O&apos;Reilly</publisher>
     <keywords>
 	<keyword>building</keyword>
 	<keyword>wireless</keyword>
@@ -1210,7 +1210,7 @@
 </entry>
 <entry name="book2015-913">
     <entrytype>book</entrytype>
-    <title>Visualizing Dat</title>
+    <title>Visualizing Data</title>
     	<year>2008</year>
     <address>USA</address>
     	<publisher>O&apos;Reilly</publisher>
@@ -1489,7 +1489,7 @@
 	<keyword>modernos</keyword>
 	</keywords>
     <authors>
-	<author>Krauss, Rosalind E.</author>
+	<author>Krauss, Rosalind E</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
 </entry>
@@ -1675,7 +1675,7 @@
     <title>Arduino Cookbook</title>
     	<year>2011</year>
     <address>USA</address>
-    	<publisher>O&apos;Reilly Media</publisher>
+    	<publisher>O&apos;Reilly</publisher>
     <keywords>
 	<keyword>arduino</keyword>
 	<keyword>cookbook</keyword>
@@ -1854,7 +1854,7 @@
     <title>Programming Interactivity: A Designer&apos;s Guide to Processing, Arduino, and openFrameworks</title>
     	<year>2009</year>
     <address>USA</address>
-    	<publisher>O&apos;Reilly Media</publisher>
+    	<publisher>O&apos;Reilly</publisher>
     <keywords>
 	<keyword>programming</keyword>
 	<keyword>interactivity</keyword>
@@ -2699,7 +2699,7 @@
 	<keyword>courage</keyword>
 	</keywords>
     <authors>
-	<author>Kennedy, John F.</author>
+	<author>Kennedy, John F</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
 </entry>
@@ -3223,7 +3223,7 @@
 	</keywords>
     <authors>
 	<author>Vivaldi, Antonio</author>
-	<author>Sacrlatti, Alessandro.</author>
+	<author>Sacrlatti, Alessandro</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
 </entry>
@@ -6231,7 +6231,7 @@
 	<keyword>nación</keyword>
 	</keywords>
     <authors>
-	<author>Griffith, D.W.</author>
+	<author>Griffith, D.W</author>
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>

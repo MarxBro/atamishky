@@ -44,7 +44,7 @@ foreach my $ln_csv_raw (@csv_lns){
 
 #Estos campos son directos.
     my $tipo            = $campos[0];
-    my $titulo          = $campos[1];
+    my $titulo          = sacar_punto_del_final($campos[1]);
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
     my $city            = $campos[5];
@@ -196,6 +196,7 @@ sub make_authors {
         capitalize($au);
         $au =~ s/^ //g;
         $au =~ s/ $//g;
+        $au =~ s/\.$//g;
         my $uylaputa = "\t" . '<author>' . $au . '</author>' . "\n";
         $finalputos .= $uylaputa;
     }
@@ -226,6 +227,13 @@ sub decode_some_shitty_entities {
     }
     return $stringy;
 }
+
+sub sacar_punto_del_final{
+    my $sting = shift;
+    $sting =~ s/\.$//g;
+    return $sting;
+}
+
 
 =pod
 
