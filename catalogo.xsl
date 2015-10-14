@@ -222,7 +222,7 @@
     <xsl:when test="entrytype='musica' or entrytype='MUSICA'">
 		<xsl:call-template name="printMusic" />
 	</xsl:when>
-	<xsl:when test="entrytype='musica' or entrytype='VIDEO'">
+	<xsl:when test="entrytype='video' or entrytype='VIDEO'">
 		<xsl:call-template name="printVideo" />
 	</xsl:when>
     <!--BASTA-->
