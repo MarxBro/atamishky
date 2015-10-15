@@ -27,12 +27,13 @@ my $padre_del_xml = 'entries';
 my $index     = 837;
 my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
+my @filter_tags = qw/según sobre hasta luego contra/;
+my $rgx_filter_tags = join (q'|', @filter_tags);
+
 # para codificar las entidades: funcionó mejor regexearlo que usar XML::Entities.
 my @entities_bare          = qw/&(?!\w{2,4};) " ' < >/;
-#my @entities_bare_txt_pass = qw/& " ' < >/;
-#my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
-my @entities_bare_txt_pass = qw/& < >/;
-my @entities_encoded       = qw/&amp; &lt; &gt;/;
+my @entities_bare_txt_pass = qw/& " ' < >/;
+my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
 
 my $catalogo_txt = ''; # berreta.
 
@@ -181,6 +182,15 @@ sub make_keywords {
         $gy =~ s/\;$//g;
         $gy =~ s/\:$//g;
         $gy =~ s/\.$//g;
+        # Agregado: sacar caracteres innecesarios y numeros
+        $gy =~ s/\(//g;
+        $gy =~ s/\)//g;
+        $gy =~ s/\-//g;
+        $gy =~ s/\d+//g;
+        # Agregado: comprobar nuevamente si la longitud sigue siendo > 4
+        next if (length($gy) <= 4);
+        # Agregado sacar preposiciónes
+        next if ($gy =~ /$rgx_filter_tags/g);
         my $str = "\t" . '<keyword>' . $gy . '</keyword>' . "\n"; 
         $gf .= $str;
     }
