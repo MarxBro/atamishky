@@ -182,6 +182,7 @@ sub make_keywords {
         $gy =~ s/\;$//g;
         $gy =~ s/\:$//g;
         $gy =~ s/\.$//g;
+        $gy =~ s/\.+//g;
         # Agregado: sacar caracteres innecesarios y numeros
         $gy =~ s/\(//g;
         $gy =~ s/\)//g;
