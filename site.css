@@ -174,7 +174,8 @@ body {
 	top:3px;
 	width: 720px;
 	text-align: justify;
-	font-family: monospace;
+    /*font-family: monospace;*/
+    font-size: 11px;
 	visibility: hidden;
 }
 
