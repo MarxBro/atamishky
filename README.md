@@ -13,7 +13,7 @@ El catálogo completo es un único archivo xml. No necesita DB.
 ## Objetivo Final
 
 Conseguir un sistema que permita filtrar bibliografía acorde a criterios de
-búsqueda dinámicos, donde cualquier parte de un título puede ser uno.
+búsqueda dinámicos, donde cualquier parte de una entrada puede convertirse en uno ~~(ponele)~~.
 
 
 ## XML
@@ -28,19 +28,19 @@ Ver en /lib.
 
 ## Bugs y giladas actuales
 
-* Búsqueda por qutor no funciona en Firefox (js).
+* ~~Búsqueda por qutor no funciona en Firefox (js).~~
 * Rss feed channel titulo, no aparece en Opera rss reader.
 * css no centrado
-* css... todo.
-* index: Mostar solo las 5 entradas mas nuevas.
+* ~~css... todo.~~
+* ~~index: Mostar solo las 5 entradas mas nuevas.~~
 * asegurar todos los users inputs y xml requests (XSS).
 
 ## Nótese
 
-Está hecho en base a Bebop, aunque fue reelaborado y muchas de sus partes 
+~~Está hecho en base a Bebop~~, aunque fue reelaborado y muchas de sus partes 
 reemplazadas/editadas/mejoradas/empeoradas.
 
-Los iconos son del kit Faenza (una version vieja que tenía por ahi) .
+Los iconos son del kit Faenza (una version vieja que tenía por ahi) . Saludos a Adrián...
 
 Por el momento el estamos usando csv para pasar todo a xml: de un formato estúpido a uno más estúpido! :P
 
