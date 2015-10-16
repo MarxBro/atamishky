@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Biblio Atam"
+AuthUserFile /var/www/html/Atamishky/.htpasswd
+Require valid-user
+
