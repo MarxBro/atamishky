@@ -138,8 +138,8 @@ my $esqueleto_entry =
    #Muy choto por el momento
    if ($lenguaje eq 'pipo'){
        my $pre_lang = $guesser->language_guess_string($titulo);
-       $lenguaje = $pre_lang;
-       $lenguaje = 'en' unless $lenguaje;
+       $lenguaje = 'español' if ($pre_lang eq 'es');
+       $lenguaje = 'inglés' unless $lenguaje;
    }
    
    $esqueleto_entry =~ s/\@\@TIPO\@\@/$tipo/gi; 
