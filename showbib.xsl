@@ -21,6 +21,7 @@
 <xsl:template match="/">
       <xsl:for-each select="entries/entry[@name=$pubid]">
 			@<xsl:value-of select="entrytype" />{<xsl:value-of select="@name" />,
+                        <br />
 			<xsl:for-each select="child::node()">
 				<xsl:choose>
 					<xsl:when test="name(.)='' or name(.)='entrytype' or name(.)='researcharea' or name(.)='filelink' or name(.)='presentation' or name(.)='poster'">
@@ -31,11 +32,13 @@
 							<xsl:value-of select="."/>
 							<xsl:if test="position()!=last()"> and </xsl:if>
 						</xsl:for-each>},
+                        <br />
 					</xsl:when>
 					<xsl:when test="name(.)='keywords'">
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="name(.)"/>={<xsl:value-of select="."/>}<xsl:if test="position()!=last()">,</xsl:if>
+                        <br />
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:for-each>
