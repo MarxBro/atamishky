@@ -41,7 +41,7 @@ foreach my $ln_csv_raw (@csv_lns){
 #saltearse la linea de encabezados.
     next if ($ln_csv_raw =~ m/^tipo\|/i);
     chomp($ln_csv_raw);
-    my $ln_csv         = encode_some_shitty_entities($ln_csv_raw);
+    my $ln_csv         = encode_some_shitty_entities(sacar_comillas_ampersands($ln_csv_raw));
 
     my @campos = split /\|/, $ln_csv;
 
@@ -247,6 +247,13 @@ sub sacar_punto_del_final{
     return $sting;
 }
 
+
+sub sacar_comillas_ampersands{
+    my $r = shift;
+    $r =~ s/\'/ /g;
+    $r =~ s/\&/y/g;
+    return $r;
+}
 
 =pod
 
