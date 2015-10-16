@@ -54,7 +54,7 @@
     </xsl:if>
 
     <xsl:if test="lang">
-    <tr><td><b>Soporte</b></td>
+    <tr><td><b>Lenguaje</b></td>
         <td>
         <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')"><xsl:value-of select="lang" /> </a>
         </td></tr>
@@ -76,6 +76,12 @@
     <tr><td><b>Documento</b></td><td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
     </td>
+    <!--bibtex entry - nomenclaturame la nutria-->
+    <td>
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cite" />
+        <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
+    </td>
+    
     <xsl:if test="link">
           <td><a href="{link}">Documento.</a></td>
     </xsl:if>
