@@ -93,7 +93,7 @@
 
     <div class="sociable">
     <ul>
-    li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}%26body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li
+    <li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}%26body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li>
     <li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;via=bibpub" title="Twitter"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>
 
 
