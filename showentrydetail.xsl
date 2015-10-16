@@ -40,8 +40,8 @@
 <hr />
 <table>
    <tr><td><b>Tags</b></td>
-        <td style="word-break: break-all;"><xsl:for-each select="keywords/keyword">
-        <a href="javascript:void(0)" onclick="showCategory('keyword','{.}')"><xsl:value-of select="." /></a><xsl:if test="position()!=last()">,&#160;</xsl:if></xsl:for-each></td></tr>
+        <td><xsl:for-each select="keywords/keyword">
+        <a style="display: inline-block;" href="javascript:void(0)" onclick="showCategory('keyword','{.}')"><xsl:value-of select="." /></a><xsl:if test="position()!=last()">,&#160;</xsl:if></xsl:for-each></td></tr>
         <!--<tr><td><b>Research area</b></td>-->
         <!--<td><a href="javascript:void(0)" onclick="showCategory('researcharea','{researcharea}')"><xsl:value-of select="researcharea"/></a></td></tr>-->
         <!---->
@@ -55,7 +55,9 @@
 
     <xsl:if test="soporte">
     <tr><td><b>Soporte</b></td>
-        <td><xsl:value-of select="soporte" /></td></tr>
+        <td>
+        <a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')"><xsl:value-of select="soporte" /> </a>
+        </td></tr>
     </xsl:if>
 
     <xsl:if test="descripcion">
