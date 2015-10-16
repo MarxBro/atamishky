@@ -6,7 +6,7 @@
 
 <xsl:template match="/">
 <ul>
-<xsl:for-each select="entries/entry/bibliografia">
+<xsl:for-each select="entries/entry/address">
 <xsl:sort />
 	<xsl:variable name="thisNode" select="generate-id(.)"/>
 	<xsl:variable name="nodesAtSameLocation" select="key('rss_categories', .)"/>

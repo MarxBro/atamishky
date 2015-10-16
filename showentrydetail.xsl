@@ -55,7 +55,11 @@
 
     <xsl:if test="soporte">
     <tr><td><b>Soporte</b></td>
-        <td><xsl:value-of select="soporte" /></td></tr>
+        <td>
+        <a href="javascript:void(0)" onclick="showCategory('soporte','{.}')"><xsl:value-of select="." />
+        <xsl:value-of select="soporte" />
+        </a>
+        </td></tr>
     </xsl:if>
 
     <xsl:if test="descripcion">
