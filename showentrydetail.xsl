@@ -75,9 +75,9 @@
     <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
     <tr><td><b>Documento</b></td><td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
-    </td>
+    <!--</td>-->
     <!--bibtex entry - nomenclaturame la nutria-->
-    <td>
+    <!--<td>-->
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cite" />
         <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
     </td>
