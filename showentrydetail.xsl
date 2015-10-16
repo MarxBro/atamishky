@@ -53,6 +53,13 @@
         </xsl:for-each></td></tr>
     </xsl:if>
 
+    <xsl:if test="lang">
+    <tr><td><b>Soporte</b></td>
+        <td>
+        <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')"><xsl:value-of select="lang" /> </a>
+        </td></tr>
+    </xsl:if>
+
     <xsl:if test="soporte">
     <tr><td><b>Soporte</b></td>
         <td>
