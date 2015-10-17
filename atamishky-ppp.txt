@@ -1,19 +1,10 @@
+biblio:$apr1$fo66poBs$S6iZb9KOjjAMD1Kdq9k9B/
+
+
 AuthType Basic
 AuthName "Biblio Atam"
-AuthUserFile /var/www/html/Atamishky/.htpasswd
+AuthUserFile /path/to/.htpasswd
 Require valid-user
-
-#Gzip compresion de la garlompeada.
-SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
-BrowserMatch ^Mozilla/4 gzip-only-text/html
-BrowserMatch ^Mozilla/4\.0[678] no-gzip
-BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
-BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
-SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
-Header append Vary User-Agent env=!dont-vary
-
-
 # Feed
   ExpiresByType application/atom+xml      "access plus 10 hours"
   ExpiresByType application/rss+xml       "access plus 10 hours"
@@ -63,4 +54,3 @@ Header append Vary User-Agent env=!dont-vary
                 Header unset ETag
                 Header unset Last-Modified
 </IfModule>
-
