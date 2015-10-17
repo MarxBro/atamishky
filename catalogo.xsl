@@ -387,7 +387,7 @@
 
 <!--Como puede haber mas de una ciudad, hay que hacer algo como esto para que funke-->
 <xsl:template name="printAddress">
-    <xsl:for-each select="ciudad">
+    <xsl:for-each select="city">
         <a href="javascript:void(0)" onclick="showCategory('address','{.}')">
             <xsl:value-of select="."/>
     </a>.&#160;
