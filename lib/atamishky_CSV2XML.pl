@@ -57,7 +57,7 @@ foreach my $ln_csv_raw (@csv_lns){
     my $titulo          = sacar_punto_del_final($campos[1]);
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
-    my $city            = $campos[5];
+    my $city            = do_city($campos[5]);
 
 
 
@@ -118,7 +118,7 @@ my $esqueleto_entry =
     <entrytype>@@TIPO@@</entrytype>
     <title>@@TITULO@@</title>
     @@AGNO@@
-    <address>@@CIUDAD@@</address>
+    @@CIUDAD@@
     @@EDITORIAL@@
     @@KEYWORDS@@
     @@AUTORES@@
@@ -136,11 +136,14 @@ my $esqueleto_entry =
    #sacar el lenguaje desde el titulo.
    #esto destroza el string $titulo, por alguna razon (indocumentada en el puto modulo).
    #Muy choto por el momento
-   if ($lenguaje eq 'pipo'){
-       my $pre_lang = $guesser->language_guess_string($titulo);
-       $lenguaje = 'español' if ($pre_lang eq 'es');
-       $lenguaje = 'inglés' unless $lenguaje;
-   }
+if ( $lenguaje eq 'pipo' ) {
+    my $pre_lang = $guesser->language_guess_string($titulo);
+    if ( $pre_lang =~ /es/ ) {
+        $lenguaje = 'español';
+    } else {
+        $lenguaje = 'inglés';
+    }
+}
    
    $esqueleto_entry =~ s/\@\@TIPO\@\@/$tipo/gi; 
    $esqueleto_entry =~ s/\@\@AGNO\@\@/$agno/gi; 
@@ -275,6 +278,23 @@ sub sacar_comillas_ampersands{
     $r =~ s/\'/ /g;
     $r =~ s/\&/y/g;
     return $r;
+}
+
+sub do_city{
+    my $innie = shift;
+    my @ciudades = split /\./, $innie;
+    if ($#ciudades < 0){
+        return "none";
+    }
+    my $outing = '<address>' . "\n";
+    foreach my $c (@ciudades){
+        $c =~ s/^ //g;
+        $c =~ s/ $//g;
+        my $cc = "\t" . '<city>' . $c . '</city>' . "\n";
+        $outing .= $cc;
+    }
+    $outing .= '</address>' . "\n";
+    return $outing;
 }
 
 =pod

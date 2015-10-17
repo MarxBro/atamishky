@@ -55,7 +55,7 @@
 	<xsl:when test="$categoryby='address'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-			<xsl:with-param name="query" select="entries/entry[address=$categorytype]" />
+			<xsl:with-param name="query" select="entries/entry[address/city=$categorytype]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -385,13 +385,22 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template name="printAddress">
-		<xsl:if test="address">
-            <a href="javascript:void(0)" onclick="showCategory('address','{address}')">
-            <xsl:value-of select="address" />
-            </a>.&#160;
-		</xsl:if>
+<!--Como puede haber mas de una ciudad, hay que hacer algo como esto para que funke-->
+<xsl:template match="printAddress">
+    <xsl:for-each select="ciudad">
+        <a href="javascript:void(0)" onclick="showCategory('address','{.}')">
+            <xsl:value-of select="."/>
+    </a>.&#160;
+    </xsl:for-each>
 </xsl:template>
+
+<!--<xsl:template name="printAddress">-->
+<!--<xsl:if test="address">-->
+<!--<a href="javascript:void(0)" onclick="showCategory('address','{address}')">-->
+<!--<xsl:value-of select="address" />-->
+<!--</a>.&#160;-->
+<!--</xsl:if>-->
+<!--</xsl:template>-->
 
 
 <!--Videos :: soporte (vhs|dvd)-->
