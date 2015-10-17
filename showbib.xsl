@@ -36,7 +36,7 @@
 					</xsl:when>
 					<xsl:when test="name(.)='address'">
 						address={<xsl:for-each select="city">
-							<xsl:value-of select="."/>,
+							<xsl:value-of select="."/>.
 						</xsl:for-each>},
                         <br />
 					</xsl:when>
