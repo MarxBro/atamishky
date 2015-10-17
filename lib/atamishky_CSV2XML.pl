@@ -4,6 +4,7 @@
 # Transform a stupid csv into something even more stupid: XML !
 ######################################################################
 use strict;
+use utf8;
 use autodie;
 use feature             "say";
 use Getopt::Std;

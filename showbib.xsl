@@ -34,6 +34,12 @@
 						</xsl:for-each>},
                         <br />
 					</xsl:when>
+					<xsl:when test="name(.)='address'">
+						author={<xsl:for-each select="city">
+							<xsl:value-of select="."/>
+						</xsl:for-each>},
+                        <br />
+					</xsl:when>
 					<xsl:when test="name(.)='keywords'">
 					</xsl:when>
 					<xsl:otherwise>
