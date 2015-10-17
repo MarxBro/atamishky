@@ -301,7 +301,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
     <!--<xsl:call-template name="printBiblio" />-->
 	<xsl:call-template name="printYear" />
 </xsl:template>
@@ -312,7 +313,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 <!--Videos-->
@@ -321,7 +323,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
     <!--<xsl:call-template name="printSoporte" />-->
 </xsl:template>
@@ -334,7 +337,8 @@
     <!--<xsl:value-of select="howpublished" />,&#160;-->
     <!--</xsl:if>-->
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 
@@ -386,7 +390,8 @@
 </xsl:template>
 
 <!--Como puede haber mas de una ciudad, hay que hacer algo como esto para que funke-->
-<xsl:template name="printAddress">
+<!--<xsl:template name="printAddress">-->
+<xsl:template match="address">
     <xsl:for-each select="city">
         <a href="javascript:void(0)" onclick="showCategory('address','{.}')">
             <xsl:value-of select="."/>
