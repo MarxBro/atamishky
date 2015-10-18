@@ -14,6 +14,7 @@ SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 Header append Vary User-Agent env=!dont-vary
 
 
+<IfModule mod_expires.c>
 # Feed
   ExpiresByType application/atom+xml      "access plus 10 hours"
   ExpiresByType application/rss+xml       "access plus 10 hours"
