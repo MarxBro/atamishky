@@ -14,9 +14,8 @@ En esta rama hay objetivos que son:
 4* Sistema de prestamos.
 5* Mover a /lib y /include las plantillas o datas importantes.
 6* Sistema de subida csv.
-7* bibtex output of entry (showentrydetails).
-8* Social links... ponele.
-
+~~7* bibtex output of entry (showentrydetails).~~
+~~8* Social links... ponele.~~
 
 ## 1
 
@@ -80,13 +79,13 @@ Es medio jodido y necesariamente va a tener que hacerse via php + cgi + perl...
 
 Por el momento, no es prioridad.
 
-## 7
+## 7 -- LISTO!
 
 Esto seria para referenciar las referencias referenciables acorde a los estandares mas estandarizados de referencias referenciables proveidos por las mayores autoridades en la rama de la referenciacion bibliotologica y nomenclatura hlistica-morfo-semantica de los indices bibliologicos... valga la redundancia.
 
 O sea, hacer un xslt que transforme en bibtex la entrada desde el link mas info (showentrydetails) asi se pueden bajar un bibtex que sirve para indexar la cosa en cuestion.
 
-## 8
+## 8 -- LISTO!
 
 Ponele que agregamos linkitos a facebook y twitter... ponele.
 
