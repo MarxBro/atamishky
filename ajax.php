@@ -26,7 +26,7 @@ if($action != null){
     }
     else if($action == "showkeywordscloud") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'showkeywordscloud.xsl';
+        $xslfile = 'lib/showkeywordscloud.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showauthorlist") {
