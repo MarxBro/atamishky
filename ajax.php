@@ -12,13 +12,13 @@ $pub    = sano( $_GET["pub"]    );
 if($action != null){
     if($action == "showbib"){
         $xmlfile         = 'catalogo.xml';
-        $xslfile         = 'showbib.xsl';
+        $xslfile         = 'lib/showbib.xsl';
         $params['pubid'] = $pub;
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showentrydetail") {
         $xmlfile                         = 'catalogo.xml';
-        $xslfile                         = 'showentrydetail.xsl';
+        $xslfile                         = 'lib/showentrydetail.xsl';
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
@@ -31,17 +31,17 @@ if($action != null){
     }
     else if($action == "showauthorlist") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'showauthorlist.xsl';
+        $xslfile = 'lib/showauthorlist.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showbibliografia") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'showbibliografia.xsl';
+        $xslfile = 'lib/showbibliografia.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showaddress") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'showaddress.xsl';
+        $xslfile = 'lib/showaddress.xsl';
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showcategory") {	
@@ -56,7 +56,7 @@ if($action != null){
         }
 
         $xmlfile                         = 'catalogo.xml';
-        $xslfile                         = 'catalogo.xsl';
+        $xslfile                         = 'lib/catalogo.xsl';
         $params['categoryby']            = $categoryby;
         $params['categorytype']          = $categorytype;
         $params['sorttype']              = $sorttype;
@@ -72,7 +72,7 @@ if($action != null){
 } else {
     // $pub empty, action empty -> index.php
     $xmlfile                         = 'catalogo.xml';
-    $xslfile                         = 'catalogo.xsl';
+    $xslfile                         = 'lib/catalogo.xsl';
     $params['categoryby']            = "year";
     $params['categorytype']          = "all";
     //$params['categorytype']          = "visitante";

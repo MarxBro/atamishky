@@ -42,9 +42,6 @@ function transform($xmlfile, $xslfile, $params){
     $xml_doc = new DomDocument;
     $xml_doc->load($xmlfile);
 
-    //$xp->setParameter($namespace, 'id1', 'value1');
-    //$xp->setParameter($namespace, 'id2', 'value2');
-
     $namespace = null;
     $xp->setParameter($namespace, $params);
 
