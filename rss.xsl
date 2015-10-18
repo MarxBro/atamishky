@@ -43,7 +43,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	    <p><xsl:value-of select="publisher"/>. 
         <xsl:for-each select="address/city">
             <xsl:value-of select="."/>
-            .&#160;
+            &#160;
         </xsl:for-each>
         <xsl:value-of select="year"/>.
             </p>
