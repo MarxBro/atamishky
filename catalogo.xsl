@@ -55,7 +55,23 @@
 	<xsl:when test="$categoryby='address'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-			<xsl:with-param name="query" select="entries/entry[address=$categorytype]" />
+			<xsl:with-param name="query" select="entries/entry[address/city=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+	<xsl:when test="$categoryby='lang'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[lang=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+	<xsl:when test="$categoryby='soporte'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[soporte=$categorytype]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -293,7 +309,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
     <!--<xsl:call-template name="printBiblio" />-->
 	<xsl:call-template name="printYear" />
 </xsl:template>
@@ -304,7 +321,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 <!--Videos-->
@@ -313,7 +331,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
     <!--<xsl:call-template name="printSoporte" />-->
 </xsl:template>
@@ -326,7 +345,8 @@
     <!--<xsl:value-of select="howpublished" />,&#160;-->
     <!--</xsl:if>-->
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 
@@ -377,13 +397,23 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template name="printAddress">
-		<xsl:if test="address">
-            <a href="javascript:void(0)" onclick="showCategory('address','{address}')">
-            <xsl:value-of select="address" />
-            </a>.&#160;
-		</xsl:if>
+<!--Como puede haber mas de una ciudad, hay que hacer algo como esto para que funke-->
+<!--<xsl:template name="printAddress">-->
+<xsl:template match="address">
+    <xsl:for-each select="city">
+        <a href="javascript:void(0)" onclick="showCategory('address','{.}')">
+            <xsl:value-of select="."/>
+    </a>.&#160;
+    </xsl:for-each>
 </xsl:template>
+
+<!--<xsl:template name="printAddress">-->
+<!--<xsl:if test="address">-->
+<!--<a href="javascript:void(0)" onclick="showCategory('address','{address}')">-->
+<!--<xsl:value-of select="address" />-->
+<!--</a>.&#160;-->
+<!--</xsl:if>-->
+<!--</xsl:template>-->
 
 
 <!--Videos :: soporte (vhs|dvd)-->

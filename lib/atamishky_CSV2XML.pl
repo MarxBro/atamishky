@@ -4,12 +4,15 @@
 # Transform a stupid csv into something even more stupid: XML !
 ######################################################################
 use strict;
+use utf8;
 use autodie;
 use feature             "say";
 use Getopt::Std;
 use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
+#use Lingua::Identify    "language_identification"; # util??
+use Text::Language::Guess;
 
 my %opts = ();
 getopts( 'hdcto:f:', \%opts );
@@ -37,11 +40,16 @@ my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
 
 my $catalogo_txt = ''; # berreta.
 
+# esto va a ser usado despues para sacar el lenguaje.
+#my $guesser = Text::Language::Guess->new(languages =>['es','en','it','de']);
+my $guesser = Text::Language::Guess->new(languages =>['es','en']);
+
+
 foreach my $ln_csv_raw (@csv_lns){
 #saltearse la linea de encabezados.
     next if ($ln_csv_raw =~ m/^tipo\|/i);
     chomp($ln_csv_raw);
-    my $ln_csv         = encode_some_shitty_entities(sacar_comillas_ampersands($ln_csv_raw));
+    my $ln_csv         = encode_some_shitty_entities($ln_csv_raw);
 
     my @campos = split /\|/, $ln_csv;
 
@@ -50,13 +58,16 @@ foreach my $ln_csv_raw (@csv_lns){
     my $titulo          = sacar_punto_del_final($campos[1]);
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
-    my $city            = $campos[5];
+    my $city            = do_city($campos[5]);
+
+
 
 #estos necesitan atencion
     my $bibliografia    = $campos[6] || "none";
     my $link            = $campos[7] || "none";
     my $soporte         = $campos[8] || "none";
     my $descripcion     = $campos[9] || "none";
+    my $lenguaje        = $campos[10] || "pipo";
 
 #salida a un mugroso txt.
 #author . titulo . editorial . ciudad , año
@@ -108,7 +119,7 @@ my $esqueleto_entry =
     <entrytype>@@TIPO@@</entrytype>
     <title>@@TITULO@@</title>
     @@AGNO@@
-    <address>@@CIUDAD@@</address>
+    @@CIUDAD@@
     @@EDITORIAL@@
     @@KEYWORDS@@
     @@AUTORES@@
@@ -116,11 +127,25 @@ my $esqueleto_entry =
     @@LINK@@
     @@SOPORTE@@
     @@DESCRIPCION@@
+    <lang>@@LANG@@</lang>
 </entry>
 ';
    
    $esqueleto_entry =~ s/\@\@NOMBRE\@\@/$nombre/gi; 
    $esqueleto_entry =~ s/\@\@TITULO\@\@/$titulo/gi; 
+
+   #sacar el lenguaje desde el titulo.
+   #esto destroza el string $titulo, por alguna razon (indocumentada en el puto modulo).
+   #Muy choto por el momento
+if ( $lenguaje eq 'pipo' ) {
+    my $pre_lang = $guesser->language_guess_string($titulo);
+    if ( $pre_lang =~ /es/ ) {
+        $lenguaje = 'español';
+    } else {
+        $lenguaje = 'inglés';
+    }
+}
+   
    $esqueleto_entry =~ s/\@\@TIPO\@\@/$tipo/gi; 
    $esqueleto_entry =~ s/\@\@AGNO\@\@/$agno/gi; 
    $esqueleto_entry =~ s/\@\@CIUDAD\@\@/$city/gi; 
@@ -131,6 +156,7 @@ my $esqueleto_entry =
    $esqueleto_entry =~ s/\@\@KEYWORDS\@\@/$keywords/gi;
    $esqueleto_entry =~ s/\@\@SOPORTE\@\@/$soporte/gi;
    $esqueleto_entry =~ s/\@\@DESCRIPCION\@\@/$descripcion/gi;
+   $esqueleto_entry =~ s/\@\@LANG\@\@/$lenguaje/gi;
 
    $esqueleto_entry =~ s/none//gi; # Esto vuela las etiquetas vacias.
    
@@ -253,6 +279,23 @@ sub sacar_comillas_ampersands{
     $r =~ s/\'/ /g;
     $r =~ s/\&/y/g;
     return $r;
+}
+
+sub do_city{
+    my $innie = shift;
+    my @ciudades = split /\./, $innie;
+    if ($#ciudades < 0){
+        return "none";
+    }
+    my $outing = '<address>' . "\n";
+    foreach my $c (@ciudades){
+        $c =~ s/^ //g;
+        $c =~ s/ $//g;
+        my $cc = "\t" . '<city>' . $c . '</city>' . "\n";
+        $outing .= $cc;
+    }
+    $outing .= '</address>' . "\n";
+    return $outing;
 }
 
 =pod

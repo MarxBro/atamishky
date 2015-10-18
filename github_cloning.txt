@@ -1,2 +1,0 @@
-# para clonar solo este branch
-git clone -b atam --single-branch https://github.com/Atamishky

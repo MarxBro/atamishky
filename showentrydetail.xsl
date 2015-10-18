@@ -53,6 +53,13 @@
         </xsl:for-each></td></tr>
     </xsl:if>
 
+    <xsl:if test="lang">
+    <tr><td><b>Lenguaje</b></td>
+        <td>
+        <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')"><xsl:value-of select="lang" /> </a>
+        </td></tr>
+    </xsl:if>
+
     <xsl:if test="soporte">
     <tr><td><b>Soporte</b></td>
         <td>
@@ -68,30 +75,39 @@
     <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
     <tr><td><b>Documento</b></td><td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
+    <!--</td>-->
+    <!--bibtex entry - nomenclaturame la nutria-->
+    <!--<td>-->
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cite" />
+        <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
     </td>
+    
     <xsl:if test="link">
           <td><a href="{link}">Documento.</a></td>
     </xsl:if>
     </tr>
 
-    
-                <!--<tr><td><b>Share</b></td>-->
-                <!--<td>-->
+    <!--social craps -->
+    <tr><td><b>Compartir</b></td>
+    <td>
 
-                <!--<div class="sociable">-->
-                <!--<ul>-->
-<!--li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}%26body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li-->
-<!--<li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;via=bibpub" title="Twitter"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>-->
-<!---->
-<!---->
-<!--<li><a rel="nofollow"  target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]={$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;p[title]={title}&amp;p[summary]={$abstract}&amp;p[images][0]={$atamishkyhome}/img/type-icons/atamishky-logo_w100.png" title="Facebook"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Facebook" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>-->
-<!---->
-<!--</ul>-->
-<!---->
-<!--</div>-->
-<!---->
-<!--</td>-->
-                <!--</tr>-->
+    <div class="sociable">
+    <ul>
+    <li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}&amp;body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li>
+    <li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;via=bibpub" title="Twitter"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>
+
+
+    <li><a rel="nofollow"  target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]={$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;p[title]={title}&amp;p[summary]={$abstract}&amp;p[images][0]={$atamishkyhome}/img/type-icons/atamishky-logo_w100.png" title="Facebook"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Facebook" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>
+
+    </ul>
+
+    </div>
+
+    </td>
+    </tr>
+
+                <!--basta social crap-->
+
 
 			</table>		
 </xsl:template>
