@@ -73,7 +73,7 @@ function sano ($input){
 
 //Esta funcion valida el xsl desde el hash md5 del archivo.
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
-funcion validar_xsl($nombre) {
+function validar_xsl($nombre) {
     do_hash_seguridad_vendehumo(); // cargar elementos en el hash.
     foreach ($MD5s as $nombre => $md5_txt){
         $md5_php = md5_file($nombre);
