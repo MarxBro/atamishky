@@ -86,11 +86,12 @@ function validar_xsl($nombre) {
 function do_hash_seguridad_vendehumo() {
     $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
-        while(! feof($handle_md5txt)){
+        while(!feof($handle_md5txt)){
             $line = fgets($handle_md5txt);
-            preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
-                $nn_rgx             = $matches_rgx[2];
-                $md5_rgx            = $matches_rgx[1];
+            $matches_rgx = explode(' ',$line);
+            //preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
+                $nn_rgx             = $matches_rgx[1];
+                $md5_rgx            = $matches_rgx[0];
                 $MD5s[$nn_rgx]      = $md5_rgx;
             fclose($handle_md5txt);
         }
