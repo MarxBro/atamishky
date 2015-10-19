@@ -12,6 +12,7 @@ $longname['bibliografia'] = 'bibliografía';
 $longname['publisher'] = 'editorial';
 $longname['searchtitle'] = 'titulo';
 $longname['searchautor'] = 'autor';
+$longname['searchTODO'] = 'todos';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';
