@@ -87,23 +87,12 @@ function do_hash_seguridad_vendehumo() {
 $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
         while(! feof($handle_md5txt)){
-        //while (($line = fgets($handle_md5txt)) !== false) {
-            //linea por linea, pushear a array.
             $line = fgets($handle_md5txt);
-            if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
+            preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx))
                 $nn_rgx             = $matches_rgx[2];
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
-                //echo $nn_rgx;
-                //echo $md5_rgx;
-            } 
-            else {
-                $debuggin = $line . '<br />';
-                echo $debuggin;
-                //die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
-            }
-        }
-        fclose($handle_md5txt);
+            fclose($handle_md5txt);
     } else {
         die("El archivo de verificacion no existe o no se puydo abrir. 
             ERROR GRAVE Y FINAL NO FELIZ.");
