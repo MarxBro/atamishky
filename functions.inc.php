@@ -1,6 +1,5 @@
 <?php
 
-
 $longname['year'] = 'Año';
 $longname['researcharea'] = 'research area';
 $longname['entrytype'] = 'tipo';
@@ -30,7 +29,7 @@ $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
 // Este array guarda el md5 de los xsl y el nombre.
-$MD5s = array();
+$MD5s = [];
 
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
@@ -94,8 +93,8 @@ $index_arg = 0;
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
                 //$MD5s[$index_arg]   = array( $nn_rgx => $md5_rgx );
-                array_push($MD5s,array($nn_rgx => $md5_rgx));
-                $index_arg++;
+                array_push($MD5s, array($nn_rgx => $md5_rgx) );
+                //$index_arg++;
             } else {
                 die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
             }
