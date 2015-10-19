@@ -86,15 +86,20 @@ function validar_xsl($nombre) {
 function do_hash_seguridad_vendehumo() {
 $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
-        while (($line = fgets($handle_md5txt)) !== false) {
+        while(! feof($handle_md5txt)){
+        //while (($line = fgets($handle_md5txt)) !== false) {
             //linea por linea, pushear a array.
+            $line = fgets($handle_md5txt);
             if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
                 $nn_rgx             = $matches_rgx[2];
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
-            } else {
-                die("$line --     NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
-            }
+                echo $nn_rgx;
+                echo $md5_rgx;
+            } 
+            //else {
+                //die("$line --     NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
+            //}
         }
         fclose($handle_md5txt);
     } else {
