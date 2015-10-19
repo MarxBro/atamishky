@@ -18,7 +18,7 @@ if($action != null){
     }
     else if($action == "showentrydetail") {
         $xmlfile                         = 'catalogo.xml';
-        $xslfile                         = 'lib/showentrydetail.xsl';
+        $xslfile                         = validar_xsl('lib/showentrydetail.xsl');
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
