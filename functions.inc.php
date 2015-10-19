@@ -86,7 +86,7 @@ function do_hash_seguridad_vendehumo() {
     if ($handle_md5txt) {
         while(!feof($handle_md5txt)){
             $line           = fgets($handle_md5txt);
-            $line           = str_replace("\n", $line);
+            $line           = str_replace("\n", '', $line);
             $matches_rgx    = explode(' ',$line);
             $md5_rgx        = $matches_rgx[0];
             $nn_rgx         = $matches_rgx[1];
