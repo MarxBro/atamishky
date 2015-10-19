@@ -77,7 +77,7 @@ function validar_xsl($nombre) {
     do_hash_seguridad_vendehumo(); // cargar elementos en el hash.
     foreach ($MD5s as $nombre => $md5_txt){
         $md5_php = md5_file($nombre);
-        if ($md5_php eq $md5_txt){
+        if ("$md5_php" === "$md5_txt"){
             return $nombre;
         } 
     }
