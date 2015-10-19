@@ -74,9 +74,9 @@ function sano ($input){
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
 function validar_xsl($nombre) {
     do_hash_seguridad_vendehumo(); // cargar elementos en el hash.
-    foreach ($MD5s as $nombre => $md5_txt){
+    foreach ($MD5s as $nombre){
         $md5_php = md5_file($nombre);
-        if ("$md5_php" === "$md5_txt"){
+        if ("$md5_php" === "$MD5s[$nombre]"){
             return $nombre;
         } 
     }
@@ -85,16 +85,13 @@ function validar_xsl($nombre) {
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
 function do_hash_seguridad_vendehumo() {
 $handle_md5txt = fopen("lib/md5s.sec", "r");
-$index_arg = 0;
     if ($handle_md5txt) {
         while (($line = fgets($handle_md5txt)) !== false) {
             //linea por linea, pushear a array.
             if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
-                //$MD5s[$index_arg]   = array( $nn_rgx => $md5_rgx );
-                array_push($MD5s, array($nn_rgx => $md5_rgx) );
-                //$index_arg++;
+                $MD5s[$nn_rgx]      = $md5_rgx;
             } else {
                 die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
             }
