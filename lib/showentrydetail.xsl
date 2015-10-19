@@ -79,7 +79,7 @@
     <!--bibtex entry - nomenclaturame la nutria-->
     <!--<td>-->
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cite" />
-        <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
+        <a href="javascript:void(0)" onclick="getBib({@name})">BibTex</a>
     </td>
     
     <xsl:if test="link">
@@ -107,8 +107,6 @@
     </tr>
 
                 <!--basta social crap-->
-
-<div class="bibbody" id="bib{@name}">&#160;</div>
 
 			</table>		
 </xsl:template>
