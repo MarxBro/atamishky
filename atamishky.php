@@ -65,7 +65,8 @@ foreach ($MENU as $_category => $items){
     print "<ul>";
 
     //Imprimir enlace ver todos para cada categoria.
-    if($_category == "keywords") {
+    //if($_category == "keywords") {
+    if($_category == "keyword") {
         print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">ver todos</a></li>"; 
     }
     if($_category == "author") {
