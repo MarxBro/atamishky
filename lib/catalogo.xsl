@@ -148,6 +148,14 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
+	<xsl:when test="$categoryby='searchTODO'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry/child::*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') ,$categorytype)]/.." />
+            			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
 	<xsl:when test="$categoryby='searchtitle'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />

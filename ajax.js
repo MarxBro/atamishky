@@ -303,14 +303,17 @@ function stateChangedKeywords()
 function doSearch()
 {
     var query = document.forms['searchform'].q.value;
-    if (document.getElementById('d').selected ) {
+    if ( document.getElementById('x').selected ){
+        showCategory('searchTODO',query.toLowerCase());    
+    } else if ( document.getElementById('d').selected ) {
         showCategory('searchdescripcion', query.toLowerCase());
-    } else if (document.getElementById('a').selected) {
+    } else if ( document.getElementById('a').selected ) {
         //showCategory('searchautor', query.toLowerCase());
-        // vamos a probar algo nuevo.
         search_autores(query.toLowerCase());
-    } else {
+    } else if ( document.getElementById('t').selected ){
         showCategory('searchtitle', query.toLowerCase());
+    } else {
+        showCategory('searchTODO', query.toLowerCase());    
     }
 }
 

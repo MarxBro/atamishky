@@ -23,6 +23,7 @@ if(isset($EXTERNAL_HEADER)){
 <fieldset>
 <legend>B&uacute;squeda</legend>
     <select name="tipo">
+        <option value="todo" id="x">TODO</option>
         <option value="titulo" id="t">T&iacute;tulo</option>
         <option value="autor" id="a">Autor</option>
         <option value="descripcion" id="d">Descripci&oacute;n</option>
