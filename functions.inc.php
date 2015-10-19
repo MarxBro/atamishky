@@ -93,7 +93,7 @@ $handle_md5txt = fopen("lib/md5s.sec", "r");
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
             } else {
-                die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
+                die("$line --     NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
             }
         }
         fclose($handle_md5txt);
