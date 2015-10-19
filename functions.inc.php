@@ -29,7 +29,7 @@ $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
 // Este array guarda el md5 de los xsl y el nombre.
-$MD5s = (array) null;
+//$MD5s = (array) null;
 
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
