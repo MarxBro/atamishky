@@ -10,9 +10,9 @@ En esta rama hay objetivos que son:
 
 1* Paginar la salida
 2* Solucionar efectivamente la cagada de las comillas y ampersands
-3* Buscar en autor + titulo + lo-que-carajo-sea
+~~3* Buscar en autor + titulo + lo-que-carajo-sea~~
 4* Sistema de prestamos.
-5* Mover a /lib y /include las plantillas o datas importantes.
+~~5* Mover a /lib y /include las plantillas o datas importantes.~~
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
 ~~8* Social links... ponele.~~
@@ -22,6 +22,13 @@ En esta rama hay objetivos que son:
 A veces la salida es larga y rompe los huevos, además de significar mayor ancho de banda.
 
 Hay que scrollear como un forro para encontrar algo (o usar CTRL + F y listo...).
+
+### Guarda eh
+
+Desestimo el verdadero valor de esta idea: salvar ancho de banda, no salvaría un carajo y 
+la salida paginada es medio rompe-huevos.
+
+Por el momento no es prioridad ni mucho menos, tiene cierta mística e impresiona a la gilada que la salida sea larga.
 
 ## 2 
 
@@ -47,7 +54,7 @@ y cagar el js de la pag redereada.
 Por el momento, la solución fue volar las comillas (antes de morir en el intento de sacarlas con XSLT), pero
 **hay que hacer algo sustancialmente mejor y rápido!**.
 
-## 3 
+## 3 -- LISTO!
 
 Esto se le ocurrió a Juan, ya que hay resultados que pueden no aparecer correctamente o como uno esperaría.
 
@@ -64,7 +71,7 @@ Asi como hay un link "mas info", agregar uno que pida un password y cambie el es
 
 El problema es donde mierda va el password, ya que eso seria via js y js se renderea en el browser...
 
-## 5
+## 5 -- LISTO!!
 
 Mover todos los templates a lib/template o algo asi.
 
