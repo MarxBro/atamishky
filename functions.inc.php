@@ -93,7 +93,7 @@ function do_hash_seguridad_vendehumo() {
             //preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
-                $MD5s[$nn_rgx]      = $md5_rgx;
+                global $MD5s[$nn_rgx]      = $md5_rgx;
         }
     } else {
         die("El archivo de verificacion no existe o no se puydo abrir. 
