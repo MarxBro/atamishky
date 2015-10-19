@@ -76,7 +76,7 @@ function validar_xsl($nombre) {
     do_hash_seguridad_vendehumo(); // cargar elementos en el hash.
     foreach ($MD5s as $nombre){
         $md5_php = md5_file($nombre);
-        if ("$md5_php" === "$MD5s[$nombre]"){
+        if ($md5_php == $MD5s[$nombre]){
             return $nombre;
         } 
     }
@@ -88,7 +88,7 @@ $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
         while (($line = fgets($handle_md5txt)) !== false) {
             //linea por linea, pushear a array.
-            if (preg_match('/^(\S+)\s+(\S+)$/g',$line,$matches_rgx)){
+            if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
                 $nn_rgx             = $matches_rgx[2];
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
