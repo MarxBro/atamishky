@@ -71,12 +71,23 @@ function sano ($input){
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
 function validar_xsl($nombre) {
     $MD5s = do_hash_seguridad_vendehumo();
-    foreach ($MD5s as $nombre => $md5){
-        $md5_php = md5_file($nombre);
-        if ($md5_php == $md5){
-            return $nombre;
-        } 
-    }
+    $nombre_archivo = "lib/" . $nombre;
+    $md5_txt = $MD5s[$nombre];
+    $md5_php = md5_file($nombre_archivo);
+    if ($md5_php == $md5){
+        return $nombre;
+    } 
+
+    //foreach ($MD5s as $nombre => $md5){
+        //$nombre_archivo = "lib/" . $nombre;
+        //if (empty($nombre)){
+            //continue;
+        //}
+        //$md5_php = md5_file($nombre_archivo);
+        //if ($md5_php == $md5){
+            //return $nombre;
+        //} 
+    //}
 }
 
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
