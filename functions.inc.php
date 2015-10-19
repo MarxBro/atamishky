@@ -11,6 +11,7 @@ $longname['address'] = 'ciudad - país';
 $longname['bibliografia'] = 'bibliografía';
 $longname['publisher'] = 'editorial';
 $longname['searchtitle'] = 'titulo';
+$longname['searchdescripcion'] = 'descripcion';
 $longname['searchautor'] = 'autor';
 $longname['searchTODO'] = 'todos';
 
