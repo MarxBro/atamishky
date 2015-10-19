@@ -92,9 +92,9 @@ $index_arg = 0;
             if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
-                //$MD5s[$index_arg]   = array( $nn_rgx => $md5_rgx );
-                array_push($MD5s, array($nn_rgx => $md5_rgx) );
-                //$index_arg++;
+                $MD5s[$index_arg]   = array( $nn_rgx => $md5_rgx );
+                //array_push($MD5s, array($nn_rgx => $md5_rgx) );
+                $index_arg++;
             } else {
                 die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
             }
