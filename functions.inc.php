@@ -71,9 +71,9 @@ function sano ($input){
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
 function validar_xsl($nombre) {
     $MD5s = do_hash_seguridad_vendehumo();
-    foreach ($MD5s as $nombre){
+    foreach ($MD5s as $nombre => $md5){
         $md5_php = md5_file($nombre);
-        if ($md5_php == $MD5s[$nombre]){
+        if ($md5_php == $md5){
             return $nombre;
         } 
     }
@@ -87,8 +87,8 @@ function do_hash_seguridad_vendehumo() {
         while(!feof($handle_md5txt)){
             $line           = fgets($handle_md5txt);
             $matches_rgx    = explode(' ',$line);
-            $nn_rgx         = $matches_rgx[1];
             $md5_rgx        = $matches_rgx[0];
+            $nn_rgx         = $matches_rgx[1];
             $MD5s[$nn_rgx]  = $md5_rgx;
         }
     } else {
