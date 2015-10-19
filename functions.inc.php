@@ -28,9 +28,6 @@ $longnameEntrytype['musica'] = 'Musica';
 $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
-// Este array guarda el md5 de los xsl y el nombre.
-global $MD5s; // array();
-
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
     
@@ -73,7 +70,7 @@ function sano ($input){
 //Esta funcion valida el xsl desde el hash md5 del archivo.
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
 function validar_xsl($nombre) {
-    do_hash_seguridad_vendehumo(); // cargar elementos en el hash.
+    MD5s = do_hash_seguridad_vendehumo();
     foreach ($MD5s as $nombre){
         $md5_php = md5_file($nombre);
         if ($md5_php == $MD5s[$nombre]){
@@ -85,21 +82,21 @@ function validar_xsl($nombre) {
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
 function do_hash_seguridad_vendehumo() {
     $handle_md5txt = fopen("lib/md5s.sec", "r");
+    $MD5s = array();
     if ($handle_md5txt) {
         while(!feof($handle_md5txt)){
-            $line = fgets($handle_md5txt);
-            $matches_rgx = explode(' ',$line);
-            //die(" $matches_rgx[0] $matches_rgx[1]  ");
-            //preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
-                $nn_rgx             = $matches_rgx[1];
-                $md5_rgx            = $matches_rgx[0];
-                global $MD5s[$nn_rgx]      = $md5_rgx;
+            $line           = fgets($handle_md5txt);
+            $matches_rgx    = explode(' ',$line);
+            $nn_rgx         = $matches_rgx[1];
+            $md5_rgx        = $matches_rgx[0];
+            $MD5s[$nn_rgx]  = $md5_rgx;
         }
     } else {
         die("El archivo de verificacion no existe o no se puydo abrir. 
             ERROR GRAVE Y FINAL NO FELIZ.");
     } 
     fclose($handle_md5txt);
+    return $MD5s;
 } 
 
 ?>
