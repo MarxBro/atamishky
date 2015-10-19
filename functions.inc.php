@@ -88,7 +88,7 @@ function do_hash_seguridad_vendehumo() {
     if ($handle_md5txt) {
         while(! feof($handle_md5txt)){
             $line = fgets($handle_md5txt);
-            preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx));
+            preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
                 $nn_rgx             = $matches_rgx[2];
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
