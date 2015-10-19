@@ -29,7 +29,7 @@ $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
 // Este array guarda el md5 de los xsl y el nombre.
-$MD5s = array();
+$MD5s = []; // array();
 
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
@@ -88,9 +88,9 @@ $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
         while (($line = fgets($handle_md5txt)) !== false) {
             //linea por linea, pushear a array.
-            if (preg_match('/^(\S+)\s+(\S+)$/',$line,$matches_rgx)){
-                $nn_rgx             = $matches_rgx[1];
-                $md5_rgx            = $matches_rgx[0];
+            if (preg_match('/^(\S+)\s+(\S+)$/g',$line,$matches_rgx)){
+                $nn_rgx             = $matches_rgx[2];
+                $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
             } else {
                 die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
