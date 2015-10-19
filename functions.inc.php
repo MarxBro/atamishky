@@ -93,12 +93,12 @@ function do_hash_seguridad_vendehumo() {
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
                 $MD5s[$nn_rgx]      = $md5_rgx;
-            fclose($handle_md5txt);
         }
     } else {
         die("El archivo de verificacion no existe o no se puydo abrir. 
             ERROR GRAVE Y FINAL NO FELIZ.");
     } 
+    fclose($handle_md5txt);
 } 
 
 ?>
