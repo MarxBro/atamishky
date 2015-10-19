@@ -84,7 +84,7 @@ function validar_xsl($nombre) {
 }
 
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
-function do_hash_seguridad_vendehumo {
+function do_hash_seguridad_vendehumo() {
 $handle_md5txt = fopen("lib/md5s.sec", "r");
 $index_arg = 0;
     if ($handle_md5txt) {
