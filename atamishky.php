@@ -28,7 +28,7 @@ if(isset($EXTERNAL_HEADER)){
         <option value="autor" id="a">Autor</option>
         <option value="descripcion" id="d">Descripci&oacute;n</option>
    </select>
-   <input type="text" name="q" />
+   <input type="text" name="q" size="35" maxlength="66"/>
    <input type="submit" value="Buscar" />
 </fieldset>
 </form>
