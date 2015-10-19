@@ -97,9 +97,10 @@ $handle_md5txt = fopen("lib/md5s.sec", "r");
                 //echo $nn_rgx;
                 //echo $md5_rgx;
             } 
-            //else {
-                //die("$line --     NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
-            //}
+            else {
+                echo $line . '<br />';
+                //die("NO SE PUDO VERIFICAR LOS XSL, ERROR GRAVE.");
+            }
         }
         fclose($handle_md5txt);
     } else {
