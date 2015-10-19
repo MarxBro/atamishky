@@ -29,7 +29,7 @@ $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
 // Este array guarda el md5 de los xsl y el nombre.
-$MD5s = []; // array();
+global $MD5s; // array();
 
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
@@ -89,7 +89,7 @@ function do_hash_seguridad_vendehumo() {
         while(!feof($handle_md5txt)){
             $line = fgets($handle_md5txt);
             $matches_rgx = explode(' ',$line);
-            die(" $matches_rgx[0] $matches_rgx[1]  ");
+            //die(" $matches_rgx[0] $matches_rgx[1]  ");
             //preg_match('/(\S+)\s+(\S+)/',$line,$matches_rgx);
                 $nn_rgx             = $matches_rgx[1];
                 $md5_rgx            = $matches_rgx[0];
