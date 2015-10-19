@@ -84,7 +84,7 @@ function validar_xsl($nombre) {
 
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
 function do_hash_seguridad_vendehumo() {
-$handle_md5txt = fopen("lib/md5s.sec", "r");
+    $handle_md5txt = fopen("lib/md5s.sec", "r");
     if ($handle_md5txt) {
         while(! feof($handle_md5txt)){
             $line = fgets($handle_md5txt);
@@ -93,6 +93,7 @@ $handle_md5txt = fopen("lib/md5s.sec", "r");
                 $md5_rgx            = $matches_rgx[1];
                 $MD5s[$nn_rgx]      = $md5_rgx;
             fclose($handle_md5txt);
+        }
     } else {
         die("El archivo de verificacion no existe o no se puydo abrir. 
             ERROR GRAVE Y FINAL NO FELIZ.");
