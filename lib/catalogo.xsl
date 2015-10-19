@@ -153,7 +153,7 @@
 			<xsl:with-param name="sortype" select="$sorttype" />
             <!--este anduvo pero case sensitive y choto-->
             <!--<xsl:with-param name="query" select="entries/entry/child::*[contains(.,$categorytype)]/.." />-->
-            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(self::text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.." />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.." />
             <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
