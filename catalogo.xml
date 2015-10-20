@@ -592,6 +592,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     <lang>inglés</lang>
+    <link>http://200.61.152.38/Bourriaud_Postproduccion.pdf</link>
 </entry>
 <entry name="book2015-869">
     <entrytype>book</entrytype>
@@ -6686,7 +6687,7 @@
 </entry>
 <entry name="video2015-1194">
     <entrytype>video</entrytype>
-    <title>Sinfonía del sentimiento</title>
+    <title>Perón. Sinfonía del sentimiento</title>
     	<year>1999</year>
     <address>
 	<city>Argentina</city>
@@ -6696,7 +6697,7 @@
 	<keyword>sentimiento</keyword>
 	</keywords>
     <authors>
-	<author>Favio, Leonardo. Perón</author>
+	<author>Favio, Leonardo</author>
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
