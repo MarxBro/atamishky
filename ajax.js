@@ -89,34 +89,73 @@ function stateChanged()
  } 
 }
 
-function getBib(pub)
-{ 
-if(toggleBib[pub]!='s')
-{
-	toggleBib[pub]='s';
-	xmlHttp=GetXmlHttpObject()
-	if (xmlHttp==null)
- 	{
-	 alert ("Browser does not support HTTP Request")
-	 return
-	 } 
-	// alert ("getBib called")
-	var url=atamishky_home_dir+"ajax.php"
-	url=url+"?action=showbib&pub="+pub
-	url=url+"&sid="+Math.random()
-	xmlHttp.onreadystatechange=function () { 
-                                    openBib(pub, xmlHttp);
-                                    }
-	xmlHttp.open("GET",url,true)
-	xmlHttp.send(null)
-}
-else
-{
-	toggleBib[pub]='h';
-	document.getElementById("bib"+pub).innerHTML='';
-}
+function getBib(pub) { 
+    if(toggleBib[pub]!='s') {
+        toggleBib[pub]='s';
+        xmlHttp=GetXmlHttpObject()
+        if (xmlHttp==null) {
+         alert ("Browser does not support HTTP Request");
+         return;
+         } 
+        // alert ("getBib called")
+        var url=atamishky_home_dir+"ajax.php";
+        url=url+"?action=showbib&pub="+pub;
+        url=url+"&sid="+Math.random();
+        xmlHttp.onreadystatechange=function () { 
+                                        openBib(pub, xmlHttp);
+                                        }
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+    } else {
+        toggleBib[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
 }
 
+function getAPA(pub) { 
+    if(toggleBib[pub]!='s') {
+        toggleBib[pub]='s';
+        xmlHttp=GetXmlHttpObject()
+        if (xmlHttp==null) {
+         alert ("Browser does not support HTTP Request");
+         return;
+         } 
+        // alert ("getBib called")
+        var url=atamishky_home_dir+"ajax.php";
+        url=url+"?action=showAPA&pub="+pub;
+        url=url+"&sid="+Math.random();
+        xmlHttp.onreadystatechange=function () { 
+                                        openBib(pub, xmlHttp);
+                                        }
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+    } else {
+        toggleBib[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
+}
+function getISO(pub) { 
+    if(toggleBib[pub]!='s') {
+        toggleBib[pub]='s';
+        xmlHttp=GetXmlHttpObject()
+        if (xmlHttp==null) {
+         alert ("Browser does not support HTTP Request");
+         return;
+         } 
+        // alert ("getBib called")
+        var url=atamishky_home_dir+"ajax.php";
+        url=url+"?action=showISO&pub="+pub;
+        url=url+"&sid="+Math.random();
+        xmlHttp.onreadystatechange=function () { 
+                                        openBib(pub, xmlHttp);
+                                        }
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+    } else {
+        toggleBib[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
+}
 
 function openBib(pub, xmlHttp) 
 { 

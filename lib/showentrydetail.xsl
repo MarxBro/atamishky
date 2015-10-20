@@ -78,8 +78,14 @@
     <!--</td>-->
     <!--bibtex entry - nomenclaturame la nutria-->
     <!--<td>-->
-    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cite" />
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cita" />
         <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
+        <!--APA xsl-->
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cita_APA" />
+        <a href="javascript:void(0)" onclick="getAPA('{@name}')">APA</a>
+        <!--ISO xsl-->
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cita_ISO" />
+        <a href="javascript:void(0)" onclick="getISO('{@name}')">ISO-690</a>
     </td>
     
     <xsl:if test="link">

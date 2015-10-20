@@ -10,12 +10,26 @@ $pub    = sano( $_GET["pub"]    );
 //$pub    = $_GET["pub"]    ;
 
 if($action != null){
+    //Links de formato del doc
     if($action == "showbib"){
         $xmlfile         = 'catalogo.xml';
         $xslfile         = validar_xsl('lib/showbib.xsl');
         $params['pubid'] = $pub;
         echo transform($xmlfile, $xslfile, $params);
     }
+    if($action == "showAPA"){
+        $xmlfile         = 'catalogo.xml';
+        $xslfile         = validar_xsl('lib/showAPA.xsl');
+        $params['pubid'] = $pub;
+        echo transform($xmlfile, $xslfile, $params);
+    }
+    if($action == "showISO"){
+        $xmlfile         = 'catalogo.xml';
+        $xslfile         = validar_xsl('lib/showISO.xsl');
+        $params['pubid'] = $pub;
+        echo transform($xmlfile, $xslfile, $params);
+    }
+    //Link ajax al detalle de la accion
     else if($action == "showentrydetail") {
         $xmlfile                         = 'catalogo.xml';
         $xslfile                         = validar_xsl('lib/showentrydetail.xsl');

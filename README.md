@@ -16,6 +16,8 @@ En esta rama hay objetivos que son:
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
 ~~8* Social links... ponele.~~
+9* salida norma APA.
+
 
 ## 1
 
@@ -100,3 +102,17 @@ Es una huevada de hacer, pero dudo que sea algo util o que alguien lo vaya a usa
 
 No es prioridad... no es nada en realidad, pero se me dio por escribirlo.
 
+## 9
+
+APAlala... ja.
+
+APA es una norma bibliografica de la gente que bibliografea bibliograficamente.
+
+La cosa seria hacer que el div bibbody muestre una entrada APA valida desde la data del xml.
+
+-------
+
+## changui
+
+Le agregue un ekeko verificador de los xsl, que usa checksums y cosas asi.
+La idea es prevenir xss usando checksums on-the-fly. No se hasta donde es verdaderamente util...
