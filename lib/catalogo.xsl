@@ -292,7 +292,7 @@
     <!--bibcode-->
     <div class="bibbody" id="bib{@name}">&#160;
     <div class="bottomright">
-    <a href="javascript:void(0)" onclick="hide_bibtex_div('<xsl:value-of select"{@name}"/>')"><img src="{$atamishkyhome}/img/less.jpg"/>ocultar</a>
+    <a href="javascript:void(0)" onclick="hide_bibtex_div('{@name}')"><img src="{$atamishkyhome}/img/less.jpg"/>ocultar</a>
     </div>
     </div>
     <!--/bibcode-->
