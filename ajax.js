@@ -3,6 +3,8 @@
 
 var xmlHttp;
 var toggleBib = {};
+var toggleAPA = {}; // Agregado
+var toggleISO = {}; // Agregado
 var toggleEntryDetail = {};
 var toggleKeywordsCloud = 'h';
 var toggleAuthorList = 'h';
