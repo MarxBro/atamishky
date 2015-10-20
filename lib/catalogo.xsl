@@ -423,7 +423,7 @@
 			    <xsl:if test="position()!=last()">&#160;-</xsl:if>
       </xsl:for-each>
   </xsl:otherwise>
-		<xsl:choose>
+		</xsl:choose>
 </xsl:template>
 
 <!--<xsl:template name="printAddress">-->
