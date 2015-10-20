@@ -1,18 +1,22 @@
 <?php
 
-$longname['year'] = 'Año';
-$longname['researcharea'] = 'research area';
-$longname['entrytype'] = 'tipo';
-$longname['ID'] = 'ID';
-$longname['author'] = 'autor';
-$longname['keyword'] = 'tag';
-$longname['address'] = 'ciudad - país';
-$longname['bibliografia'] = 'bibliografía';
-$longname['publisher'] = 'editorial';
-$longname['searchtitle'] = 'titulo';
-$longname['searchdescripcion'] = 'descripcion';
-$longname['searchautor'] = 'autor';
-$longname['searchTODO'] = 'todos';
+$longname['year']               = 'Año';
+$longname['researcharea']       = 'research area';
+$longname['entrytype']          = 'tipo';
+$longname['ID']                 = 'ID';
+$longname['author']             = 'autor';
+$longname['keyword']            = 'tag';
+$longname['address']            = 'ciudad - país';
+$longname['bibliografia']       = 'bibliografía';
+$longname['publisher']          = 'editorial';
+$longname['searchtitle']        = 'titulo';
+$longname['searchdescripcion']  = 'descripcion';
+$longname['searchautor']        = 'autor';
+$longname['searchTODO']         = 'todos';
+$longname['searchLIBROS']       = 'libros';
+$longname['searchMUSICAS']      = 'musica';
+$longname['searchVIDEOS']       = 'video';
+$longname['searchMISC']         = 'otros';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';
