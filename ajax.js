@@ -16,6 +16,8 @@ var atamishky_home_dir = jspath.substring(0, jspath.lastIndexOf('/')+1);
 function showCategory(strBy, str)
 { 
 toggleBib = {};
+toggleAPA = {};
+toggleISO = {};
 toggleEntryDetail = {};
 
 xmlHttp=GetXmlHttpObject()
@@ -107,15 +109,15 @@ function getBib(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     }
-    /*else {*/
-    /*toggleBib[pub]='h';*/
-    /*document.getElementById("bib"+pub).innerHTML='';*/
-    /*}*/
+    else {
+        toggleBib[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
 }
 
 function getAPA(pub) { 
-    if(toggleBib[pub]!='s') {
-        toggleBib[pub]='s';
+    if(toggleAPA[pub]!='s') {
+        toggleAPA[pub]='s';
         xmlHttp=GetXmlHttpObject()
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
@@ -131,14 +133,14 @@ function getAPA(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     }
-    /*else {*/
-    /*toggleBib[pub]='h';*/
-    /*document.getElementById("bib"+pub).innerHTML='';*/
-    /*}*/
+    else {
+        toggleAPA[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
 }
 function getISO(pub) { 
-    if(toggleBib[pub]!='s') {
-        toggleBib[pub]='s';
+    if(toggleISO[pub]!='s') {
+        toggleISO[pub]='s';
         xmlHttp=GetXmlHttpObject()
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
@@ -154,14 +156,16 @@ function getISO(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     } 
-    /*else {*/
-    /*toggleBib[pub]='h';*/
-    /*document.getElementById("bib"+pub).innerHTML='';*/
-    /*}*/
+    else {
+        toggleISO[pub]='h';
+        document.getElementById("bib"+pub).innerHTML='';
+    }
 }
 
 function hide_bibtex_div(pub){
     toggleBib[pub]='h';
+    toggleAPA[pub]='h';
+    toggleISO[pub]='h';
     document.getElementById("bib"+pub).innerHTML='';
 }
 

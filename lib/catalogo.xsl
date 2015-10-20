@@ -290,11 +290,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;
-    <div class="bottomright">
-    <a href="javascript:void(0)" onclick="hide_bibtex_div('{@name}')"><img src="{$atamishkyhome}/img/less.jpg"/>ocultar</a>
-    </div>
-    </div>
+    <div class="bibbody" id="bib{@name}">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
