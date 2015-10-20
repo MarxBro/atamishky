@@ -106,10 +106,11 @@ function getBib(pub) {
                                         }
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
-    } else {
-        toggleBib[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
     }
+    /*else {*/
+    /*toggleBib[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 
 function getAPA(pub) { 
@@ -129,10 +130,11 @@ function getAPA(pub) {
                                         }
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
-    } else {
-        toggleBib[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
     }
+    /*else {*/
+    /*toggleBib[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 function getISO(pub) { 
     if(toggleBib[pub]!='s') {
@@ -151,10 +153,11 @@ function getISO(pub) {
                                         }
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
-    } else {
-        toggleBib[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
-    }
+    } 
+    /*else {*/
+    /*toggleBib[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 
 function hide_bibtex_div(){
