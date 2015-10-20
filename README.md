@@ -16,7 +16,7 @@ En esta rama hay objetivos que son:
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
 ~~8* Social links... ponele.~~
-9* salida norma APA.
+~~9* salida norma APA.~~
 
 
 ## 1
@@ -102,13 +102,18 @@ Es una huevada de hacer, pero dudo que sea algo util o que alguien lo vaya a usa
 
 No es prioridad... no es nada en realidad, pero se me dio por escribirlo.
 
-## 9
+## 9 -- ESQUELETEADO
 
 APAlala... ja.
 
 APA es una norma bibliografica de la gente que bibliografea bibliograficamente.
 
 La cosa seria hacer que el div bibbody muestre una entrada APA valida desde la data del xml.
+
+** ME FALTARIA RETOCAR EL XSL **
+
+le agregue ISO tambien, para que sean felices los niños.
+
 
 -------
 
