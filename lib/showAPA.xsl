@@ -22,6 +22,7 @@
 
 <xsl:template match="/">
       <xsl:for-each select="entries/entry[@name=$pubid]">
+                    Ejemplo de referencia en sistema APA.<br />
 			@<xsl:value-of select="entrytype" />{<xsl:value-of select="@name" />,
                         <br />
 			<xsl:for-each select="child::node()">
