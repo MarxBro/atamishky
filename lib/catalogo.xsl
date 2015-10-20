@@ -418,7 +418,7 @@
   </xsl:when>
   <xsl:otherwise>
       <xsl:for-each select="city">
-                <a href="javascript:void(0)" onclick="showCategory('address','{.}')">xsl:value-of select="."/></a>
+                <a href="javascript:void(0)" onclick="showCategory('address','{.}')"><xsl:value-of select="."/></a>
 			    <xsl:if test="position()=last()">,&#160;</xsl:if>
 			    <xsl:if test="position()!=last()">&#160;-</xsl:if>
       </xsl:for-each>
