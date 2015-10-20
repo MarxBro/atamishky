@@ -75,7 +75,7 @@ function validar_xsl($nombre) {
     $nombre_archivo = $nombre;
     $md5_txt = $MD5s[$nombre];
     $md5_php = md5_file($nombre_archivo);
-    if ($md5_php == $md5){
+    if ($md5_php === $md5_txt){
         return $nombre;
     } 
 
