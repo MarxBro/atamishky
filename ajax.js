@@ -404,7 +404,8 @@ function stateChangedKeywords_filter(buscado){
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('ul li');
         // Hacer algun tipo de filtrado en la busqueda, no?
-        var re = new RegExp(buscado, "gi");
+        var re = new RegExp(buscado, "i");
+        /*var re = new RegExp(buscado, "gi");*/
         var vergo = '';
         var cuenta = 0;
         for(var i=0; li=lis[i]; i++) {
