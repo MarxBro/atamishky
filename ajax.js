@@ -94,9 +94,10 @@ function stateChanged()
 }
 
 function getBib(pub) { 
+    hide_bibtex_div(pub);
     if(toggleBib[pub]!='s') {
         toggleBib[pub]='s';
-        xmlHttp=GetXmlHttpObject()
+        xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
          return;
@@ -118,9 +119,10 @@ function getBib(pub) {
 }
 
 function getAPA(pub) { 
+    hide_bibtex_div(pub);
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
-        xmlHttp=GetXmlHttpObject()
+        xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
          return;
@@ -141,9 +143,10 @@ function getAPA(pub) {
     }
 }
 function getISO(pub) { 
+    hide_bibtex_div(pub);
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
-        xmlHttp=GetXmlHttpObject()
+        xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
          return;
