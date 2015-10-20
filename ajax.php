@@ -12,7 +12,7 @@ $pub    = sano( $_GET["pub"]    );
 if($action != null){
     if($action == "showbib"){
         $xmlfile         = 'catalogo.xml';
-        $xslfile         = 'lib/showbib.xsl';
+        $xslfile         = validar_xsl('lib/showbib.xsl');
         $params['pubid'] = $pub;
         echo transform($xmlfile, $xslfile, $params);
     }
@@ -26,22 +26,22 @@ if($action != null){
     }
     else if($action == "showkeywordscloud") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'lib/showkeywordscloud.xsl';
+        $xslfile = validar_xsl('lib/showkeywordscloud.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showauthorlist") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'lib/showauthorlist.xsl';
+        $xslfile = validar_xsl('lib/showauthorlist.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showbibliografia") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'lib/showbibliografia.xsl';
+        $xslfile = validar_xsl('lib/showbibliografia.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showaddress") {
         $xmlfile = 'catalogo.xml';
-        $xslfile = 'lib/showaddress.xsl';
+        $xslfile = validar_xsl('lib/showaddress.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
     else if($action == "showcategory") {	
@@ -56,7 +56,7 @@ if($action != null){
         }
 
         $xmlfile                         = 'catalogo.xml';
-        $xslfile                         = 'lib/catalogo.xsl';
+        $xslfile                         = validar_xsl('lib/catalogo.xsl');
         $params['categoryby']            = $categoryby;
         $params['categorytype']          = $categorytype;
         $params['sorttype']              = $sorttype;
@@ -72,7 +72,7 @@ if($action != null){
 } else {
     // $pub empty, action empty -> index.php
     $xmlfile                         = 'catalogo.xml';
-    $xslfile                         = 'lib/catalogo.xsl';
+    $xslfile                         = validar_xsl('lib/catalogo.xsl');
     $params['categoryby']            = "year";
     $params['categorytype']          = "all";
     //$params['categorytype']          = "visitante";
