@@ -161,7 +161,7 @@
 	<xsl:when test="$categoryby='searchLIBROS'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <xsl:with-param name="query" select= "entries/entry[entrytype='book'] and entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.." /> 
+            <xsl:with-param name="query" select= "entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.. and (entrytype='book')" /> 
             <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
