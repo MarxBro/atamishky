@@ -412,7 +412,7 @@
 <xsl:template match="address">
     <xsl:choose>
         <xsl:when test="count(city)=1">
-            <a href="javascript:void(0)" onclick="showCategory('address','{.}')"><xsl:value-of select="."/></a>,&#160;
+            <a href="javascript:void(0)" onclick="showCategory('address','{city}')"><xsl:value-of select="city"/></a>,&#160;
         </xsl:when>
         <xsl:otherwise>
             <xsl:for-each select="city">
