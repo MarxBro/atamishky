@@ -71,7 +71,8 @@ function sano ($input){
 //Se asegura que ese valor sea igual al valor dado por php, al vuelo.
 function validar_xsl($nombre) {
     $MD5s = do_hash_seguridad_vendehumo();
-    $nombre_archivo = "lib/" . $nombre;
+    //$nombre_archivo = "lib/" . $nombre;
+    $nombre_archivo = $nombre;
     $md5_txt = $MD5s[$nombre];
     $md5_php = md5_file($nombre_archivo);
     if ($md5_php == $md5){
