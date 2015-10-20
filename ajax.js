@@ -94,7 +94,6 @@ function stateChanged()
 }
 
 function getBib(pub) { 
-    hide_bibtex_div(pub);
     if(toggleBib[pub]!='s') {
         toggleBib[pub]='s';
         xmlHttp=GetXmlHttpObject();
@@ -113,13 +112,13 @@ function getBib(pub) {
         xmlHttp.send(null);
     }
     else {
-        toggleBib[pub]='h';
+        hide_bibtex_div(pub);
+        /*toggleBib[pub]='h';*/
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
 
 function getAPA(pub) { 
-    hide_bibtex_div(pub);
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
         xmlHttp=GetXmlHttpObject();
@@ -138,12 +137,12 @@ function getAPA(pub) {
         xmlHttp.send(null);
     }
     else {
-        toggleAPA[pub]='h';
+    hide_bibtex_div(pub);
+    /*toggleAPA[pub]='h';*/
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
 function getISO(pub) { 
-    hide_bibtex_div(pub);
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
         xmlHttp=GetXmlHttpObject();
@@ -162,7 +161,8 @@ function getISO(pub) {
         xmlHttp.send(null);
     } 
     else {
-        toggleISO[pub]='h';
+    hide_bibtex_div(pub);
+    /*toggleISO[pub]='h';*/
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
