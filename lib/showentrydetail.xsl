@@ -89,7 +89,10 @@
     </td>
     
     <xsl:if test="link">
-          <td><a href="{link}">Documento.</a></td>
+          <td>
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="enlace" />
+          <a href="{link}">Documento.</a>
+          </td>
     </xsl:if>
     </tr>
 
