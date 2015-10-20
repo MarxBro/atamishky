@@ -157,6 +157,11 @@ function getISO(pub) {
     }
 }
 
+function hide_bibtex_div{
+    toggleBib[pub]='h';
+    document.getElementById("bib"+pub).innerHTML='';
+}
+
 function openBib(pub, xmlHttp) 
 { 
  document.getElementById("bib"+pub).style.visibility="visible";
