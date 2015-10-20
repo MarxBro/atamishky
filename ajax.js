@@ -366,10 +366,18 @@ function doSearch()
     } else if ( document.getElementById('a').selected ) {
         //showCategory('searchautor', query.toLowerCase());
         search_autores(query.toLowerCase());
-    } else if ( document.getElementById('t').selected ){
+    } else if ( document.getElementById('t').selected ){ // Titulo
         showCategory('searchtitle', query.toLowerCase());
+    } else if ( document.getElementById('l').selected ){ //libros
+        showCategory('searchLIBROS', query.toLowerCase());
+    } else if ( document.getElementById('mi').selected ){ //miscelaneos
+        showCategory('searchMISC', query.toLowerCase());
+    } else if ( document.getElementById('v').selected ){ // videos
+        showCategory('searchVIDEOS', query.toLowerCase());
+    } else if ( document.getElementById('mu').selected ){ //musica
+        showCategory('searchMUSICAS', query.toLowerCase());
     } else {
-        showCategory('searchTODO', query.toLowerCase());    
+        showCategory('searchTODO', query.toLowerCase());     // TODO, default.
     }
 }
 
