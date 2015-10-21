@@ -79,7 +79,7 @@
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Paginas-->
 <xsl:if test="pages">
-        ,pp.<xsl:value-of select="pages"/>.&#160;
+        ,<xsl:value-of select="pages"/>.&#160;
 </xsl:if>
 
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->

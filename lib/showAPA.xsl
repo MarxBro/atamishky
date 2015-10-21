@@ -97,7 +97,7 @@
 <!--<xsl:when test="name(.)='pages'">-->
 <!--Paginas-->
 <xsl:if test="pages">
-        [pp.<xsl:value-of select="pages"/>].&#160;
+        [<xsl:value-of select="pages"/>].&#160;
 </xsl:if>
 <!--</xsl:when>-->
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
