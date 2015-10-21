@@ -96,6 +96,8 @@ function stateChanged()
 function getBib(pub) { 
     if(toggleBib[pub]!='s') {
         toggleBib[pub]='s';
+        toggleAPA[pub]='h';
+        toggleISO[pub]='h';
         xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
@@ -115,8 +117,6 @@ function getBib(pub) {
         /*hide_bibtex_div(pub);*/
         /*toggleBib[pub]='h';*/
         toggleBib[pub]='h';
-        toggleAPA[pub]='h';
-        toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
@@ -124,6 +124,8 @@ function getBib(pub) {
 function getAPA(pub) { 
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
+        toggleBib[pub]='h';
+        toggleISO[pub]='h';
         xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
@@ -142,15 +144,15 @@ function getAPA(pub) {
     else {
         /*hide_bibtex_div(pub);*/
         /*toggleAPA[pub]='h';*/
-        toggleBib[pub]='h';
         toggleAPA[pub]='h';
-        toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
 function getISO(pub) { 
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
+        toggleBib[pub]='h';
+        toggleAPA[pub]='h';
         xmlHttp=GetXmlHttpObject();
         if (xmlHttp==null) {
          alert ("Browser does not support HTTP Request");
@@ -169,13 +171,11 @@ function getISO(pub) {
     else {
         /*hide_bibtex_div(pub);*/
         /*toggleISO[pub]='h';*/
-        toggleBib[pub]='h';
-        toggleAPA[pub]='h';
         toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
-/*esto no funko*/
+/* esto no tiene uso por el momento.*/
 function hide_bibtex_div(pub){
     toggleBib[pub]='h';
     toggleAPA[pub]='h';
