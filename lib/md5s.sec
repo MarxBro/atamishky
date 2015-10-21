@@ -1,4 +1,4 @@
-34d501d5200076910f12edb74ceb1e88 catalogo.xsl
+d179bfaee26af1684c094fc83787f6bf catalogo.xsl
 ad97af19eb1370ec577fd4c461ba2230 rss.xsl
 ce30fb332e0a461f8bae172759ccfafb showaddress.xsl
 ed0a7c3ba67ce2a712654e1d5485c316 showAPA.xsl
@@ -6,5 +6,5 @@ ed0a7c3ba67ce2a712654e1d5485c316 showAPA.xsl
 7f2cb369a374b1d41213831a95fccbb7 showbibliografia.xsl
 c2eefe5974724a982593d3abb92950a7 showbib.xsl
 3d65b94672a2cedbd715f7b8acdbf361 showentrydetail.xsl
-caa20ff7c1ee4d4a9911f861adf64e48 showISO.xsl
+ba5d30571b767c720cc9608e4fd6be05 showISO.xsl
 05c3c69915edd28498ca8121cb5d812f showkeywordscloud.xsl

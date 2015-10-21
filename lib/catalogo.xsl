@@ -30,8 +30,8 @@
 	<xsl:when test="$categorytype='all'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--cambiado : Mostrar solo 5 entradas en lugar de tooooda la lista...-->
-			<xsl:with-param name="query" select="entries/entry[position() &lt; 6]" />
+            <!--cambiado : Mostrar solo 50 entradas en lugar de tooooda la lista...-->
+			<xsl:with-param name="query" select="entries/entry[position() &lt; 51]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -158,41 +158,38 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
 	<xsl:when test="$categoryby='searchLIBROS'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and entrytype='book']/.." />
-            <!--<xsl:with-param name="query" select="entries/entry[entrytype='book' and contains(*/child::text(),$categorytype)]" /> -->
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='book']/.." />
             <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
-	<xsl:when test="$categoryby='searchMISC'">
-		<xsl:call-template name="listPubs">
-			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--este anduvo pero case sensitive y choto-->
-            <!--<xsl:with-param name="query" select="entries/entry/child::*[contains(.,$categorytype)]/.." />-->
-            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.. and entries/entry[entrytype='misc']"/>
-            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
-			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
-		</xsl:call-template>
-	</xsl:when>
-	<xsl:when test="$categoryby='searchVIDEOS'">
-		<xsl:call-template name="listPubs">
-			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--este anduvo pero case sensitive y choto-->
-            <!--<xsl:with-param name="query" select="entries/entry/child::*[contains(.,$categorytype)]/.." />-->
-            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.. and entries/entry[entrytype='video']"/>
-            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
-			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
-		</xsl:call-template>
-	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
 	<xsl:when test="$categoryby='searchMUSICAS'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--este anduvo pero case sensitive y choto-->
-            <!--<xsl:with-param name="query" select="entries/entry/child::*[contains(.,$categorytype)]/.." />-->
-            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.. and entries/entry[entrytype='musica']"/>
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='musica']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchVIDEOS'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='video']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchMISC">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='misc']/.." />
             <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
