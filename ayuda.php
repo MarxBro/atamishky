@@ -5,9 +5,9 @@
 
 <h1>Acerca de la forma de uso del buscador</h1>
 
-<p>Para comenzar una busqueda, utilice la solapa de la izquierda y seleccione el criterio de filtrado.</p>
+<p>Para comenzar una b&uacute;squeda, utilice la solapa de la izquierda y seleccione el criterio de filtrado.</p>
 
-<h1>Criterios de busqueda predefinidos</h1>
+<h1>Criterios de b&uacute;squeda predefinidos</h1>
 
 <p>Puede seleccionar alguno de los siguientes criterios:</p>
 
@@ -23,12 +23,12 @@
 </ul>
 
 <p>Los primeros cuatro criterios afectan a cualquier tipo de material: es
-indistinto si es un libro o una pelicula.</p>
+indistinto si es un libro o una pelicula, por ejemplo.</p>
 
-<p>Si la opción <strong>Titulo</strong> es utilizada como criterio, se buscan
-todos los titulos que coincidan con el texto introducido.</p>
+<p>Si la opción <strong>T&iacute;tulo</strong> es utilizada como criterio, se buscan
+todos los t&iacute;tulos que coincidan con el texto introducido.</p>
 
-<p>Similarmente, si se utiliza el texto buscado como parte de la <strong>descripcion</strong> de
+<p>Similarmente, si se utiliza el texto buscado como parte de la <strong>descripción</strong> de
 algun material bibliografico del catalogo, bajo una busqueda del mismo
 criterio, se conforma una lista de las entradas resultantes.</p>
 
