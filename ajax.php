@@ -83,6 +83,9 @@ if($action != null){
     else if($action == 'copyright') {
         include('copyright.php');
     }
+    else if($action == 'ayuda') {
+        include('ayuda.php');
+    }
 } else {
     // $pub empty, action empty -> index.php
     $xmlfile                         = 'catalogo.xml';
