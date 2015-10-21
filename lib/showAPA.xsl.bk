@@ -21,13 +21,13 @@
 
 <xsl:template match="/">
       <xsl:for-each select="entries/entry[@name=$pubid]">
-      <!--<xsl:for-each select="child::node()">-->
-      <!--<xsl:choose>-->
+			<xsl:for-each select="child::node()">
+				<xsl:choose>
                 <!--<xsl:when test="name(.)='' or name(.)='researcharea' or name(.)='filelink' or name(.)='presentation' or name(.)='poster'">-->
 						<!-- do nothing! -->
                         <!--</xsl:when>-->
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--<xsl:when test="name(.)='authors'">-->
+					<xsl:when test="name(.)='authors'">
 <!--Autores-->
 <xsl:choose>
     <xsl:when test="count(author)=1">
@@ -44,15 +44,16 @@
         </xsl:for-each>
     </xsl:otherwise>
 </xsl:choose>
-<!--</xsl:when>-->
+                    </xsl:when>
 					
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--<xsl:when test="name(.)='title'">-->
+                    <xsl:when test="name(.)='title'">
 <!--Titulo-->
 "<xsl:value-of select="title"/>".&#160;
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--<xsl:when test="name(.)='publisher'">-->
+                    
+                    <xsl:when test="name(.)='publisher'">
 <!--Editorial-->
 <!--"entrytype"/> not equal 'video'-->
 <xsl:if test="entrytype != 'video'">
@@ -60,10 +61,10 @@
     <xsl:value-of select="publisher"/>.&#160;
 </xsl:if>
 </xsl:if>
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
                     
-<!--<xsl:when test="name(.)='address'">-->
+                    <xsl:when test="name(.)='address'">
 <!-- Ciudad/es-->
 <xsl:choose>
     <xsl:when test="count(city)=1">
@@ -78,11 +79,11 @@
     </xsl:otherwise>
 </xsl:choose>
 					
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 					
                     
-<!--<xsl:when test="name(.)='year'">-->
+                    <xsl:when test="name(.)='year'">
 <!--Agno-->
 <xsl:if test="year">
     <xsl:value-of select="year"/>.&#160;
@@ -90,16 +91,16 @@
 <xsl:if test="not(year)">
     Sin fecha.&#160;
 </xsl:if>
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 					
                     
-<!--<xsl:when test="name(.)='pages'">-->
+                    <xsl:when test="name(.)='pages'">
 <!--Paginas-->
 <xsl:if test="pages">
         [pp.<xsl:value-of select="pages"/>].&#160;
 </xsl:if>
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
                     <!--<xsl:when test="name(.)='link'">-->
 <!--Enlace-->
@@ -109,7 +110,7 @@
 <!--</xsl:when>-->
 
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--<xsl:when test="name(.)='soporte'">-->
+                    <xsl:when test="name(.)='soporte'">
 <!--Soporte-->
 <!--"entrytype"/> equal 'video'-->
 <xsl:if test="entrytype = 'video'">
@@ -117,11 +118,11 @@
     [<xsl:value-of select="soporte" />].&#160;
 </xsl:if>
 </xsl:if>
-<!--</xsl:when>-->
+                    </xsl:when>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--</xsl:choose>-->
+                </xsl:choose>
 
-                <!--</xsl:for-each>-->
+			</xsl:for-each>
 
       </xsl:for-each>
 </xsl:template>
