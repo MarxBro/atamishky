@@ -94,6 +94,7 @@ function stateChanged()
 }
 
 function getBib(pub) { 
+    hide_bibtex_div(pub);
     if(toggleBib[pub]!='s') {
         toggleBib[pub]='s';
         toggleAPA[pub]='h';
@@ -113,15 +114,16 @@ function getBib(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     }
-    else {
-        /*hide_bibtex_div(pub);*/
-        /*toggleBib[pub]='h';*/
-        toggleBib[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
-    }
+    /*else {*/
+    /**//*hide_bibtex_div(pub);*/
+    /**//*toggleBib[pub]='h';*/
+    /*toggleBib[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 
 function getAPA(pub) { 
+    hide_bibtex_div(pub);
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
         toggleBib[pub]='h';
@@ -141,14 +143,15 @@ function getAPA(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     }
-    else {
-        /*hide_bibtex_div(pub);*/
-        /*toggleAPA[pub]='h';*/
-        toggleAPA[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
-    }
+    /*else {*/
+    /**//*hide_bibtex_div(pub);*/
+    /**//*toggleAPA[pub]='h';*/
+    /*toggleAPA[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 function getISO(pub) { 
+    hide_bibtex_div(pub);
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
         toggleBib[pub]='h';
@@ -168,12 +171,12 @@ function getISO(pub) {
         xmlHttp.open("GET",url,true);
         xmlHttp.send(null);
     } 
-    else {
-        /*hide_bibtex_div(pub);*/
-        /*toggleISO[pub]='h';*/
-        toggleISO[pub]='h';
-        document.getElementById("bib"+pub).innerHTML='';
-    }
+    /*else {*/
+    /**//*hide_bibtex_div(pub);*/
+    /**//*toggleISO[pub]='h';*/
+    /*toggleISO[pub]='h';*/
+    /*document.getElementById("bib"+pub).innerHTML='';*/
+    /*}*/
 }
 /* esto no tiene uso por el momento.*/
 function hide_bibtex_div(pub){
