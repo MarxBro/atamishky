@@ -58,12 +58,12 @@
     (
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
-        <xsl:value-of select="address/city"/>,&#160:
+        <xsl:value-of select="address/city"/>,&#160;:
     </xsl:when>
     <xsl:otherwise>
         <xsl:for-each select="address/city">
             <xsl:value-of select="."/>
-            <xsl:if test="position()  = last()">,&#160:</xsl:if>
+            <xsl:if test="position()  = last()">,&#160;:</xsl:if>
             <xsl:if test="position() != last()">-</xsl:if>
         </xsl:for-each>
     </xsl:otherwise>
