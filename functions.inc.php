@@ -104,6 +104,10 @@ function do_hash_seguridad_vendehumo() {
             $line           = fgets($handle_md5txt);
             $line           = str_replace("\n", '', $line);
             $matches_rgx    = explode(' ',$line);
+            //esto evita algunos errores
+            if (!$matches_rgx[0] || !$matches_rgx[1]){
+                continue;    
+            }
             $md5_rgx        = $matches_rgx[0];
             $nn_rgx         = "lib/" . $matches_rgx[1];
             $MD5s[$nn_rgx]  = $md5_rgx;

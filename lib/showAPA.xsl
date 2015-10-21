@@ -13,7 +13,6 @@
 	<!ENTITY euro   "&#8364;">
 ]>
 
-<!--esta es una copia de showbib, placeholder de una funcion futura.-->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output omit-xml-declaration="yes" />
 
@@ -22,39 +21,108 @@
 
 <xsl:template match="/">
       <xsl:for-each select="entries/entry[@name=$pubid]">
-                    Ejemplo de referencia en sistema APA.<br />
-			@<xsl:value-of select="entrytype" />{<xsl:value-of select="@name" />,
-                        <br />
 			<xsl:for-each select="child::node()">
 				<xsl:choose>
-					<xsl:when test="name(.)='' or name(.)='entrytype' or name(.)='researcharea' or name(.)='filelink' or name(.)='presentation' or name(.)='poster'">
+                <!--<xsl:when test="name(.)='' or name(.)='researcharea' or name(.)='filelink' or name(.)='presentation' or name(.)='poster'">-->
 						<!-- do nothing! -->
-					</xsl:when>
+                        <!--</xsl:when>-->
+<!------------------------------------------------->
 					<xsl:when test="name(.)='authors'">
-						author={<xsl:for-each select="author">
-							<xsl:value-of select="."/>
-							<xsl:if test="position()!=last()"> and </xsl:if>
-						</xsl:for-each>},
-                        <br />
-					</xsl:when>
-					<xsl:when test="name(.)='address'">
-						address={<xsl:for-each select="city">
-							<xsl:value-of select="."/>.
-						</xsl:for-each>},
-                        <br />
-					</xsl:when>
-					<xsl:when test="name(.)='keywords'">
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="name(.)"/>={<xsl:value-of select="."/>}<xsl:if test="position()!=last()">,</xsl:if>
-                        <br />
-					</xsl:otherwise>
-				</xsl:choose>
+<!--Autores-->
+<xsl:choose>
+    <xsl:when test="count(author)=1">
+            <xsl:value-of select="author[1]"/>.&#160;
+    </xsl:when>
+    <xsl:when test="count(author)=2">
+            <xsl:value-of select="author[1]"/>&#160;y&#160;
+            <xsl:value-of select="author[2]"/>.&#160;
+    </xsl:when>
+    <xsl:otherwise>
+        <xsl:for-each select="author">
+            <xsl:if test="position()=last()">y&#160;</xsl:if>
+                <xsl:value-of select="."/>;&#160;
+        </xsl:for-each>
+    </xsl:otherwise>
+</xsl:choose>
+                    </xsl:when>
+					
+<!------------------------------------------------->
+                    <xsl:when test="name(.)='title'">
+<!--Titulo-->
+"<xsl:value-of select="title"/>".&#160;
+                    </xsl:when>
+<!------------------------------------------------->
+                    
+                    <xsl:when test="name(.)='publisher'">
+<!--Editorial-->
+<!--"entrytype"/> not equal 'video'-->
+<xsl:if test="entrytype != 'video'">
+<xsl:if test="publisher">
+    <xsl:value-of select="publisher"/>.&#160;
+</xsl:if>
+</xsl:if>
+                    </xsl:when>
+<!------------------------------------------------->
+                    
+                    <xsl:when test="name(.)='address'">
+<!-- Ciudad/es-->
+<xsl:choose>
+    <xsl:when test="count(city)=1">
+        <xsl:value-of select="city"/>,&#160;
+    </xsl:when>
+    <xsl:otherwise>
+        <xsl:for-each select="city">
+            <xsl:value-of select="."/>
+            <xsl:if test="position()  = last()">,&#160;</xsl:if>
+            <xsl:if test="position() != last()">-</xsl:if>
+        </xsl:for-each>
+    </xsl:otherwise>
+</xsl:choose>
+					
+                    </xsl:when>
+<!------------------------------------------------->
+					
+                    
+                    <xsl:when test="name(.)='year'">
+<!--Agno-->
+<xsl:if test="year">
+    <xsl:value-of select="year"/>.&#160;
+</xsl:if>
+<xsl:if test="not(year)">
+    Sin fecha.&#160;
+</xsl:if>
+                    </xsl:when>
+<!------------------------------------------------->
+					
+                    
+                    <xsl:when test="name(.)='pages'">
+<!--Paginas-->
+<xsl:if test="pages">
+        [pp.<xsl:value-of select="pages"/>].&#160;
+</xsl:if>
+                    </xsl:when>
+<!------------------------------------------------->
+                    <!--<xsl:when test="name(.)='link'">-->
+<!--Enlace-->
+<!--<xsl:if test="link">-->
+<!--Disponible en: <xsl:value-of select="link"/>.&#160;-->
+<!--</xsl:if>-->
+<!--</xsl:when>-->
+<!------------------------------------------------->
+                    <xsl:when test="name(.)='soporte'">
+<!--Soporte-->
+<!--"entrytype"/> equal 'video'-->
+<xsl:if test="entrytype = 'video'">
+<xsl:if test="soporte">
+    [<xsl:value-of select="soporte" />].&#160;
+</xsl:if>
+</xsl:if>
+                    </xsl:when>
+<!------------------------------------------------->
+                </xsl:choose>
+
 			</xsl:for-each>
-			}
 
       </xsl:for-each>
-
-
 </xsl:template>
 </xsl:stylesheet>
