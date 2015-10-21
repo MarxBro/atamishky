@@ -56,7 +56,19 @@
     <xsl:if test="lang">
     <tr><td><b>Lenguaje</b></td>
         <td>
-        <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')"><xsl:value-of select="lang" /> </a>
+        <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')">
+        <xsl:choose>
+        <xsl:when test="lang='es'">    
+            español
+        </xsl:when>
+        <xsl:when test="lang='en'">    
+            inglés
+        </xsl:when>
+        <xsl:when test="lang='fr'">    
+            francés
+        </xsl:when>
+        </xsl:choose>
+        </a>
         </td></tr>
     </xsl:if>
 
