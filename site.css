@@ -154,6 +154,12 @@ body {
 	visibility: visible; /*hidden;*/
 }
 
+/*Agregado para que quede menos chiotto el margen de la sección ayuda*/
+.atamishky .entrybody p {
+    with: 90%;
+}
+
+
 .atamishky .entrybody table {                                                                          
         border: none;                                                                              
 }                                                                                                  
