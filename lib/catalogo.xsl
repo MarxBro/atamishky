@@ -30,8 +30,8 @@
 	<xsl:when test="$categorytype='all'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--cambiado : Mostrar solo 50 entradas en lugar de tooooda la lista...-->
-			<xsl:with-param name="query" select="entries/entry[position() &lt; 51]" />
+            <!--cambiado : Mostrar solo 20 entradas en lugar de tooooda la lista...-->
+			<xsl:with-param name="query" select="entries/entry[position() &lt; 21]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>

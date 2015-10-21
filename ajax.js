@@ -112,8 +112,11 @@ function getBib(pub) {
         xmlHttp.send(null);
     }
     else {
-        hide_bibtex_div(pub);
+        /*hide_bibtex_div(pub);*/
         /*toggleBib[pub]='h';*/
+        toggleBib[pub]='h';
+        toggleAPA[pub]='h';
+        toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
@@ -137,8 +140,11 @@ function getAPA(pub) {
         xmlHttp.send(null);
     }
     else {
-    hide_bibtex_div(pub);
-    /*toggleAPA[pub]='h';*/
+        /*hide_bibtex_div(pub);*/
+        /*toggleAPA[pub]='h';*/
+        toggleBib[pub]='h';
+        toggleAPA[pub]='h';
+        toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
@@ -161,12 +167,15 @@ function getISO(pub) {
         xmlHttp.send(null);
     } 
     else {
-    hide_bibtex_div(pub);
-    /*toggleISO[pub]='h';*/
+        /*hide_bibtex_div(pub);*/
+        /*toggleISO[pub]='h';*/
+        toggleBib[pub]='h';
+        toggleAPA[pub]='h';
+        toggleISO[pub]='h';
         document.getElementById("bib"+pub).innerHTML='';
     }
 }
-
+/*esto no funko*/
 function hide_bibtex_div(pub){
     toggleBib[pub]='h';
     toggleAPA[pub]='h';
