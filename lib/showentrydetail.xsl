@@ -54,22 +54,24 @@
     </xsl:if>
 
     <xsl:if test="lang">
-    <tr><td><b>Lenguaje</b></td>
-        <td>
-        <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')">
-        <xsl:choose>
-        <xsl:when test="lang='es'">    
-            espa&#241;ol
-        </xsl:when>
-        <xsl:when test="lang='en'">    
-            ingl&#233;s
-        </xsl:when>
-        <xsl:when test="lang='fr'">    
-            franc&#233;s
-        </xsl:when>
-        </xsl:choose>
-        </a>
-        </td></tr>
+        <xsl:if test="entrytype != 'book'>
+        <tr><td><b>Lenguaje</b></td>
+            <td>
+            <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')">
+            <xsl:choose>
+            <xsl:when test="lang='es'">    
+                espa&#241;ol
+            </xsl:when>
+            <xsl:when test="lang='en'">    
+                ingl&#233;s
+            </xsl:when>
+            <xsl:when test="lang='fr'">    
+                franc&#233;s
+            </xsl:when>
+            </xsl:choose>
+            </a>
+            </td></tr>
+        </xsl:if>
     </xsl:if>
 
     <xsl:if test="pages">
