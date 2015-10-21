@@ -58,7 +58,7 @@
     (
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
-        <xsl:value-of select="address/city"/>&#160;
+        <xsl:value-of select="address/city"/>
         <xsl:if test="entrytype != 'video'">:</xsl:if>
     </xsl:when>
     <xsl:otherwise>
