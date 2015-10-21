@@ -54,7 +54,7 @@
     </xsl:if>
 
     <xsl:if test="lang">
-        <xsl:if test="entrytype != 'book'>
+        <xsl:if test="entrytype = 'book'">
         <tr><td><b>Lenguaje</b></td>
             <td>
             <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')">
