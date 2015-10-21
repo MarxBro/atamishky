@@ -186,7 +186,7 @@
 		</xsl:call-template>
 	</xsl:when>
     <!--buscar por texto en entradas de cierto tipo-->
-	<xsl:when test="$categoryby='searchMISC">
+	<xsl:when test="$categoryby='searchMISC'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
             <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='misc']/.." />
