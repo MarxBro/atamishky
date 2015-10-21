@@ -16,7 +16,7 @@
 	<author>Adorno, Theodor Ludwig</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-838">
     <entrytype>book</entrytype>
@@ -42,7 +42,7 @@
 	<author>Adorno, Theodor Ludwig</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-839">
     <entrytype>book</entrytype>
@@ -60,7 +60,7 @@
 	<author>Adorno, Theodor Ludwig</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-840">
     <entrytype>book</entrytype>
@@ -81,7 +81,7 @@
 	<author>Albers, Josef</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-841">
     <entrytype>book</entrytype>
@@ -89,7 +89,6 @@
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>El Cuenco de Plata</publisher>
     <keywords>
@@ -100,7 +99,7 @@
 	<author>Alsina Thevenet, Homero</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-842">
     <entrytype>book</entrytype>
@@ -108,7 +107,6 @@
     	<year>1959</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Editorial Sudamericana</publisher>
     <keywords>
@@ -118,7 +116,7 @@
 	<author>Amis, Kingsley</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-843">
     <entrytype>book</entrytype>
@@ -137,7 +135,7 @@
 	<author>Architectural Design</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-844">
     <entrytype>book</entrytype>
@@ -157,7 +155,7 @@
 	<author>Architectural Design</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-845">
     <entrytype>book</entrytype>
@@ -174,7 +172,7 @@
 	<author>Aristóteles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-846">
     <entrytype>book</entrytype>
@@ -193,7 +191,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-847">
     <entrytype>book</entrytype>
@@ -209,7 +207,7 @@
 	<author>Arnheim, Rudolf</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-848">
     <entrytype>book</entrytype>
@@ -227,7 +225,7 @@
 	<author>Arnheim, Rudolf</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-849">
     <entrytype>book</entrytype>
@@ -244,7 +242,7 @@
 	<author>Aumont, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-850">
     <entrytype>book</entrytype>
@@ -252,7 +250,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -262,7 +259,7 @@
 	<author>Aumont, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-851">
     <entrytype>book</entrytype>
@@ -279,7 +276,7 @@
 	<author>Aumont, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-852">
     <entrytype>book</entrytype>
@@ -287,7 +284,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Prometeo Libros</publisher>
     <keywords>
@@ -299,7 +295,7 @@
 	<author>Badiou, Alain</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-853">
     <entrytype>book</entrytype>
@@ -307,7 +303,6 @@
     	<year>2005</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -318,7 +313,7 @@
 	<author>Baecque, Antoine</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-854">
     <entrytype>book</entrytype>
@@ -326,7 +321,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -338,7 +332,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-855">
     <entrytype>book</entrytype>
@@ -346,7 +340,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Las cuarenta</publisher>
     <keywords>
@@ -357,7 +350,7 @@
 	<author>Bataille, Georges</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-856">
     <entrytype>book</entrytype>
@@ -365,7 +358,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Prometeo Libros</publisher>
     <keywords>
@@ -375,7 +367,7 @@
 	<author>Baudelaire, Charles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-857">
     <entrytype>book</entrytype>
@@ -383,7 +375,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
@@ -394,7 +385,7 @@
 	<author>Bauman, Zygmunt</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-858">
     <entrytype>book</entrytype>
@@ -402,7 +393,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Eterna Cadencia Editora</publisher>
     <keywords>
@@ -413,7 +403,7 @@
 	<author>Benjamin, Walter</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-859">
     <entrytype>book</entrytype>
@@ -421,7 +411,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Las cuarenta</publisher>
     <keywords>
@@ -432,7 +421,7 @@
 	<author>Benjamin, Walter</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-860">
     <entrytype>book</entrytype>
@@ -450,7 +439,7 @@
 	<author>Trzcinski, Edmund</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-861">
     <entrytype>book</entrytype>
@@ -472,7 +461,7 @@
 	<author>Blauert, Jens</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-862">
     <entrytype>book</entrytype>
@@ -493,7 +482,7 @@
 	<author>Lazzeroni, Claudius (ed.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-863">
     <entrytype>book</entrytype>
@@ -501,7 +490,6 @@
     	<year>1999</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Infinito</publisher>
     <keywords>
@@ -513,7 +501,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-864">
     <entrytype>book</entrytype>
@@ -521,7 +509,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -532,7 +519,7 @@
 	<author>Borges, Jorge Luis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-865">
     <entrytype>book</entrytype>
@@ -540,7 +527,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -551,7 +537,7 @@
 	<author>Borges, Jorge Luis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-866">
     <entrytype>book</entrytype>
@@ -559,7 +545,6 @@
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -570,7 +555,7 @@
 	<author>Borges, Jorge Luis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-867">
     <entrytype>book</entrytype>
@@ -588,7 +573,7 @@
 	<author>Boulle, Pierre</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-868">
     <entrytype>book</entrytype>
@@ -596,7 +581,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
@@ -607,7 +591,7 @@
 	<author>Bourriaud, Nicolás</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-869">
     <entrytype>book</entrytype>
@@ -615,7 +599,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
@@ -625,8 +608,8 @@
 	<author>Bourriaud, Nicolás</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    	<link>Disponible</link>
-    <lang>es</lang>
+    <link>http://200.61.152.38/Bourriaud_Postproduccion.pdf</link>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-870">
     <entrytype>book</entrytype>
@@ -634,7 +617,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
@@ -645,7 +627,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-871">
     <entrytype>book</entrytype>
@@ -653,7 +635,6 @@
     	<year>1980</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Sudamericana</publisher>
     <keywords>
@@ -665,7 +646,7 @@
 	<author>Box, Edgar</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-872">
     <entrytype>book</entrytype>
@@ -688,7 +669,7 @@
 	<author>Bozal, Valeriano</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-873">
     <entrytype>book</entrytype>
@@ -696,7 +677,6 @@
     	<year>2001</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Argonauta</publisher>
     <keywords>
@@ -707,7 +687,7 @@
 	<author>Breton, André</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-874">
     <entrytype>book</entrytype>
@@ -724,7 +704,7 @@
 	<author>Cabell, James Branco</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-875">
     <entrytype>book</entrytype>
@@ -743,7 +723,7 @@
 	<author>Gómez Urdá, Félix</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-876">
     <entrytype>book</entrytype>
@@ -762,7 +742,7 @@
 	<author>Calvino, Italo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-877">
     <entrytype>book</entrytype>
@@ -782,7 +762,7 @@
 	<author>Camnitzer, Luis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-878">
     <entrytype>book</entrytype>
@@ -790,7 +770,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones Atalanta</publisher>
     <keywords>
@@ -801,7 +780,7 @@
 	<author>Campbell, Joseph</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-879">
     <entrytype>book</entrytype>
@@ -809,7 +788,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Tinta Limón</publisher>
     <keywords>
@@ -821,7 +799,7 @@
 	<author>Carras, Rafaela</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-880">
     <entrytype>book</entrytype>
@@ -829,7 +807,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Anagrama</publisher>
     <keywords>
@@ -839,7 +816,7 @@
 	<author>Carver, Raymond</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-881">
     <entrytype>book</entrytype>
@@ -847,7 +824,6 @@
     	<year>2005</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -858,7 +834,7 @@
 	<author>Casares Bioy, Adolfo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-882">
     <entrytype>book</entrytype>
@@ -866,7 +842,6 @@
     	<year>2005</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -876,7 +851,7 @@
 	<author>Casares Bioy, Adolfo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-883">
     <entrytype>book</entrytype>
@@ -884,7 +859,6 @@
     	<year>2005</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -894,7 +868,7 @@
 	<author>Casares Bioy, Adolfo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-884">
     <entrytype>book</entrytype>
@@ -902,7 +876,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Silvia Pazos Editora</publisher>
     <keywords>
@@ -912,7 +885,7 @@
 	<author>Caso Rosendi, Gustavo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-885">
     <entrytype>book</entrytype>
@@ -920,7 +893,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
@@ -931,7 +903,7 @@
 	<author>Castaneda, Carlos</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-886">
     <entrytype>book</entrytype>
@@ -939,7 +911,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
@@ -950,7 +921,7 @@
 	<author>Castaneda, Carlos</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-887">
     <entrytype>book</entrytype>
@@ -958,7 +929,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -969,7 +939,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-888">
     <entrytype>book</entrytype>
@@ -987,7 +957,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-889">
     <entrytype>book</entrytype>
@@ -1012,7 +982,7 @@
 	<author>Clark, Zoila</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-890">
     <entrytype>book</entrytype>
@@ -1032,7 +1002,7 @@
 	<author>Clayton, Jo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-891">
     <entrytype>book</entrytype>
@@ -1052,7 +1022,7 @@
 	<author>Cope, David</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-892">
     <entrytype>book</entrytype>
@@ -1060,7 +1030,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>La Crujía</publisher>
     <keywords>
@@ -1072,7 +1041,7 @@
 	<author>Costa, Juan</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-893">
     <entrytype>book</entrytype>
@@ -1080,7 +1049,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Editorial Distal</publisher>
     <keywords>
@@ -1091,7 +1059,7 @@
 	<author>Da Vinci, Leonardo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-894">
     <entrytype>book</entrytype>
@@ -1099,7 +1067,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -1112,7 +1079,7 @@
 	<author>Danto, Arthur C</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-895">
     <entrytype>book</entrytype>
@@ -1132,7 +1099,7 @@
 	<author>Jones, Ralph</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-896">
     <entrytype>book</entrytype>
@@ -1140,7 +1107,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -1153,7 +1119,7 @@
 	<author>De Bono, Edward</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-897">
     <entrytype>book</entrytype>
@@ -1172,7 +1138,7 @@
 	<author>De Raucourt, Françoise</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>fr</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-898">
     <entrytype>book</entrytype>
@@ -1193,7 +1159,7 @@
 	<author>Debray, Régis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-899">
     <entrytype>book</entrytype>
@@ -1201,7 +1167,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Cactus</publisher>
     <keywords>
@@ -1212,7 +1177,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-900">
     <entrytype>book</entrytype>
@@ -1229,7 +1194,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-901">
     <entrytype>book</entrytype>
@@ -1250,7 +1215,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-902">
     <entrytype>book</entrytype>
@@ -1267,7 +1232,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-903">
     <entrytype>book</entrytype>
@@ -1275,7 +1240,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -1286,7 +1250,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-904">
     <entrytype>book</entrytype>
@@ -1294,7 +1258,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -1306,7 +1269,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-905">
     <entrytype>book</entrytype>
@@ -1314,7 +1277,6 @@
     	<year>2013</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -1325,7 +1287,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-906">
     <entrytype>book</entrytype>
@@ -1342,7 +1304,7 @@
 	<author>Deleuze, Gilles</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-907">
     <entrytype>book</entrytype>
@@ -1359,7 +1321,7 @@
 	<author>Dewey, John</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-908">
     <entrytype>book</entrytype>
@@ -1367,7 +1329,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Biblos</publisher>
     <keywords>
@@ -1379,7 +1340,7 @@
 	<author>Diaz, Esther</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-909">
     <entrytype>book</entrytype>
@@ -1396,7 +1357,7 @@
 	<author>Dickens, Charles</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-910">
     <entrytype>book</entrytype>
@@ -1413,7 +1374,7 @@
 	<author>Dickson, Lovat</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-911">
     <entrytype>book</entrytype>
@@ -1421,7 +1382,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Interzona Editora</publisher>
     <keywords>
@@ -1433,7 +1393,7 @@
 	<author>Diederichsen, Diedrich</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-912">
     <entrytype>book</entrytype>
@@ -1455,7 +1415,7 @@
 	<author>Jerse, Thomas A</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-913">
     <entrytype>book</entrytype>
@@ -1473,7 +1433,7 @@
 	<author>Ebert, Roger</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-914">
     <entrytype>book</entrytype>
@@ -1490,7 +1450,7 @@
 	<author>Eisenstein, Sergei</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-915">
     <entrytype>book</entrytype>
@@ -1507,7 +1467,7 @@
 	<author>Eisenstein, Sergei</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-916">
     <entrytype>book</entrytype>
@@ -1515,7 +1475,6 @@
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Nobuko</publisher>
     <keywords>
@@ -1529,7 +1488,7 @@
 	<author>Montini, Roberto</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-917">
     <entrytype>book</entrytype>
@@ -1549,7 +1508,7 @@
 	<author>Faludi, Robert</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-918">
     <entrytype>book</entrytype>
@@ -1557,7 +1516,6 @@
     	<year>2013</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Caja Negra</publisher>
     <keywords>
@@ -1568,7 +1526,7 @@
 	<author>Farocki, Harun</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-919">
     <entrytype>book</entrytype>
@@ -1576,7 +1534,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Caja Negra</publisher>
     <keywords>
@@ -1587,7 +1544,7 @@
 	<author>Feldman, Morton</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-920">
     <entrytype>book</entrytype>
@@ -1595,7 +1552,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Colihue</publisher>
     <keywords>
@@ -1606,7 +1562,7 @@
 	<author>Flaubert, Gustave</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>fr</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-921">
     <entrytype>book</entrytype>
@@ -1626,7 +1582,7 @@
 	<author>Foster, Hal</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-922">
     <entrytype>book</entrytype>
@@ -1634,7 +1590,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Siglo Veintiuno Editorial</publisher>
     <keywords>
@@ -1646,7 +1601,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-923">
     <entrytype>book</entrytype>
@@ -1654,7 +1609,6 @@
     	<year>2006</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones Infinito</publisher>
     <keywords>
@@ -1668,7 +1622,7 @@
 	<author>Frascara, Jorge</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-924">
     <entrytype>book</entrytype>
@@ -1676,7 +1630,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Infinito</publisher>
     <keywords>
@@ -1687,7 +1640,7 @@
 	<author>Frascara, Jorge</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-925">
     <entrytype>book</entrytype>
@@ -1704,7 +1657,7 @@
 	<author>Fry, Ben</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-926">
     <entrytype>book</entrytype>
@@ -1712,7 +1665,6 @@
     	<year>2006</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones Corregidor</publisher>
     <keywords>
@@ -1723,7 +1675,7 @@
 	<author>Galasse, Danilo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-927">
     <entrytype>book</entrytype>
@@ -1731,7 +1683,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Santiago Arcos editor</publisher>
     <keywords>
@@ -1745,7 +1696,7 @@
 	<author>García Negroni, María Marta</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-928">
     <entrytype>book</entrytype>
@@ -1753,7 +1704,6 @@
     	<year>1992</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Leviatán</publisher>
     <keywords>
@@ -1764,7 +1714,7 @@
 	<author>Gauguin, Paul</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-929">
     <entrytype>book</entrytype>
@@ -1783,7 +1733,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-930">
     <entrytype>book</entrytype>
@@ -1800,7 +1750,7 @@
 	<author>Greene, Rachel</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-931">
     <entrytype>book</entrytype>
@@ -1820,7 +1770,7 @@
 	<author>Guasch, Anna María</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-932">
     <entrytype>book</entrytype>
@@ -1838,7 +1788,7 @@
 	<author>Heidegger, Martin</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-933">
     <entrytype>book</entrytype>
@@ -1855,7 +1805,7 @@
 	<author>Hellman, Lillian</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-934">
     <entrytype>book</entrytype>
@@ -1873,7 +1823,7 @@
 	<author>Howard, William</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-935">
     <entrytype>book</entrytype>
@@ -1892,7 +1842,7 @@
 	<author>Hughes, Thomas</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-936">
     <entrytype>book</entrytype>
@@ -1900,7 +1850,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>La Marca Editora</publisher>
     <keywords>
@@ -1910,7 +1859,7 @@
 	<author>Joly, Martine</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-937">
     <entrytype>book</entrytype>
@@ -1918,7 +1867,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>La marca editora</publisher>
     <keywords>
@@ -1930,7 +1878,7 @@
 	<author>Leveratto, Jean-Marc</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-938">
     <entrytype>book</entrytype>
@@ -1938,7 +1886,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Caja Negra</publisher>
     <keywords>
@@ -1948,7 +1895,7 @@
 	<author>Kagel, Mauricio</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-939">
     <entrytype>book</entrytype>
@@ -1956,7 +1903,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Andrómeda Ediciones</publisher>
     <keywords>
@@ -1966,7 +1912,7 @@
 	<author>Kandinsky, Vassily</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-940">
     <entrytype>book</entrytype>
@@ -1986,7 +1932,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-941">
     <entrytype>book</entrytype>
@@ -1994,7 +1940,6 @@
     	<year>2005</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Losada</publisher>
     <keywords>
@@ -2005,7 +1950,7 @@
 	<author>Kant, Immanuel</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-942">
     <entrytype>book</entrytype>
@@ -2013,7 +1958,6 @@
     	<year>1947</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ocesa</publisher>
     <keywords>
@@ -2023,7 +1967,7 @@
 	<author>Keller, Gottfried</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-943">
     <entrytype>book</entrytype>
@@ -2041,7 +1985,7 @@
 	<author>Kennedy, John F</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-944">
     <entrytype>book</entrytype>
@@ -2060,7 +2004,7 @@
 	<author>Ritchie, Dennis M</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-945">
     <entrytype>book</entrytype>
@@ -2068,7 +2012,6 @@
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Cactus</publisher>
     <keywords>
@@ -2080,7 +2023,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-946">
     <entrytype>book</entrytype>
@@ -2088,7 +2031,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Caja Negra</publisher>
     <keywords>
@@ -2102,7 +2044,7 @@
 	<author>Kozak, Claudia (ed.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-947">
     <entrytype>book</entrytype>
@@ -2123,7 +2065,7 @@
 	<author>Krauss, Rosalind E</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-948">
     <entrytype>book</entrytype>
@@ -2131,7 +2073,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Manantial</publisher>
     <keywords>
@@ -2142,7 +2083,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-949">
     <entrytype>book</entrytype>
@@ -2150,7 +2091,6 @@
     	<year>2009</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -2162,7 +2102,7 @@
 	<author>Lacan, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-950">
     <entrytype>book</entrytype>
@@ -2179,7 +2119,7 @@
 	<author>Landow, George P</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-951">
     <entrytype>book</entrytype>
@@ -2187,7 +2127,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Nueva visión</publisher>
     <keywords>
@@ -2198,7 +2137,7 @@
 	<author>Le Breton, David</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-952">
     <entrytype>book</entrytype>
@@ -2216,7 +2155,7 @@
 	<author>Llewellyn, Richard</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-953">
     <entrytype>book</entrytype>
@@ -2224,7 +2163,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Adriana Hidalgo Editora</publisher>
     <keywords>
@@ -2235,7 +2173,7 @@
 	<author>Bruzzone, Gustavo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-954">
     <entrytype>book</entrytype>
@@ -2254,7 +2192,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-955">
     <entrytype>book</entrytype>
@@ -2272,7 +2210,7 @@
 	<author>Loy, Gareth</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-956">
     <entrytype>book</entrytype>
@@ -2295,7 +2233,7 @@
 	<author>Lupton, Ellen</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-957">
     <entrytype>book</entrytype>
@@ -2303,7 +2241,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Nueva librería</publisher>
     <keywords>
@@ -2317,7 +2254,7 @@
 	<author>Piedras, Pablo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-958">
     <entrytype>book</entrytype>
@@ -2335,7 +2272,7 @@
 	<author>Maclennan, Hugh</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-959">
     <entrytype>book</entrytype>
@@ -2343,7 +2280,6 @@
     	<year>2004</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones Infinito</publisher>
     <keywords>
@@ -2356,7 +2292,7 @@
 	<author>Maldonado, Tomás</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-960">
     <entrytype>book</entrytype>
@@ -2374,7 +2310,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-961">
     <entrytype>book</entrytype>
@@ -2392,7 +2328,7 @@
 	<author>Margolis, Michael</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-962">
     <entrytype>book</entrytype>
@@ -2410,7 +2346,7 @@
 	<author>Marquina, Eduardo</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-963">
     <entrytype>book</entrytype>
@@ -2418,7 +2354,6 @@
     	<year>1993</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Diario Popular</publisher>
     <keywords>
@@ -2431,7 +2366,7 @@
 	<author>Martinez, Noemi Hebe</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-964">
     <entrytype>book</entrytype>
@@ -2447,7 +2382,7 @@
 	<author>Melville, Herman</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-965">
     <entrytype>book</entrytype>
@@ -2455,7 +2390,6 @@
     	<year>1954</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Schapire</publisher>
     <keywords>
@@ -2465,7 +2399,7 @@
 	<author>Meoni, Armando</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-966">
     <entrytype>book</entrytype>
@@ -2483,7 +2417,7 @@
 	<author>Mitry, Jean</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-967">
     <entrytype>book</entrytype>
@@ -2501,7 +2435,7 @@
 	<author>Mitry, Jean</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-968">
     <entrytype>book</entrytype>
@@ -2509,7 +2443,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Infinito</publisher>
     <keywords>
@@ -2523,7 +2456,7 @@
 	<author>Moholy-Nagy</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-969">
     <entrytype>book</entrytype>
@@ -2531,7 +2464,6 @@
     	<year>2004</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -2545,7 +2477,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-970">
     <entrytype>book</entrytype>
@@ -2564,7 +2496,7 @@
 	<author>Moore, F. Richard</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-971">
     <entrytype>book</entrytype>
@@ -2583,7 +2515,7 @@
 	<author>Morin, Edgar</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-972">
     <entrytype>book</entrytype>
@@ -2601,7 +2533,7 @@
 	<author>Munari, Bruno</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-973">
     <entrytype>book</entrytype>
@@ -2621,7 +2553,7 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-974">
     <entrytype>book</entrytype>
@@ -2639,7 +2571,7 @@
 	<author>Muybridge, Eadweard</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-975">
     <entrytype>book</entrytype>
@@ -2662,7 +2594,7 @@
 	<author>Neuner, John J</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-976">
     <entrytype>book</entrytype>
@@ -2670,7 +2602,6 @@
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Alianza</publisher>
     <keywords>
@@ -2681,7 +2612,7 @@
 	<author>Nietzsche, Friedrich</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-977">
     <entrytype>book</entrytype>
@@ -2704,7 +2635,7 @@
 	<author>Noble, Joshua</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-978">
     <entrytype>book</entrytype>
@@ -2712,7 +2643,6 @@
     	<year>2013</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Emecé</publisher>
     <keywords>
@@ -2727,7 +2657,7 @@
 	<author>Oliveras, Elena (ed.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-979">
     <entrytype>book</entrytype>
@@ -2747,7 +2677,7 @@
 	<author>Schafer, Ronald</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-980">
     <entrytype>book</entrytype>
@@ -2770,7 +2700,7 @@
 	<author>Owsinski, bobby</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-981">
     <entrytype>book</entrytype>
@@ -2791,7 +2721,7 @@
 	<author>Owsinski, bobby</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-982">
     <entrytype>book</entrytype>
@@ -2799,7 +2729,6 @@
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Biblos. Fundación Osde</publisher>
     <keywords>
@@ -2809,7 +2738,7 @@
 	<author>Peña, Fernando M</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-983">
     <entrytype>book</entrytype>
@@ -2828,7 +2757,7 @@
 	<author>Perloff, Marjorie</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-984">
     <entrytype>book</entrytype>
@@ -2846,7 +2775,7 @@
 	<author>Platón</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-985">
     <entrytype>book</entrytype>
@@ -2862,7 +2791,7 @@
 	<author>Pope, Alexander</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-986">
     <entrytype>book</entrytype>
@@ -2880,7 +2809,7 @@
 	<author>Prokosch, Frederick</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-987">
     <entrytype>book</entrytype>
@@ -2899,7 +2828,7 @@
 	<author>Radiguet, Raymond</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-988">
     <entrytype>book</entrytype>
@@ -2917,7 +2846,7 @@
 	<author>Ramati, Alexander</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-989">
     <entrytype>book</entrytype>
@@ -2925,7 +2854,6 @@
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Libros del Zorzal</publisher>
     <keywords>
@@ -2936,7 +2864,7 @@
 	<author>Rancière, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-990">
     <entrytype>book</entrytype>
@@ -2944,7 +2872,6 @@
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Manantial</publisher>
     <keywords>
@@ -2955,7 +2882,7 @@
 	<author>Rancière, Jacques</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-991">
     <entrytype>book</entrytype>
@@ -2973,7 +2900,7 @@
 	<author>Rayburn, Ray A</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-992">
     <entrytype>book</entrytype>
@@ -2993,7 +2920,7 @@
 	<author>McWilliams, Chandler</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-993">
     <entrytype>book</entrytype>
@@ -3010,7 +2937,7 @@
 	<author>Renault, Mary</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-994">
     <entrytype>book</entrytype>
@@ -3029,7 +2956,7 @@
 	<author>Roads, Curtis</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-995">
     <entrytype>book</entrytype>
@@ -3047,7 +2974,7 @@
 	<author>Robbins, Harold</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-996">
     <entrytype>book</entrytype>
@@ -3055,7 +2982,6 @@
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -3069,7 +2995,7 @@
 	<author>Russo, Eduardo A (comp.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
 <entry name="book2015-997">
     <entrytype>book</entrytype>
@@ -3086,15 +3012,31 @@
 	<author>Sabatini, Rafael</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="book2015-998">
+    <entrytype>book</entrytype>
+    <title>The Black Swan</title>
+    	<year>1976</year>
+    <address>
+	<city>EUA</city>
+</address>
+    	<publisher>Ballantine Books</publisher>
+    <keywords>
+	<keyword>black</keyword>
+	</keywords>
+    <authors>
+	<author>Sabatini, Rafael</author>
+	</authors>
+    	<bibliografia>Literatura General</bibliografia>
+    <lang>inglés</lang>
+</entry>
+<entry name="book2015-999">
     <entrytype>book</entrytype>
     <title>Arte y técnica de la animación</title>
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones de la Flor</publisher>
     <keywords>
@@ -3105,15 +3047,14 @@
 	<author>Sáenz Valiente, Rodolfo</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-999">
+<entry name="book2015-1000">
     <entrytype>book</entrytype>
     <title>Fantasmas de la Infancia. Ministerio Educación Ciencia y Tecnología. Presidencia de la Nación</title>
     	<year>2007</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Ediciones Último Reino</publisher>
     <keywords>
@@ -3130,9 +3071,9 @@
 	<author>San Martín, María Elena</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1000">
+<entry name="book2015-1001">
     <entrytype>book</entrytype>
     <title>El montaje cinematográfico</title>
     	<year>1996</year>
@@ -3149,9 +3090,9 @@
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
     	<link>Disponible</link>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1001">
+<entry name="book2015-1002">
     <entrytype>book</entrytype>
     <title>In the Teeth of the Evidence</title>
     	<year>1940</year>
@@ -3167,9 +3108,9 @@
 	<author>Sayers, Dorothy L</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1002">
+<entry name="book2015-1003">
     <entrytype>book</entrytype>
     <title>The Other Side of the Night</title>
     	<year>1976</year>
@@ -3185,9 +3126,9 @@
 	<author>Schiddel, Edmund</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1003">
+<entry name="book2015-1004">
     <entrytype>book</entrytype>
     <title>The Reflective Practitioner. How Professionals Think In Action</title>
     	<year>1983</year>
@@ -3206,15 +3147,14 @@
 	<author>Schon, Donald</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1004">
+<entry name="book2015-1005">
     <entrytype>book</entrytype>
     <title>Testimonios para nunca más. De Ana Frank a nuestros días</title>
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Eudeba</publisher>
     <keywords>
@@ -3228,9 +3168,9 @@
 	<author>Chemen, Silvina</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1005">
+<entry name="book2015-1006">
     <entrytype>book</entrytype>
     <title>Learning Processing</title>
     	<year>2008</year>
@@ -3246,15 +3186,14 @@
 	<author>Shiffman, Daniel</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1006">
+<entry name="book2015-1007">
     <entrytype>book</entrytype>
     <title>El hombre postorgánico. Cuerpo, subjetividad y tecnologías digitales</title>
     	<year>2010</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
@@ -3269,15 +3208,14 @@
 	<author>Sibilia, Paula</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1007">
+<entry name="book2015-1008">
     <entrytype>book</entrytype>
     <title>La intimidad como espectáculo</title>
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Fondo de Cultura Económica</publisher>
     <keywords>
@@ -3288,15 +3226,14 @@
 	<author>Sibilia, Paula</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1008">
+<entry name="book2015-1009">
     <entrytype>book</entrytype>
     <title>Sobre la fotografía</title>
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Debolsillo</publisher>
     <keywords>
@@ -3306,15 +3243,14 @@
 	<author>Sontag, Susan</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1009">
+<entry name="book2015-1010">
     <entrytype>book</entrytype>
     <title>El siglo de la imagen analógica</title>
     	<year>2004</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>La Marca Editora</publisher>
     <keywords>
@@ -3326,9 +3262,9 @@
 	<author>Sorlin, Pierre</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1010">
+<entry name="book2015-1011">
     <entrytype>book</entrytype>
     <title>El juego de Hollywood. Todo sobre el negocio del cine</title>
     	<year>2006</year>
@@ -3345,9 +3281,9 @@
 	<author>Squire, Jason E. (Ed.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1011">
+<entry name="book2015-1012">
     <entrytype>book</entrytype>
     <title>Elephant Walk</title>
     	<year>1949</year>
@@ -3362,9 +3298,9 @@
 	<author>Standish, Robert</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1012">
+<entry name="book2015-1013">
     <entrytype>book</entrytype>
     <title>A Digital Signal Processing Primer</title>
     	<year>1996</year>
@@ -3382,9 +3318,9 @@
 	<author>Steiglitz, Ken</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1013">
+<entry name="book2015-1014">
     <entrytype>book</entrytype>
     <title>Ten Modern Mystery Stories. Laurel &amp; Gold</title>
     	<year>1965</year>
@@ -3407,15 +3343,14 @@
 	<author>Cole, Margaret</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1014">
+<entry name="book2015-1015">
     <entrytype>book</entrytype>
     <title>La Gente de Hemsö. La vida y las costumbres de los isleños suecos pintadas magistralmente en el marco de una narración en que lo dramático alterna con lo festivo y lo pintoresco</title>
     	<year>1944</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Editorial Poseidón</publisher>
     <keywords>
@@ -3437,9 +3372,9 @@
 	<author>Strindberg, August</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1015">
+<entry name="book2015-1016">
     <entrytype>book</entrytype>
     <title>Redes de computadoras</title>
     	<year>2003</year>
@@ -3455,9 +3390,9 @@
 	<author>Tanenbaum, Andrew S</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1016">
+<entry name="book2015-1017">
     <entrytype>book</entrytype>
     <title>Sculpting in time</title>
     	<year>2012</year>
@@ -3472,9 +3407,9 @@
 	<author>Tarkovsky, Andrey</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1017">
+<entry name="book2015-1018">
     <entrytype>book</entrytype>
     <title>Estudios avanzados de Performance</title>
     	<year>2011</year>
@@ -3492,9 +3427,9 @@
 	<author>Fuentes, Marcela (edits.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1018">
+<entry name="book2015-1019">
     <entrytype>book</entrytype>
     <title>Algorithms for visual design using the processing language</title>
     	<year>2009</year>
@@ -3514,9 +3449,9 @@
 	<author>Terzidis, Kostas</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1019">
+<entry name="book2015-1020">
     <entrytype>book</entrytype>
     <title>El arte cinematográfico. Una introducción</title>
     	<year>1993</year>
@@ -3533,9 +3468,9 @@
 	<author>Bordwell, David</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1020">
+<entry name="book2015-1021">
     <entrytype>book</entrytype>
     <title>Not as a Stranger</title>
     	<year>1955</year>
@@ -3550,9 +3485,9 @@
 	<author>Thomson, Morton</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1021">
+<entry name="book2015-1022">
     <entrytype>book</entrytype>
     <title>British and American Short Stories. Longman Simplified English Series</title>
     	<year>1960</year>
@@ -3574,15 +3509,14 @@
 	<author>Thornley, G.C</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1022">
+<entry name="book2015-1023">
     <entrytype>book</entrytype>
     <title>Lecciones de Cine. Clases magistrales de grandes directores explicadas por ellos mismos</title>
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -3599,15 +3533,14 @@
 	<author>Tirard, Laurent</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1023">
+<entry name="book2015-1024">
     <entrytype>book</entrytype>
     <title>Teoría de la literatura de los formalistas rusos</title>
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Siglo Veintiuno editores</publisher>
     <keywords>
@@ -3620,15 +3553,14 @@
 	<author>Todorov, Tzvetan (comp.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1024">
+<entry name="book2015-1025">
     <entrytype>book</entrytype>
     <title>La orgía perpetua. Flaubert y Madame Bovary</title>
     	<year>2011</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Alfaguara</publisher>
     <keywords>
@@ -3642,9 +3574,9 @@
 	<author>Vargas Llosa, Mario</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1025">
+<entry name="book2015-1026">
     <entrytype>book</entrytype>
     <title>Messiah</title>
     	<year>1965</year>
@@ -3659,9 +3591,9 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1026">
+<entry name="book2015-1027">
     <entrytype>book</entrytype>
     <title>A Thirsty Evil</title>
     	<year>1978</year>
@@ -3676,9 +3608,9 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1027">
+<entry name="book2015-1028">
     <entrytype>book</entrytype>
     <title>Three. Williwaw. A Thirsty Evil. Julian the Apostate</title>
     	<year>1962</year>
@@ -3697,9 +3629,9 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1028">
+<entry name="book2015-1029">
     <entrytype>book</entrytype>
     <title>The City And The Pillar</title>
     	<year>1961</year>
@@ -3714,9 +3646,9 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1029">
+<entry name="book2015-1030">
     <entrytype>book</entrytype>
     <title>Panther</title>
     	<year>1977</year>
@@ -3731,9 +3663,9 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1030">
+<entry name="book2015-1031">
     <entrytype>book</entrytype>
     <title>Julian</title>
     	<year>1965</year>
@@ -3748,15 +3680,14 @@
 	<author>Vidal, Gore</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1031">
+<entry name="book2015-1032">
     <entrytype>book</entrytype>
     <title>Psicología del arte</title>
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Paidós</publisher>
     <keywords>
@@ -3766,15 +3697,14 @@
 	<author>Vygotsky, Lev</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1032">
+<entry name="book2015-1033">
     <entrytype>book</entrytype>
     <title>Mi filosofía de A a B y de B a A</title>
     	<year>2012</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Tusquets Editores</publisher>
     <keywords>
@@ -3784,9 +3714,9 @@
 	<author>Warhol, Andy</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="book2015-1033">
+<entry name="book2015-1034">
     <entrytype>book</entrytype>
     <title>Information Arts</title>
     	<year>2003</year>
@@ -3801,9 +3731,9 @@
 	<author>Wilson, Stephen</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1034">
+<entry name="book2015-1035">
     <entrytype>book</entrytype>
     <title>Composing Interactive Music: Techniques and Ideas Using Max</title>
     	<year>2001</year>
@@ -3823,9 +3753,9 @@
 	<author>Winkler, Todd</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1035">
+<entry name="book2015-1036">
     <entrytype>book</entrytype>
     <title>Very Good, Jeeves</title>
     	<year>1932</year>
@@ -3840,15 +3770,14 @@
 	<author>Wodehouse, Pelham Grenville</author>
 	</authors>
     	<bibliografia>Literatura General</bibliografia>
-    <lang>en</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="book2015-1036">
+<entry name="book2015-1037">
     <entrytype>book</entrytype>
     <title>Pensar el cine 2. Cuerpo(s), temporalidad y nuevas tecnologías</title>
     	<year>2004</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     	<publisher>Manantial</publisher>
     <keywords>
@@ -3862,16 +3791,15 @@
 	<author>Yoel, Gerardo. (comp.)</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    <lang>es</lang>
+    <lang>español</lang>
 </entry>
-<entry name="musica2015-1037">
+<entry name="musica2015-1038">
     <entrytype>musica</entrytype>
     <title>On Nothing</title>
     	<year>2008</year>
     <address>
 	<city>España</city>
 </address>
-    	<publisher>Ars Harmonica</publisher>
     <keywords>
 	<keyword>nothing</keyword>
 	</keywords>
@@ -3879,9 +3807,9 @@
 	<author>Berenguer, José Manuel</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1038">
+<entry name="musica2015-1039">
     <entrytype>musica</entrytype>
     <title>Música Contemporánea Electroacústica</title>
     	<year>2007</year>
@@ -3900,7 +3828,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1039">
+<entry name="musica2015-1040">
     <entrytype>musica</entrytype>
     <title>Música Contemporánea Electroacústica</title>
     	<year>2008</year>
@@ -3919,7 +3847,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1040">
+<entry name="musica2015-1041">
     <entrytype>musica</entrytype>
     <title>Compositores Javerianos III. Música para Piano. Radostina Petkova</title>
     	<year>2007</year>
@@ -3941,7 +3869,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1041">
+<entry name="musica2015-1042">
     <entrytype>musica</entrytype>
     <title>Compositores Javerianos IV. Música para Cuerdas. Cuarteto-Manolov</title>
     	<year>2009</year>
@@ -3962,7 +3890,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1042">
+<entry name="musica2015-1043">
     <entrytype>musica</entrytype>
     <title>Volumen 1</title>
     	<year>2006</year>
@@ -3974,21 +3902,12 @@
 	<keyword>volumen</keyword>
 	</keywords>
     <authors>
-	<author>Sigal, Rodrigo</author>
-	<author>Quaranta, Daniel</author>
-	<author>Minsburg, Raúl</author>
-	<author>Garzón, Eleazar</author>
-	<author>Schachter, Daniel</author>
-	<author>Castro, Otto</author>
-	<author>Holmes, Bryan</author>
-	<author>Chaves, Óscar</author>
-	<author>Zampronha, Edson</author>
-	<author>Martínez Ulloa, Jorge</author>
+	<author>Colección</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1043">
+<entry name="musica2015-1044">
     <entrytype>musica</entrytype>
     <title>Marche Slav and the other Russian Favorites. Leonard Slatkin. Saint Louis Symphony Orchestra</title>
     	<year>1982</year>
@@ -4009,16 +3928,12 @@
 	<keyword>orchestra</keyword>
 	</keywords>
     <authors>
-	<author>Glinka, Mikhail</author>
-	<author>Borodin, Alexander</author>
-	<author>Tchaikovsky, Peter Ilyich</author>
-	<author>Korsakov, Nikolai Rimsky</author>
-	<author>Gliére, Reinhold</author>
+	<author>Colección</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1044">
+<entry name="musica2015-1045">
     <entrytype>musica</entrytype>
     <title>Boulez Conducts Debussy. La Mer. L’Apres-midi d’un faun. Jeux. New Philarmonia Orchestra</title>
     	<year>1985</year>
@@ -4038,9 +3953,9 @@
 	<author>Debussy, Claude</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="musica2015-1045">
+<entry name="musica2015-1046">
     <entrytype>musica</entrytype>
     <title>Figuración de Gabino Betinotti. Obra musical de Pablo Di Liscia basada en el libro homónimo de Oscar Steimberg</title>
     	<year>2009</year>
@@ -4063,13 +3978,30 @@
 	</keywords>
     <authors>
 	<author>Di Liscia, Pablo</author>
-	<author>Steimberg, Oscar</author>
-	<author>Steimberg, Darío</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1046">
+<entry name="musica2015-1047">
+    <entrytype>musica</entrytype>
+    <title>Figuración de Gabino Betinotti</title>
+    	<year>2009</year>
+    <address>
+	<city>Argentina</city>
+</address>
+    <keywords>
+	<keyword>figuración</keyword>
+	<keyword>gabino</keyword>
+	<keyword>betinotti</keyword>
+	</keywords>
+    <authors>
+	<author>Di Liscia, Pablo</author>
+	<author>Steimberg Oscar</author>
+	</authors>
+    	<bibliografia>Cdteca</bibliografia>
+    <lang>español</lang>
+</entry>
+<entry name="musica2015-1048">
     <entrytype>musica</entrytype>
     <title>La Teoría Sagrada del Espacio Acústico. Libro Suite</title>
     	<year>2004</year>
@@ -4090,7 +4022,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1047">
+<entry name="musica2015-1049">
     <entrytype>musica</entrytype>
     <title>Barboza, Raúl. Dos Improntus. Piano y Acordeón</title>
     	<year>2006</year>
@@ -4105,12 +4037,11 @@
 	</keywords>
     <authors>
 	<author>Edelstein, Oscar</author>
-	<author>Barboza, Raúl</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1048">
+<entry name="musica2015-1050">
     <entrytype>musica</entrytype>
     <title>Ensamble Nacional del Sur. Estudios sobre la Grilla Acústica-Libro II</title>
     	<year>2011</year>
@@ -4130,7 +4061,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1049">
+<entry name="musica2015-1051">
     <entrytype>musica</entrytype>
     <title>O Tempo A Condena</title>
     	<year>1999</year>
@@ -4148,7 +4079,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1050">
+<entry name="musica2015-1052">
     <entrytype>musica</entrytype>
     <title>Gabriel Brnčić</title>
     	<year>2005</year>
@@ -4161,15 +4092,12 @@
 	<keyword>brnčić</keyword>
 	</keywords>
     <authors>
-	<author>Brnčić, Gabriel</author>
-	<author>Kientzy, Daniel</author>
-	<author>Iñaki, Alberdi</author>
-	<author>Izquierdo, Joan</author>
+	<author>Gabriel Brnčić</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1051">
+<entry name="musica2015-1053">
     <entrytype>musica</entrytype>
     <title>Celestial Voices</title>
     	<year>1998</year>
@@ -4181,12 +4109,12 @@
 	<keyword>voices</keyword>
 	</keywords>
     <authors>
-	<author>García, Jacinto Orlando</author>
+	<author>García, Orlando Jacinto</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1052">
+<entry name="musica2015-1054">
     <entrytype>musica</entrytype>
     <title>Piano Ex Machina</title>
     	<year>2007</year>
@@ -4199,17 +4127,13 @@
 	</keywords>
     <authors>
 	<author>Kasakoff, Susana</author>
-	<author>Pampín, Juan</author>
-	<author>Varchausky, Nicolás</author>
-	<author>Davidovsky, Mario</author>
-	<author>Cura, Mariano, Harvey, Jonathan</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1053">
+<entry name="musica2015-1055">
     <entrytype>musica</entrytype>
-    <title>Chamber Concerto. Ramifications. String Quarter No. 2. Aventures. Lux aeterna. Ensemble InterContemporain</title>
+    <title>Chamber Concerto. Ramifications. String Quarter No. 2. Aventures. Lux aeterna</title>
     	<year>1983</year>
     <address>
 	<city>Alemania</city>
@@ -4223,17 +4147,14 @@
 	<keyword>quarter</keyword>
 	<keyword>aventures</keyword>
 	<keyword>aeterna</keyword>
-	<keyword>ensemble</keyword>
-	<keyword>intercontemporain</keyword>
 	</keywords>
     <authors>
 	<author>Ligeti, Gyorgy</author>
-	<author>Boulez, Pierre</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1054">
+<entry name="musica2015-1056">
     <entrytype>musica</entrytype>
     <title>Et Exspecto Resurrectionem Mortuorum. Chronochromie. La Ville d’en haut. The Cleveland Orchestra. Pierre Boulez</title>
     	<year>1995</year>
@@ -4253,12 +4174,12 @@
 	<keyword>boulez</keyword>
 	</keywords>
     <authors>
-	<author>Messiaen, Oliver, Boulez, Pierre</author>
+	<author>Messiaen, Oliver</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="musica2015-1055">
+<entry name="musica2015-1057">
     <entrytype>musica</entrytype>
     <title>Quatuor pour la Fin du Temps</title>
     	<year>1979</year>
@@ -4272,15 +4193,11 @@
 	</keywords>
     <authors>
 	<author>Messiaen, Oliver</author>
-	<author>Yordanoff, Luben</author>
-	<author>Tetard, Albert</author>
-	<author>Desurmont, Claude</author>
-	<author>Barenboim, Daniel</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="musica2015-1056">
+<entry name="musica2015-1058">
     <entrytype>musica</entrytype>
     <title>Threnody to the Victims of Hiroshima. Canticum Canticorum Salomonis. De Natura Sonoris Nos. 1 &amp; 2</title>
     	<year>1994</year>
@@ -4304,7 +4221,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1057">
+<entry name="musica2015-1059">
     <entrytype>musica</entrytype>
     <title>St Luke Passion</title>
     	<year>1990</year>
@@ -4321,7 +4238,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1058">
+<entry name="musica2015-1060">
     <entrytype>musica</entrytype>
     <title>Piano Concertos</title>
     	<year>1988</year>
@@ -4335,13 +4252,11 @@
 	</keywords>
     <authors>
 	<author>Ravel, Maurice</author>
-	<author>Argerich, Marta</author>
-	<author>Béroff, Michel</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1059">
+<entry name="musica2015-1061">
     <entrytype>musica</entrytype>
     <title>Boléro. Daphnis et Chloé. Alborada del Gracioso. London Symphony Orchestra. Abbado</title>
     	<year>1989</year>
@@ -4362,13 +4277,11 @@
 	</keywords>
     <authors>
 	<author>Ravel, Maurice</author>
-	<author>Jean</author>
-	<author>Kenneth</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1060">
+<entry name="musica2015-1062">
     <entrytype>musica</entrytype>
     <title>Ravel. Bolero. Daphnis et Chloé (Suite No. 1). Ma mère l’oye. Valses nobles et sentimentales</title>
     	<year>1989</year>
@@ -4389,12 +4302,11 @@
 	</keywords>
     <authors>
 	<author>Ravel, Maurice</author>
-	<author>Abbado, Claudio</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1061">
+<entry name="musica2015-1063">
     <entrytype>musica</entrytype>
     <title>Ravel. Complete Music for Piano Solo. Complete Piano Concertos</title>
     	<year>1993</year>
@@ -4417,7 +4329,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1062">
+<entry name="musica2015-1064">
     <entrytype>musica</entrytype>
     <title>Riccordo</title>
     	<year>2005</year>
@@ -4430,14 +4342,11 @@
     <authors>
 	<author>Schachter, Daniel</author>
 	<author>Martin, Saul</author>
-	<author>Bianchini, Riccardo</author>
-	<author>Belloc, Enrique</author>
-	<author>García, Nora</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1063">
+<entry name="musica2015-1065">
     <entrytype>musica</entrytype>
     <title>B-Blind C-Ciego</title>
     	<year>2008</year>
@@ -4454,7 +4363,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1064">
+<entry name="musica2015-1066">
     <entrytype>musica</entrytype>
     <title>Space Within</title>
     	<year>2004</year>
@@ -4471,7 +4380,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1065">
+<entry name="musica2015-1067">
     <entrytype>musica</entrytype>
     <title>Stimmung. Singcircle. Gregory Rose (Director)</title>
     	<year>1986</year>
@@ -4487,12 +4396,11 @@
 	</keywords>
     <authors>
 	<author>Stockhausen, Karlheinz</author>
-	<author>Rose, Gregory</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1066">
+<entry name="musica2015-1068">
     <entrytype>musica</entrytype>
     <title>Also sprach Zarathustra. Till Eulenspiegels lustige Streiche. Salomes Tanz. Michel Schwalbé, Solo-Violine. Berliner Philharmoniker. Herbert von Karajan</title>
     	<year>1979</year>
@@ -4517,14 +4425,11 @@
 	</keywords>
     <authors>
 	<author>Strauss, Richard</author>
-	<author>Tanz, Salomes</author>
-	<author>Schwalbé, Michel</author>
-	<author>Von Karajan, Herbert</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1067">
+<entry name="musica2015-1069">
     <entrytype>musica</entrytype>
     <title>Strauss. Don Juan. Death and Transfiguration. Till Eulenspiegel. Alemania, Philips Classics Productions. Bartók. The 6 String Quartets</title>
     	<year>1994</year>
@@ -4551,7 +4456,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1068">
+<entry name="musica2015-1070">
     <entrytype>musica</entrytype>
     <title>Igor Stravinsky. The Great Ballets</title>
     	<year>1993</year>
@@ -4566,13 +4471,11 @@
 	</keywords>
     <authors>
 	<author>Stravinsky, Igor</author>
-	<author>Haitink, Bernard</author>
-	<author>Markevitch, Igor</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1069">
+<entry name="musica2015-1071">
     <entrytype>musica</entrytype>
     <title>Música de las VI Jornadas argentinas de música contemporánea e investigación</title>
     	<year>2009</year>
@@ -4594,7 +4497,7 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1070">
+<entry name="musica2015-1072">
     <entrytype>musica</entrytype>
     <title>New York Philarmonic. Ensemble InterContemporain.  Pierre Boulez, Conductor</title>
     	<year>1990</year>
@@ -4612,12 +4515,11 @@
 	</keywords>
     <authors>
 	<author>Varese, Edgar</author>
-	<author>Boulez, Pierre</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1071">
+<entry name="musica2015-1073">
     <entrytype>musica</entrytype>
     <title>Gloria</title>
     	<year>1993</year>
@@ -4631,15 +4533,11 @@
     <authors>
 	<author>Vivaldi, Antonio</author>
 	<author>Sacrlatti, Alessandro</author>
-	<author>Corelli, Arcangelo</author>
-	<author>Argenta, Nancy</author>
-	<author>Smith, Jennifer</author>
-	<author>Wyn Rogers, Catherine</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="musica2015-1072">
+<entry name="musica2015-1074">
     <entrytype>musica</entrytype>
     <title>Carrera de Composición con Medios Electroacústicos. Obras Electroacústicas Premiadas en el Concurso Universitario de Composición Musical 2002</title>
     	<year>2003</year>
@@ -4671,29 +4569,12 @@
     	<bibliografia>Cdteca</bibliografia>
     <lang>español</lang>
 </entry>
-<entry name="musica2015-1073">
-    <entrytype>musica</entrytype>
-    <title>Piano. No input mixer</title>
-    	<year>2010</year>
-    <address>
-	<city>Argentina</city>
-</address>
-    	<publisher>Ilse</publisher>
-    <keywords>
-	<keyword>piano</keyword>
-	<keyword>input</keyword>
-	<keyword>mixer</keyword>
-	</keywords>
-    <authors>
-	<author>Foutel, Ana</author>
-	<author>Barabino, Federico</author>
-	</authors>
-    	<bibliografia>Cdteca</bibliografia>
-    <lang>español</lang>
-</entry>
-<entry name="musica2015-1074">
+<entry name="musica2015-1075">
     <entrytype>musica</entrytype>
     <title>Music of our Century</title>
+    <authors>
+	<author>Kirchberg, Klaus (comp.)</author>
+    </authors>
     	<year>1988</year>
     <address>
 	<city>Alemania</city>
@@ -4704,24 +4585,11 @@
 	<keyword>century</keyword>
 	</keywords>
     <authors>
-	<author>Ligeti, György</author>
-	<author>Hindemith, Paul</author>
-	<author>Stockhausen, Karlheinz</author>
-	<author>Cage, John</author>
-	<author>Berberian, Cathy</author>
-	<author>Scelsi, Giacinto</author>
-	<author>Werner Henze, Hans</author>
-	<author>Penderecki, Krzysztof</author>
-	<author>Monk, Meredith</author>
-	<author>Weiss, Harald</author>
-	<author>Ives, Charles</author>
-	<author>Brouwer, Leo</author>
-	<author>Hiller, Lejaren</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1075">
+<entry name="video2015-1076">
     <entrytype>video</entrytype>
     <title>Los doce del patíbulo</title>
     	<year>1967</year>
@@ -4739,7 +4607,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1076">
+<entry name="video2015-1077">
     <entrytype>video</entrytype>
     <title>Annie Hall</title>
     	<year>1977</year>
@@ -4756,7 +4624,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1077">
+<entry name="video2015-1078">
     <entrytype>video</entrytype>
     <title>Hannah y sus hermanas</title>
     	<year>1986</year>
@@ -4774,7 +4642,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1078">
+<entry name="video2015-1079">
     <entrytype>video</entrytype>
     <title>Interiores</title>
     	<year>1978</year>
@@ -4791,7 +4659,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1079">
+<entry name="video2015-1080">
     <entrytype>video</entrytype>
     <title>Manhattan</title>
     	<year>1979</year>
@@ -4808,7 +4676,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1080">
+<entry name="video2015-1081">
     <entrytype>video</entrytype>
     <title>Robó, huyó y lo pescaron</title>
     	<year>1969</year>
@@ -4825,7 +4693,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1081">
+<entry name="video2015-1082">
     <entrytype>video</entrytype>
     <title>Dios se lo pague</title>
     	<year>1948</year>
@@ -4842,13 +4710,12 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1082">
+<entry name="video2015-1083">
     <entrytype>video</entrytype>
     <title>Había una casa calle recuerdo 1970</title>
     	<year>2008</year>
     <address>
 	<city>Buenos Aires</city>
-	<city>Argentina</city>
 </address>
     <keywords>
 	<keyword>había</keyword>
@@ -4862,7 +4729,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1083">
+<entry name="video2015-1084">
     <entrytype>video</entrytype>
     <title>La guerra del fuego</title>
     	<year>1981</year>
@@ -4880,7 +4747,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1084">
+<entry name="video2015-1085">
     <entrytype>video</entrytype>
     <title>La cifra impar</title>
     	<year>1962</year>
@@ -4898,7 +4765,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1085">
+<entry name="video2015-1086">
     <entrytype>video</entrytype>
     <title>Blow-up</title>
     	<year>1966</year>
@@ -4917,7 +4784,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1086">
+<entry name="video2015-1087">
     <entrytype>video</entrytype>
     <title>El eclipse</title>
     	<year>1962</year>
@@ -4934,7 +4801,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1087">
+<entry name="video2015-1088">
     <entrytype>video</entrytype>
     <title>El pasajero</title>
     	<year>1975</year>
@@ -4951,7 +4818,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1088">
+<entry name="video2015-1089">
     <entrytype>video</entrytype>
     <title>Zabrinskie Point</title>
     	<year>1970</year>
@@ -4969,7 +4836,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1089">
+<entry name="video2015-1090">
     <entrytype>video</entrytype>
     <title>Tiempo de revancha</title>
     	<year>1981</year>
@@ -4985,9 +4852,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1090">
+<entry name="video2015-1091">
     <entrytype>video</entrytype>
     <title>El jefe</title>
     	<year>1958</year>
@@ -5003,7 +4870,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1091">
+<entry name="video2015-1092">
     <entrytype>video</entrytype>
     <title>Cara a cara</title>
     	<year>1976</year>
@@ -5019,7 +4886,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1092">
+<entry name="video2015-1093">
     <entrytype>video</entrytype>
     <title>Como un espejo</title>
     	<year>1961</year>
@@ -5036,7 +4903,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1093">
+<entry name="video2015-1094">
     <entrytype>video</entrytype>
     <title>Con las mejores intenciones</title>
     	<year>1992</year>
@@ -5054,7 +4921,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1094">
+<entry name="video2015-1095">
     <entrytype>video</entrytype>
     <title>Crisis</title>
     	<year>1946</year>
@@ -5071,7 +4938,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1095">
+<entry name="video2015-1096">
     <entrytype>video</entrytype>
     <title>De la vida de las marionetas</title>
     	<year>1980</year>
@@ -5088,7 +4955,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1096">
+<entry name="video2015-1097">
     <entrytype>video</entrytype>
     <title>El huevo de la serpiente</title>
     	<year>1977</year>
@@ -5106,7 +4973,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1097">
+<entry name="video2015-1098">
     <entrytype>video</entrytype>
     <title>El jardín de las delicias</title>
     	<year>1961</year>
@@ -5124,7 +4991,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1098">
+<entry name="video2015-1099">
     <entrytype>video</entrytype>
     <title>El manantial de la doncella</title>
     	<year>1960</year>
@@ -5142,7 +5009,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1099">
+<entry name="video2015-1100">
     <entrytype>video</entrytype>
     <title>El ojo del diablo</title>
     	<year>1960</year>
@@ -5159,7 +5026,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1100">
+<entry name="video2015-1101">
     <entrytype>video</entrytype>
     <title>El rito</title>
     	<year>1969</year>
@@ -5175,7 +5042,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1101">
+<entry name="video2015-1102">
     <entrytype>video</entrytype>
     <title>El rostro</title>
     	<year>1958</year>
@@ -5192,7 +5059,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1102">
+<entry name="video2015-1103">
     <entrytype>video</entrytype>
     <title>El séptimo sello</title>
     	<year>1957</year>
@@ -5210,7 +5077,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1103">
+<entry name="video2015-1104">
     <entrytype>video</entrytype>
     <title>El silencio</title>
     	<year>1963</year>
@@ -5227,7 +5094,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1104">
+<entry name="video2015-1105">
     <entrytype>video</entrytype>
     <title>En presencia de un payaso</title>
     	<year>1997</year>
@@ -5249,7 +5116,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1105">
+<entry name="video2015-1106">
     <entrytype>video</entrytype>
     <title>Fanny y Alexander</title>
     	<year>1982</year>
@@ -5269,7 +5136,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1106">
+<entry name="video2015-1107">
     <entrytype>video</entrytype>
     <title>Fresas salvajes</title>
     	<year>1957</year>
@@ -5287,7 +5154,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1107">
+<entry name="video2015-1108">
     <entrytype>video</entrytype>
     <title>Gritos y susurros</title>
     	<year>1972</year>
@@ -5305,7 +5172,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1108">
+<entry name="video2015-1109">
     <entrytype>video</entrytype>
     <title>La flauta mágica</title>
     	<year>1975</year>
@@ -5323,7 +5190,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1109">
+<entry name="video2015-1110">
     <entrytype>video</entrytype>
     <title>La hora del lobo</title>
     	<year>1967</year>
@@ -5339,7 +5206,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1110">
+<entry name="video2015-1111">
     <entrytype>video</entrytype>
     <title>La sed</title>
     	<year>1949</year>
@@ -5355,7 +5222,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1111">
+<entry name="video2015-1112">
     <entrytype>video</entrytype>
     <title>La vergüenza</title>
     	<year>1968</year>
@@ -5370,9 +5237,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1112">
+<entry name="video2015-1113">
     <entrytype>video</entrytype>
     <title>Los comulgantes</title>
     	<year>1963</year>
@@ -5389,7 +5256,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1113">
+<entry name="video2015-1114">
     <entrytype>video</entrytype>
     <title>Noche de circo</title>
     	<year>1953</year>
@@ -5405,9 +5272,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1114">
+<entry name="video2015-1115">
     <entrytype>video</entrytype>
     <title>Persona</title>
     	<year>1966</year>
@@ -5424,7 +5291,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1115">
+<entry name="video2015-1116">
     <entrytype>video</entrytype>
     <title>Saraband</title>
     	<year>2003</year>
@@ -5446,7 +5313,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1116">
+<entry name="video2015-1117">
     <entrytype>video</entrytype>
     <title>Secretos de un matrimonio</title>
     	<year>1973</year>
@@ -5464,7 +5331,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1117">
+<entry name="video2015-1118">
     <entrytype>video</entrytype>
     <title>Sonata de otoño</title>
     	<year>1978</year>
@@ -5480,9 +5347,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1118">
+<entry name="video2015-1119">
     <entrytype>video</entrytype>
     <title>Sonrisas de una noche de verano</title>
     	<year>1955</year>
@@ -5501,7 +5368,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1119">
+<entry name="video2015-1120">
     <entrytype>video</entrytype>
     <title>Sueños</title>
     	<year>1955</year>
@@ -5518,7 +5385,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1120">
+<entry name="video2015-1121">
     <entrytype>video</entrytype>
     <title>Tras el ensayo</title>
     	<year>1984</year>
@@ -5535,7 +5402,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1121">
+<entry name="video2015-1122">
     <entrytype>video</entrytype>
     <title>Un verano con Mónica</title>
     	<year>1953</year>
@@ -5553,7 +5420,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1122">
+<entry name="video2015-1123">
     <entrytype>video</entrytype>
     <title>Una lección de amor</title>
     	<year>1954</year>
@@ -5570,7 +5437,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1123">
+<entry name="video2015-1124">
     <entrytype>video</entrytype>
     <title>El último tango en París</title>
     	<year>1972</year>
@@ -5589,7 +5456,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1124">
+<entry name="video2015-1125">
     <entrytype>video</entrytype>
     <title>Tire dié</title>
     	<year>1960</year>
@@ -5605,7 +5472,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1125">
+<entry name="video2015-1126">
     <entrytype>video</entrytype>
     <title>Deliverance</title>
     	<year>1972</year>
@@ -5622,7 +5489,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1126">
+<entry name="video2015-1127">
     <entrytype>video</entrytype>
     <title>Mucho ruido y pocas nueces</title>
     	<year>1993</year>
@@ -5642,7 +5509,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1127">
+<entry name="video2015-1128">
     <entrytype>video</entrytype>
     <title>El carterista</title>
     	<year>1959</year>
@@ -5659,7 +5526,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1128">
+<entry name="video2015-1129">
     <entrytype>video</entrytype>
     <title>El proceso de Juana de Arco</title>
     	<year>1962</year>
@@ -5677,7 +5544,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1129">
+<entry name="video2015-1130">
     <entrytype>video</entrytype>
     <title>La tragedia de Hamlet</title>
     	<year>2002</year>
@@ -5697,7 +5564,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1130">
+<entry name="video2015-1131">
     <entrytype>video</entrytype>
     <title>Marat. Sade</title>
     	<year>1967</year>
@@ -5714,7 +5581,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1131">
+<entry name="video2015-1132">
     <entrytype>video</entrytype>
     <title>A sangre fría</title>
     	<year>1967</year>
@@ -5729,9 +5596,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="video2015-1132">
+<entry name="video2015-1133">
     <entrytype>video</entrytype>
     <title>Freaks</title>
     	<year>1932</year>
@@ -5748,7 +5615,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1133">
+<entry name="video2015-1134">
     <entrytype>video</entrytype>
     <title>Abismos de pasión</title>
     	<year>1953</year>
@@ -5766,7 +5633,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1134">
+<entry name="video2015-1135">
     <entrytype>video</entrytype>
     <title>Belle de Jour</title>
     	<year>1967</year>
@@ -5784,7 +5651,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1135">
+<entry name="video2015-1136">
     <entrytype>video</entrytype>
     <title>El gran Calavera</title>
     	<year>1949</year>
@@ -5801,7 +5668,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1136">
+<entry name="video2015-1137">
     <entrytype>video</entrytype>
     <title>Ensayo de un crimen</title>
     	<year>1955</year>
@@ -5817,9 +5684,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1137">
+<entry name="video2015-1138">
     <entrytype>video</entrytype>
     <title>La edad de oro</title>
     	<year>1930</year>
@@ -5833,9 +5700,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1138">
+<entry name="video2015-1139">
     <entrytype>video</entrytype>
     <title>Las Hurdes, tierra sin pan</title>
     	<year>1932</year>
@@ -5853,7 +5720,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1139">
+<entry name="video2015-1140">
     <entrytype>video</entrytype>
     <title>Los olvidados</title>
     	<year>1950</year>
@@ -5870,7 +5737,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1140">
+<entry name="video2015-1141">
     <entrytype>video</entrytype>
     <title>Tristana</title>
     	<year>1970</year>
@@ -5889,7 +5756,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1141">
+<entry name="video2015-1142">
     <entrytype>video</entrytype>
     <title>Un perro andaluz</title>
     	<year>1929</year>
@@ -5907,7 +5774,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1142">
+<entry name="video2015-1143">
     <entrytype>video</entrytype>
     <title>Viridiana</title>
     	<year>1961</year>
@@ -5925,7 +5792,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1143">
+<entry name="video2015-1144">
     <entrytype>video</entrytype>
     <title>Nobleza gaucha</title>
     	<year>1915</year>
@@ -5945,7 +5812,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1144">
+<entry name="video2015-1145">
     <entrytype>video</entrytype>
     <title>La lección de piano</title>
     	<year>1993</year>
@@ -5963,9 +5830,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1145">
+<entry name="video2015-1146">
     <entrytype>video</entrytype>
     <title>Horizontes perdidos</title>
     	<year>1937</year>
@@ -5983,7 +5850,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1146">
+<entry name="video2015-1147">
     <entrytype>video</entrytype>
     <title>Qué bello es vivir</title>
     	<year>1946</year>
@@ -6001,7 +5868,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1147">
+<entry name="video2015-1148">
     <entrytype>video</entrytype>
     <title>El muelle de las brumas</title>
     	<year>1938</year>
@@ -6019,7 +5886,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1148">
+<entry name="video2015-1149">
     <entrytype>video</entrytype>
     <title>Delicatessen</title>
     	<year>1991</year>
@@ -6037,7 +5904,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1149">
+<entry name="video2015-1150">
     <entrytype>video</entrytype>
     <title>La ciudad de los niños perdidos</title>
     	<year>1995</year>
@@ -6057,7 +5924,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1150">
+<entry name="video2015-1151">
     <entrytype>video</entrytype>
     <title>Faces</title>
     	<year>1968</year>
@@ -6074,7 +5941,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1151">
+<entry name="video2015-1152">
     <entrytype>video</entrytype>
     <title>Sombras</title>
     	<year>1959</year>
@@ -6091,7 +5958,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1152">
+<entry name="video2015-1153">
     <entrytype>video</entrytype>
     <title>Operación Masacre</title>
     	<year>1973</year>
@@ -6109,7 +5976,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1153">
+<entry name="video2015-1154">
     <entrytype>video</entrytype>
     <title>Candilejas</title>
     	<year>1952</year>
@@ -6126,7 +5993,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1154">
+<entry name="video2015-1155">
     <entrytype>video</entrytype>
     <title>El circo</title>
     	<year>1928</year>
@@ -6143,7 +6010,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1155">
+<entry name="video2015-1156">
     <entrytype>video</entrytype>
     <title>El gran dictador</title>
     	<year>1940</year>
@@ -6160,7 +6027,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1156">
+<entry name="video2015-1157">
     <entrytype>video</entrytype>
     <title>El pibe</title>
     	<year>1921</year>
@@ -6176,7 +6043,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1157">
+<entry name="video2015-1158">
     <entrytype>video</entrytype>
     <title>Luces de la ciudad</title>
     	<year>1931</year>
@@ -6194,7 +6061,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1158">
+<entry name="video2015-1159">
     <entrytype>video</entrytype>
     <title>Tiempos modernos</title>
     	<year>1936</year>
@@ -6212,7 +6079,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1159">
+<entry name="video2015-1160">
     <entrytype>video</entrytype>
     <title>El francotirador</title>
     	<year>1978</year>
@@ -6230,7 +6097,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1160">
+<entry name="video2015-1161">
     <entrytype>video</entrytype>
     <title>Entreacto</title>
     	<year>1924</year>
@@ -6247,7 +6114,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1161">
+<entry name="video2015-1162">
     <entrytype>video</entrytype>
     <title>El salario del miedo</title>
     	<year>1953</year>
@@ -6265,7 +6132,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1162">
+<entry name="video2015-1163">
     <entrytype>video</entrytype>
     <title>La bella y la bestia</title>
     	<year>1946</year>
@@ -6283,7 +6150,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1163">
+<entry name="video2015-1164">
     <entrytype>video</entrytype>
     <title>King Kong</title>
     	<year>1933</year>
@@ -6299,7 +6166,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1164">
+<entry name="video2015-1165">
     <entrytype>video</entrytype>
     <title>La máscara de la muerte roja</title>
     	<year>1964</year>
@@ -6317,7 +6184,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1165">
+<entry name="video2015-1166">
     <entrytype>video</entrytype>
     <title>eXistenZ</title>
     	<year>1999</year>
@@ -6335,7 +6202,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1166">
+<entry name="video2015-1167">
     <entrytype>video</entrytype>
     <title>Pacto de amor</title>
     	<year>1988</year>
@@ -6352,7 +6219,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1167">
+<entry name="video2015-1168">
     <entrytype>video</entrytype>
     <title>Una historia violenta</title>
     	<year>2005</year>
@@ -6371,7 +6238,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1168">
+<entry name="video2015-1169">
     <entrytype>video</entrytype>
     <title>El cantor de jazz</title>
     	<year>1927</year>
@@ -6388,7 +6255,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1169">
+<entry name="video2015-1170">
     <entrytype>video</entrytype>
     <title>Casablanca</title>
     	<year>1942</year>
@@ -6405,7 +6272,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1170">
+<entry name="video2015-1171">
     <entrytype>video</entrytype>
     <title>Doble cuerpo</title>
     	<year>1984</year>
@@ -6423,7 +6290,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1171">
+<entry name="video2015-1172">
     <entrytype>video</entrytype>
     <title>El fantasma del paraíso</title>
     	<year>1974</year>
@@ -6441,7 +6308,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1172">
+<entry name="video2015-1173">
     <entrytype>video</entrytype>
     <title>Los intocables</title>
     	<year>1987</year>
@@ -6458,7 +6325,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1173">
+<entry name="video2015-1174">
     <entrytype>video</entrytype>
     <title>Scarface</title>
     	<year>1983</year>
@@ -6475,7 +6342,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1174">
+<entry name="video2015-1175">
     <entrytype>video</entrytype>
     <title>Vestida para matar</title>
     	<year>1980</year>
@@ -6493,7 +6360,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1175">
+<entry name="video2015-1176">
     <entrytype>video</entrytype>
     <title>Arroz amargo</title>
     	<year>1949</year>
@@ -6511,7 +6378,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1176">
+<entry name="video2015-1177">
     <entrytype>video</entrytype>
     <title>Ladrón de bicicletas</title>
     	<year>1948</year>
@@ -6527,9 +6394,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1177">
+<entry name="video2015-1178">
     <entrytype>video</entrytype>
     <title>Boccaccio’ 70</title>
     	<year>1962</year>
@@ -6549,7 +6416,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1178">
+<entry name="video2015-1179">
     <entrytype>video</entrytype>
     <title>Las aguas bajan turbias</title>
     	<year>1952</year>
@@ -6568,7 +6435,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1179">
+<entry name="video2015-1180">
     <entrytype>video</entrytype>
     <title>Los isleros</title>
     	<year>1951</year>
@@ -6585,7 +6452,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1180">
+<entry name="video2015-1181">
     <entrytype>video</entrytype>
     <title>Dies Irae</title>
     	<year>1943</year>
@@ -6601,7 +6468,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1181">
+<entry name="video2015-1182">
     <entrytype>video</entrytype>
     <title>La Pasión de Juana de Arco</title>
     	<year>1928</year>
@@ -6617,9 +6484,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1182">
+<entry name="video2015-1183">
     <entrytype>video</entrytype>
     <title>Alexander Nevsky</title>
     	<year>1938</year>
@@ -6637,7 +6504,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1183">
+<entry name="video2015-1184">
     <entrytype>video</entrytype>
     <title>El acorazado Potemkin</title>
     	<year>1925</year>
@@ -6655,7 +6522,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1184">
+<entry name="video2015-1185">
     <entrytype>video</entrytype>
     <title>Iván el terrible. Segunda parte: la conjura de los boyardos</title>
     	<year>1958</year>
@@ -6676,7 +6543,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1185">
+<entry name="video2015-1186">
     <entrytype>video</entrytype>
     <title>Iván el terrible</title>
     	<year>1944</year>
@@ -6693,7 +6560,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1186">
+<entry name="video2015-1187">
     <entrytype>video</entrytype>
     <title>La huelga</title>
     	<year>1924</year>
@@ -6710,7 +6577,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1187">
+<entry name="video2015-1188">
     <entrytype>video</entrytype>
     <title>Octubre</title>
     	<year>1927</year>
@@ -6727,7 +6594,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1188">
+<entry name="video2015-1189">
     <entrytype>video</entrytype>
     <title>Dioses de la peste</title>
     	<year>1970</year>
@@ -6745,7 +6612,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1189">
+<entry name="video2015-1190">
     <entrytype>video</entrytype>
     <title>El matrimonio de María Braun</title>
     	<year>1979</year>
@@ -6764,7 +6631,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1190">
+<entry name="video2015-1191">
     <entrytype>video</entrytype>
     <title>Crónica de un niño solo</title>
     	<year>1965</year>
@@ -6781,7 +6648,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1191">
+<entry name="video2015-1192">
     <entrytype>video</entrytype>
     <title>El dependiente</title>
     	<year>1969</year>
@@ -6798,7 +6665,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1192">
+<entry name="video2015-1193">
     <entrytype>video</entrytype>
     <title>El romance del Aniceto y la Francisca</title>
     	<year>1967</year>
@@ -6817,7 +6684,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1193">
+<entry name="video2015-1194">
     <entrytype>video</entrytype>
     <title>Perón. Sinfonía del sentimiento</title>
     	<year>1999</year>
@@ -6825,7 +6692,6 @@
 	<city>Argentina</city>
 </address>
     <keywords>
-	<keyword>perón</keyword>
 	<keyword>sinfonía</keyword>
 	<keyword>sentimiento</keyword>
 	</keywords>
@@ -6836,7 +6702,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1194">
+<entry name="video2015-1195">
     <entrytype>video</entrytype>
     <title>Amarcord</title>
     	<year>1973</year>
@@ -6854,7 +6720,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1195">
+<entry name="video2015-1196">
     <entrytype>video</entrytype>
     <title>El Casanova de Fellini</title>
     	<year>1976</year>
@@ -6873,7 +6739,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1196">
+<entry name="video2015-1197">
     <entrytype>video</entrytype>
     <title>El jeque blanco</title>
     	<year>1952</year>
@@ -6891,7 +6757,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1197">
+<entry name="video2015-1198">
     <entrytype>video</entrytype>
     <title>Ensayo de orquesta</title>
     	<year>1979</year>
@@ -6909,7 +6775,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1198">
+<entry name="video2015-1199">
     <entrytype>video</entrytype>
     <title>Entrevista</title>
     	<year>1987</year>
@@ -6926,7 +6792,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1199">
+<entry name="video2015-1200">
     <entrytype>video</entrytype>
     <title>Fellini Satiricon</title>
     	<year>1969</year>
@@ -6944,7 +6810,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1200">
+<entry name="video2015-1201">
     <entrytype>video</entrytype>
     <title>Ginger y Fred</title>
     	<year>1986</year>
@@ -6961,9 +6827,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1201">
+<entry name="video2015-1202">
     <entrytype>video</entrytype>
     <title>Julieta de los espíritus</title>
     	<year>1965</year>
@@ -6982,7 +6848,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1202">
+<entry name="video2015-1203">
     <entrytype>video</entrytype>
     <title>La ciudad de las mujeres</title>
     	<year>1979</year>
@@ -7000,7 +6866,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1203">
+<entry name="video2015-1204">
     <entrytype>video</entrytype>
     <title>La dolce vita</title>
     	<year>1960</year>
@@ -7018,7 +6884,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1204">
+<entry name="video2015-1205">
     <entrytype>video</entrytype>
     <title>La strada</title>
     	<year>1954</year>
@@ -7033,9 +6899,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1205">
+<entry name="video2015-1206">
     <entrytype>video</entrytype>
     <title>Las noches de Cabiria</title>
     	<year>1957</year>
@@ -7053,7 +6919,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1206">
+<entry name="video2015-1207">
     <entrytype>video</entrytype>
     <title>Los Clowns</title>
     	<year>1970</year>
@@ -7072,7 +6938,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1207">
+<entry name="video2015-1208">
     <entrytype>video</entrytype>
     <title>Luces de Varieté</title>
     	<year>1950</year>
@@ -7088,9 +6954,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1208">
+<entry name="video2015-1209">
     <entrytype>video</entrytype>
     <title>Ocho y medio</title>
     	<year>1963</year>
@@ -7105,9 +6971,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1209">
+<entry name="video2015-1210">
     <entrytype>video</entrytype>
     <title>Roma</title>
     	<year>1972</year>
@@ -7124,7 +6990,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1210">
+<entry name="video2015-1211">
     <entrytype>video</entrytype>
     <title>Y la nave va</title>
     	<year>1983</year>
@@ -7138,9 +7004,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1211">
+<entry name="video2015-1212">
     <entrytype>video</entrytype>
     <title>Historias extraordinarias</title>
     	<year>1968</year>
@@ -7160,7 +7026,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1212">
+<entry name="video2015-1213">
     <entrytype>video</entrytype>
     <title>La gran comilona</title>
     	<year>1973</year>
@@ -7175,9 +7041,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1213">
+<entry name="video2015-1214">
     <entrytype>video</entrytype>
     <title>La momia</title>
     	<year>1959</year>
@@ -7192,9 +7058,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1214">
+<entry name="video2015-1215">
     <entrytype>video</entrytype>
     <title>El estrangulador de Bostón</title>
     	<year>1968</year>
@@ -7212,7 +7078,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1215">
+<entry name="video2015-1216">
     <entrytype>video</entrytype>
     <title>El mago de Oz</title>
     	<year>1939</year>
@@ -7228,7 +7094,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1216">
+<entry name="video2015-1217">
     <entrytype>video</entrytype>
     <title>Apocalipsis now</title>
     	<year>1979</year>
@@ -7245,7 +7111,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1217">
+<entry name="video2015-1218">
     <entrytype>video</entrytype>
     <title>El padrino II</title>
     	<year>1974</year>
@@ -7262,7 +7128,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1218">
+<entry name="video2015-1219">
     <entrytype>video</entrytype>
     <title>El padrino III</title>
     	<year>1990</year>
@@ -7279,7 +7145,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1219">
+<entry name="video2015-1220">
     <entrytype>video</entrytype>
     <title>El padrino</title>
     	<year>1972</year>
@@ -7296,7 +7162,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1220">
+<entry name="video2015-1221">
     <entrytype>video</entrytype>
     <title>La conversación</title>
     	<year>1974</year>
@@ -7313,7 +7179,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1221">
+<entry name="video2015-1222">
     <entrytype>video</entrytype>
     <title>La ley de la calle</title>
     	<year>1983</year>
@@ -7328,9 +7194,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1222">
+<entry name="video2015-1223">
     <entrytype>video</entrytype>
     <title>La diligencia</title>
     	<year>1939</year>
@@ -7347,7 +7213,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1223">
+<entry name="video2015-1224">
     <entrytype>video</entrytype>
     <title>Viñas de Ira</title>
     	<year>1940</year>
@@ -7364,7 +7230,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1224">
+<entry name="video2015-1225">
     <entrytype>video</entrytype>
     <title>All that jazz</title>
     	<year>1979</year>
@@ -7380,7 +7246,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1225">
+<entry name="video2015-1226">
     <entrytype>video</entrytype>
     <title>Napoleón</title>
     	<year>1927</year>
@@ -7397,7 +7263,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1226">
+<entry name="video2015-1227">
     <entrytype>video</entrytype>
     <title>Alphaville, un mundo alucinante</title>
     	<year>1965</year>
@@ -7417,7 +7283,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1227">
+<entry name="video2015-1228">
     <entrytype>video</entrytype>
     <title>Histoire(s) du cinéma:1988-1998 </title>
     	<year>1988</year>
@@ -7433,9 +7299,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="video2015-1228">
+<entry name="video2015-1229">
     <entrytype>video</entrytype>
     <title>La chinoise</title>
     	<year>1967</year>
@@ -7450,9 +7316,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1229">
+<entry name="video2015-1230">
     <entrytype>video</entrytype>
     <title>Los carabineros</title>
     	<year>1963</year>
@@ -7469,7 +7335,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1230">
+<entry name="video2015-1231">
     <entrytype>video</entrytype>
     <title>Sin aliento</title>
     	<year>1960</year>
@@ -7486,7 +7352,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1231">
+<entry name="video2015-1232">
     <entrytype>video</entrytype>
     <title>Vivir su vida</title>
     	<year>1962</year>
@@ -7503,7 +7369,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1232">
+<entry name="video2015-1233">
     <entrytype>video</entrytype>
     <title>Ro. Go. Pa. G. </title>
     	<year>1963</year>
@@ -7522,7 +7388,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1233">
+<entry name="video2015-1234">
     <entrytype>video</entrytype>
     <title>El cocinero, el ladrón, su mujer y su amante</title>
     	<year>1989</year>
@@ -7542,7 +7408,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1234">
+<entry name="video2015-1235">
     <entrytype>video</entrytype>
     <title>La tempestad</title>
     	<year>1991</year>
@@ -7557,9 +7423,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1235">
+<entry name="video2015-1236">
     <entrytype>video</entrytype>
     <title>El nacimiento de una nación</title>
     	<year>1915</year>
@@ -7577,7 +7443,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1236">
+<entry name="video2015-1237">
     <entrytype>video</entrytype>
     <title>Aguirre, la cólera de Dios</title>
     	<year>1972</year>
@@ -7593,9 +7459,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1237">
+<entry name="video2015-1238">
     <entrytype>video</entrytype>
     <title>El enigma de Kaspar Hauser</title>
     	<year>1974</year>
@@ -7614,7 +7480,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1238">
+<entry name="video2015-1239">
     <entrytype>video</entrytype>
     <title>Fitzcarraldo</title>
     	<year>1982</year>
@@ -7632,7 +7498,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1239">
+<entry name="video2015-1240">
     <entrytype>video</entrytype>
     <title>Mi enemigo íntimo</title>
     	<year>1999</year>
@@ -7650,7 +7516,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1240">
+<entry name="video2015-1241">
     <entrytype>video</entrytype>
     <title>Nosferatu</title>
     	<year>1979</year>
@@ -7667,7 +7533,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1241">
+<entry name="video2015-1242">
     <entrytype>video</entrytype>
     <title>Woyzeck</title>
     	<year>1979</year>
@@ -7684,7 +7550,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1242">
+<entry name="video2015-1243">
     <entrytype>video</entrytype>
     <title>Festín diabólico</title>
     	<year>1948</year>
@@ -7702,7 +7568,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1243">
+<entry name="video2015-1244">
     <entrytype>video</entrytype>
     <title>La ventana indiscreta</title>
     	<year>1954</year>
@@ -7720,7 +7586,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1244">
+<entry name="video2015-1245">
     <entrytype>video</entrytype>
     <title>Los pájaros</title>
     	<year>1963</year>
@@ -7737,7 +7603,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1245">
+<entry name="video2015-1246">
     <entrytype>video</entrytype>
     <title>Psicosis</title>
     	<year>1960</year>
@@ -7754,7 +7620,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1246">
+<entry name="video2015-1247">
     <entrytype>video</entrytype>
     <title>Rebeca, una mujer inolvidable</title>
     	<year>1940</year>
@@ -7773,7 +7639,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1247">
+<entry name="video2015-1248">
     <entrytype>video</entrytype>
     <title>Vértigo</title>
     	<year>1958</year>
@@ -7790,7 +7656,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1248">
+<entry name="video2015-1249">
     <entrytype>video</entrytype>
     <title>El halcón maltés</title>
     	<year>1941</year>
@@ -7808,7 +7674,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1249">
+<entry name="video2015-1250">
     <entrytype>video</entrytype>
     <title>Dead man</title>
     	<year>1995</year>
@@ -7824,7 +7690,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1250">
+<entry name="video2015-1251">
     <entrytype>video</entrytype>
     <title>Nido de ratas</title>
     	<year>1954</year>
@@ -7839,9 +7705,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1251">
+<entry name="video2015-1252">
     <entrytype>video</entrytype>
     <title>Un tranvía llamado deseo</title>
     	<year>1951</year>
@@ -7858,9 +7724,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1252">
+<entry name="video2015-1253">
     <entrytype>video</entrytype>
     <title>El héroe del río</title>
     	<year>1928</year>
@@ -7877,7 +7743,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1253">
+<entry name="video2015-1254">
     <entrytype>video</entrytype>
     <title>El maquinista de la General</title>
     	<year>1926</year>
@@ -7895,7 +7761,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1254">
+<entry name="video2015-1255">
     <entrytype>video</entrytype>
     <title>El moderno Sherlock Holmes</title>
     	<year>1924</year>
@@ -7914,7 +7780,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1255">
+<entry name="video2015-1256">
     <entrytype>video</entrytype>
     <title>El navegante</title>
     	<year>1924</year>
@@ -7931,7 +7797,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1256">
+<entry name="video2015-1257">
     <entrytype>video</entrytype>
     <title>La ley de la hospitalidad</title>
     	<year>1923</year>
@@ -7948,7 +7814,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1257">
+<entry name="video2015-1258">
     <entrytype>video</entrytype>
     <title>Las tres edades</title>
     	<year>1923</year>
@@ -7965,7 +7831,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1258">
+<entry name="video2015-1259">
     <entrytype>video</entrytype>
     <title>Blanc</title>
     	<year>1994</year>
@@ -7984,7 +7850,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1259">
+<entry name="video2015-1260">
     <entrytype>video</entrytype>
     <title>Bleu</title>
     	<year>1993</year>
@@ -8002,7 +7868,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1260">
+<entry name="video2015-1261">
     <entrytype>video</entrytype>
     <title>El decálogo</title>
     	<year>1989</year>
@@ -8019,7 +7885,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1261">
+<entry name="video2015-1262">
     <entrytype>video</entrytype>
     <title>La doble vida de Verónica</title>
     	<year>1991</year>
@@ -8037,9 +7903,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1262">
+<entry name="video2015-1263">
     <entrytype>video</entrytype>
     <title>Rouge</title>
     	<year>1994</year>
@@ -8058,7 +7924,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1263">
+<entry name="video2015-1264">
     <entrytype>video</entrytype>
     <title>Cuando la ciudad duerme</title>
     	<year>1950</year>
@@ -8077,7 +7943,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1264">
+<entry name="video2015-1265">
     <entrytype>video</entrytype>
     <title>Breve cielo</title>
     	<year>1969</year>
@@ -8095,7 +7961,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1265">
+<entry name="video2015-1266">
     <entrytype>video</entrytype>
     <title>Tres veces Ana</title>
     	<year>1961</year>
@@ -8112,7 +7978,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1266">
+<entry name="video2015-1267">
     <entrytype>video</entrytype>
     <title>Siberiada</title>
     	<year>1978</year>
@@ -8129,7 +7995,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1267">
+<entry name="video2015-1268">
     <entrytype>video</entrytype>
     <title>Hamlet</title>
     	<year>1964</year>
@@ -8146,7 +8012,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1268">
+<entry name="video2015-1269">
     <entrytype>video</entrytype>
     <title>2001, una odisea del espacio</title>
     	<year>1968</year>
@@ -8165,7 +8031,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1269">
+<entry name="video2015-1270">
     <entrytype>video</entrytype>
     <title>La naranja mecánica</title>
     	<year>1971</year>
@@ -8184,7 +8050,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1270">
+<entry name="video2015-1271">
     <entrytype>video</entrytype>
     <title>Los jóvenes viejos</title>
     	<year>1962</year>
@@ -8202,7 +8068,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1271">
+<entry name="video2015-1272">
     <entrytype>video</entrytype>
     <title>Pajarito Gómez</title>
     	<year>1965</year>
@@ -8220,7 +8086,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1272">
+<entry name="video2015-1273">
     <entrytype>video</entrytype>
     <title>Bondad humana</title>
     	<year>1965</year>
@@ -8238,7 +8104,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1273">
+<entry name="video2015-1274">
     <entrytype>video</entrytype>
     <title>Dersu Uzala</title>
     	<year>1975</year>
@@ -8256,7 +8122,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1274">
+<entry name="video2015-1275">
     <entrytype>video</entrytype>
     <title>Dodeska-den</title>
     	<year>1970</year>
@@ -8273,7 +8139,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1275">
+<entry name="video2015-1276">
     <entrytype>video</entrytype>
     <title>El ángel ebrio</title>
     	<year>1948</year>
@@ -8291,7 +8157,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1276">
+<entry name="video2015-1277">
     <entrytype>video</entrytype>
     <title>El idiota</title>
     	<year>1951</year>
@@ -8308,7 +8174,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1277">
+<entry name="video2015-1278">
     <entrytype>video</entrytype>
     <title>El infierno del odio</title>
     	<year>1963</year>
@@ -8325,7 +8191,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1278">
+<entry name="video2015-1279">
     <entrytype>video</entrytype>
     <title>El perro rabioso</title>
     	<year>1949</year>
@@ -8343,7 +8209,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1279">
+<entry name="video2015-1280">
     <entrytype>video</entrytype>
     <title>Kagemusha, la sombra del guerrero</title>
     	<year>1980</year>
@@ -8363,7 +8229,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1280">
+<entry name="video2015-1281">
     <entrytype>video</entrytype>
     <title>La fortaleza escondida</title>
     	<year>1958</year>
@@ -8381,7 +8247,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1281">
+<entry name="video2015-1282">
     <entrytype>video</entrytype>
     <title>Los bajos fondos</title>
     	<year>1957</year>
@@ -8399,7 +8265,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1282">
+<entry name="video2015-1283">
     <entrytype>video</entrytype>
     <title>Los canallas duermen en paz</title>
     	<year>1960</year>
@@ -8417,7 +8283,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1283">
+<entry name="video2015-1284">
     <entrytype>video</entrytype>
     <title>Los siete samuráis</title>
     	<year>1954</year>
@@ -8435,7 +8301,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1284">
+<entry name="video2015-1285">
     <entrytype>video</entrytype>
     <title>Madadayo</title>
     	<year>1993</year>
@@ -8452,7 +8318,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1285">
+<entry name="video2015-1286">
     <entrytype>video</entrytype>
     <title>Ran</title>
     	<year>1985</year>
@@ -8469,7 +8335,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1286">
+<entry name="video2015-1287">
     <entrytype>video</entrytype>
     <title>Rashomon</title>
     	<year>1950</year>
@@ -8486,7 +8352,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1287">
+<entry name="video2015-1288">
     <entrytype>video</entrytype>
     <title>Trono de sangre</title>
     	<year>1957</year>
@@ -8502,9 +8368,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1288">
+<entry name="video2015-1289">
     <entrytype>video</entrytype>
     <title>Tsubaky Sanjuro</title>
     	<year>1962</year>
@@ -8522,7 +8388,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1289">
+<entry name="video2015-1290">
     <entrytype>video</entrytype>
     <title>Vivir</title>
     	<year>1952</year>
@@ -8539,7 +8405,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1290">
+<entry name="video2015-1291">
     <entrytype>video</entrytype>
     <title>Yojimbo</title>
     	<year>1961</year>
@@ -8556,7 +8422,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1291">
+<entry name="video2015-1292">
     <entrytype>video</entrytype>
     <title>Los sueños de Akira Kurosawa</title>
     	<year>1990</year>
@@ -8576,7 +8442,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1292">
+<entry name="video2015-1293">
     <entrytype>video</entrytype>
     <title>The blues brothers</title>
     	<year>1980</year>
@@ -8594,7 +8460,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1293">
+<entry name="video2015-1294">
     <entrytype>video</entrytype>
     <title>Los Nibelungos: la venganza de Krimilda</title>
     	<year>1924</year>
@@ -8613,7 +8479,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1294">
+<entry name="video2015-1295">
     <entrytype>video</entrytype>
     <title>Metrópolis</title>
     	<year>1927</year>
@@ -8630,7 +8496,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1295">
+<entry name="video2015-1296">
     <entrytype>video</entrytype>
     <title>Shoah</title>
     	<year>1985</year>
@@ -8647,7 +8513,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1296">
+<entry name="video2015-1297">
     <entrytype>video</entrytype>
     <title>Europa</title>
     	<year>1991</year>
@@ -8669,7 +8535,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1297">
+<entry name="video2015-1298">
     <entrytype>video</entrytype>
     <title>La noche del cazador</title>
     	<year>1955</year>
@@ -8687,7 +8553,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1298">
+<entry name="video2015-1299">
     <entrytype>video</entrytype>
     <title>El bueno, el malo y el feo</title>
     	<year>1966</year>
@@ -8704,7 +8570,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1299">
+<entry name="video2015-1300">
     <entrytype>video</entrytype>
     <title>Érase una vez en América</title>
     	<year>1984</year>
@@ -8722,7 +8588,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1300">
+<entry name="video2015-1301">
     <entrytype>video</entrytype>
     <title>Érase una vez en el oeste</title>
     	<year>1968</year>
@@ -8741,7 +8607,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1301">
+<entry name="video2015-1302">
     <entrytype>video</entrytype>
     <title>Doce hombres en pugna</title>
     	<year>1957</year>
@@ -8757,9 +8623,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1302">
+<entry name="video2015-1303">
     <entrytype>video</entrytype>
     <title>Equus</title>
     	<year>1977</year>
@@ -8777,7 +8643,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1303">
+<entry name="video2015-1304">
     <entrytype>video</entrytype>
     <title>Tarde de perros</title>
     	<year>1975</year>
@@ -8793,9 +8659,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1304">
+<entry name="video2015-1305">
     <entrytype>video</entrytype>
     <title>Cabezas borradoras</title>
     	<year>1977</year>
@@ -8813,7 +8679,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1305">
+<entry name="video2015-1306">
     <entrytype>video</entrytype>
     <title>Carretera perdida</title>
     	<year>1997</year>
@@ -8831,7 +8697,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1306">
+<entry name="video2015-1307">
     <entrytype>video</entrytype>
     <title>Corazón salvaje</title>
     	<year>1990</year>
@@ -8849,7 +8715,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1307">
+<entry name="video2015-1308">
     <entrytype>video</entrytype>
     <title>El camino de los sueños</title>
     	<year>2001</year>
@@ -8868,7 +8734,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1308">
+<entry name="video2015-1309">
     <entrytype>video</entrytype>
     <title>El hombre elefante</title>
     	<year>1980</year>
@@ -8886,7 +8752,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1309">
+<entry name="video2015-1310">
     <entrytype>video</entrytype>
     <title>Terciopelo Azul</title>
     	<year>1986</year>
@@ -8903,7 +8769,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1310">
+<entry name="video2015-1311">
     <entrytype>video</entrytype>
     <title>Los comienzos del cine</title>
     	<year>1997</year>
@@ -8920,7 +8786,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1311">
+<entry name="video2015-1312">
     <entrytype>video</entrytype>
     <title>Esclava del amor</title>
     	<year>1976</year>
@@ -8937,7 +8803,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1312">
+<entry name="video2015-1313">
     <entrytype>video</entrytype>
     <title>La esclava del amor</title>
     	<year>1976</year>
@@ -8954,7 +8820,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1313">
+<entry name="video2015-1314">
     <entrytype>video</entrytype>
     <title>Pieza inconclusa para piano mecánico</title>
     	<year>1977</year>
@@ -8974,7 +8840,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1314">
+<entry name="video2015-1315">
     <entrytype>video</entrytype>
     <title>Sol ardiente</title>
     	<year>1994</year>
@@ -8991,7 +8857,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1315">
+<entry name="video2015-1316">
     <entrytype>video</entrytype>
     <title>Tango</title>
     	<year>1933</year>
@@ -9008,7 +8874,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1316">
+<entry name="video2015-1317">
     <entrytype>video</entrytype>
     <title>Los desconocidos de siempre</title>
     	<year>1958</year>
@@ -9026,7 +8892,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1317">
+<entry name="video2015-1318">
     <entrytype>video</entrytype>
     <title>Un burgués…Pequeño, pequeño</title>
     	<year>1977</year>
@@ -9044,7 +8910,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1318">
+<entry name="video2015-1319">
     <entrytype>video</entrytype>
     <title>Giordano Bruno</title>
     	<year>1973</year>
@@ -9063,7 +8929,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1319">
+<entry name="video2015-1320">
     <entrytype>video</entrytype>
     <title>Flesh</title>
     	<year>1968</year>
@@ -9080,7 +8946,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1320">
+<entry name="video2015-1321">
     <entrytype>video</entrytype>
     <title>I, a man</title>
     	<year>1967</year>
@@ -9097,7 +8963,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1321">
+<entry name="video2015-1322">
     <entrytype>video</entrytype>
     <title>El hombre de la esquina rosada</title>
     	<year>1962</year>
@@ -9116,7 +8982,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1322">
+<entry name="video2015-1323">
     <entrytype>video</entrytype>
     <title>Matar a un ruiseñor</title>
     	<year>1962</year>
@@ -9134,7 +9000,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1323">
+<entry name="video2015-1324">
     <entrytype>video</entrytype>
     <title>Amanecer</title>
     	<year>1927</year>
@@ -9151,7 +9017,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1324">
+<entry name="video2015-1325">
     <entrytype>video</entrytype>
     <title>Nosferatu</title>
     	<year>1922</year>
@@ -9168,7 +9034,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1325">
+<entry name="video2015-1326">
     <entrytype>video</entrytype>
     <title>Alias Gardelito</title>
     	<year>1961</year>
@@ -9186,7 +9052,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1326">
+<entry name="video2015-1327">
     <entrytype>video</entrytype>
     <title>Shunko</title>
     	<year>1960</year>
@@ -9203,7 +9069,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1327">
+<entry name="video2015-1328">
     <entrytype>video</entrytype>
     <title>The rocky horror show</title>
     	<year>1975</year>
@@ -9222,7 +9088,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1328">
+<entry name="video2015-1329">
     <entrytype>video</entrytype>
     <title>El imperio de los sentidos</title>
     	<year>1976</year>
@@ -9241,7 +9107,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1329">
+<entry name="video2015-1330">
     <entrytype>video</entrytype>
     <title>Edipo, el hijo de la fortuna</title>
     	<year>1967</year>
@@ -9259,7 +9125,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1330">
+<entry name="video2015-1331">
     <entrytype>video</entrytype>
     <title>El Decamerón</title>
     	<year>1971</year>
@@ -9278,7 +9144,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1331">
+<entry name="video2015-1332">
     <entrytype>video</entrytype>
     <title>El evangelio según San Mateo</title>
     	<year>1964</year>
@@ -9296,7 +9162,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1332">
+<entry name="video2015-1333">
     <entrytype>video</entrytype>
     <title>Mamma Roma</title>
     	<year>1962</year>
@@ -9313,7 +9179,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1333">
+<entry name="video2015-1334">
     <entrytype>video</entrytype>
     <title>Medea</title>
     	<year>1969</year>
@@ -9330,7 +9196,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1334">
+<entry name="video2015-1335">
     <entrytype>video</entrytype>
     <title>Saló, o los 120 días de Sodoma</title>
     	<year>1975</year>
@@ -9348,7 +9214,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1335">
+<entry name="video2015-1336">
     <entrytype>video</entrytype>
     <title>Teorema</title>
     	<year>1968</year>
@@ -9365,7 +9231,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1336">
+<entry name="video2015-1337">
     <entrytype>video</entrytype>
     <title>Perros de paja</title>
     	<year>1971</year>
@@ -9382,7 +9248,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1337">
+<entry name="video2015-1338">
     <entrytype>video</entrytype>
     <title>La jauría humana</title>
     	<year>1966</year>
@@ -9400,7 +9266,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1338">
+<entry name="video2015-1339">
     <entrytype>video</entrytype>
     <title>¿Qué?</title>
     	<year>1972</year>
@@ -9419,7 +9285,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1339">
+<entry name="video2015-1340">
     <entrytype>video</entrytype>
     <title>Chinatown</title>
     	<year>1974</year>
@@ -9436,7 +9302,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1340">
+<entry name="video2015-1341">
     <entrytype>video</entrytype>
     <title>El baile de los vampiros</title>
     	<year>1967</year>
@@ -9454,7 +9320,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1341">
+<entry name="video2015-1342">
     <entrytype>video</entrytype>
     <title>El bebé de Rosemary</title>
     	<year>1968</year>
@@ -9471,7 +9337,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1342">
+<entry name="video2015-1343">
     <entrytype>video</entrytype>
     <title>El cuchillo en el agua</title>
     	<year>1962</year>
@@ -9488,7 +9354,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1343">
+<entry name="video2015-1344">
     <entrytype>video</entrytype>
     <title>El inquilino</title>
     	<year>1976</year>
@@ -9505,7 +9371,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1344">
+<entry name="video2015-1345">
     <entrytype>video</entrytype>
     <title>Lunas de Hiel</title>
     	<year>1992</year>
@@ -9520,9 +9386,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1345">
+<entry name="video2015-1346">
     <entrytype>video</entrytype>
     <title>Macbeth</title>
     	<year>1971</year>
@@ -9540,7 +9406,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1346">
+<entry name="video2015-1347">
     <entrytype>video</entrytype>
     <title>Repulsión</title>
     	<year>1965</year>
@@ -9557,7 +9423,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1347">
+<entry name="video2015-1348">
     <entrytype>video</entrytype>
     <title>Tess</title>
     	<year>1979</year>
@@ -9574,7 +9440,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1348">
+<entry name="video2015-1349">
     <entrytype>video</entrytype>
     <title>La batalla de Argelia</title>
     	<year>1965</year>
@@ -9590,9 +9456,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1349">
+<entry name="video2015-1350">
     <entrytype>video</entrytype>
     <title>Dark city</title>
     	<year>1998</year>
@@ -9609,7 +9475,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1350">
+<entry name="video2015-1351">
     <entrytype>video</entrytype>
     <title>La madre</title>
     	<year>1926</year>
@@ -9626,7 +9492,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1351">
+<entry name="video2015-1352">
     <entrytype>video</entrytype>
     <title>Trilogía de Apu</title>
     	<year>1955</year>
@@ -9643,7 +9509,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1352">
+<entry name="video2015-1353">
     <entrytype>video</entrytype>
     <title>Cuando Harry conoció a Sally</title>
     	<year>1989</year>
@@ -9663,7 +9529,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1353">
+<entry name="video2015-1354">
     <entrytype>video</entrytype>
     <title>Los Nibelungos: la muerte de Sigfrido</title>
     	<year>1966</year>
@@ -9683,7 +9549,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1354">
+<entry name="video2015-1355">
     <entrytype>video</entrytype>
     <title>La tregua</title>
     	<year>1974</year>
@@ -9698,9 +9564,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1355">
+<entry name="video2015-1356">
     <entrytype>video</entrytype>
     <title>El río</title>
     	<year>1951</year>
@@ -9716,7 +9582,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1356">
+<entry name="video2015-1357">
     <entrytype>video</entrytype>
     <title>La regla del juego</title>
     	<year>1939</year>
@@ -9734,7 +9600,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1357">
+<entry name="video2015-1358">
     <entrytype>video</entrytype>
     <title>Hace un año en Marienbad</title>
     	<year>1961</year>
@@ -9749,9 +9615,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1358">
+<entry name="video2015-1359">
     <entrytype>video</entrytype>
     <title>Hiroshima mon amour</title>
     	<year>1959</year>
@@ -9768,9 +9634,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="video2015-1359">
+<entry name="video2015-1360">
     <entrytype>video</entrytype>
     <title>Noche y niebla</title>
     	<year>1955</year>
@@ -9788,7 +9654,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1360">
+<entry name="video2015-1361">
     <entrytype>video</entrytype>
     <title>Profundo carmesí</title>
     	<year>1996</year>
@@ -9806,7 +9672,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1361">
+<entry name="video2015-1362">
     <entrytype>video</entrytype>
     <title>Huellas y Memoria de Jorge Prelorán</title>
     	<year>2009</year>
@@ -9826,7 +9692,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1362">
+<entry name="video2015-1363">
     <entrytype>video</entrytype>
     <title>Francesco, giullare di Dio</title>
     	<year>1950</year>
@@ -9844,7 +9710,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1363">
+<entry name="video2015-1364">
     <entrytype>video</entrytype>
     <title>Germania anno zero</title>
     	<year>1948</year>
@@ -9863,7 +9729,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1364">
+<entry name="video2015-1365">
     <entrytype>video</entrytype>
     <title>Il generale Della Rovere</title>
     	<year>1959</year>
@@ -9881,9 +9747,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="video2015-1365">
+<entry name="video2015-1366">
     <entrytype>video</entrytype>
     <title>Paisà</title>
     	<year>1946</year>
@@ -9900,7 +9766,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1366">
+<entry name="video2015-1367">
     <entrytype>video</entrytype>
     <title>Roma, ciudad abierta</title>
     	<year>1945</year>
@@ -9918,7 +9784,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1367">
+<entry name="video2015-1368">
     <entrytype>video</entrytype>
     <title>Stromboli</title>
     	<year>1950</year>
@@ -9935,7 +9801,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1368">
+<entry name="video2015-1369">
     <entrytype>video</entrytype>
     <title>Viaje en Italia</title>
     	<year>1954</year>
@@ -9951,9 +9817,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1369">
+<entry name="video2015-1370">
     <entrytype>video</entrytype>
     <title>Berlín, sinfonía de una gran ciudad</title>
     	<year>1927</year>
@@ -9972,7 +9838,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1370">
+<entry name="video2015-1371">
     <entrytype>video</entrytype>
     <title>Cosmos, un viaje personal</title>
     	<year>1980</year>
@@ -9989,9 +9855,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1371">
+<entry name="video2015-1372">
     <entrytype>video</entrytype>
     <title>Bodas de sangre</title>
     	<year>1981</year>
@@ -10007,9 +9873,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1372">
+<entry name="video2015-1373">
     <entrytype>video</entrytype>
     <title>El tambor</title>
     	<year>1979</year>
@@ -10026,7 +9892,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1373">
+<entry name="video2015-1374">
     <entrytype>video</entrytype>
     <title>¿Quién llama a mi puerta?</title>
     	<year>1967</year>
@@ -10045,7 +9911,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1374">
+<entry name="video2015-1375">
     <entrytype>video</entrytype>
     <title>Después de hora</title>
     	<year>1985</year>
@@ -10062,7 +9928,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1375">
+<entry name="video2015-1376">
     <entrytype>video</entrytype>
     <title>La última tentación de Cristo</title>
     	<year>1988</year>
@@ -10082,7 +9948,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1376">
+<entry name="video2015-1377">
     <entrytype>video</entrytype>
     <title>Taxi Driver</title>
     	<year>1976</year>
@@ -10099,7 +9965,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1377">
+<entry name="video2015-1378">
     <entrytype>video</entrytype>
     <title>The Wolf of Wall Street</title>
     	<year>2013</year>
@@ -10116,7 +9982,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1378">
+<entry name="video2015-1379">
     <entrytype>video</entrytype>
     <title>Toro salvaje</title>
     	<year>1980</year>
@@ -10133,7 +9999,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1379">
+<entry name="video2015-1380">
     <entrytype>video</entrytype>
     <title>Blade Runner</title>
     	<year>1982</year>
@@ -10151,7 +10017,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1380">
+<entry name="video2015-1381">
     <entrytype>video</entrytype>
     <title>Los duelistas</title>
     	<year>1977</year>
@@ -10168,7 +10034,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1381">
+<entry name="video2015-1382">
     <entrytype>video</entrytype>
     <title>Solaris</title>
     	<year>2002</year>
@@ -10185,7 +10051,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1382">
+<entry name="video2015-1383">
     <entrytype>video</entrytype>
     <title>Traffic</title>
     	<year>2000</year>
@@ -10202,7 +10068,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1383">
+<entry name="video2015-1384">
     <entrytype>video</entrytype>
     <title>Prisioneros de la tierra</title>
     	<year>1939</year>
@@ -10220,7 +10086,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1384">
+<entry name="video2015-1385">
     <entrytype>video</entrytype>
     <title>Rosaura a las diez</title>
     	<year>1958</year>
@@ -10237,7 +10103,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1385">
+<entry name="video2015-1386">
     <entrytype>video</entrytype>
     <title>La hora de los hornos</title>
     	<year>1968</year>
@@ -10254,7 +10120,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1386">
+<entry name="video2015-1387">
     <entrytype>video</entrytype>
     <title>Historia del cine…Desde el comienzo. Parte 1 y 2</title>
     	<year>2010</year>
@@ -10274,7 +10140,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1387">
+<entry name="video2015-1388">
     <entrytype>video</entrytype>
     <title>Los comienzos del cine. Méliès, The Magician. Cine mudo</title>
     	<year>2010</year>
@@ -10293,7 +10159,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1388">
+<entry name="video2015-1389">
     <entrytype>video</entrytype>
     <title>La película del rey</title>
     	<year>1986</year>
@@ -10310,7 +10176,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1389">
+<entry name="video2015-1390">
     <entrytype>video</entrytype>
     <title>Duelo a muerte</title>
     	<year>1971</year>
@@ -10328,7 +10194,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1390">
+<entry name="video2015-1391">
     <entrytype>video</entrytype>
     <title>La lista de Schindler</title>
     	<year>1993</year>
@@ -10344,9 +10210,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1391">
+<entry name="video2015-1392">
     <entrytype>video</entrytype>
     <title>Tiburón</title>
     	<year>1975</year>
@@ -10363,7 +10229,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1392">
+<entry name="video2015-1393">
     <entrytype>video</entrytype>
     <title>Pizza, birra y faso</title>
     	<year>1997</year>
@@ -10379,9 +10245,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1393">
+<entry name="video2015-1394">
     <entrytype>video</entrytype>
     <title>El expreso de medianoche</title>
     	<year>1978</year>
@@ -10400,7 +10266,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1394">
+<entry name="video2015-1395">
     <entrytype>video</entrytype>
     <title>Pelotón</title>
     	<year>1986</year>
@@ -10418,7 +10284,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1395">
+<entry name="video2015-1396">
     <entrytype>video</entrytype>
     <title>Él último tren</title>
     	<year>1959</year>
@@ -10433,9 +10299,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>inglés</lang>
 </entry>
-<entry name="video2015-1396">
+<entry name="video2015-1397">
     <entrytype>video</entrytype>
     <title>Los tres berretines</title>
     	<year>1933</year>
@@ -10452,7 +10318,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1397">
+<entry name="video2015-1398">
     <entrytype>video</entrytype>
     <title>Mephisto</title>
     	<year>1981</year>
@@ -10471,7 +10337,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1398">
+<entry name="video2015-1399">
     <entrytype>video</entrytype>
     <title>Pulp Fiction</title>
     	<year>1994</year>
@@ -10488,7 +10354,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1399">
+<entry name="video2015-1400">
     <entrytype>video</entrytype>
     <title>Andrei Rublev</title>
     	<year>1966</year>
@@ -10506,7 +10372,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1400">
+<entry name="video2015-1401">
     <entrytype>video</entrytype>
     <title>El espejo</title>
     	<year>1975</year>
@@ -10523,7 +10389,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1401">
+<entry name="video2015-1402">
     <entrytype>video</entrytype>
     <title>La infancia de Iván</title>
     	<year>1962</year>
@@ -10540,7 +10406,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1402">
+<entry name="video2015-1403">
     <entrytype>video</entrytype>
     <title>Nostalgia</title>
     	<year>1983</year>
@@ -10557,7 +10423,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1403">
+<entry name="video2015-1404">
     <entrytype>video</entrytype>
     <title>Sacrificio</title>
     	<year>1986</year>
@@ -10574,7 +10440,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1404">
+<entry name="video2015-1405">
     <entrytype>video</entrytype>
     <title>Solaris</title>
     	<year>1972</year>
@@ -10591,7 +10457,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1405">
+<entry name="video2015-1406">
     <entrytype>video</entrytype>
     <title>Stalker</title>
     	<year>1979</year>
@@ -10608,7 +10474,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1406">
+<entry name="video2015-1407">
     <entrytype>video</entrytype>
     <title>Frida</title>
     	<year>2002</year>
@@ -10625,7 +10491,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1407">
+<entry name="video2015-1408">
     <entrytype>video</entrytype>
     <title>Cinema Paradiso</title>
     	<year>1988</year>
@@ -10644,7 +10510,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1408">
+<entry name="video2015-1409">
     <entrytype>video</entrytype>
     <title>Fin de fiesta</title>
     	<year>1959</year>
@@ -10659,9 +10525,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1409">
+<entry name="video2015-1410">
     <entrytype>video</entrytype>
     <title>La caída</title>
     	<year>1959</year>
@@ -10676,9 +10542,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1410">
+<entry name="video2015-1411">
     <entrytype>video</entrytype>
     <title>La casa del ángel</title>
     	<year>1957</year>
@@ -10695,7 +10561,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1411">
+<entry name="video2015-1412">
     <entrytype>video</entrytype>
     <title>La mano en la trampa</title>
     	<year>1961</year>
@@ -10713,7 +10579,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1412">
+<entry name="video2015-1413">
     <entrytype>video</entrytype>
     <title>La terraza</title>
     	<year>1963</year>
@@ -10728,9 +10594,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1413">
+<entry name="video2015-1414">
     <entrytype>video</entrytype>
     <title>Los siete locos</title>
     	<year>1973</year>
@@ -10748,7 +10614,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1414">
+<entry name="video2015-1415">
     <entrytype>video</entrytype>
     <title>Pelota de trapo</title>
     	<year>1948</year>
@@ -10766,7 +10632,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1415">
+<entry name="video2015-1416">
     <entrytype>video</entrytype>
     <title>La mujer pantera</title>
     	<year>1943</year>
@@ -10784,7 +10650,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1416">
+<entry name="video2015-1417">
     <entrytype>video</entrytype>
     <title>Mundo grúa</title>
     	<year>1999</year>
@@ -10801,7 +10667,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1417">
+<entry name="video2015-1418">
     <entrytype>video</entrytype>
     <title>Besos robados</title>
     	<year>1968</year>
@@ -10819,7 +10685,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1418">
+<entry name="video2015-1419">
     <entrytype>video</entrytype>
     <title>Diario íntimo de Adèle H</title>
     	<year>1975</year>
@@ -10836,9 +10702,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1419">
+<entry name="video2015-1420">
     <entrytype>video</entrytype>
     <title>Disparen sobre el pianista</title>
     	<year>1960</year>
@@ -10856,7 +10722,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1420">
+<entry name="video2015-1421">
     <entrytype>video</entrytype>
     <title>Domicilio conyugal</title>
     	<year>1970</year>
@@ -10874,7 +10740,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1421">
+<entry name="video2015-1422">
     <entrytype>video</entrytype>
     <title>El amor en fuga</title>
     	<year>1978</year>
@@ -10890,7 +10756,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1422">
+<entry name="video2015-1423">
     <entrytype>video</entrytype>
     <title>El pequeño salvaje</title>
     	<year>1970</year>
@@ -10908,7 +10774,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1423">
+<entry name="video2015-1424">
     <entrytype>video</entrytype>
     <title>El último metro</title>
     	<year>1980</year>
@@ -10926,7 +10792,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1424">
+<entry name="video2015-1425">
     <entrytype>video</entrytype>
     <title>Fahrenheit 451</title>
     	<year>1966</year>
@@ -10943,7 +10809,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1425">
+<entry name="video2015-1426">
     <entrytype>video</entrytype>
     <title>Jules y Jim</title>
     	<year>1962</year>
@@ -10960,7 +10826,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1426">
+<entry name="video2015-1427">
     <entrytype>video</entrytype>
     <title>La noche americana</title>
     	<year>1973</year>
@@ -10977,9 +10843,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1427">
+<entry name="video2015-1428">
     <entrytype>video</entrytype>
     <title>La piel dura</title>
     	<year>1976</year>
@@ -10993,9 +10859,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1428">
+<entry name="video2015-1429">
     <entrytype>video</entrytype>
     <title>La piel suave</title>
     	<year>1964</year>
@@ -11010,9 +10876,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1429">
+<entry name="video2015-1430">
     <entrytype>video</entrytype>
     <title>La sirena del Mississippi</title>
     	<year>1969</year>
@@ -11030,7 +10896,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1430">
+<entry name="video2015-1431">
     <entrytype>video</entrytype>
     <title>Las dos inglesas y el amor</title>
     	<year>1971</year>
@@ -11047,7 +10913,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1431">
+<entry name="video2015-1432">
     <entrytype>video</entrytype>
     <title>Los 400 golpes</title>
     	<year>1959</year>
@@ -11064,7 +10930,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1432">
+<entry name="video2015-1433">
     <entrytype>video</entrytype>
     <title>Una chica tan decente como yo</title>
     	<year>1972</year>
@@ -11082,7 +10948,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1433">
+<entry name="video2015-1434">
     <entrytype>video</entrytype>
     <title>El camino hacia la muerte del viejo reales</title>
     	<year>1968</year>
@@ -11103,7 +10969,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1434">
+<entry name="video2015-1435">
     <entrytype>video</entrytype>
     <title>Cleo de 5 a 7</title>
     	<year>1961</year>
@@ -11119,7 +10985,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1435">
+<entry name="video2015-1436">
     <entrytype>video</entrytype>
     <title>Cine ojo</title>
     	<year>1924</year>
@@ -11135,7 +11001,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1436">
+<entry name="video2015-1437">
     <entrytype>video</entrytype>
     <title>El hombre con la cámara</title>
     	<year>1929</year>
@@ -11153,7 +11019,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1437">
+<entry name="video2015-1438">
     <entrytype>video</entrytype>
     <title>L’Atalante</title>
     	<year>1934</year>
@@ -11170,7 +11036,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1438">
+<entry name="video2015-1439">
     <entrytype>video</entrytype>
     <title>La celebración</title>
     	<year>1998</year>
@@ -11186,9 +11052,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1439">
+<entry name="video2015-1440">
     <entrytype>video</entrytype>
     <title>La caída de los dioses</title>
     	<year>1969</year>
@@ -11206,7 +11072,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1440">
+<entry name="video2015-1441">
     <entrytype>video</entrytype>
     <title>La tierra tiembla</title>
     	<year>1948</year>
@@ -11222,9 +11088,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1441">
+<entry name="video2015-1442">
     <entrytype>video</entrytype>
     <title>Muerte en Venecia</title>
     	<year>1971</year>
@@ -11242,7 +11108,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1442">
+<entry name="video2015-1443">
     <entrytype>video</entrytype>
     <title>El hombre de hierro</title>
     	<year>1981</year>
@@ -11260,7 +11126,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1443">
+<entry name="video2015-1444">
     <entrytype>video</entrytype>
     <title>El hombre de mármol</title>
     	<year>1977</year>
@@ -11278,7 +11144,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1444">
+<entry name="video2015-1445">
     <entrytype>video</entrytype>
     <title>Kanal</title>
     	<year>1957</year>
@@ -11295,7 +11161,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1445">
+<entry name="video2015-1446">
     <entrytype>video</entrytype>
     <title>Murieron con las botas puestas</title>
     	<year>1941</year>
@@ -11314,7 +11180,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1446">
+<entry name="video2015-1447">
     <entrytype>video</entrytype>
     <title>Lili</title>
     	<year>1953</year>
@@ -11330,7 +11196,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1447">
+<entry name="video2015-1448">
     <entrytype>video</entrytype>
     <title>The velvet underground and Nico</title>
     	<year>1966</year>
@@ -11348,7 +11214,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1448">
+<entry name="video2015-1449">
     <entrytype>video</entrytype>
     <title>El ciudadano</title>
     	<year>1941</year>
@@ -11365,7 +11231,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1449">
+<entry name="video2015-1450">
     <entrytype>video</entrytype>
     <title>El proceso</title>
     	<year>1962</year>
@@ -11382,7 +11248,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1450">
+<entry name="video2015-1451">
     <entrytype>video</entrytype>
     <title>F de Falso</title>
     	<year>1973</year>
@@ -11401,7 +11267,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1451">
+<entry name="video2015-1452">
     <entrytype>video</entrytype>
     <title>La dama de Shanghai</title>
     	<year>1947</year>
@@ -11416,9 +11282,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1452">
+<entry name="video2015-1453">
     <entrytype>video</entrytype>
     <title>Macbeth</title>
     	<year>1948</year>
@@ -11435,7 +11301,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1453">
+<entry name="video2015-1454">
     <entrytype>video</entrytype>
     <title>Las alas del deseo</title>
     	<year>1987</year>
@@ -11452,7 +11318,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1454">
+<entry name="video2015-1455">
     <entrytype>video</entrytype>
     <title>Mimi metalúrgico, herido en su honor</title>
     	<year>1972</year>
@@ -11471,7 +11337,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1455">
+<entry name="video2015-1456">
     <entrytype>video</entrytype>
     <title>El gabinete del doctor Caligari</title>
     	<year>1920</year>
@@ -11490,7 +11356,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1456">
+<entry name="video2015-1457">
     <entrytype>video</entrytype>
     <title>Días sin huella</title>
     	<year>1945</year>
@@ -11507,7 +11373,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1457">
+<entry name="video2015-1458">
     <entrytype>video</entrytype>
     <title>El apartamento</title>
     	<year>1960</year>
@@ -11524,7 +11390,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1458">
+<entry name="video2015-1459">
     <entrytype>video</entrytype>
     <title>La caja de Pandora</title>
     	<year>1929</year>
@@ -11539,9 +11405,9 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
-<entry name="video2015-1459">
+<entry name="video2015-1460">
     <entrytype>video</entrytype>
     <title>2046</title>
     	<year>2004</year>
@@ -11557,7 +11423,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1460">
+<entry name="video2015-1461">
     <entrytype>video</entrytype>
     <title>Ben-hur</title>
     	<year>1959</year>
@@ -11574,7 +11440,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1461">
+<entry name="video2015-1462">
     <entrytype>video</entrytype>
     <title>La loba</title>
     	<year>1941</year>
@@ -11590,7 +11456,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1462">
+<entry name="video2015-1463">
     <entrytype>video</entrytype>
     <title>Iluminación</title>
     	<year>1973</year>
@@ -11607,7 +11473,7 @@
     	<soporte>dvd</soporte>
     <lang>inglés</lang>
 </entry>
-<entry name="video2015-1463">
+<entry name="video2015-1464">
     <entrytype>video</entrytype>
     <title>La estructura de cristal</title>
     	<year>1969</year>
@@ -11625,7 +11491,7 @@
     	<soporte>dvd</soporte>
     <lang>español</lang>
 </entry>
-<entry name="video2015-1464">
+<entry name="video2015-1465">
     <entrytype>video</entrytype>
     <title>A la hora señalada</title>
     	<year>1952</year>

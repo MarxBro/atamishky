@@ -42,7 +42,7 @@ my $catalogo_txt = ''; # berreta.
 
 # esto va a ser usado despues para sacar el lenguaje.
 #my $guesser = Text::Language::Guess->new(languages =>['es','en','it','de']);
-my $guesser = Text::Language::Guess->new(languages =>['es','en']);
+my $guesser = Text::Language::Guess->new(languages =>['es','en', 'fr']);
 
 
 foreach my $ln_csv_raw (@csv_lns){
@@ -147,6 +147,8 @@ if ( $lenguaje eq 'pipo' ) {
     my $pre_lang = $guesser->language_guess_string($titulo);
     if ( $pre_lang =~ /es/ ) {
         $lenguaje = 'español';
+    } elsif ( $pre_lang =~ /fr/ ) {
+        $lenguaje = 'francés';
     } else {
         $lenguaje = 'inglés';
     }
