@@ -59,13 +59,13 @@
         <a href="javascript:void(0)" onclick="showCategory('lang','{lang}')">
         <xsl:choose>
         <xsl:when test="lang='es'">    
-            español
+            espa&ntilde;ol
         </xsl:when>
         <xsl:when test="lang='en'">    
-            inglés
+            ingl&eacute;s
         </xsl:when>
         <xsl:when test="lang='fr'">    
-            francés
+            franc&eacute;s
         </xsl:when>
         </xsl:choose>
         </a>
