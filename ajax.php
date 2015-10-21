@@ -86,6 +86,9 @@ if($action != null){
     else if($action == 'ayuda') {
         include('ayuda.php');
     }
+    else if($action == 'reglamento') {
+        include('reglamento.php');
+    }
 } else {
     // $pub empty, action empty -> index.php
     $xmlfile                         = 'catalogo.xml';
