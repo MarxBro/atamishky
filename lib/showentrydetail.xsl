@@ -60,6 +60,13 @@
         </td></tr>
     </xsl:if>
 
+    <xsl:if test="pages">
+    <tr><td><b>Parte</b></td>
+        <td>
+        <xsl:value-of select="pages" /></a>
+        </td></tr>
+    </xsl:if>
+
     <xsl:if test="soporte">
     <tr><td><b>Soporte</b></td>
         <td>

@@ -16,8 +16,9 @@ En esta rama hay objetivos que son:
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
 ~~8* Social links... ponele.~~
-~~9* salida norma APA.~~
-
+~~9* salida norma APA.~~ Le agregue ISO de yapa.
+* agregue doc en ayuda.php
+* agregue busquedas por tipo (cualquier texto en book, video o musica, p.ej.)
 
 ## 1
 
@@ -114,6 +115,7 @@ La cosa seria hacer que el div bibbody muestre una entrada APA valida desde la d
 
 le agregue ISO tambien, para que sean felices los niños.
 
+** ANDUVO
 
 -------
 

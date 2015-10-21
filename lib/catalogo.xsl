@@ -76,14 +76,6 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
-	<xsl:when test="$categoryby='soporte'">
-		<xsl:call-template name="listPubs">
-			<xsl:with-param name="sortype" select="$sorttype" />
-			<xsl:with-param name="query" select="entries/entry[soporte=$categorytype]" />
-			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
-			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
-		</xsl:call-template>
-	</xsl:when>
 	<xsl:when test="$categoryby='publisher'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
@@ -380,7 +372,7 @@
     <!--<xsl:call-template name="printAddress" />-->
 	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
-    <!--<xsl:call-template name="printSoporte" />-->
+    <xsl:call-template name="printSoporte" />
 </xsl:template>
 <!--BASTA-->
 
@@ -472,7 +464,7 @@
 <!--Videos :: soporte (vhs|dvd)-->
 <xsl:template name="printSoporte">
 		<xsl:if test="soporte">
-			<xsl:value-of select="soporte" />,&#160;
+			[<xsl:value-of select="soporte" />].&#160;
 		</xsl:if>
 </xsl:template>
 
