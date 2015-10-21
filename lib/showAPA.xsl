@@ -26,7 +26,7 @@
                 <!--<xsl:when test="name(.)='' or name(.)='researcharea' or name(.)='filelink' or name(.)='presentation' or name(.)='poster'">-->
 						<!-- do nothing! -->
                         <!--</xsl:when>-->
-<!------------------------------------------------->
+<!--                                                   -->
 					<xsl:when test="name(.)='authors'">
 <!--Autores-->
 <xsl:choose>
@@ -46,12 +46,12 @@
 </xsl:choose>
                     </xsl:when>
 					
-<!------------------------------------------------->
+<!--                                                   -->
                     <xsl:when test="name(.)='title'">
 <!--Titulo-->
 "<xsl:value-of select="title"/>".&#160;
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
                     
                     <xsl:when test="name(.)='publisher'">
 <!--Editorial-->
@@ -62,7 +62,7 @@
 </xsl:if>
 </xsl:if>
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
                     
                     <xsl:when test="name(.)='address'">
 <!-- Ciudad/es-->
@@ -80,7 +80,7 @@
 </xsl:choose>
 					
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
 					
                     
                     <xsl:when test="name(.)='year'">
@@ -92,7 +92,7 @@
     Sin fecha.&#160;
 </xsl:if>
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
 					
                     
                     <xsl:when test="name(.)='pages'">
@@ -101,14 +101,14 @@
         [pp.<xsl:value-of select="pages"/>].&#160;
 </xsl:if>
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
                     <!--<xsl:when test="name(.)='link'">-->
 <!--Enlace-->
 <!--<xsl:if test="link">-->
 <!--Disponible en: <xsl:value-of select="link"/>.&#160;-->
 <!--</xsl:if>-->
 <!--</xsl:when>-->
-<!------------------------------------------------->
+<!--                                                   -->
                     <xsl:when test="name(.)='soporte'">
 <!--Soporte-->
 <!--"entrytype"/> equal 'video'-->
@@ -118,7 +118,7 @@
 </xsl:if>
 </xsl:if>
                     </xsl:when>
-<!------------------------------------------------->
+<!--                                                   -->
                 </xsl:choose>
 
 			</xsl:for-each>
