@@ -64,7 +64,7 @@
     <xsl:otherwise>
         <xsl:for-each select="address/city">
             <xsl:value-of select="."/>
-            <xsl:if test="position()  = last()">&#160;
+            <xsl:if test="position() = last()">&#160;
                 <xsl:if test="entrytype != 'video'">:</xsl:if>
             </xsl:if>
             <xsl:if test="position() != last()">-</xsl:if>
@@ -75,9 +75,9 @@
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Editorial-->
 <xsl:if test="entrytype != 'video'">
-<xsl:if test="publisher">
-    <xsl:value-of select="publisher"/>)&#160;
-</xsl:if>
+    <xsl:if test="publisher">
+        <xsl:value-of select="publisher"/>&#160;)
+    </xsl:if>
 </xsl:if>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Paginas-->
@@ -89,9 +89,9 @@
 <!--Soporte-->
 <xsl:if test="entrytype = 'video'">
 ),
-<xsl:if test="soporte">
-    [<xsl:value-of select="soporte" />].&#160;
-</xsl:if>
+    <xsl:if test="soporte">
+        [<xsl:value-of select="soporte" />].&#160;
+    </xsl:if>
 </xsl:if>
 
       </xsl:for-each>
