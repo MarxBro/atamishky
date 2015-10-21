@@ -1,13 +1,13 @@
 <div class="content">
 <div class="entry1">
 <div class="title">Ayuda</div>
-<div class="entrybody">
+<div class="entrybody" >
 
-<h2>Acerca de la forma de uso del buscador</h2>
+<h1>Acerca de la forma de uso del buscador</h1>
 
 <p>Para comenzar una busqueda, utilice la solapa de la izquierda y seleccione el criterio de filtrado.</p>
 
-<h2>Criterios de busqueda predefinidos</h2>
+<h1>Criterios de busqueda predefinidos</h1>
 
 <p>Puede seleccionar alguno de los siguientes criterios:</p>
 
@@ -25,11 +25,18 @@
 <p>Los primeros cuatro criterios afectan a cualquier tipo de material: es
 indistinto si es un libro o una pelicula.</p>
 
-<p>Si la opción <strong>Titulo</strong> es utilizada como criterio, se buscaran
-todos los titulos que coincidan con el texto introducido. Similarmente, si se
-utiliza el texto buscado como parte de la descripcion de algun material
-bibliografico, bajao una busqueda del mismo criterio, el resultado aparecera en
-la lista.</p>
+<p>Si la opción <strong>Titulo</strong> es utilizada como criterio, se buscan
+todos los titulos que coincidan con el texto introducido.</p>
+
+<p>Similarmente, si se utiliza el texto buscado como parte de la <strong>descripcioni</strong> de
+algun material bibliografico del catalogo, bajo una busqueda del mismo
+criterio, se conforma una lista de las entradas resultantes.</p>
+
+<p><i>Por ejemplo, si un grupo de peliculas incluyen la palabra "Audiovision" en su
+descipcion, buscando por Descripcion el texto "audiov" el grupo completo
+aparece en los resultados (posiblemente acompañado de resultados adicionales,
+ya que el texto introducido no es exactamente "audiovision", pero coincide).
+</i></p>
 
 <p>La opcion <strong>Autor</strong> filtra en la lista total de autores, por
 los nombres y/o apellidos que lo incluyan. Asi, "ado" incluye a Adorno y a
@@ -43,7 +50,7 @@ criterio "Libros", todas las entradas que no sean de este tipo son filtradas de
 antemano: busca únicamente en el caso de las citas que pertenezcan al mismo
 tipo.</p>
 
-<h2>Criterios de busqueda dinamicos</h2>
+<h1>Criterios de busqueda dinamicos</h1>
 
 <p>Adicionalmente, <strong>es posible utilizar -casi- cualquier criterio como 
 filtrado dinamico</strong>: autores, titulos, idomas, soporte, editoriales...
@@ -51,7 +58,7 @@ Alcanza con cliquear en el enlace para convertir al elemento en un filtro.</p>
 
 <p>En el encabezado de la página se especifica el tipo de filtrado actual.</p>
 
-<h2>Criterios de organizacion del catalogo adicionales</h2>
+<h1>Criterios de organizacion del catalogo adicionales</h1>
 
 <p>Estos son dos (por el momento) y funcionan como colecciones de referencias: una
 categorizacion inmediatamente superior al tipo de material que agrupa varias

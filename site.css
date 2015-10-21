@@ -156,7 +156,7 @@ body {
 
 /*Agregado para que quede menos chiotto el margen de la sección ayuda*/
 .atamishky .entrybody p {
-    with: 90%;
+    width: 90%;
 }
 
 
