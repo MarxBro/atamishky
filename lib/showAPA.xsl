@@ -30,15 +30,15 @@
 <!--<xsl:when test="name(.)='authors'">-->
 <!--Autores-->
 <xsl:choose>
-    <xsl:when test="count(author)=1">
-            <xsl:value-of select="author[1]"/>.&#160;
+    <xsl:when test="count(authors/author)=1">
+            <xsl:value-of select="authors/author[1]"/>.&#160;
     </xsl:when>
     <xsl:when test="count(author)=2">
-            <xsl:value-of select="author[1]"/>&#160;y&#160;
-            <xsl:value-of select="author[2]"/>.&#160;
+            <xsl:value-of select="authors/author[1]"/>&#160;y&#160;
+            <xsl:value-of select="authors/author[2]"/>.&#160;
     </xsl:when>
     <xsl:otherwise>
-        <xsl:for-each select="author">
+        <xsl:for-each select="authors/author">
             <xsl:if test="position()=last()">y&#160;</xsl:if>
                 <xsl:value-of select="."/>;&#160;
         </xsl:for-each>
@@ -66,11 +66,11 @@
 <!--<xsl:when test="name(.)='address'">-->
 <!-- Ciudad/es-->
 <xsl:choose>
-    <xsl:when test="count(city)=1">
-        <xsl:value-of select="city"/>,&#160;
+    <xsl:when test="count(address/city)=1">
+        <xsl:value-of select="address/city"/>,&#160;
     </xsl:when>
     <xsl:otherwise>
-        <xsl:for-each select="city">
+        <xsl:for-each select="address/city">
             <xsl:value-of select="."/>
             <xsl:if test="position()  = last()">,&#160;</xsl:if>
             <xsl:if test="position() != last()">-</xsl:if>
