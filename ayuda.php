@@ -28,7 +28,7 @@ indistinto si es un libro o una pelicula.</p>
 <p>Si la opción <strong>Titulo</strong> es utilizada como criterio, se buscan
 todos los titulos que coincidan con el texto introducido.</p>
 
-<p>Similarmente, si se utiliza el texto buscado como parte de la <strong>descripcioni</strong> de
+<p>Similarmente, si se utiliza el texto buscado como parte de la <strong>descripcion</strong> de
 algun material bibliografico del catalogo, bajo una busqueda del mismo
 criterio, se conforma una lista de las entradas resultantes.</p>
 
