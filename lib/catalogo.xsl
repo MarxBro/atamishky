@@ -326,10 +326,12 @@
   </xsl:when>
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
-    <div class="entrybody" id="entrydetail{@name}">&#160;</div>
+    <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
+    <div class="entrybody" id="entrydetail{@name}"></div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
+    <div class="bibbody" id="bib{@name}"></div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>
@@ -464,7 +466,8 @@
 <!--Videos :: soporte (vhs|dvd)-->
 <xsl:template name="printSoporte">
 		<xsl:if test="soporte">
-			[<xsl:value-of select="soporte" />].&#160;
+		    <a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')">
+			[<xsl:value-of select="soporte" />]</a>.&#160;
 		</xsl:if>
 </xsl:template>
 
