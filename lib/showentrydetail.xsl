@@ -48,7 +48,7 @@
 
    <xsl:if test="bibliografia">
     <tr><td><b>Bibliografia</b></td>
-        <td><xsl:for-each select="bibliografia">
+        <td colspan="2"><xsl:for-each select="bibliografia">
         <a href="javascript:void(0)" onclick="showCategory('bibliografia','{.}')"><xsl:value-of select="." /></a>
         </xsl:for-each></td></tr>
     </xsl:if>
