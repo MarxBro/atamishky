@@ -94,7 +94,7 @@
    
     <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
     <tr><td><b>Documento</b></td><td>
-    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="pdfSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Referencia.</a>
     <!--</td>-->
     <!--bibtex entry - nomenclaturame la nutria-->
     <!--<td>-->
@@ -110,7 +110,7 @@
     
     <xsl:if test="link">
           <td>
-    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="enlace" />
+    <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="pdfSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="enlace" />
           <a href="{link}">Documento.</a>
           </td>
     </xsl:if>
