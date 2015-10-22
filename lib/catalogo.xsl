@@ -318,7 +318,10 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <div class="bibbody" id="bib{@name}">
+    <!--&#160;-->
+    <!--empty div.-->
+    </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
@@ -327,11 +330,15 @@
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
-    <div class="entrybody" id="entrydetail{@name}"></div>
+    <div class="entrybody" id="entrydetail{@name}">
+    <!--empty div-->
+    </div>
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
-    <div class="bibbody" id="bib{@name}"></div>
+    <div class="bibbody" id="bib{@name}">
+    <!--empty div-->
+    </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>

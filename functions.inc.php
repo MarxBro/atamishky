@@ -120,4 +120,19 @@ function do_hash_seguridad_vendehumo() {
     return $MD5s;
 } 
 
+//funcion agregada para comenzar a jugar con los prestamos
+    // si hay argumentos, check for pass to be equal to main pass
+function pass_prestamo ($a){
+    if ($a){
+        $PASS_PRESTAMO_CH = md5(md5($a) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+        if ($a === $PASS_PRESTAMO){
+            return true;    
+        }
+    } else{
+        return false;
+        //$PASS_PRESTAMO;    
+    }
+}
+
+
 ?>
