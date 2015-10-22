@@ -318,11 +318,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}" style="visbility: none;">
-    &#160;
-    <!--empty div.-->
-    <!--&#x0;-->
-    </div>
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
@@ -331,19 +327,11 @@
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
-    <div class="entrybody" id="entrydetail{@name}" style="visbility: none;">
-    <!--empty div-->
-    <!--&#x0;-->
-    &#160;
-    </div>
+    <div class="entrybody" id="entrydetail{@name}" style="visbility: none;">&#160;</div>
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
-    <div class="bibbody" id="bib{@name}" style="visbility: none;">
-    <!--empty div-->
-    <!--&#x0;-->
-    &#160;
-    </div>
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>
