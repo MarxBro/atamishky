@@ -478,8 +478,9 @@
 <!--Videos :: soporte (vhs|dvd)-->
 <xsl:template name="printSoporte">
 		<xsl:if test="soporte">
-		    <a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')">
-			[<xsl:value-of select="soporte" />]</a>.&#160;
+		    [<a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')">
+			<xsl:value-of select="soporte"/>
+            </a>].&#160;
 		</xsl:if>
 </xsl:template>
 
