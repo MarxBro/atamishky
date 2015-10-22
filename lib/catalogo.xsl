@@ -318,7 +318,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}" style="display: none;">
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">
     &#160;
     <!--empty div.-->
     <!--&#x0;-->
@@ -331,7 +331,7 @@
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
-    <div class="entrybody" id="entrydetail{@name}" style="display: none;">
+    <div class="entrybody" id="entrydetail{@name}" style="visbility: none;">
     <!--empty div-->
     <!--&#x0;-->
     &#160;
@@ -339,7 +339,7 @@
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
-    <div class="bibbody" id="bib{@name}" style="display: none;">
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">
     <!--empty div-->
     <!--&#x0;-->
     &#160;
