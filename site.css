@@ -252,7 +252,7 @@ body {
 	padding-bottom: 20px;
 }
 
-.atamishky .article, .inproceedings, .musica, .video, .inbook, .conference, .book, .incollection, .techreport, .mastersthesis, .mastersproject, .phdthesis, .patent, .misc
+.atamishky .article, .musica, .video, .book, .mastersthesis, .mastersproject, .phdthesis, .misc
 {
 	position:absolute;
 	height: 36px;
@@ -263,24 +263,9 @@ body {
 /*.atamishky a.article { */
 /*background-image:url("img/J.png"); */
 /*}*/
-/*.atamishky a.inproceedings {*/
-/*background-image:url("img/C.png"); */
-/*}*/
-/*.atamishky a.inbook { */
-/*background-image:url("img/BC.png"); */
-/*}*/
-/*.atamishky a.conference { */
-/*background-image:url("img/C.png"); */
-/*}*/
 .atamishky a.book { 
 	background-image:url("img/type-icons/book.png"); 
 }
-/*.atamishky a.incollection { */
-/*background-image:url("img/BC.png"); */
-/*}*/
-/*.atamishky a.techreport { */
-/*background-image:url("img/TR.png"); */
-/*}*/
 /*.atamishky a.mastersthesis { */
 /*background-image:url("img/MS.png"); */
 /*}*/
@@ -289,9 +274,6 @@ body {
 /*}*/
 /*.atamishky a.phdthesis { */
 /*background-image:url("img/PhD.png"); */
-/*}*/
-/*.atamishky a.patent { */
-/*background-image:url("img/patent.png"); */
 /*}*/
 .atamishky a.misc { 
 	background-image:url("img/type-icons/misc.png"); 
