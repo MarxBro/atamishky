@@ -1,9 +1,8 @@
 <div class="content">
 <div class="entry1">
-<div class="title">Reglamento de la Biblioteca</div>
+<div class="title">Reglamento de la Mediateca del Área Transdepartamental de Artes Multimediales</div>
 <div class="entrybody">
 
-<p>Reglamento de la Mediateca del Área Transdepartamental de Artes Multimediales</p>
 <hr />
 <h2 id="capítulo-i---aspectos-generales">CAPÍTULO I - ASPECTOS GENERALES</h2>
 <p><strong>ARTÍCULO 1º.</strong> La Mediateca deberá cumplir con los siguientes objetivos.</p>

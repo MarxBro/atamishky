@@ -131,7 +131,7 @@ echo "</div>";
 <div class="bottomleft">
 <span>
 <a href="index.php?action=ayuda">Ayuda</a> &#149;
-<a href="index.php?action=reglamento">Reglamento Biblioteca ATAM</a> &#149;
+<a href="index.php?action=reglamento">Reglamento</a> &#149;
 <a href="index.php?action=copyright">Copyright</a> &#149;
 2015.
 </span><br/><br/><br/>&nbsp;
