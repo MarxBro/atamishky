@@ -318,10 +318,10 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">
-    <!--&#160;-->
+    <div class="bibbody" id="bib{@name}" style="display: none;">
+    &#160;
     <!--empty div.-->
-    &#0;
+    <!--&#x0;-->
     </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
@@ -331,16 +331,18 @@
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
-    <div class="entrybody" id="entrydetail{@name}">
+    <div class="entrybody" id="entrydetail{@name}" style="display: none;">
     <!--empty div-->
-    &#0;
+    <!--&#x0;-->
+    &#160;
     </div>
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
-    <div class="bibbody" id="bib{@name}">
+    <div class="bibbody" id="bib{@name}" style="display: none;">
     <!--empty div-->
-    &#0;
+    <!--&#x0;-->
+    &#160;
     </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
