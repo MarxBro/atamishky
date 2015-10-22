@@ -321,6 +321,7 @@
     <div class="bibbody" id="bib{@name}">
     <!--&#160;-->
     <!--empty div.-->
+    &#0;
     </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
@@ -332,12 +333,14 @@
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
     <div class="entrybody" id="entrydetail{@name}">
     <!--empty div-->
+    &#0;
     </div>
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
     <div class="bibbody" id="bib{@name}">
     <!--empty div-->
+    &#0;
     </div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
