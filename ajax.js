@@ -151,7 +151,6 @@ function getAPA(pub) {
     }
 }
 function getISO(pub) { 
-    hide_bibtex_div(pub);
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
         toggleBib[pub]='h';
