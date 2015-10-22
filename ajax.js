@@ -94,7 +94,7 @@ function stateChanged()
 }
 
 function getBib(pub) { 
-    hide_bibtex_div(pub);
+    /*hide_bibtex_div(pub);*/
     if(toggleBib[pub]!='s') {
         toggleBib[pub]='s';
         toggleAPA[pub]='h';
@@ -123,7 +123,7 @@ function getBib(pub) {
 }
 
 function getAPA(pub) { 
-    hide_bibtex_div(pub);
+    /*hide_bibtex_div(pub);*/
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
         toggleBib[pub]='h';
@@ -151,6 +151,7 @@ function getAPA(pub) {
     }
 }
 function getISO(pub) { 
+    /*hide_bibtex_div(pub);*/
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
         toggleBib[pub]='h';
