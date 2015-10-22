@@ -48,7 +48,7 @@
 
    <xsl:if test="bibliografia">
     <tr><td><b>Bibliografia</b></td>
-        <td colspan="2"><xsl:for-each select="bibliografia">
+        <td><xsl:for-each select="bibliografia">
         <a href="javascript:void(0)" onclick="showCategory('bibliografia','{.}')"><xsl:value-of select="." /></a>
         </xsl:for-each></td></tr>
     </xsl:if>
@@ -95,9 +95,9 @@
     <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
     <tr><td><b>Documento</b></td><td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="permalinkSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="permalink" /><a href="{$atamishkyembeddingurl}?action=showcategory&amp;by=ID&amp;pub={@name}">Link</a>
-    </td>
+    <!--</td>-->
     <!--bibtex entry part-->
-    <td>
+    <!--<td>-->
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="bibtexSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="cita" />
         <a href="javascript:void(0)" onclick="getBib('{@name}')">BibTex</a>
         <!--APA xsl-->
