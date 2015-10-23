@@ -134,9 +134,10 @@ function pass_prestamo ($a){
     }
 }
 // Funciones para lidiar con el prestamo de material.
-function IcanHas_booked_items_array($rtyu) {
+function IcanHas_booked_items_array() {
     // abir el archivo y cargar todos los IDS    
-    $handle_bookedtxt = fopen($rtyu, "r");
+    $archivo_prestamos = "lib/prestamos.sec";
+    $handle_bookedtxt = fopen($archivo_prestamos, "r");
     $bo = array();
     if ($handle_bookedtxt) {
         while(!feof($handle_bookedtxt)){
@@ -151,13 +152,13 @@ function IcanHas_booked_items_array($rtyu) {
     } else {
         die ("No se pudo abrir el archivo de prestamos. ERROR");
     }
-    fclose($rtyu);
+    fclose($archivo_prestamos_mm);
     return $bo;
 }
 
 function booked_items_check_status ($librito){
-    $archivo_prestamos_mm = "lib/prestamos.sec";
-    $booked_stuff_mm = IcanHas_booked_items_array($archivo_prestamos_mm);
+    //$archivo_prestamos_mm = "lib/prestamos.sec";
+    $booked_stuff_mm = IcanHas_booked_items_array();
     if (in_array($librito, $booked_stuff_mm)){
         return true;
     } else {
@@ -166,8 +167,8 @@ function booked_items_check_status ($librito){
 }
 
 function booked_items_change_status ($it){
-    $archivo_prestamos = "lib/prestamos.sec";
-    $booked_stuff = IcanHas_booked_items_array($archivo_prestamos);
+    //$archivo_prestamos = "lib/prestamos.sec";
+    $booked_stuff = IcanHas_booked_items_array();
     if (in_array($it,$booked_stuff)){
         //esta prestado    
             // sacarlo del archivo.
