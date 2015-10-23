@@ -36,7 +36,24 @@ if($action != null){
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
-        echo transform($xmlfile, $xslfile, $params);
+        $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
+
+        //Procesar los prestamos.
+        if ($pub){
+            // fijarse si esta prestado.
+            if (booked_items_check_status($pub)){
+                // reemplazar el td bufarra por algo lindo.
+                $resultado_pre_prestamo = str_replace('/REEMPLAZAR/', 'PRESTADO', $resultado_pre_prestamo);
+            } else {
+                // no esta prestado
+                $resultado_pre_prestamo = str_replace('/^.*REEMPLAZAR.*$/', '', $resultado_pre_prestamo);
+            }
+        } else {
+            // no hay pub, volar el div bufarra tambien.
+            $resultado_pre_prestamo = str_replace('/^.*REEMPLAZAR.*$/', '', $resultado_pre_prestamo);
+        }
+        
+        echo $resultado_pre_prestamo;
     }
     else if($action == "showkeywordscloud") {
         $xmlfile = 'catalogo.xml';

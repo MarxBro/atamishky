@@ -155,7 +155,15 @@ function IcanHas_booked_items_array($rtyu) {
     return $bo;
 }
 
-function booked_items ($it){
+function booked_items_check_status ($librito){
+    $archivo_prestamos_mm = "lib/prestamos.sec";
+    $booked_stuff_mm = IcanHas_booked_items_array($archivo_prestamos);
+    if (in_array($librito, $booked_stuff_mm){
+        return true;
+    }
+}
+
+function booked_items_change_status ($it){
     $archivo_prestamos = "lib/prestamos.sec";
     $booked_stuff = IcanHas_booked_items_array($archivo_prestamos);
     if (in_array($it,$booked_stuff)){
