@@ -157,7 +157,7 @@ function IcanHas_booked_items_array($rtyu) {
 
 function booked_items_check_status ($librito){
     $archivo_prestamos_mm = "lib/prestamos.sec";
-    $booked_stuff_mm = IcanHas_booked_items_array($archivo_prestamos);
+    $booked_stuff_mm = IcanHas_booked_items_array($archivo_prestamos_mm);
     if (in_array($librito, $booked_stuff_mm)){
         return true;
     }
