@@ -62,13 +62,18 @@
         <xsl:if test="entrytype != 'video'">&#160;:&#160;</xsl:if>
     </xsl:when>
     <xsl:otherwise>
-        <xsl:for-each select="address/city">
-            <xsl:value-of select="."/>
-            <xsl:if test="position() = last()">&#160;
-                <xsl:if test="entrytype != 'video'">:</xsl:if>
-            </xsl:if>
-            <xsl:if test="position() != last()">-</xsl:if>
-        </xsl:for-each>
+        <xsl-if test="entrytype = 'book'">
+            <xsl:value-of select="address/city[0]"/>:&#160;
+        </xsl:if>
+        <xsl-if test="entrytype != 'book'">
+            <xsl:for-each select="address/city">
+                <xsl:value-of select="."/>
+                <xsl:if test="position() = last()">&#160;
+                    <xsl:if test="entrytype != 'video'">:</xsl:if>
+                </xsl:if>
+                <xsl:if test="position() != last()">-</xsl:if>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:otherwise>
 </xsl:choose>
 

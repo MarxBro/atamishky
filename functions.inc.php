@@ -133,7 +133,7 @@ function pass_prestamo ($a){
         //$PASS_PRESTAMO;    
     }
 }
-// Funciones para lidiar con el prestamod e material.
+// Funciones para lidiar con el prestamo de material.
 function IcanHas_booked_items_array($rtyu) {
     // abir el archivo y cargar todos los IDS    
     $handle_bookedtxt = fopen($rtyu, "r");
