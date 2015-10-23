@@ -152,7 +152,7 @@ function IcanHas_booked_items_array() {
     } else {
         die ("No se pudo abrir el archivo de prestamos. ERROR");
     }
-    fclose($archivo_prestamos_mm);
+    fclose($archivo_prestamos);
     return $bo;
 }
 
