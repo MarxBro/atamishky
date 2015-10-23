@@ -63,7 +63,7 @@
     </xsl:when>
     <xsl:otherwise>
         <xsl:if test="entrytype = 'book'">
-            <xsl:value-of select="address/city[0]"/>:&#160;
+            <xsl:value-of select="address/city[1]"/>:&#160;
         </xsl:if>
         <xsl:if test="entrytype != 'book'">
             <xsl:for-each select="address/city">
