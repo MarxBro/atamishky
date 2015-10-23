@@ -149,7 +149,7 @@ function IcanHas_booked_items_array($rtyu) {
             }
         }
     } else {
-        die ("No se pudo abrir el archivod e prestamos. ERROR"); 
+        die ("No se pudo abrir el archivo de prestamos. ERROR");
     }
     fclose($rtyu);
     return $bo;
@@ -160,6 +160,8 @@ function booked_items_check_status ($librito){
     $booked_stuff_mm = IcanHas_booked_items_array($archivo_prestamos_mm);
     if (in_array($librito, $booked_stuff_mm)){
         return true;
+    } else {
+        return false;
     }
 }
 
