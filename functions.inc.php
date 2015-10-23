@@ -133,6 +133,50 @@ function pass_prestamo ($a){
         //$PASS_PRESTAMO;    
     }
 }
+// Funciones para lidiar con el prestamod e material.
+function IcanHas_booked_items_array($rtyu) {
+    // abir el archivo y cargar todos los IDS    
+    $handle_bookedtxt = fopen($rtyu, "r");
+    $bo = array();
+    if ($handle_bookedtxt) {
+        while(!feof($handle_bookedtxt)){
+            $line_booked     = fgets($handle_bookedtxt);
+            $line_booked     = str_replace("\n", '', $line_booked);
+            if (! $line_booked){
+                continue;    
+            } else {
+                array_push($bo,$line_booked);    
+            }
+        }
+    } else {
+        die ("No se pudo abrir el archivod e prestamos. ERROR"); 
+    }
+    fclose($rtyu);
+    return $bo;
+}
 
+function booked_items ($it){
+    $archivo_prestamos = "lib/prestamos.sec";
+    $booked_stuff = IcanHas_booked_items_array($archivo_prestamos);
+    if (in_array($it,$booked_stuff)){
+        //esta prestado    
+            // sacarlo del archivo.
+            $ln_borrar = $it . "\n";
+            $cont = file_get_contents($archivo_prestamos);
+            $cont = str_replace($ln_borrar,'',$cont);
+            file_put_contents($cont);
+    } else {
+        //no esta prestado
+        //  1. chequear que el id del libro tenga formato valido y
+        //  2. prestar === agregar el id al archivo (sip, asi de chiotto)
+            $ln_agregar = $it . "\n";
+            $contt = file_get_contents($archivo_prestamos);
+            $contt .= $ln_agregar;
+            file_put_contents($contt);
+    }
+    //return $something;
+} 
+    
+    
 
 ?>
