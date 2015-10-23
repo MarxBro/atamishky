@@ -117,7 +117,7 @@
     </tr>
 
     <!-- Estado del material. -->
-    <tr><td><b>Estado</b></td><td>REEMPLAZAR</td></tr>
+    <tr><td><b>Estado</b></td><td>Disponible</td></tr>
 
     <!--social craps -->
     <tr><td><b>Compartir</b></td>
