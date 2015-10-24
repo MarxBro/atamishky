@@ -216,6 +216,7 @@ if(toggleEntryDetail[pub]!='s')
 	xmlHttp.onreadystatechange=function () { 
                                     openEntryDetail(pub, xmlHttp);
                                     }
+    /*esta llamada no es asincrona, porque si no, no funka.*/
     /*xmlHttp.open("GET",url,true)*/
 	xmlHttp.open("GET",url,false)
 	xmlHttp.send(null)
