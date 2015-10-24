@@ -1,9 +1,3 @@
-
-
-
-/*TODO HERE*/
-/*urgently needing some input sanitization of some kind.*/
-
 var xmlHttp;
 var toggleBib = {};
 var toggleAPA = {}; // Agregado

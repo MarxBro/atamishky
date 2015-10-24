@@ -136,6 +136,9 @@ if($action != null){
     echo transform( $xmlfile, $xslfile, $params );
 }
 
+//Evitar que ajax se la mande pelotudamente.
+session_write_close();
+
 // si la acción no es ninguna de estas (y milagrosaente es algo),
 // mostrar el permalink de cualquier forma... no se bien para que, pero
 // en lugar de dejarlo en manos del xsl, esta aca.
