@@ -93,8 +93,6 @@ if($action != null){
 
         //Procesar los prestamos y ser feliz. II
         if ($pub){
-            if (booked_items_check_status($pub)){
-              // procesar el prestamo
               if ($_GET["prestamo"]){
                 $pass    =  $_GET["prestamo"];
                 if (pass_prestamo($pass)){
@@ -102,6 +100,8 @@ if($action != null){
                   //echo "el estado ha cambiado desde -showcategory-";
                 }
               }
+            if (booked_items_check_status($pub)){
+              // procesar el prestamo
                 $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
         } else {
