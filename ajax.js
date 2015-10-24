@@ -462,6 +462,7 @@ function eventFire(el, etype){
 function dale(){
   var todosTriggear = document.getElementsByClassName('clicky');
   for(var i=0; esta=todosTriggear[i]; i++) {
-    eventFire(esta,'click');
+    /*el timepo de gracia es para evitar que se cuakee todo el coso*/
+    setTimeout(eventFire(esta,'click'),250);
   }
 }
