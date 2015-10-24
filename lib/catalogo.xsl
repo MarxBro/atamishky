@@ -255,7 +255,7 @@
 <xsl:variable name="count" select="count($query)"/>
 <div class="total">Total: <xsl:value-of select="$count" /> 
   <xsl:if test="$count &lt; 15">
-    <a href="javascript:void(0)" onclick="dale()">Detalles todos</a>
+    <a href="javascript:void(0)" onclick="dale()">++</a>
   </xsl:if>
 </div>
 
