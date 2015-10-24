@@ -17,7 +17,7 @@ open( COMPRESSED, '>', $opts{o});  # 'ajax.js'
 
 my $js = join( '', <UNCOMPRESSED> );
 
-$packer->minify( \$js, { compress => 'best' } );
+$packer->minify( \$js, { compress => 'clean' } );
 
 print COMPRESSED $js;
 close(UNCOMPRESSED);
