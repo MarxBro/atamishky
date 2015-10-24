@@ -461,9 +461,10 @@ function eventFire(el, etype){
 }
 function dale(){
   var todosTriggear = document.getElementsByClassName('clicky');
-  for(var i=0; i < todosTriggear.length; i++) {
+  for(var i = 0; i < todosTriggear.length; i++) {
     var esta = todosTriggear[i];
-    /*console.log(esta);*/
+    console.log(esta);
+    console.logi);
     eventFire(esta,'click');
   }
 }
