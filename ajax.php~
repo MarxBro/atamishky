@@ -40,19 +40,12 @@ if($action != null){
 
         //Procesar los prestamos y ser feliz.
         if ($pub){
-            // fijarse si esta prestado.
             if (booked_items_check_status($pub)){
-                // reemplazar el td bufarra por algo lindo.
-                $resultado_pre_prestamo = str_replace('Disponible', 'PRESTADO', $resultado_pre_prestamo);
-            //} else {
-                //// no esta prestado
-                //$resultado_pre_prestamo = str_replace('/<td>Disponible<\/td>/', '', $resultado_pre_prestamo);
+                $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
         } else {
-            // no hay pub, volar el div bufarra tambien.
             $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
         }
-        
         echo $resultado_pre_prestamo;
     }
     else if($action == "showkeywordscloud") {
@@ -95,7 +88,18 @@ if($action != null){
         $params['breadcrumb2']           = $breadcrumb2;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
-        echo transform($xmlfile, $xslfile, $params);
+        //echo transform($xmlfile, $xslfile, $params);
+        $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
+
+        //Procesar los prestamos y ser feliz. II
+        if ($pub){
+            if (booked_items_check_status($pub)){
+                $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
+            }
+        } else {
+            $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
+        }
+        echo $resultado_pre_prestamo;
     }
     else if($action == 'copyright') {
         include('copyright.php');

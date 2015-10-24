@@ -99,6 +99,16 @@ if($action != null){
         } else {
             $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
         }
+
+        // procesar el prestamo
+        if ($_GET["prestamo"]){
+          $pass    = sano( $_GET["prestamo"]);
+          if (pass_prestamo($pass)){
+            booked_items_check_status($pub);
+          }
+        }
+
+
         echo $resultado_pre_prestamo;
     }
     else if($action == 'copyright') {

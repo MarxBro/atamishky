@@ -137,7 +137,7 @@ function pass_prestamo ($a){
 function IcanHas_booked_items_array() {
     // abir el archivo y cargar todos los IDS    
     $archivo_prestamos_puto = "lib/prestamos.sec";
-    $handle_bookedtxt = fopen($archivo_prestamos_puto, "r") or die("no se que pacho");
+    $handle_bookedtxt = fopen($archivo_prestamos_puto, "r");
     $bo = array();
     if ($handle_bookedtxt) {
         while(!feof($handle_bookedtxt)){
@@ -152,7 +152,7 @@ function IcanHas_booked_items_array() {
     } else {
         die ("No se pudo abrir el archivo de prestamos. ERROR");
     }
-    fclose($archivo_prestamos_puto);
+    fclose($handle_bookedtxt);
     return $bo;
 }
 

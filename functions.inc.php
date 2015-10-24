@@ -167,7 +167,7 @@ function booked_items_check_status ($librito){
 }
 
 function booked_items_change_status ($it){
-    //$archivo_prestamos = "lib/prestamos.sec";
+    $archivo_prestamos = "lib/prestamos.sec";
     $booked_stuff = IcanHas_booked_items_array();
     if (in_array($it,$booked_stuff)){
         //esta prestado    
