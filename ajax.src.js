@@ -1,9 +1,3 @@
-
-
-
-/*TODO HERE*/
-/*urgently needing some input sanitization of some kind.*/
-
 var xmlHttp;
 var toggleBib = {};
 var toggleAPA = {}; // Agregado
@@ -222,7 +216,9 @@ if(toggleEntryDetail[pub]!='s')
 	xmlHttp.onreadystatechange=function () { 
                                     openEntryDetail(pub, xmlHttp);
                                     }
-	xmlHttp.open("GET",url,true)
+    /*esta llamada no es asincrona, porque si no, no funka.*/
+    /*xmlHttp.open("GET",url,true)*/
+	xmlHttp.open("GET",url,false)
 	xmlHttp.send(null)
 }
 else
@@ -464,7 +460,7 @@ function dale(){
   for(var i = 0; i < todosTriggear.length; i++) {
     var esta = todosTriggear[i];
     console.log(esta);
-    console.logi);
+    console.log(i);
     eventFire(esta,'click');
   }
 }
