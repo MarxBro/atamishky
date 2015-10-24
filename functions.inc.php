@@ -186,7 +186,7 @@ function booked_items_change_status ($it){
             $ln_borrar = $it . "\n";
             $cont = file_get_contents($archivo_prestamos);
             $cont = str_replace($ln_borrar,'',$cont);
-            file_put_contents($cont);
+            file_put_contents($archivo_prestamos,$cont);
     } else {
         //no esta prestado
         //  1. chequear que el id del libro tenga formato valido y
@@ -194,7 +194,7 @@ function booked_items_change_status ($it){
             $ln_agregar = $it . "\n";
             $contt = file_get_contents($archivo_prestamos);
             $contt .= $ln_agregar;
-            file_put_contents($contt);
+            file_put_contents($archivo_prestamos,$contt);
     }
     //return $something;
 } 
