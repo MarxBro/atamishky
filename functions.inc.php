@@ -134,7 +134,7 @@ $SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
 $PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
 
         $PASS_PRESTAMO_CH = md5(md5($a) . $SALTI) . $PASS_BIBLIO_MASTER_append;
-        if ($a === $PASS_PRESTAMO){
+        if ($PASS_PRESTAMO_CH === $PASS_PRESTAMO){
             return true;    
         } else {
           return false;
