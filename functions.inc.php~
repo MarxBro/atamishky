@@ -32,6 +32,13 @@ $longnameEntrytype['musica'] = 'Musica';
 $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
 
+//prestamo password
+$PASS_BIBLIO_MASTER = 'prueba';
+$PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
+$SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
+$PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+
+
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
     
@@ -167,7 +174,7 @@ function booked_items_check_status ($librito){
 }
 
 function booked_items_change_status ($it){
-    //$archivo_prestamos = "lib/prestamos.sec";
+    $archivo_prestamos = "lib/prestamos.sec";
     $booked_stuff = IcanHas_booked_items_array();
     if (in_array($it,$booked_stuff)){
         //esta prestado    
