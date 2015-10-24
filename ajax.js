@@ -216,7 +216,8 @@ if(toggleEntryDetail[pub]!='s')
 	xmlHttp.onreadystatechange=function () { 
                                     openEntryDetail(pub, xmlHttp);
                                     }
-	xmlHttp.open("GET",url,true)
+    /*xmlHttp.open("GET",url,true)*/
+	xmlHttp.open("GET",url,false)
 	xmlHttp.send(null)
 }
 else
