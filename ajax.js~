@@ -464,6 +464,8 @@ function dale(){
   for(var i=0; i < todosTriggear.length; i++) {
     var esta = todosTriggear[i];
     console.log(esta);
-    eventFire(esta,'click');
+    setTimeout(function(){
+      eventFire(esta,'click');
+    },250);
   }
 }

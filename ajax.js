@@ -463,9 +463,7 @@ function dale(){
   var todosTriggear = document.getElementsByClassName('clicky');
   for(var i=0; i < todosTriggear.length; i++) {
     var esta = todosTriggear[i];
-    console.log(esta);
-    setTimeout(function(){
-      eventFire(esta,'click');
-    },250);
+    /*console.log(esta);*/
+    eventFire(esta,'click');
   }
 }
