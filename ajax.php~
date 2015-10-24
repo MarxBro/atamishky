@@ -45,7 +45,7 @@ if($action != null){
                 $pass    =  $_GET["prestamo"];
                 if (pass_prestamo($pass)){
                   booked_items_change_status($pub);
-                  echo "el estado ha cambiado desde -showcategory-";
+                  echo "el estado ha cambiado desde -showentrydetail-";
                 }
               }
                 $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
@@ -105,7 +105,7 @@ if($action != null){
               if ($_GET["prestamo"]){
                 $pass    =  $_GET["prestamo"];
                 if (pass_prestamo($pass)){
-                  booked_items_check_status($pub);
+                  booked_items_change_status($pub);
                   echo "el estado ha cambiado desde -showcategory-";
                 }
               }
