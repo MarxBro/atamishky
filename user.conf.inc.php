@@ -40,6 +40,6 @@ $EXTERNAL_FOOTER="includes/f.html";
 
 //$EXTERNAL_CSS="../../css/stylesheet.css";
 
-include_once("user.conf.inc.php");
+//include_once("user.conf.inc.php");
 
 ?>
