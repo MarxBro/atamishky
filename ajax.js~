@@ -1,3 +1,12 @@
+function eventFire(el, etype){
+  if (el.fireEvent) {
+    el.fireEvent('on' + etype);
+  } else {
+    var evObj = document.createEvent('Events');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+  }
+}
 
 
 
@@ -447,18 +456,4 @@ function stateChangedKeywords_filter(buscado){
         document.getElementById("keywordsCloud").innerHTML='<ul>'+ vergo +'</ul>'; 
         document.getElementById("CfPTable").innerHTML="";
     } 
-}
-
-/*Esto triggerea un clicky de los clickys.*/
-function eventFire(el, etype){
-  if (el.fireEvent) {
-    el.fireEvent('on' + etype);
-  } else {
-    var evObj = document.createEvent('Events');
-    evObj.initEvent(etype, true, false);
-    el.dispatchEvent(evObj);
-  }
-}
-function dale(){
-  eventFire(document.getElementByClassName('clicky'),'click');
 }
