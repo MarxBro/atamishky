@@ -11,7 +11,7 @@ En esta rama hay objetivos que son:
 1* Paginar la salida
 2* Solucionar efectivamente la cagada de las comillas y ampersands
 ~~3* Buscar en autor + titulo + lo-que-carajo-sea~~
-4* Sistema de prestamos. [ESQUELETEADO]
+4* Sistema de prestamos.
 ~~5* Mover a /lib y /include las plantillas o datas importantes.~~
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
@@ -73,20 +73,6 @@ Se me habia ocurrido lo siguiente:
 Asi como hay un link "mas info", agregar uno que pida un password y cambie el estado del libro a "prestado"
 
 El problema es donde mierda va el password, ya que eso seria via js y js se renderea en el browser...
-
--------
-
-Esqueleteado!
-
-Por el momento se puede acceder al elemento solo por la URI, agregando &prestamo=password.
-
-Anduvo, felicidad...
-
-Ahora quedaria convertirlo en algo seguro (mas o menos).
-
-
-
-
 
 ## 5 -- LISTO!!
 
