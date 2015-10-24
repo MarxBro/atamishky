@@ -43,14 +43,14 @@ if($action != null){
             // fijarse si esta prestado.
             if (booked_items_check_status($pub)){
                 // reemplazar el td bufarra por algo lindo.
-                $resultado_pre_prestamo = str_replace('/Disponible/', 'PRESTADO', $resultado_pre_prestamo);
+                $resultado_pre_prestamo = str_replace('Disponible', 'PRESTADO', $resultado_pre_prestamo);
             //} else {
                 //// no esta prestado
                 //$resultado_pre_prestamo = str_replace('/<td>Disponible<\/td>/', '', $resultado_pre_prestamo);
             }
         } else {
             // no hay pub, volar el div bufarra tambien.
-            $resultado_pre_prestamo = str_replace('/<td>Disponible<\/td>/', '', $resultado_pre_prestamo);
+            $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
         }
         
         echo $resultado_pre_prestamo;
