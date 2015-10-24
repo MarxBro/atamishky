@@ -460,5 +460,5 @@ function eventFire(el, etype){
   }
 }
 function dale(){
-  eventFire(document.getElementByClassName('clicky'),'click');
+  eventFire(document.getElementsByClassName('clicky'),'click');
 }

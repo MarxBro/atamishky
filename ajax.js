@@ -460,5 +460,8 @@ function eventFire(el, etype){
   }
 }
 function dale(){
-  eventFire(document.getElementsByClassName('clicky'),'click');
+  var todosTriggear = document.getElementsByClassName('clicky');
+  for(var i=0; esta=todosTriggear[i]; i++) {
+    eventFire(esta,'click');
+  }
 }
