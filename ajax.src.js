@@ -10,57 +10,51 @@ var jspathel = document.getElementById('atamishkyjs');
 var jspath = jspathel.getAttribute('src');
 var atamishky_home_dir = jspath.substring(0, jspath.lastIndexOf('/')+1); 
 
-function showCategory(strBy, str)
-{ 
-toggleBib = {};
-toggleAPA = {};
-toggleISO = {};
-toggleEntryDetail = {};
+function showCategory(strBy, str) { 
+    toggleBib = {};
+    toggleAPA = {};
+    toggleISO = {};
+    toggleEntryDetail = {};
+    xmlHttp=GetXmlHttpObject();
+    if (xmlHttp==null) {
+        alert ("Browser does not support HTTP Request");
+        return;
+    }
+    // s for show
+    if(str == "showkeywords"){
+        toggleKeywordsCloud = 's';
+        showKeywordsCloud();
+    } else if(str == "showauthors"){
+        toggleAuthorList = 's';
+        showAuthorList();
+    } else if(str == "showbibliografia") {
+        toggleBiblioList = 's';
+        showbibiografialist();
+    } else if(str == "showaddress") {
+        toggleAdList = 's';
+        showaddresslist();
+    } else {
+        toggleKeywordsCloud = 'h';
+        toggleAuthorList = 'h';
+        toggleBiblioList = 'h';
 
-xmlHttp=GetXmlHttpObject()
-if (xmlHttp==null) {
- alert ("Browser does not support HTTP Request");
- return;
+        // this is because div with id keywordsCloud appears alone or inside div (class entry1), depending the case.
+        kc=document.getElementById("keywordsCloud");
+        if (kc.parentNode.className == "entry1"){ 
+            document.getElementById("keywordsCloud").parentNode.style.display = "none"; 
+            // authorlist also has some div id.
+        } else {
+            document.getElementById("keywordsCloud").innerHTML="";
+        }
+        var url=atamishky_home_dir+"ajax.php";
+        url=url+"?action=showcategory&by="+strBy+"&pub="+str;
+        url=url+"&sid="+Math.random();
+        xmlHttp.onreadystatechange=stateChanged;
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+    }
 }
 
-if(str == "showkeywords"){
-// s for show
-  toggleKeywordsCloud = 's';
-  showKeywordsCloud();
- } else if(str == "showauthors"){
-// s for show
-  toggleAuthorList = 's';
-  showAuthorList();
- } else if(str == "showbibliografia") {
-// s for show
-  toggleBiblioList = 's';
-  showbibiografialist();
- } else if(str == "showaddress") {
-// s for show
-  toggleAdList = 's';
-  showaddresslist();
- } else {
-// h for hide
-  toggleKeywordsCloud = 'h';
-  toggleAuthorList = 'h';
-  toggleBiblioList = 'h';
-     
-     // this if-else is because div with id keywordsCloud appears alone for some cases and inside div (class entry1) in some other cases.
-     kc=document.getElementById("keywordsCloud");
-     if (kc.parentNode.className == "entry1"){ //(strBy == "keyword")
-	 document.getElementById("keywordsCloud").parentNode.style.display = "none"; // authorlist also has some div id.
-     } else {
-	 document.getElementById("keywordsCloud").innerHTML="";
-     }
-
-  var url=atamishky_home_dir+"ajax.php";
-  url=url+"?action=showcategory&by="+strBy+"&pub="+str;
-  url=url+"&sid="+Math.random();
-  xmlHttp.onreadystatechange=stateChanged;
-  xmlHttp.open("GET",url,true);
-  xmlHttp.send(null);
- }
-}
 function stateChanged() { 
     if (xmlHttp.readyState<4){
         document.getElementById("CfPTable").innerHTML=loadingMessage;
