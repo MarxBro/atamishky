@@ -1,7 +1,7 @@
 var xmlHttp;
 var toggleBib = {};
-var toggleAPA = {}; // Agregado
-var toggleISO = {}; // Agregado
+var toggleAPA = {}; 
+var toggleISO = {}; 
 var toggleEntryDetail = {};
 var toggleKeywordsCloud = 'h';
 var toggleAuthorList = 'h';
@@ -42,7 +42,6 @@ function showCategory(strBy, str) {
         kc=document.getElementById("keywordsCloud");
         if (kc.parentNode.className == "entry1"){ 
             document.getElementById("keywordsCloud").parentNode.style.display = "none"; 
-            // authorlist also has some div id.
         } else {
             document.getElementById("keywordsCloud").innerHTML="";
         }
@@ -63,7 +62,7 @@ function stateChanged() {
             if(toggleKeywordsCloud == 'h'){
                 document.getElementById("keywordsCloud").innerHTML="";
             } else if(toggleAuthorList == 'h'){
-                document.getElementById("keywordsCloud").innerHTML=""; // they have same div id
+                document.getElementById("keywordsCloud").innerHTML=""; // both have same id
             }
     } 
 }
@@ -97,7 +96,6 @@ function getBib(pub) {
 }
 
 function getAPA(pub) { 
-    /*hide_bibtex_div(pub);*/
     if(toggleAPA[pub]!='s') {
         toggleAPA[pub]='s';
         toggleBib[pub]='h';
@@ -107,7 +105,6 @@ function getAPA(pub) {
          alert ("Browser does not support HTTP Request");
          return;
          } 
-        // alert ("getBib called")
         var url=atamishky_home_dir+"ajax.php";
         url=url+"?action=showAPA&pub="+pub;
         url=url+"&sid="+Math.random();
@@ -119,13 +116,9 @@ function getAPA(pub) {
     }
     else {
         hide_bibtex_div(pub);
-    /**//*toggleAPA[pub]='h';*/
-    /*toggleAPA[pub]='h';*/
-    /*document.getElementById("bib"+pub).innerHTML='';*/
     }
 }
 function getISO(pub) { 
-    /*hide_bibtex_div(pub);*/
     if(toggleISO[pub]!='s') {
         toggleISO[pub]='s';
         toggleBib[pub]='h';
@@ -135,7 +128,6 @@ function getISO(pub) {
          alert ("Browser does not support HTTP Request");
          return;
          } 
-        // alert ("getBib called")
         var url=atamishky_home_dir+"ajax.php";
         url=url+"?action=showISO&pub="+pub;
         url=url+"&sid="+Math.random();
@@ -147,9 +139,6 @@ function getISO(pub) {
     } 
     else {
         hide_bibtex_div(pub);
-    /**//*toggleISO[pub]='h';*/
-    /*toggleISO[pub]='h';*/
-    /*document.getElementById("bib"+pub).innerHTML='';*/
     }
 }
 function hide_bibtex_div(pub){
@@ -178,14 +167,13 @@ function getEntryDetail(pub){
          alert ("Browser does not support HTTP Request");
          return;
          } 
-        // alert ("getEntryDetail called")
         var url=atamishky_home_dir+"ajax.php";
         url=url+"?action=showentrydetail&pub="+pub;
         url=url+"&sid="+Math.random();
         xmlHttp.onreadystatechange=function () { 
                                         openEntryDetail(pub, xmlHttp);
                                         };
-        /*esta llamada no es asincrona*/
+        /*esta llamada no es asincrona, como todas las demas.    */
         /*xmlHttp.open("GET",url,true)*/
         xmlHttp.open("GET",url,false);
         xmlHttp.send(null);
@@ -254,7 +242,6 @@ function showAuthorList() {
         xmlHttp.send(null);
 }
 
-//agregado 
 function showbibiografialist() { 
     toggleBiblioList='s';
     xmlHttp=GetXmlHttpObject();
@@ -270,7 +257,6 @@ function showbibiografialist() {
     xmlHttp.send(null);
 }
 
-/*agregado*/
 function showaddresslist() { 
     toggleAdList='s';
     xmlHttp=GetXmlHttpObject();
@@ -305,23 +291,22 @@ function doSearch() {
     } else if ( document.getElementById('a').selected ) {
         //showCategory('searchautor', query.toLowerCase());
         search_autores(query.toLowerCase());
-    } else if ( document.getElementById('t').selected ){ // Titulo
+    } else if ( document.getElementById('t').selected ){    // Titulo
         showCategory('searchtitle', query.toLowerCase());
-    } else if ( document.getElementById('l').selected ){ //libros
+    } else if ( document.getElementById('l').selected ){    // libros
         showCategory('searchLIBROS', query.toLowerCase());
-    } else if ( document.getElementById('mi').selected ){ //miscelaneos
+    } else if ( document.getElementById('mi').selected ){   // miscelaneos
         showCategory('searchMISC', query.toLowerCase());
-    } else if ( document.getElementById('v').selected ){ // videos
+    } else if ( document.getElementById('v').selected ){    // videos
         showCategory('searchVIDEOS', query.toLowerCase());
-    } else if ( document.getElementById('mu').selected ){ //musica
+    } else if ( document.getElementById('mu').selected ){   // musica
         showCategory('searchMUSICAS', query.toLowerCase());
     } else {
-        showCategory('searchTODO', query.toLowerCase());     // TODO, default.
+        showCategory('searchTODO', query.toLowerCase());    // TODO, default.
     }
 }
 
 /*
-    Esto anduvo. No es muy elegante, pero xsl me tiene los huevos emplatados.
     Si la busqueda es por autor
         1 - Traer toda a lista de autores,
         2 - Filtar los nombres de autores que no coinciden.
@@ -350,9 +335,7 @@ function stateChangedKeywords_filter(buscado){
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('ul li');
-        // Hacer algun tipo de filtrado en la busqueda, no?
         var re = new RegExp(buscado, "i");
-        /*var re = new RegExp(buscado, "gi");*/
         var vergo = '';
         var cuenta = 0;
         for(var i=0; li=lis[i]; i++) {
@@ -372,7 +355,6 @@ function stateChangedKeywords_filter(buscado){
     } 
 }
 
-/*Esto triggerea un clicky de los clickys.*/
 function eventFire(el, etype){
   if (el.fireEvent) {
     el.fireEvent('on' + etype);
