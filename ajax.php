@@ -43,9 +43,6 @@ if($action != null){
               $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
         }
-         //else {
-            //$resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
-        //}
         echo $resultado_pre_prestamo;
     }
     else if($action == "showkeywordscloud") {
@@ -105,9 +102,6 @@ if($action != null){
                 $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
         } 
-        //else {
-            //$resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
-        //}
         echo $resultado_pre_prestamo;
     }
     else if($action == 'copyright') {
@@ -132,9 +126,6 @@ if($action != null){
     $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
     echo transform( $xmlfile, $xslfile, $params );
 }
-
-//Evitar que ajax se la mande pelotudamente.
-//session_write_close();
 
 //Mostrar el permalink si no es ninguna de estas pags.
 if (    $action != null && 

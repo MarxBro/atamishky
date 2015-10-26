@@ -30,8 +30,8 @@
 	<xsl:when test="$categorytype='all'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--cambiado : Mostrar solo 20 entradas en lugar de tooooda la lista...-->
-			<xsl:with-param name="query" select="entries/entry[position() &lt; 21]" />
+            <!--cambiado : Mostrar 15 entradas en lugar de tooooda la lista (15 asi aparece el ++ js)-->
+			<xsl:with-param name="query" select="entries/entry[position() &lt; 16]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -262,11 +262,6 @@
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
 <xsl:sort select="authors/author" order="ascending"/>
-<!-- Orden anterior: por año y mes... 
-<xsl:sort select="year" order="descending"/>
-<xsl:sort 
-           select="string-length(concat(substring-before($vMonthNames,substring-before(month,' ')), substring-before($vMonthNames,month)))" data-type="number" order="descending" />
--->
 <!-- Paper box -->
 <div class="entry1">
 
