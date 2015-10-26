@@ -37,15 +37,15 @@ if($action != null){
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
         $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
-
-        //Procesar los prestamos y ser feliz.
+        //Procesar los prestamos.
         if ($pub){
             if (booked_items_check_status($pub)){
               $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
-        } else {
-            $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
         }
+         //else {
+            //$resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
+        //}
         echo $resultado_pre_prestamo;
     }
     else if($action == "showkeywordscloud") {
@@ -78,7 +78,6 @@ if($action != null){
         } else {
             $breadcrumb2 = $categorytype;
         }
-
         $xmlfile                         = 'catalogo.xml';
         $xslfile                         = validar_xsl('lib/catalogo.xsl');
         $params['categoryby']            = $categoryby;
@@ -91,8 +90,9 @@ if($action != null){
         //echo transform($xmlfile, $xslfile, $params);
         $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
 
-        //Procesar los prestamos y ser feliz. II
+        //Procesar los prestamos. II
         if ($pub){
+            //solo aca es posible cambiar el estado del prestamo.
               if ($_GET["prestamo"]){
                 $pass    =  $_GET["prestamo"];
                 if (pass_prestamo($pass)){
@@ -104,12 +104,10 @@ if($action != null){
               // procesar el prestamo
                 $resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
             }
-        } else {
-            $resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
-        }
-
-
-
+        } 
+        //else {
+            //$resultado_pre_prestamo = str_replace('<td>Disponible<\/td>', '', $resultado_pre_prestamo);
+        //}
         echo $resultado_pre_prestamo;
     }
     else if($action == 'copyright') {
@@ -127,7 +125,6 @@ if($action != null){
     $xslfile                         = validar_xsl('lib/catalogo.xsl');
     $params['categoryby']            = "year";
     $params['categorytype']          = "all";
-    //$params['categorytype']          = "visitante";
     $params['sorttype']              = "year";
     $params['breadcrumb1']           = "por año";
     $params['breadcrumb2']           = "todos";
@@ -137,11 +134,9 @@ if($action != null){
 }
 
 //Evitar que ajax se la mande pelotudamente.
-session_write_close();
+//session_write_close();
 
-// si la acción no es ninguna de estas (y milagrosaente es algo),
-// mostrar el permalink de cualquier forma... no se bien para que, pero
-// en lugar de dejarlo en manos del xsl, esta aca.
+//Mostrar el permalink si no es ninguna de estas pags.
 if (    $action != null && 
         $action != "showentrydetail" && 
         $action != "showbibliografia" && 
