@@ -261,10 +261,12 @@
 
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
+<xsl:sort select="authors/author" order="ascending"/>
+<!-- Orden anterior: por año y mes... 
 <xsl:sort select="year" order="descending"/>
 <xsl:sort 
            select="string-length(concat(substring-before($vMonthNames,substring-before(month,' ')), substring-before($vMonthNames,month)))" data-type="number" order="descending" />
-
+-->
 <!-- Paper box -->
 <div class="entry1">
 
