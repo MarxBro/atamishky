@@ -70,7 +70,7 @@ if($action != null){
         $rest = '<html><body>';
         $thingy = IcanHas_booked_items_array();
         foreach ($thingy as $prs){
-            $rest = '<p>' . $prs . '</p>';
+            $rest .= '<p>' . $prs . '</p>';
         }
         $resit .= '</body></html>';
         echo $rest;
