@@ -403,7 +403,7 @@ function stateChangedKeywords_prs(){
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
             console.log(texto);
-            vergota .= '<p>' . texto . '</p>';
+            vergota += '<p>' . texto . '</p>';
             cuenta++;
         }
         if (cuenta == 0){
