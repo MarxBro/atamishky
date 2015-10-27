@@ -395,7 +395,7 @@ function stateChangedKeywords_prs(){
         var resultado_query = xmlHttp.responseText;
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parser.parseFromString(lista_ar,"text/xml");
-        var prsss = lista_ar.querySelectorAll('p');
+        var prsss = lista_ar.querySelectorAll('body p');
         console.log(prsss);
         /*var re = new RegExp(buscado, "i");*/
         var vergota = '';
