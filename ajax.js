@@ -392,10 +392,10 @@ function stateChangedKeywords_prs(){
         document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-        var resultado_query = xmlHttp.responseText;
-        var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
-        var lista_ar = parser.parseFromString(lista_ar,"text/xml");
-        var prsss = lista_ar.querySelectorAll('body p');
+        var resultado_querido = '<html>' + xmlHttp.responseText + '</html>';
+        var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+        var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
+        var prsss = lista_ar.querySelectorAll('p');
         console.log(prsss);
         /*var re = new RegExp(buscado, "i");*/
         var vergota = '';
