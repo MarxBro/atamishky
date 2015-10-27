@@ -396,19 +396,21 @@ function stateChangedKeywords_prs(){
         var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parser.parseFromString(lista_ar,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
+        console.log(prsss);
         /*var re = new RegExp(buscado, "i");*/
         var vergota = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
-            var texto = prsss.innerText || prsss.textContent;
+            var texto = it_pr.innerText || it_pr.textContent;
             console.log(texto);
+            vergota .= '<p>' . texto . '</p>';
             cuenta++;
         }
         if (cuenta == 0){
             vergota = "No hubo resultados";
         }
-        /*document.getElementById("keywordsCloud").innerHTML= vergota; */
-        /*document.getElementById("CfPTable").innerHTML="";*/
+        document.getElementById("keywordsCloud").innerHTML= vergota; 
+        document.getElementById("CfPTable").innerHTML="";
         console.log(vergota);
     } 
 }

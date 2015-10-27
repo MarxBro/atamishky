@@ -66,7 +66,7 @@ if($action != null){
         $xslfile = validar_xsl('lib/showaddress.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
-    else if($action == "getpr") {
+    else if($action == "getprs") {
         $rest = '<html><body>';
         $thingy = IcanHas_booked_items_array();
         foreach ($thingy as $prs){
