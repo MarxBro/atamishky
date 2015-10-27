@@ -148,7 +148,9 @@ if (    $action != null &&
         $action != "showkeywordscloud" && 
         $action != "showauthorlist" && 
         $action != "copyright" && 
-        $action != "search" 
+        $action != "search"  &&
+        $action != "getpr"  &&
+        $action != "getprs" 
     ) {
     echo "<div class=\"content\">";
     echo "<div class=\"entry1\">";
