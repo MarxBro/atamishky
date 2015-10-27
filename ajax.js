@@ -368,8 +368,8 @@ function dale(){
   var todosTriggear = document.getElementsByClassName('clicky');
   for(var i = 0; i < todosTriggear.length; i++) {
     var esta = todosTriggear[i];
-    console.log(esta);
-    console.log(i);
+    /*console.log(esta);*/
+    /*console.log(i);*/
     eventFire(esta,'click');
   }
 }
@@ -400,8 +400,9 @@ function stateChangedKeywords_prs(){
         var vergota = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
-            var texto = puto.innerText || puto.textContent;
+            var texto = prsss.innerText || prsss.textContent;
             console.log(texto);
+            cuenta++;
         }
         if (cuenta == 0){
             vergota = "No hubo resultados";
