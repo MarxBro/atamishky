@@ -404,6 +404,7 @@ function stateChangedKeywords_prs(){
             var texto = it_pr.innerText || it_pr.textContent;
             /*console.log(texto);*/
             vergota += '<p>' + texto + '</p>';
+            /*aca traer las entradas... fijarse si es potable evitar un nuevo DOM*/
             cuenta++;
         }
         if (cuenta == 0){
