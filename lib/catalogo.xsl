@@ -218,6 +218,14 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
+	<xsl:when test="$categoryby='prestados'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[contains(@name,$categoryby)]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
 	<xsl:when test="$categoryby='ID'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
