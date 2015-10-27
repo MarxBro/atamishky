@@ -65,6 +65,15 @@ if($action != null){
         $xslfile = validar_xsl('lib/showaddress.xsl');
         echo transform($xmlfile, $xslfile, $params);
     }
+    else if($action == "getpr") {
+        $rest = '<html><body>';
+        $thingy = IcanHas_booked_items_array();
+        foreach ($thingy as $prs){
+            $rest = '<p>' . $prs . '</p>';
+        }
+        $resit .= '</body></html>';
+        echo $rest;
+    }
     else if($action == "showcategory") {	
         $categoryby   = $by;
         $categorytype = $pub;

@@ -373,3 +373,41 @@ function dale(){
     eventFire(esta,'click');
   }
 }
+/* Conseguir todos los items prestados. */
+function getprs_items(){
+    xmlHttp=GetXmlHttpObject();
+    if (xmlHttp==null){
+        alert ("Browser does not support HTTP Request");
+        return;
+    } 
+    var url=atamishky_home_dir+"ajax.php";
+    url=url+"?action=getprs";
+    url=url+"&sid="+Math.random();
+    xmlHttp.onreadystatechange=function(){ stateChangedKeywords_prs(); };
+    xmlHttp.open("GET",url,true);
+    xmlHttp.send(null);
+}
+function stateChangedKeywords_prs(){
+    if (xmlHttp.readyState<4) { 
+        document.getElementById("keywordsCloud").innerHTML=loadingMessage; 
+        document.getElementById("CfPTable").innerHTML="";
+    } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+        var resultado_query = xmlHttp.responseText;
+        var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+        var lista_ar = parser.parseFromString(lista_ar,"text/xml");
+        var prsss = lista_resultado_query.querySelectorAll('p');
+        /*var re = new RegExp(buscado, "i");*/
+        var vergota = '';
+        /*var cuenta = 0;*/
+        for(var i=0; it_pr=prsss[i]; i++) {
+            var texto = puto.innerText || puto.textContent;
+            console.log(texto);
+        }
+        if (cuenta == 0){
+            vergota = "No hubo resultados";
+        }
+        /*document.getElementById("keywordsCloud").innerHTML= vergota; */
+        /*document.getElementById("CfPTable").innerHTML="";*/
+        console.log(vergota);
+    } 
+}
