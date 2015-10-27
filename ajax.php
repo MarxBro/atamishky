@@ -42,7 +42,7 @@ if($action != null){
             if (booked_items_check_status($pub)){
                 //$resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
                 //$resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">PRESTADO</a>', $resultado_pre_prestamo);
-              $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="showCategory('prestados','*')">PRESTADO</a>', $resultado_pre_prestamo);
+              $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="showCategory(\'prestados\',\'*\')">PRESTADO</a>', $resultado_pre_prestamo);
             }
         }
         echo $resultado_pre_prestamo;
