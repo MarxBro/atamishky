@@ -72,7 +72,7 @@ if($action != null){
         foreach ($thingy as $prs){
             $rest .= '<p>' . $prs . '</p>';
         }
-        $resit .= '</body></html>';
+        $rest .= '</body></html>';
         echo $rest;
     }
     else if($action == "showcategory") {	
