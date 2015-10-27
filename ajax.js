@@ -398,7 +398,7 @@ function stateChangedKeywords_prs(){
         var prsss = lista_ar.querySelectorAll('p');
         /*var re = new RegExp(buscado, "i");*/
         var vergota = '';
-        /*var cuenta = 0;*/
+        var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = puto.innerText || puto.textContent;
             console.log(texto);
