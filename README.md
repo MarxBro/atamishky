@@ -11,7 +11,7 @@ En esta rama hay objetivos que son:
 1* Paginar la salida
 2* Solucionar efectivamente la cagada de las comillas y ampersands
 ~~3* Buscar en autor + titulo + lo-que-carajo-sea~~
-4* Sistema de prestamos. [ESQUELETEADO]
+~~4* Sistema de prestamos. [ESQUELETEADO]~~
 ~~5* Mover a /lib y /include las plantillas o datas importantes.~~
 6* Sistema de subida csv.
 ~~7* bibtex output of entry (showentrydetails).~~
@@ -86,7 +86,24 @@ Ahora quedaria convertirlo en algo seguro (mas o menos).
 
 ---------
 
-Vamos carajo.
+Vamos carajo... los scripts anduvieron.
+
+Javascript hace la tarea final, pero se abusa de ajax para eso.
+
+Habria que redefinir algunas funciones del ajax.js para que no se terminen repitiendo 300 veces casi igual,
+pero con pequeñas variaciones.
+
+Por el momento el sistema de prestamos funciona y va mas o menos así:
+
+    Una llamada ajax, devuelve los ids de los items prestados, uno por uno y c/u en su respectivo (p).
+
+    Js en su primera etapa, agarra el texto de cada uno de esos "p" y
+
+    (en sus segunda etapa) requestea uno por uno, suma todos los responses a un gran div y devuelve -a.k.a. escupe- eso en el DOM...
+
+    No es muy feliz y hubo que retoquetear una y otra vez el xsl y ajax.php para evitar ruido en el response.
+
+    NO ES FELIZ, PERO FUNCIONA Y SE VA A LA REPUTISIMA MADRE: hasta acá se puede llegar sin reescribir el ajax casi por completo.
 
 
 
