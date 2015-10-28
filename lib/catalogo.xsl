@@ -23,7 +23,7 @@
 <xsl:template match="/">
 <br />
 <!-- Esto no tendria que aparecer si es por ID, no tiene mucho sentido. -->
-<xsl:if test="$breadcrumb1 != 'ID'">
+<xsl:if test="$breadcrumb1 != 'por ID'">
     <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
 </xsl:if>
 <div class="content_pager">
