@@ -409,7 +409,7 @@ function stateChangedKeywords_prs(){
             } 
             var url=atamishky_home_dir+"ajax.php";
             url=url+"?action=showcategory&by=ID&pub="+texto;
-            url=url+"&sid="+Math.random();
+            url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
                     vergota += xmlHttp.responseText;
@@ -422,8 +422,8 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vergota = "No hubo resultados";
         }
-        document.getElementById("keywordsCloud").innerHTML= vergota; 
-        document.getElementById("CfPTable").innerHTML="";
+        document.getElementById("keywordsCloud").innerHTML= ""; 
+        document.getElementById("CfPTable").innerHTML= vergota;
         console.log(vergota);
     } 
 }

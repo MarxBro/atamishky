@@ -153,24 +153,27 @@ if (    $action != null &&
         $action != "getpr"  &&
         $action != "getprs" 
     ) {
-    echo "<div class=\"content\">";
-    echo "<div class=\"entry1\">";
-    echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
-    echo "Enlace a esta pagina (Permalink): <br/>";
+    //este parámetro solo pasa si el request viene de los prestamos.
+    if ($_GET['xxx'] != "xxx"){
+        echo "<div class=\"content\">";
+        echo "<div class=\"entry1\">";
+        echo "<div class=\"entrybody\" style=\"visibility:visible;\">";
+        echo "Enlace a esta pagina (Permalink): <br/>";
 
-    $permalink = $atamishky_EMBEDDING_URL . "?action=" . $action;
+        $permalink = $atamishky_EMBEDDING_URL . "?action=" . $action;
 
-    if ( $by != null ) {
-        $permalink = $permalink . "&amp;by=" . $by;
+        if ( $by != null ) {
+            $permalink = $permalink . "&amp;by=" . $by;
+        }
+        if ( $pub != null ) {
+            $permalink = $permalink . "&amp;pub=" . $pub;
+        }
+
+        echo "<a href=\"".$permalink."\">".$permalink."</a>";
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
     }
-    if ( $pub != null ) {
-        $permalink = $permalink . "&amp;pub=" . $pub;
-    }
-
-    echo "<a href=\"".$permalink."\">".$permalink."</a>";
-    echo "</div>";
-    echo "</div>";
-    echo "</div>";
 
 }
 
