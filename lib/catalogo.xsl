@@ -19,6 +19,7 @@
 <xsl:param name="breadcrumb2">all</xsl:param>
 <xsl:param name="atamishkyhome">http</xsl:param>
 <xsl:param name="atamishkyembeddingurl">http</xsl:param>
+<xsl:param name="nodetails">true</xsl:param>
 
 <xsl:template match="/">
 <br />
@@ -225,7 +226,7 @@
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
 			<xsl:with-param name="query" select="entries/entry[@name=$categorytype]" />
-			<xsl:with-param name="categorybyID" select="'true'" />
+			<xsl:with-param name="categorybyID" select="$nodetails" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>

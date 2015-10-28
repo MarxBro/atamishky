@@ -36,6 +36,12 @@ if($action != null){
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
+        $prty = sano($_GET['xxx']);
+        if ($prty === "xxx"){
+            $params['nodetails'] = "true";
+        } else {
+            $params['nodetails'] = "false";
+        }
         $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
         //Procesar los prestamos.
         if ($pub){
