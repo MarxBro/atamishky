@@ -84,7 +84,9 @@ Anduvo, felicidad...
 
 Ahora quedaria convertirlo en algo seguro (mas o menos).
 
+---------
 
+Vamos carajo.
 
 
 
