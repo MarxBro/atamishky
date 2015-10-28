@@ -424,6 +424,9 @@ function stateChangedKeywords_prs(){
         }
         document.getElementById("keywordsCloud").innerHTML= ""; 
         document.getElementById("CfPTable").innerHTML= vergota;
-        console.log(vergota);
+        window.onload = function(){
+            dale();           
+            };
+        /*console.log(vergota);*/
     } 
 }
