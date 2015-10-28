@@ -1,5 +1,9 @@
 <?php
 
+// Habilitar para debuggear tutti, deshabilitar para produccion.
+// Be happy.
+ini_set('display_errors','off');
+
 $longname['year']               = 'Año';
 $longname['researcharea']       = 'research area';
 $longname['entrytype']          = 'tipo';
