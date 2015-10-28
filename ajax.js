@@ -396,12 +396,10 @@ function stateChangedKeywords_prs(){
         var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
-        /*console.log(prsss);*/
         var vergota = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
-            /*aca traer las entradas... fijarse si es potable evitar un nuevo DOM*/
             xmlHttp=GetXmlHttpObject();
             if (xmlHttp==null){
                 alert ("Browser does not support HTTP Request");
@@ -422,11 +420,7 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vergota = "No hubo resultados";
         }
-        document.getElementById("keywordsCloud").innerHTML= ""; 
         document.getElementById("CfPTable").innerHTML= vergota;
-        window.onload = function(){
-            dale();           
-            };
-        /*console.log(vergota);*/
+        document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }

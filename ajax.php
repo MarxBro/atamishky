@@ -36,19 +36,19 @@ if($action != null){
         $params['pubid']                 = $pub;
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
-        $prty = sano($_GET['xxx']);
-        if ($prty === "xxx"){
+        //--------------------
+        //esto sirve para hacer que las entradas en el estado de los prestamos no aparezcan con los detalles toggleados de movida.
+        $prty = sano($_GET["xxx"]);
+        $params['nodetails'] = "false";
+        if ($prty == "xxx"){
             $params['nodetails'] = "true";
-        } else {
-            $params['nodetails'] = "false";
         }
+        //--------------------
         $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
         //Procesar los prestamos.
         if ($pub){
             if (booked_items_check_status($pub)){
-                //$resultado_pre_prestamo = str_replace('Disponible', '<b style="color: red;">PRESTADO</b>', $resultado_pre_prestamo);
                 $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">PRESTADO</a>', $resultado_pre_prestamo);
-                //$resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="showCategory(\'prestados\',\'*\')">PRESTADO</a>', $resultado_pre_prestamo);
             }
         }
         echo $resultado_pre_prestamo;

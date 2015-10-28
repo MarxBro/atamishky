@@ -19,7 +19,7 @@
 <xsl:param name="breadcrumb2">all</xsl:param>
 <xsl:param name="atamishkyhome">http</xsl:param>
 <xsl:param name="atamishkyembeddingurl">http</xsl:param>
-<xsl:param name="nodetails">true</xsl:param>
+<xsl:param name="nodetails">false</xsl:param>
 
 <xsl:template match="/">
 <br />
