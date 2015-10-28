@@ -254,13 +254,15 @@
 <xsl:variable name="vMonthNames" 
     select="'|January|February|March|April|May|June|July|August|September|October|November|December'"/>
 
-
+<!-- No imprimir ni el total, ni el ++ si hay un único resultado.-->
 <xsl:variable name="count" select="count($query)"/>
-<div class="total">Total: <xsl:value-of select="$count" /> 
-  <xsl:if test="$count &lt; 15">
-    <a href="javascript:void(0)" onclick="dale()">++</a>
-  </xsl:if>
+<xsl:if test="$count &gt; 1">
+    <div class="total">Total: <xsl:value-of select="$count" /> 
+    <xsl:if test="$count &lt; 16">
+        <a href="javascript:void(0)" onclick="dale()">++</a>
+    </xsl:if>
 </div>
+</xsl:if>
 
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
