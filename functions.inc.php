@@ -17,6 +17,7 @@ $longname['searchLIBROS']       = 'libros';
 $longname['searchMUSICAS']      = 'musica';
 $longname['searchVIDEOS']       = 'video';
 $longname['searchMISC']         = 'otros';
+$longname['prestamos']          = 'Préstamos';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';

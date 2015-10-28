@@ -397,14 +397,26 @@ function stateChangedKeywords_prs(){
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
         /*console.log(prsss);*/
-        /*var re = new RegExp(buscado, "i");*/
         var vergota = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
-            /*console.log(texto);*/
-            vergota += '<p>' + texto + '</p>';
             /*aca traer las entradas... fijarse si es potable evitar un nuevo DOM*/
+            xmlHttp=GetXmlHttpObject();
+            if (xmlHttp==null){
+                alert ("Browser does not support HTTP Request");
+                return;
+            } 
+            var url=atamishky_home_dir+"ajax.php";
+            url=url+"?action=showcategory&by=ID&pub="+texto;
+            url=url+"&sid="+Math.random();
+            xmlHttp.onreadystatechange=function(){ 
+                if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+                    vergota += xmlHttp.responseText;
+                }                
+            };
+            xmlHttp.open("GET",url,false);
+            xmlHttp.send(null);
             cuenta++;
         }
         if (cuenta == 0){
@@ -412,6 +424,6 @@ function stateChangedKeywords_prs(){
         }
         document.getElementById("keywordsCloud").innerHTML= vergota; 
         document.getElementById("CfPTable").innerHTML="";
-        /*console.log(vergota);*/
+        console.log(vergota);
     } 
 }
