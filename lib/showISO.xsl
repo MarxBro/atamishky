@@ -33,7 +33,7 @@
     </xsl:when>
     <xsl:otherwise>
         <xsl:for-each select="authors/author">
-            <xsl:if test="position()=last()">y&#160;</xsl:if>
+            <xsl:if test="position() = last()">y&#160;</xsl:if>
                 <xsl:value-of select="."/>,&#160;
         </xsl:for-each>
     </xsl:otherwise>
@@ -58,26 +58,32 @@
     (
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
-        <xsl:value-of select="address/city"/>&#160;
-        <xsl:if test="entrytype != 'video'">:</xsl:if>
+        <xsl:value-of select="address/city"/>
+        <xsl:if test="entrytype != 'video'">&#160;:&#160;</xsl:if>
     </xsl:when>
     <xsl:otherwise>
-        <xsl:for-each select="address/city">
-            <xsl:value-of select="."/>
-            <xsl:if test="position()  = last()">&#160;
-                <xsl:if test="entrytype != 'video'">:</xsl:if>
-            </xsl:if>
-            <xsl:if test="position() != last()">-</xsl:if>
-        </xsl:for-each>
+        <xsl:if test="entrytype = 'book'">
+            <xsl:value-of select="address/city[1]"/>:&#160;
+        </xsl:if>
+        <xsl:if test="entrytype != 'book'">
+            <xsl:for-each select="address/city">
+                <xsl:value-of select="."/>
+                <xsl:if test="position() = last()">&#160;
+                    <xsl:if test="entrytype != 'video'">:
+                    </xsl:if>
+                </xsl:if>
+                <xsl:if test="position() != last()">-</xsl:if>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:otherwise>
 </xsl:choose>
 
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Editorial-->
 <xsl:if test="entrytype != 'video'">
-<xsl:if test="publisher">
-    <xsl:value-of select="publisher"/>)&#160;
-</xsl:if>
+    <xsl:if test="publisher">
+        <xsl:value-of select="publisher"/>&#160;)
+    </xsl:if>
 </xsl:if>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Paginas-->
@@ -89,9 +95,9 @@
 <!--Soporte-->
 <xsl:if test="entrytype = 'video'">
 ),
-<xsl:if test="soporte">
-    [<xsl:value-of select="soporte" />].&#160;
-</xsl:if>
+    <xsl:if test="soporte">
+        [<xsl:value-of select="soporte" />].&#160;
+    </xsl:if>
 </xsl:if>
 
       </xsl:for-each>

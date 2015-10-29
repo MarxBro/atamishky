@@ -70,11 +70,18 @@
         <xsl:value-of select="address/city"/>,&#160;
     </xsl:when>
     <xsl:otherwise>
-        <xsl:for-each select="address/city">
-            <xsl:value-of select="."/>
-            <xsl:if test="position()  = last()">,&#160;</xsl:if>
-            <xsl:if test="position() != last()">-</xsl:if>
-        </xsl:for-each>
+    <!--si es un libro, elegir el primer valor unicamente.-->
+        <xsl:if test="entrytype = 'book'">
+                <xsl:value-of select="address/city[1]"/>,&#160;
+        </xsl:if>
+    <!--si no es un libro, poner tutti.-->
+        <xsl:if test="entrytype != 'book'">
+            <xsl:for-each select="address/city">
+                <xsl:value-of select="."/>
+                <xsl:if test="position()  = last()">,&#160;</xsl:if>
+                <xsl:if test="position() != last()">-</xsl:if>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:otherwise>
 </xsl:choose>
 					

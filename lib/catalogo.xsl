@@ -19,10 +19,14 @@
 <xsl:param name="breadcrumb2">all</xsl:param>
 <xsl:param name="atamishkyhome">http</xsl:param>
 <xsl:param name="atamishkyembeddingurl">http</xsl:param>
+<xsl:param name="nodetails">false</xsl:param>
 
 <xsl:template match="/">
 <br />
-<span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
+<!-- Esto no tendria que aparecer si es por ID, no tiene mucho sentido. -->
+<xsl:if test="$breadcrumb1 != 'por ID'">
+    <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
+</xsl:if>
 <div class="content_pager">
 
 
@@ -30,8 +34,8 @@
 	<xsl:when test="$categorytype='all'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--cambiado : Mostrar solo 50 entradas en lugar de tooooda la lista...-->
-			<xsl:with-param name="query" select="entries/entry[position() &lt; 51]" />
+            <!--cambiado : Mostrar 15 entradas en lugar de tooooda la lista (15 asi aparece el ++ js)-->
+			<xsl:with-param name="query" select="entries/entry[position() &lt; 16]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -64,14 +68,6 @@
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
 			<xsl:with-param name="query" select="entries/entry[lang=$categorytype]" />
-			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
-			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
-		</xsl:call-template>
-	</xsl:when>
-	<xsl:when test="$categoryby='soporte'">
-		<xsl:call-template name="listPubs">
-			<xsl:with-param name="sortype" select="$sorttype" />
-			<xsl:with-param name="query" select="entries/entry[soporte=$categorytype]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -230,7 +226,7 @@
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
 			<xsl:with-param name="query" select="entries/entry[@name=$categorytype]" />
-			<xsl:with-param name="categorybyID" select="'true'" />
+			<xsl:with-param name="categorybyID" select="$nodetails" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -259,16 +255,19 @@
 <xsl:variable name="vMonthNames" 
     select="'|January|February|March|April|May|June|July|August|September|October|November|December'"/>
 
-
+<!-- No imprimir ni el total, ni el ++ si hay un único resultado.-->
 <xsl:variable name="count" select="count($query)"/>
-<div class="total">Total: <xsl:value-of select="$count" /></div>
+<xsl:if test="$count &gt; 1">
+    <div class="total">Total: <xsl:value-of select="$count" /> 
+    <xsl:if test="$count &lt; 16">
+        <a href="javascript:void(0)" onclick="dale()">++</a>
+    </xsl:if>
+</div>
+</xsl:if>
 
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
-<xsl:sort select="year" order="descending"/>
-<xsl:sort 
-           select="string-length(concat(substring-before($vMonthNames,substring-before(month,' ')), substring-before($vMonthNames,month)))" data-type="number" order="descending" />
-
+<xsl:sort select="authors/author" order="ascending"/>
 <!-- Paper box -->
 <div class="entry1">
 
@@ -309,7 +308,7 @@
 <!-- /bottomleft -->
 
 <div class="bottomright">
-<a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" />mas info</a>
+<a href="javascript:void(0)" class="clicky" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" />mas info</a>
 </div>
 
 <xsl:choose>
@@ -326,7 +325,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
@@ -334,10 +333,12 @@
   </xsl:when>
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
-    <div class="entrybody" id="entrydetail{@name}">&#160;</div>
+    <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
+    <div class="entrybody" id="entrydetail{@name}" style="visbility: none;">&#160;</div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
+    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>
@@ -380,7 +381,7 @@
     <!--<xsl:call-template name="printAddress" />-->
 	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
-    <!--<xsl:call-template name="printSoporte" />-->
+    <xsl:call-template name="printSoporte" />
 </xsl:template>
 <!--BASTA-->
 
@@ -472,7 +473,9 @@
 <!--Videos :: soporte (vhs|dvd)-->
 <xsl:template name="printSoporte">
 		<xsl:if test="soporte">
-			<xsl:value-of select="soporte" />,&#160;
+		    [<a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')">
+			<xsl:value-of select="soporte"/>
+            </a>].&#160;
 		</xsl:if>
 </xsl:template>
 

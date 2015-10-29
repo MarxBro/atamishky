@@ -1,5 +1,9 @@
 <?php
 
+// Habilitar para debuggear tutti, deshabilitar para produccion.
+// Be happy.
+ini_set('display_errors','off');
+
 $longname['year']               = 'Año';
 $longname['researcharea']       = 'research area';
 $longname['entrytype']          = 'tipo';
@@ -17,6 +21,7 @@ $longname['searchLIBROS']       = 'libros';
 $longname['searchMUSICAS']      = 'musica';
 $longname['searchVIDEOS']       = 'video';
 $longname['searchMISC']         = 'otros';
+$longname['prestamos']          = 'Préstamos';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';
@@ -31,6 +36,8 @@ $longnameEntrytype['misc'] = 'Varios';
 $longnameEntrytype['musica'] = 'Musica';
 $longnameEntrytype['video'] = 'Video';
 $longnameEntrytype['all'] = 'Todos';
+
+
 
 function transform($xmlfile, $xslfile, $params){
     $xp = new XsltProcessor();
@@ -119,5 +126,84 @@ function do_hash_seguridad_vendehumo() {
     fclose($handle_md5txt);
     return $MD5s;
 } 
+
+//funcion agregada para comenzar a jugar con los prestamos
+    // si hay argumentos, check for pass to be equal to main pass
+function pass_prestamo ($a){
+    if ($a){
+
+//prestamo password
+$PASS_BIBLIO_MASTER = 'prueba';
+$PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
+$SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
+$PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+
+        $PASS_PRESTAMO_CH = md5(md5($a) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+        if ($PASS_PRESTAMO_CH === $PASS_PRESTAMO){
+            return true;    
+        } else {
+          return false;
+        }
+    } else{
+        return false;
+        //$PASS_PRESTAMO;    
+    }
+}
+// Funciones para lidiar con el prestamo de material.
+function IcanHas_booked_items_array() {
+    // abir el archivo y cargar todos los IDS    
+    $archivo_prestamos_puto = "lib/prestamos.sec";
+    $handle_bookedtxt = fopen($archivo_prestamos_puto, "r");
+    $bo = array();
+    if ($handle_bookedtxt) {
+        while(!feof($handle_bookedtxt)){
+            $line_booked     = fgets($handle_bookedtxt);
+            $line_booked     = str_replace("\n", '', $line_booked);
+            if (! $line_booked){
+                continue;    
+            } else {
+                array_push($bo,$line_booked);    
+            }
+        }
+    } else {
+        die ("No se pudo abrir el archivo de prestamos. ERROR");
+    }
+    fclose($handle_bookedtxt);
+    return $bo;
+}
+
+function booked_items_check_status ($librito){
+    //$archivo_prestamos_mm = "lib/prestamos.sec";
+    $booked_stuff_mm = IcanHas_booked_items_array();
+    if (in_array($librito, $booked_stuff_mm)){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function booked_items_change_status ($it){
+    $archivo_prestamos = "lib/prestamos.sec";
+    $booked_stuff = IcanHas_booked_items_array();
+    if (in_array($it,$booked_stuff)){
+        //esta prestado    
+            // sacarlo del archivo.
+            $ln_borrar = $it . "\n";
+            $cont = file_get_contents($archivo_prestamos);
+            $cont = str_replace($ln_borrar,'',$cont);
+            file_put_contents($archivo_prestamos,$cont);
+    } else {
+        //no esta prestado
+        //  1. chequear que el id del libro tenga formato valido y
+        //  2. prestar === agregar el id al archivo (sip, asi de chiotto)
+            $ln_agregar = $it . "\n";
+            $contt = file_get_contents($archivo_prestamos);
+            $contt .= $ln_agregar;
+            file_put_contents($archivo_prestamos,$contt);
+    }
+    //return $something;
+} 
+    
+    
 
 ?>
