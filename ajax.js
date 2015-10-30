@@ -396,7 +396,8 @@ function stateChangedKeywords_prs(){
         var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
-        var vergota = '<div class="content_pager">';
+        /*var vergota = '<div class="content_pager">';*/
+        var vergota = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
@@ -410,14 +411,14 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    var prestado = '<http>' + xmlHttp.responseText + '</http>';
-                    /*console.log(prestado);*/
-                    var pe  = new DOMParser();
-                    var Cnt = pe.parseFromString(prestado,"text/xml");
-                    var add_me = Cnt.getElementById('cntt');
-                    console.log(add_me.innerHTML);
-                    vergota += add_me.innerHTML;;
-                    /*vergota += xmlHttp.responseText;*/
+                    /*var prestado = '<http>' + xmlHttp.responseText + '</http>';*/
+                    /**//*console.log(prestado);*/
+                    /*var pe  = new DOMParser();*/
+                    /*var Cnt = pe.parseFromString(prestado,"text/xml");*/
+                    /*var add_me = Cnt.getElementById('cntt');*/
+                    /*console.log(add_me.innerHTML);*/
+                    /*vergota += add_me.innerHTML;;*/
+                    vergota += xmlHttp.responseText;
                 }                
             };
             xmlHttp.open("GET",url,false);
@@ -427,7 +428,8 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vergota = "No hubo resultados";
         }
-        document.getElementById("CfPTable").innerHTML= vergota + '</div>';
+        /*document.getElementById("CfPTable").innerHTML= vergota + '</div>';*/
+        document.getElementById("CfPTable").innerHTML= vergota;
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }
