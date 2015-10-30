@@ -410,7 +410,8 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    var pe  = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+                    console.log(xmlHttp.responseText);
+                    var pe  = new DOMParser();
                     var Cnt = pe.parseFromString(xmlHttp.responseText,"text/xml");
                     var add_me = Cnt.getElementById('cntt');
                     vergota += add_me;
