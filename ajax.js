@@ -412,7 +412,7 @@ function stateChangedKeywords_prs(){
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
                     var pe  = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
                     var Cnt = pe.parseFromString(xmlHttp.responseText,"text/xml");
-                    var add_me = lista_ar.getElementById('cntt');
+                    var add_me = Cnt.getElementById('cntt');
                     vergota += add_me;
                 }                
             };
