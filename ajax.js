@@ -396,7 +396,7 @@ function stateChangedKeywords_prs(){
         var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
-        var vergota = '';
+        var vergota = '<div class="content_pager">';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
@@ -410,7 +410,10 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    vergota += xmlHttp.responseText;
+                    var pe  = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+                    var Cnt = pe.parseFromString(xmlHttp.responseText,"text/xml");
+                    var add_me = lista_ar.getElementById('cntt');
+                    vergota += add_me;
                 }                
             };
             xmlHttp.open("GET",url,false);
@@ -420,7 +423,7 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vergota = "No hubo resultados";
         }
-        document.getElementById("CfPTable").innerHTML= vergota;
+        document.getElementById("CfPTable").innerHTML= vergota + '</div>';
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }
