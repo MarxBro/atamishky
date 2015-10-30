@@ -27,7 +27,7 @@
 <xsl:if test="$breadcrumb1 != 'por ID'">
     <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
 </xsl:if>
-<div class="content_pager">
+<div class="content_pager" id="cntt">
 
 
 <xsl:choose>
