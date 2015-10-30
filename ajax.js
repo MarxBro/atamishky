@@ -410,9 +410,9 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    console.log(xmlHttp.responseText);
+                    var prestado = '<http><body>' + xmlHttp.responseText + '</body></http>';
                     var pe  = new DOMParser();
-                    var Cnt = pe.parseFromString(xmlHttp.responseText,"text/xml");
+                    var Cnt = pe.parseFromString(prestado,"text/xml");
                     var add_me = Cnt.getElementById('cntt');
                     vergota += add_me;
                 }                
