@@ -11,9 +11,9 @@ use Getopt::Std;
 use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
-#use Lingua::Identify    "language_identification"; # util??
 use Text::Language::Guess;
-use List::MoreUtiles    "uniq"; # FILTRAR TAGS 
+use List::MoreUtils     qw( uniq any ); # FILTRAR TAGS 
+#use Lingua::Identify    "language_identification"; # util??
 
 my %opts = ();
 getopts( 'hdcto:f:', \%opts );
@@ -74,7 +74,7 @@ foreach my $ln_csv_raw (@csv_lns){
 #salida a un mugroso txt.
 #author . titulo . editorial . ciudad , año
     my $autores_txt = $campos[2];
-    my $catalogo_txt_add = join('. ',$autores_txt,$titulo,$editorial,$city);
+    my $catalogo_txt_add = join('. ',$autores_txt,$titulo,$editorial,$campos[5]);
     $catalogo_txt_add .= ', ' . $agno . '.';
     $catalogo_txt .= decode_some_shitty_entities($catalogo_txt_add);
     $catalogo_txt .= "\n";
@@ -229,6 +229,7 @@ sub make_keywords {
         next if (length($gy) <= 4);
         # Agregado sacar preposiciónes
         next if ($gy =~ /$rgx_filter_tags/g);
+        next if ( any { $gf =~ m/$gy/i } @palabras ); # quiere decir que esta repetido o casi. 
         my $str = "\t" . '<keyword>' . $gy . '</keyword>' . "\n"; 
         $gf .= $str;
     }
