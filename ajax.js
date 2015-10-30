@@ -414,7 +414,7 @@ function stateChangedKeywords_prs(){
                     /*console.log(prestado);*/
                     var pe  = new DOMParser();
                     var Cnt = pe.parseFromString(prestado,"text/xml");
-                    var add_me = Cnt.getElementById('cntt');
+                    var add_me = Cnt.getElementById('cntt').innerHTML;
                     console.log(add_me);
                     vergota += add_me;
                     /*vergota += xmlHttp.responseText;*/
