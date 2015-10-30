@@ -410,13 +410,14 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    var prestado = '<http><body>' + xmlHttp.responseText + '</body></http>';
-                    console.log(prestado);
+                    var prestado = '<http>' + xmlHttp.responseText + '</http>';
+                    /*console.log(prestado);*/
                     var pe  = new DOMParser();
                     var Cnt = pe.parseFromString(prestado,"text/xml");
                     var add_me = Cnt.getElementById('cntt');
                     console.log(add_me);
                     vergota += add_me;
+                    /*vergota += xmlHttp.responseText;*/
                 }                
             };
             xmlHttp.open("GET",url,false);
