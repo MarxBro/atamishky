@@ -13,7 +13,6 @@ use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
 #use Lingua::Identify    "language_identification"; # util??
 use Text::Language::Guess;
-use List::MoreUtiles    "uniq"; # FILTRAR TAGS 
 
 my %opts = ();
 getopts( 'hdcto:f:', \%opts );
@@ -206,8 +205,7 @@ sub ayudas {
 
 sub make_keywords {
     my $t = shift;
-    # Evitar repeticiones de tags aka keywords.
-    my @palabras = uniq ( grep { length > 4 } split ' ', $t );
+    my @palabras = grep { length > 4 } split ' ', $t;
     my $gf = '<keywords>' . "\n";
     foreach my $gypa (@palabras){
         my $gy = lc($gypa);
