@@ -414,9 +414,9 @@ function stateChangedKeywords_prs(){
                     /*console.log(prestado);*/
                     var pe  = new DOMParser();
                     var Cnt = pe.parseFromString(prestado,"text/xml");
-                    var add_me = Cnt.getElementById('cntt').innerHTML;
-                    console.log(add_me);
-                    vergota += add_me;
+                    var add_me = Cnt.getElementById('cntt');
+                    console.log(add_me.innerHTML);
+                    vergota += add_me.innerHTML;;
                     /*vergota += xmlHttp.responseText;*/
                 }                
             };
