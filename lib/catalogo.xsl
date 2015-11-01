@@ -270,7 +270,7 @@
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
 <xsl:sort select="authors/author" order="ascending"/>
 <!-- Paper box -->
-<div class="entry1">
+<div class="entry1" id="ATAMISHKY_{@name}">
 
 <xsl:choose>
     <xsl:when test="entrytype='misc' and substring-after(@name, substring-before(@name,'PATENT'))='PATENT'">
