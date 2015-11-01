@@ -12,8 +12,7 @@ use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
 use Text::Language::Guess;
-use List::MoreUtils     qw( uniq any ); # FILTRAR TAGS 
-#use Lingua::Identify    "language_identification"; # util??
+use List::MoreUtils     qw( uniq any ); # FILTRAR TAGS, ahorra algo de tiempo.
 
 my %opts = ();
 getopts( 'hdcto:f:', \%opts );
@@ -60,8 +59,6 @@ foreach my $ln_csv_raw (@csv_lns){
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
     my $city            = do_city($campos[5]);
-
-
 
 #estos necesitan atencion
     my $bibliografia    = $campos[6] || "none";
@@ -142,8 +139,6 @@ my $esqueleto_entry =
    $esqueleto_entry =~ s/\@\@TITULO\@\@/$titulo/gi; 
 
    #sacar el lenguaje desde el titulo.
-   #esto destroza el string $titulo, por alguna razon (indocumentada en el puto modulo).
-   #Muy choto por el momento
 if ( $lenguaje eq 'pipo' ) {
     my $pre_lang = $guesser->language_guess_string($titulo);
     if ( $pre_lang =~ /es/ ) {
@@ -240,7 +235,7 @@ sub make_keywords {
 sub make_authors {
     my $st = shift; 
     my @autores = split /; /, $st;
-    my $finalputos = '<authors>'  . "\n";
+    my $finalenjutos = '<authors>'  . "\n";
     foreach my $au (@autores){
         chomp($au);
         lc($au);
@@ -249,10 +244,10 @@ sub make_authors {
         $au =~ s/ $//g;
         $au =~ s/\.$//g;
         my $uylaputa = "\t" . '<author>' . $au . '</author>' . "\n";
-        $finalputos .= $uylaputa;
+        $finalenjutos .= $uylaputa;
     }
-    $finalputos .= "\t" . '</authors>';
-    return $finalputos;   
+    $finalenjutos .= "\t" . '</authors>';
+    return $finalenjutos;   
 }
 
 sub compactar {
@@ -351,6 +346,8 @@ El archivo csv tiene que respetar en su encabezado, el siguiente orden:
 * link
 * soporte
 * descripcion
+* idioma
+* paginas-capitulos.
 
 Los valores en todo el csv se separan con la pipa B<|>.
 

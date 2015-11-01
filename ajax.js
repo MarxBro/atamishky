@@ -336,21 +336,21 @@ function stateChangedKeywords_filter(buscado){
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('ul li');
         var re = new RegExp(buscado, "i");
-        var vergo = '';
+        var vwanted = '';
         var cuenta = 0;
         for(var i=0; li=lis[i]; i++) {
-            var puto = lis[i].firstChild;
-            var text = puto.innerText || puto.textContent;
+            var enjuto = lis[i].firstChild;
+            var text = enjuto.innerText || enjuto.textContent;
             if (re.test(text)) {
                 var litexto = li.innerText || li.textContent;
-                vergo += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + litexto + '\')">' + litexto + '</a></li>';
+                vwanted += '<li><a href="javascript:void(0)" onclick="showCategory(\'author\',\'' + litexto + '\')">' + litexto + '</a></li>';
                 cuenta++;
             }
         }
         if (cuenta == 0){
-            vergo = "No hubo resultados";
+            vwanted = "No hubo resultados";
         }
-        document.getElementById("keywordsCloud").innerHTML='<ul>'+ vergo +'</ul>'; 
+        document.getElementById("keywordsCloud").innerHTML='<ul>'+ vwanted +'</ul>'; 
         document.getElementById("CfPTable").innerHTML="";
     } 
 }
@@ -396,8 +396,8 @@ function stateChangedKeywords_prs(){
         var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
-        /*var vergota = '<div class="content_pager">';*/
-        var vergota = '';
+        /*var vwantedta = '<div class="content_pager">';*/
+        var vwantedta = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
             var texto = it_pr.innerText || it_pr.textContent;
@@ -417,8 +417,8 @@ function stateChangedKeywords_prs(){
                     /*var Cnt = pe.parseFromString(prestado,"text/xml");*/
                     /*var add_me = Cnt.getElementById('cntt');*/
                     /*console.log(add_me.innerHTML);*/
-                    /*vergota += add_me.innerHTML;;*/
-                    vergota += xmlHttp.responseText;
+                    /*vwantedta += add_me.innerHTML;;*/
+                    vwantedta += xmlHttp.responseText;
                 }                
             };
             xmlHttp.open("GET",url,false);
@@ -426,10 +426,10 @@ function stateChangedKeywords_prs(){
             cuenta++;
         }
         if (cuenta == 0){
-            vergota = "No hubo resultados";
+            vwantedta = "No hubo resultados";
         }
-        /*document.getElementById("CfPTable").innerHTML= vergota + '</div>';*/
-        document.getElementById("CfPTable").innerHTML= vergota;
+        /*document.getElementById("CfPTable").innerHTML= vwantedta + '</div>';*/
+        document.getElementById("CfPTable").innerHTML= vwantedta;
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }

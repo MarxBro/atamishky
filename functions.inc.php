@@ -89,17 +89,6 @@ function validar_xsl($nombre) {
     if ($md5_php === $md5_txt){
         return $nombre;
     } 
-
-    //foreach ($MD5s as $nombre => $md5){
-        //$nombre_archivo = "lib/" . $nombre;
-        //if (empty($nombre)){
-            //continue;
-        //}
-        //$md5_php = md5_file($nombre_archivo);
-        //if ($md5_php == $md5){
-            //return $nombre;
-        //} 
-    //}
 }
 
 //Esta funcion se asegura que los xsl esten intactos, para prevenir XSS.
@@ -127,16 +116,16 @@ function do_hash_seguridad_vendehumo() {
     return $MD5s;
 } 
 
-//funcion agregada para comenzar a jugar con los prestamos
-    // si hay argumentos, check for pass to be equal to main pass
+//******************************************************************
+//Funciones para evaluar los préstamos de material. 
+//******************************************************************
 function pass_prestamo ($a){
     if ($a){
-
-//prestamo password
-$PASS_BIBLIO_MASTER = 'prueba';
-$PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
-$SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
-$PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+        //prestamo password... va aca, sip.
+        $PASS_BIBLIO_MASTER = 'prueba';
+        $PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
+        $SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
+        $PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
 
         $PASS_PRESTAMO_CH = md5(md5($a) . $SALTI) . $PASS_BIBLIO_MASTER_append;
         if ($PASS_PRESTAMO_CH === $PASS_PRESTAMO){
@@ -149,11 +138,11 @@ $PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_ap
         //$PASS_PRESTAMO;    
     }
 }
-// Funciones para lidiar con el prestamo de material.
+
+// Funcion que crea un array desde el archivo de prestamos.
 function IcanHas_booked_items_array() {
-    // abir el archivo y cargar todos los IDS    
-    $archivo_prestamos_puto = "lib/prestamos.sec";
-    $handle_bookedtxt = fopen($archivo_prestamos_puto, "r");
+    $archivo_prestamos_enjuto = "lib/prestamos.sec";
+    $handle_bookedtxt = fopen($archivo_prestamos_enjuto, "r");
     $bo = array();
     if ($handle_bookedtxt) {
         while(!feof($handle_bookedtxt)){
@@ -173,7 +162,6 @@ function IcanHas_booked_items_array() {
 }
 
 function booked_items_check_status ($librito){
-    //$archivo_prestamos_mm = "lib/prestamos.sec";
     $booked_stuff_mm = IcanHas_booked_items_array();
     if (in_array($librito, $booked_stuff_mm)){
         return true;
@@ -182,6 +170,7 @@ function booked_items_check_status ($librito){
     }
 }
 
+//Esta funcion cambia el status de un material, de forma binaria (prestado/no prestado).
 function booked_items_change_status ($it){
     $archivo_prestamos = "lib/prestamos.sec";
     $booked_stuff = IcanHas_booked_items_array();
@@ -201,9 +190,6 @@ function booked_items_change_status ($it){
             $contt .= $ln_agregar;
             file_put_contents($archivo_prestamos,$contt);
     }
-    //return $something;
 } 
-    
-    
 
 ?>
