@@ -51,13 +51,6 @@ if($action != null){
                 $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">PRESTADO</a>', $resultado_pre_prestamo);
             }
         }
-        //sacar div content, lo agrega ajax.js al vuelo.
-        $sacar_div_container = 'class="content_pager" id="cntt"';
-        //$sacar_div_container_ending = '</div>';
-        $sacar_brs = '<br/>';
-        $resultado_pre_prestamo = str_replace($sacar_brs,'',$resultado_pre_prestamo);
-        $resultado_pre_prestamo = str_replace($sacar_div_container,'',$resultado_pre_prestamo);
-        //$resultado_pre_prestamo = str_replace($sacar_div_container_ending,'',$resultado_pre_prestamo);
         echo $resultado_pre_prestamo;
     }
     else if($action == "showkeywordscloud") {

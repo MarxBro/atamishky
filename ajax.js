@@ -411,13 +411,6 @@ function stateChangedKeywords_prs(){
             url=url+"&xxx=xxx&sid="+Math.random();
             xmlHttp.onreadystatechange=function(){ 
                 if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                    /*var prestado = '<http>' + xmlHttp.responseText + '</http>';*/
-                    /**//*console.log(prestado);*/
-                    /*var pe  = new DOMParser();*/
-                    /*var Cnt = pe.parseFromString(prestado,"text/xml");*/
-                    /*var add_me = Cnt.getElementById('cntt');*/
-                    /*console.log(add_me.innerHTML);*/
-                    /*vwantedta += add_me.innerHTML;;*/
                     vwantedta += xmlHttp.responseText;
                 }                
             };
@@ -428,8 +421,21 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vwantedta = "No hubo resultados";
         }
+        /*Extraer los entry1 y armar el div contentedor.*/
+        var prestados = '<http>' + vwantedta + '</http>';
+        var pe  = new DOMParser();
+        var Cnt = pe.parseFromString(prestado,"text/xml");
+        var add_me = Cnt.getElementsByClassName('entry1');
+        /*Este div es el contenedor... sip, lo agrego desde aca.*/
+        var entradas_prestamos = '<div class="content_pager" id="cntt">';
+        for (var i = 0; i < add_me.length; i++){
+            entradas_prestamos += add_me[i];    
+        }
+        entradas_prestamos += '</div>';
+        console.log(entradas_prestamos);
         /*document.getElementById("CfPTable").innerHTML= vwantedta + '</div>';*/
-        document.getElementById("CfPTable").innerHTML= vwantedta;
+        /*document.getElementById("CfPTable").innerHTML= vwantedta;*/
+        document.getElementById("CfPTable").innerHTML= entradas_prestamos;
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }
