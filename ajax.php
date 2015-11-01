@@ -102,7 +102,18 @@ if($action != null){
         $params['atamishkyhome']         = $atamishky_HOME;
         $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
         //echo transform($xmlfile, $xslfile, $params);
-        $resultado_pre_prestamo = transform($xmlfile, $xslfile, $params);
+        $resultado_pre_prestamo_prepre = transform($xmlfile, $xslfile, $params);
+
+
+        $array_prestados = IcanHas_booked_items_array();
+        $rgx_buscar_repetidos = join('|',$array_prestados);
+        $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
+        foreach ($array_lnsdela_salida_original as $ln_org){
+            if(preg_match("",$ln_org)){
+                $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
+            }
+        }
+        $resultado_pre_prestamo = implode("\n",$resultado_pre_prestamo_prepre);
 
         //Procesar los prestamos. II
         if ($pub){
