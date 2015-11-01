@@ -40,7 +40,7 @@ if($action != null){
         //esto sirve para hacer que las entradas en el estado de los prestamos no aparezcan con los detalles toggleados de movida.
         $prty = sano($_GET["xxx"]);
         $params['nodetails'] = "false";
-        if ($prty == "xxx"){
+        if ($prty === "xxx"){
             $params['nodetails'] = "true";
         }
         //--------------------
