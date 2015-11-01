@@ -109,7 +109,7 @@ if($action != null){
         $rgx_buscar_repetidos = join('|',$array_prestados);
         $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
         foreach ($array_lnsdela_salida_original as $ln_org){
-            if(preg_match("",$ln_org)){
+            if(preg_match($rgx_buscar_repetidos,$ln_org)){
                 $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
             }
         }
