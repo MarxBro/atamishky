@@ -59,7 +59,7 @@ body {
 	margin-bottom: 11px;
 	padding-bottom: 7px;
 }
-.atamishky .entry, .entry1, .entry1_booked {
+.atamishky .entry, .entry1 .entry1_booked {
 	position: relative;
 	width: 770px;
 	min-height: 38px;
@@ -81,20 +81,20 @@ body {
 	background-image:url(img/b_oncelikli2_ROJO.gif);
 }
 
-.atamishky .entry1 span {
+.atamishky .entry1 .entry1_booked span {
 	text-decoration: none;
 	border-bottom:1px dotted;
 	cursor: pointer;
 }
 
-.atamishky .entry1 a {
+.atamishky .entry1 .entry1_booked a {
 	text-decoration: none;
 	/*border-bottom:1px solid #AAAAAA;*/
 	color: #000000;
 	cursor: pointer;
 }
 
-.atamishky .entry1 a:hover {
+.atamishky .entry1 .entry1_booked a:hover {
 	text-decoration: none;
 	border-bottom:1px solid #000000;
 	color: #000000;

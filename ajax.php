@@ -153,7 +153,20 @@ if($action != null){
     $params['breadcrumb2']           = "todos";
     $params['atamishkyhome']         = $atamishky_HOME;
     $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
-    echo transform( $xmlfile, $xslfile, $params );
+        $resultado_pre_prestamo_prepre = transform($xmlfile, $xslfile, $params);
+        $resultado_pre_prestamo = '';
+
+
+        $array_prestados = IcanHas_booked_items_array();
+        $rgx_buscar_repetidos = '/' . join('|',$array_prestados) . '/';
+        $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
+        foreach ($array_lnsdela_salida_original as $ln_org){
+            if(preg_match($rgx_buscar_repetidos,$ln_org)){
+                $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
+            }
+            $resultado_pre_prestamo .= $ln_org . "\n";
+        }
+    echo $resultado_pre_prestamo; 
 }
 
 //Mostrar el permalink si no es ninguna de estas pags.
