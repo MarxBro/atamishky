@@ -426,7 +426,7 @@ function stateChangedKeywords_prs(){
         /*console.log(prestados);*/
         var pe  = new DOMParser();
         var Cnt = pe.parseFromString(prestados,"text/xml");
-        var add_me = Cnt.getElementsByClassName('entry1');
+        var add_me = Cnt.querySelectorAll('.entry1');
         console.log(add_me);
         /*Este div es el contenedor... sip, lo agrego desde aca.*/
         var entradas_prestamos = '<div class="content_pager" id="cntt">';
