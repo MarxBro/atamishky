@@ -419,11 +419,11 @@ function stateChangedKeywords_prs(){
             cuenta++;
         }
         if (cuenta == 0){
-            vwantedta = "No hubo resultados";
+            vwantedta += "No hubo resultados";
         }
         /*Extraer los entry1 y armar el div contentedor.*/
         var prestados = '<html>' + vwantedta + '</html>';
-        /*console.log(prestados);*/
+        console.log(prestados);
         var pe  = new DOMParser();
         var Cnt = pe.parseFromString(prestados,"text/xml");
         var add_me = Cnt.getElementsByClassName('entry1');
