@@ -27,10 +27,7 @@
 <xsl:if test="$breadcrumb1 != 'por ID'">
     <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
 </xsl:if>
-<!--este div no tiene que aparecer en lo de los prestamos.-->
-<xsl:if test="$nodetails = 'true'">
-    <div class="content_pager" id="cntt">
-</xsl:if>
+<div class="content_pager" id="cntt">
 
 
 <xsl:choose>
@@ -245,10 +242,7 @@
 </xsl:choose>
 
 <!--final del content pager.-->
-<!--este div no tiene que aparecer en lo de los prestamos.-->
-<xsl:if test="$nodetails = 'true'">
-    </div> <!-- /content -->
-</xsl:if>
+</div> <!-- /content -->
 
 </xsl:template>
 
