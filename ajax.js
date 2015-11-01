@@ -422,7 +422,7 @@ function stateChangedKeywords_prs(){
             vwantedta = "No hubo resultados";
         }
         /*Extraer los entry1 y armar el div contentedor.*/
-        var prestados = '<http>' + vwantedta + '</http>';
+        var prestados = '<html>' + vwantedta + '</html>';
         /*console.log(prestados);*/
         var pe  = new DOMParser();
         var Cnt = pe.parseFromString(prestados,"text/xml");
@@ -430,8 +430,7 @@ function stateChangedKeywords_prs(){
         /*Este div es el contenedor... sip, lo agrego desde aca.*/
         var entradas_prestamos = '<div class="content_pager" id="cntt">';
         for (var i = 0; i < add_me.length; i++){
-            entradas_prestamos += add_me[i].innerHTML;    
-            console.log( add_me[i].innerHTML );    
+            entradas_prestamos += add_me[i].innerHTML;
         }
         entradas_prestamos += '</div>';
         /*console.log(entradas_prestamos);*/
