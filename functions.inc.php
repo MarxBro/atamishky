@@ -1,7 +1,5 @@
 <?php
 
-include_once("m.inc.php");
-
 $longname['year']               = 'Año';
 $longname['researcharea']       = 'research area';
 $longname['entrytype']          = 'tipo';
@@ -119,11 +117,12 @@ function do_hash_seguridad_vendehumo() {
 //******************************************************************
 function pass_prestamo ($a){
     if ($a){
-        //prestamo password... va aca, sip.
+        // Guarda, esto esta en el archivo del include de abajo.
         //$PASS_BIBLIO_MASTER = 'prueba';
         //$PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
         //$SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
         //$PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
+        include_once "m.inc.php";
         $PASS_PRESTAMO_CH = md5(md5($a) . $SALTI) . $PASS_BIBLIO_MASTER_append;
         if ($PASS_PRESTAMO_CH === $PASS_PRESTAMO){
             return true;    
