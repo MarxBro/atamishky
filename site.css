@@ -13,11 +13,11 @@ body {
 }
 
 .atamishky {
- 	float: left;
- 	margin:5px;
+    /*float: left;*/
+ 	margin:0px auto;
 	width: 848px;
 	color:				rgb(68,68,68);
-        font-family: 			arial;
+    font-family: 			arial;
 	font-size: 12px;
 }
 
