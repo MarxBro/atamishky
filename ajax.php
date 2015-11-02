@@ -111,7 +111,7 @@ if($action != null){
         $resultado_pre_prestamo = '';
         // *********************************************************************************
         $array_prestados = IcanHas_booked_items_array();
-        if(count($array_prestados) > 1){
+        if(count($array_prestados) >= 1){
             $rgx_buscar_repetidos = '/ATAMISHKY_(?:' . join('|',$array_prestados) . ')/';
             $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
             foreach ($array_lnsdela_salida_original as $ln_org){
@@ -172,7 +172,7 @@ if($action != null){
         // *****************************************************************
         $array_prestados = IcanHas_booked_items_array();
         // si no hay items prestados, saltearse esta bizarreada.
-        if(count($array_prestados) > 1){
+        if(count($array_prestados) >= 1){
             $rgx_buscar_repetidos = '/ATAMISHKY_(?:' . join('|',$array_prestados) . ')/';
             $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
             foreach ($array_lnsdela_salida_original as $ln_org){
