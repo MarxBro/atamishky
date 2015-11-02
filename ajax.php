@@ -52,7 +52,6 @@ if($action != null){
                         $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">(++)</a>'; 
                 $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
             } else {
-                // PRUEBA :: Cambiar el estado del prestamo desde el boton de Disponible.
                 $cambio = '<a href="javascript:void(0)" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
                 $resultado_pre_prestamo = str_replace('Disponible',$cambio, $resultado_pre_prestamo);
             }
@@ -124,21 +123,20 @@ if($action != null){
             $resultado_pre_prestamo .= $ln_org . "\n";
         }
 
-        //Procesar los prestamos. II
+        //Procesar los prestamos.
         if ($pub){
             //solo aca es posible cambiar el estado del prestamo.
-              if ($_GET["prestamo"]){
+            if ($_GET["prestamo"]){
                 $pass    =  $_GET["prestamo"];
                 if (pass_prestamo($pass)){
-                  booked_items_change_status($pub);
-                  //echo "el estado ha cambiado desde -showcategory-";
+                    booked_items_change_status($pub);
                 }
-              }
+            }
             if (booked_items_check_status($pub)){
-              // procesar el prestamo
-                $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">PRESTADO</a>', $resultado_pre_prestamo);
+                $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" onclick="prestar(\'' . 
+                    $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">(++)</a>'; 
+                    $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
             } else {
-                // PRUEBA :: Cambiar el estado del prestamo desde el boton de Disponible.
                 $cambio = '<a href="javascript:void(0)" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
                 $resultado_pre_prestamo = str_replace('Disponible',$cambio, $resultado_pre_prestamo);
             }
