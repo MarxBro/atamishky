@@ -112,7 +112,8 @@ if($action != null){
         foreach ($array_lnsdela_salida_original as $ln_org){
             if(preg_match($rgx_buscar_repetidos,$ln_org)){
                 $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
-                $ln_org = str_replace('> </div>','></div>',$ln_org);
+                $ln_org = str_replace('style="visibility: none;"> ','style="visibility: none;">',$ln_org);
+                //$ln_org = str_replace('> </div>','></div>',$ln_org);
             }
             $resultado_pre_prestamo .= $ln_org . "\n";
         }
@@ -164,8 +165,8 @@ if($action != null){
         $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
         foreach ($array_lnsdela_salida_original as $ln_org){
             if(preg_match($rgx_buscar_repetidos,$ln_org)){
-                $ln_org = str_replace('> </div>','></div>',$ln_org);
                 $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
+                $ln_org = str_replace('style="visibility: none;"> ','style="visibility: none;">',$ln_org);
             }
             $resultado_pre_prestamo .= $ln_org . "\n";
         }
