@@ -425,3 +425,19 @@ function stateChangedKeywords_prs(){
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }
+function prestar(pub) {
+    var pd = prompt("Escriba la contraseña a continuación:");
+    var url=atamishky_home_dir+"ajax.php";
+    url += "?action=showcategory&by=ID&pub=" + pub;
+    url += "&sid="+Math.random();
+    url_p = url + "&prestamo=" + pd;
+    xmlHttp.onreadystatechange=function(){ 
+        if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+            window.location = url;
+        }                
+    };
+    xmlHttp.open("GET",url_p,false);
+    xmlHttp.send(null);
+}
+
+

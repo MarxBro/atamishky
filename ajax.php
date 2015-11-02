@@ -131,6 +131,9 @@ if($action != null){
             if (booked_items_check_status($pub)){
               // procesar el prestamo
                 $resultado_pre_prestamo = str_replace('Disponible', '<a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">PRESTADO</a>', $resultado_pre_prestamo);
+            } else {
+                // PRUEBA :: Cambiar el estado del prestamo desde el boton de Disponible.
+                $resultado_pre_prestamo = str_replace('Disponible','<a href="javascript:void(0)" onclick="prestar($pub)">Disponible</a>',$resultado_pre_prestamo):
             }
         } 
         echo $resultado_pre_prestamo;
