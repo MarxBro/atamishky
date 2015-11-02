@@ -427,17 +427,19 @@ function stateChangedKeywords_prs(){
 }
 function prestar(pub) {
     var pd = prompt("Escriba la contraseña a continuación:");
-    var url=atamishky_home_dir;
-    url += "?action=showcategory&by=ID&pub=" + pub;
-    url_p = url + "&prestamo=" + pd;
-    url_p += "&sid="+Math.random();
-    xmlHttp.onreadystatechange=function(){ 
-        if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-            window.location = url;
-        }                
-    };
-    xmlHttp.open("GET",url_p,false);
-    xmlHttp.send(null);
+    if (pd != null){
+        var url =  atamishky_home_dir;
+        url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
+        url_p  += "&prestamo=" + pd;
+        url_p  += "&sid="+Math.random();
+        xmlHttp.onreadystatechange=function(){ 
+            if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+                window.location = url;
+            }                
+        };
+        xmlHttp.open("GET",url_p,false);
+        xmlHttp.send(null);
+    }
 }
 
 
