@@ -121,6 +121,7 @@ if($action != null){
                     //$ln_org = str_replace('> </div>','></div>',$ln_org);
                 }
                 $resultado_pre_prestamo .= $ln_org . "\n";
+            } 
         } else {
             //si no hay resultados, transform.
             $resultado_pre_prestamo = $resultado_pre_prestamo_prepre;
