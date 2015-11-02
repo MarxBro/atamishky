@@ -48,11 +48,11 @@ if($action != null){
         //Procesar los prestamos.
         if ($pub){
             if (booked_items_check_status($pub)){
-                $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" onclick="prestar(\'' . 
-                        $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">(++)</a>'; 
+                $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" title="Cambiar estado del préstamo" onclick="prestar(\'' . 
+                        $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" title="Ver todos los préstamos" style="color: red;" onclick="getprs_items()">(++)</a>'; 
                 $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
             } else {
-                $cambio = '<a href="javascript:void(0)" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
+                $cambio = '<a href="javascript:void(0)" title="Cambiar estado del préstamo" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
                 $resultado_pre_prestamo = str_replace('Disponible',$cambio, $resultado_pre_prestamo);
             }
         }
@@ -133,11 +133,11 @@ if($action != null){
                 }
             }
             if (booked_items_check_status($pub)){
-                $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" onclick="prestar(\'' . 
-                    $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" style="color: red;" onclick="getprs_items()">(++)</a>'; 
-                    $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
+                $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" title="Cambiar estado del préstamo" onclick="prestar(\'' . 
+                        $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" title="Ver todos los préstamos" style="color: red;" onclick="getprs_items()">(++)</a>'; 
+                $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
             } else {
-                $cambio = '<a href="javascript:void(0)" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
+                $cambio = '<a href="javascript:void(0)" title="Cambiar estado del préstamo" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
                 $resultado_pre_prestamo = str_replace('Disponible',$cambio, $resultado_pre_prestamo);
             }
         } 
