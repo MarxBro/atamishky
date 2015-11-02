@@ -37,7 +37,6 @@ function showCategory(strBy, str) {
         toggleKeywordsCloud = 'h';
         toggleAuthorList = 'h';
         toggleBiblioList = 'h';
-
         // this is because div with id keywordsCloud appears alone or inside div (class entry1), depending the case.
         kc=document.getElementById("keywordsCloud");
         if (kc.parentNode.className == "entry1"){ 
@@ -289,7 +288,6 @@ function doSearch() {
     } else if ( document.getElementById('d').selected ) {
         showCategory('searchdescripcion', query.toLowerCase());
     } else if ( document.getElementById('a').selected ) {
-        //showCategory('searchautor', query.toLowerCase());
         search_autores(query.toLowerCase());
     } else if ( document.getElementById('t').selected ){    // Titulo
         showCategory('searchtitle', query.toLowerCase());
@@ -310,7 +308,7 @@ function doSearch() {
     Si la busqueda es por autor
         1 - Traer toda a lista de autores,
         2 - Filtar los nombres de autores que no coinciden.
-        3 - Escribir el HTML resultante (como si nada hubiera pasado).
+        3 - Escribir el HTML resultante.
 */
 function search_autores(buscado){
     toggleAuthorList='s';
@@ -332,7 +330,7 @@ function stateChangedKeywords_filter(buscado){
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
         var resultado_query = '<html>' + xmlHttp.responseText + '</html>';
-        var parser = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+        var parser = new DOMParser();
         var lista_resultado_query = parser.parseFromString(resultado_query,"text/xml");
         var lis = lista_resultado_query.querySelectorAll('ul li');
         var re = new RegExp(buscado, "i");
@@ -354,7 +352,6 @@ function stateChangedKeywords_filter(buscado){
         document.getElementById("CfPTable").innerHTML="";
     } 
 }
-
 function eventFire(el, etype){
   if (el.fireEvent) {
     el.fireEvent('on' + etype);
@@ -367,13 +364,10 @@ function eventFire(el, etype){
 function dale(){
   var todosTriggear = document.getElementsByClassName('clicky');
   for(var i = 0; i < todosTriggear.length; i++) {
-    var esta = todosTriggear[i];
-    /*console.log(esta);*/
-    /*console.log(i);*/
-    eventFire(esta,'click');
+    var este_coso = todosTriggear[i];
+    eventFire(este_coso,'click');
   }
 }
-/* Conseguir todos los items prestados. */
 function getprs_items(){
     xmlHttp=GetXmlHttpObject();
     if (xmlHttp==null){
@@ -393,10 +387,9 @@ function stateChangedKeywords_prs(){
         document.getElementById("CfPTable").innerHTML="";
     } else if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
         var resultado_querido = '<html>' + xmlHttp.responseText + '</html>';
-        var parsearte = new DOMParser(); // necesito un parser nuevo, porque no hay DOM.
+        var parsearte = new DOMParser();
         var lista_ar = parsearte.parseFromString(resultado_querido,"text/xml");
         var prsss = lista_ar.querySelectorAll('p');
-        /*var vwantedta = '<div class="content_pager">';*/
         var vwantedta = '';
         var cuenta = 0;
         for(var i=0; it_pr=prsss[i]; i++) {
@@ -437,9 +430,8 @@ function prestar(pub) {
                 window.location = url;
             }                
         };
-        xmlHttp.open("GET",url_p,false);
+        xmlHttp.open("GET",url_p,true);
         xmlHttp.send(null);
     }
 }
-
 
