@@ -15,6 +15,7 @@ body {
 .atamishky {
     /*float: left;*/
  	margin:0px auto;
+ 	margin-left: 3%;
 	width: 848px;
 	color:				rgb(68,68,68);
     font-family: 			arial;
