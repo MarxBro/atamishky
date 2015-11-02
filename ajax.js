@@ -427,7 +427,7 @@ function stateChangedKeywords_prs(){
 }
 function prestar(pub) {
     var pd = prompt("Escriba la contraseña a continuación:");
-    var url=atamishky_home_dir+"ajax.php";
+    var url=atamishky_home_dir;
     url += "?action=showcategory&by=ID&pub=" + pub;
     url += "&sid="+Math.random();
     url_p = url + "&prestamo=" + pd;
