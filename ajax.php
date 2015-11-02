@@ -109,18 +109,21 @@ if($action != null){
         //echo transform($xmlfile, $xslfile, $params);
         $resultado_pre_prestamo_prepre = transform($xmlfile, $xslfile, $params);
         $resultado_pre_prestamo = '';
-
-
+        // *********************************************************************************
         $array_prestados = IcanHas_booked_items_array();
-        $rgx_buscar_repetidos = '/ATAMISHKY_(?:' . join('|',$array_prestados) . ')/';
-        $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
-        foreach ($array_lnsdela_salida_original as $ln_org){
-            if(preg_match($rgx_buscar_repetidos,$ln_org)){
-                $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
-                //$ln_org = str_replace('style="visibility: none;"> ','style="visibility: none;">',$ln_org);
-                //$ln_org = str_replace('> </div>','></div>',$ln_org);
-            }
-            $resultado_pre_prestamo .= $ln_org . "\n";
+        if(count($array_prestados) > 1){
+            $rgx_buscar_repetidos = '/ATAMISHKY_(?:' . join('|',$array_prestados) . ')/';
+            $array_lnsdela_salida_original = explode("\n",$resultado_pre_prestamo_prepre);
+            foreach ($array_lnsdela_salida_original as $ln_org){
+                if(preg_match($rgx_buscar_repetidos,$ln_org)){
+                    $ln_org = str_replace('class="entry1"','class="entry1_booked"',$ln_org);
+                    //$ln_org = str_replace('style="visibility: none;"> ','style="visibility: none;">',$ln_org);
+                    //$ln_org = str_replace('> </div>','></div>',$ln_org);
+                }
+                $resultado_pre_prestamo .= $ln_org . "\n";
+        } else {
+            //si no hay resultados, transform.
+            $resultado_pre_prestamo = $resultado_pre_prestamo_prepre;
         }
 
         //Procesar los prestamos.
@@ -165,8 +168,7 @@ if($action != null){
     $params['atamishkyembeddingurl'] = $atamishky_EMBEDDING_URL;
         $resultado_pre_prestamo_prepre = transform($xmlfile, $xslfile, $params);
         $resultado_pre_prestamo = '';
-
-
+        // *****************************************************************
         $array_prestados = IcanHas_booked_items_array();
         // si no hay items prestados, saltearse esta bizarreada.
         if(count($array_prestados) > 1){
