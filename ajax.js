@@ -423,15 +423,15 @@ function prestar(pub) {
     var nombre_div = 'bib' + pub;
     /*el codigo para promptear el passwd.*/
     var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
-        '\'' + pub + '\'' + ')">Done</button></div>';
+        '\'' + pub + '\'' + ')">OK</button></div>';
     document.getElementById(nombre_div).innerHTML = inputin;
     document.getElementById(nombre_div).style.visibility="visible";
 }
 
 function done(pub) { 
     /*document.getElementById("popup").style.display = "none"; */
-    hide_bibtex_div(pub);
     var pd = document.getElementById("pass").value;
+    hide_bibtex_div(pub);
     console.log(pd);
     if (pd != null){
         console.log("llego aca.");
