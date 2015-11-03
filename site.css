@@ -13,11 +13,12 @@ body {
 }
 
 .atamishky {
- 	float: left;
- 	margin:5px;
+    /*float: left;*/
+ 	margin:0px auto;
+ 	margin-left: 3%;
 	width: 848px;
 	color:				rgb(68,68,68);
-        font-family: 			arial;
+    font-family: 			arial;
 	font-size: 12px;
 }
 
@@ -59,7 +60,7 @@ body {
 	margin-bottom: 11px;
 	padding-bottom: 7px;
 }
-.atamishky .entry, .entry1 {
+.atamishky .entry, .entry1, .entry1_booked {
 	position: relative;
 	width: 770px;
 	min-height: 38px;
@@ -77,20 +78,24 @@ body {
 	background-image:url(img/b_oncelikli2.gif);
 }
 
-.atamishky .entry1 span {
+.atamishky .entry1_booked {
+	background-image:url(img/b_oncelikli2_ROJO.gif);
+}
+
+.atamishky .entry1 span, .entry1_booked span {
 	text-decoration: none;
 	border-bottom:1px dotted;
 	cursor: pointer;
 }
 
-.atamishky .entry1 a {
+.atamishky .entry1 a,.entry1_booked a {
 	text-decoration: none;
 	/*border-bottom:1px solid #AAAAAA;*/
 	color: #000000;
 	cursor: pointer;
 }
 
-.atamishky .entry1 a:hover {
+.atamishky .entry1 a:hover,.entry1_booked a:hover {
 	text-decoration: none;
 	border-bottom:1px solid #000000;
 	color: #000000;
@@ -116,10 +121,34 @@ body {
 	   background-position:-125px -25px;
 	   top:4px;
 }
+.atamishky .apaSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-125px -50px;
+	   top:4px;
+}
+.atamishky .isoSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-100px -50px;
+	   top:4px;
+}
 .atamishky .pdfSprite {
 	   width:20px;
 	   height:20px;
 	   background-position:-25px -25px;
+	   top:4px;
+}
+.atamishky .prestadoSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-175px -50px;
+	   top:4px;
+}
+.atamishky .prestamoSprite {
+	   width:20px;
+	   height:20px;
+	   background-position:-175px -50px;
 	   top:4px;
 }
 .atamishky .htmlSprite {
@@ -154,6 +183,12 @@ body {
 	visibility: visible; /*hidden;*/
 }
 
+/*Agregado para que quede menos chiotto el margen de la sección ayuda*/
+.atamishky .entrybody p {
+    width: 90%;
+}
+
+
 .atamishky .entrybody table {                                                                          
         border: none;                                                                              
 }                                                                                                  
@@ -174,7 +209,8 @@ body {
 	top:3px;
 	width: 720px;
 	text-align: justify;
-	font-family: monospace;
+    /*font-family: monospace;*/
+    font-size: 9px;
 	visibility: hidden;
 }
 
@@ -233,7 +269,7 @@ body {
 	padding-bottom: 20px;
 }
 
-.atamishky .article, .inproceedings, .musica, .video, .inbook, .conference, .book, .incollection, .techreport, .mastersthesis, .mastersproject, .phdthesis, .patent, .misc
+.atamishky .article, .musica, .video, .book, .mastersthesis, .mastersproject, .phdthesis, .misc
 {
 	position:absolute;
 	height: 36px;
@@ -244,24 +280,9 @@ body {
 /*.atamishky a.article { */
 /*background-image:url("img/J.png"); */
 /*}*/
-/*.atamishky a.inproceedings {*/
-/*background-image:url("img/C.png"); */
-/*}*/
-/*.atamishky a.inbook { */
-/*background-image:url("img/BC.png"); */
-/*}*/
-/*.atamishky a.conference { */
-/*background-image:url("img/C.png"); */
-/*}*/
 .atamishky a.book { 
 	background-image:url("img/type-icons/book.png"); 
 }
-/*.atamishky a.incollection { */
-/*background-image:url("img/BC.png"); */
-/*}*/
-/*.atamishky a.techreport { */
-/*background-image:url("img/TR.png"); */
-/*}*/
 /*.atamishky a.mastersthesis { */
 /*background-image:url("img/MS.png"); */
 /*}*/
@@ -270,9 +291,6 @@ body {
 /*}*/
 /*.atamishky a.phdthesis { */
 /*background-image:url("img/PhD.png"); */
-/*}*/
-/*.atamishky a.patent { */
-/*background-image:url("img/patent.png"); */
 /*}*/
 .atamishky a.misc { 
 	background-image:url("img/type-icons/misc.png"); 

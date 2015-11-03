@@ -22,7 +22,8 @@ $MENU_STYLE = "VERTICAL";
 $MENU = array(
 	      //"year" => yearArraySince($START_YEAR), //array('2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001'),
 	      //"researcharea" => array('Your research area', 'Your other research area'),
-	      "keywords" => array(),
+	      "keyword" => array('música','imagen'), //por ejemplo.
+          //"keywords" => array(), // deberia ser "keyword" y no "keywords".
 	      "entrytype" => array('book', 'misc','musica', 'video'),
 	      "author" => array(),
           "bibliografia" => array()
@@ -30,9 +31,5 @@ $MENU = array(
 
 $EXTERNAL_HEADER="includes/h.html";
 $EXTERNAL_FOOTER="includes/f.html";
-
-//$EXTERNAL_CSS="../../css/stylesheet.css";
-
-include_once("user.conf.inc.php");
 
 ?>

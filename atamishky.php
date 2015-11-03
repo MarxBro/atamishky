@@ -23,11 +23,24 @@ if(isset($EXTERNAL_HEADER)){
 <fieldset>
 <legend>B&uacute;squeda</legend>
     <select name="tipo">
+<<<<<<< HEAD
         <option value="titulo" id="t">T&iacute;tulo</option>
         <option value="autor" id="a">Autor</option>
         <option value="descripcion" id="d">Descripci&oacute;n</option>
    </select>
    <input type="text" name="q" />
+=======
+        <option value="todo"        id="x" >TODO</option>
+        <option value="titulo"      id="t" >T&iacute;tulo</option>
+        <option value="autor"       id="a" >Autor</option>
+        <option value="descripcion" id="d" >Descripci&oacute;n</option>
+        <option value="libro"       id="l" >Libros</option>
+        <option value="musica"      id="mu">M&uacute;sica</option>
+        <option value="video"       id="v" >Videos</option>
+        <option value="misc"        id="mi">Otros</option>
+   </select>
+   <input type="text" name="q" size="35" maxlength="66"/>
+>>>>>>> atam
    <input type="submit" value="Buscar" />
 </fieldset>
 </form>
@@ -64,7 +77,8 @@ foreach ($MENU as $_category => $items){
     print "<ul>";
 
     //Imprimir enlace ver todos para cada categoria.
-    if($_category == "keywords") {
+    //if($_category == "keywords") {
+    if($_category == "keyword") {
         print "<li><a href=\"javascript:void(0)\" onclick=\"showCategory('','showkeywords')\">ver todos</a></li>"; 
     }
     if($_category == "author") {
@@ -116,7 +130,7 @@ if ($action == "showkeywordscloud"){
 
 echo "<div id=\"CfPTable\">";
 if($action != "showkeywordscloud" && $action != "showauthorlist")
-    include("ajax.php");  // 'include' is google-friendly, allows index.php?blahblah
+    include("ajax.php");  
 echo "</div>";
 ?>
 
@@ -124,6 +138,8 @@ echo "</div>";
 
 <div class="bottomleft">
 <span>
+<a href="index.php?action=ayuda">Ayuda</a> &#149;
+<a href="index.php?action=reglamento">Reglamento</a> &#149;
 <a href="index.php?action=copyright">Copyright</a> &#149;
 2015.
 </span><br/><br/><br/>&nbsp;

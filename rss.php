@@ -1,9 +1,9 @@
 <?php
-include_once("functions.inc.php");
-include_once("atamishky.conf.inc.php");
+include_once ("functions.inc.php");
+include_once ("user.conf.inc.php");
 
 $xmlfile                    ='catalogo.xml';
-$xslfile                    ='rss.xsl';
+$xslfile                    ='lib/rss.xsl';
 $params['atamishkyhome']    = $atamishky_HOME;
 $params['pagetitle']        = $PAGE_TITLE;
 $params['title']            = $PAGE_TITLE;

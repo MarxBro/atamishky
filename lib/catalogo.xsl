@@ -19,19 +19,23 @@
 <xsl:param name="breadcrumb2">all</xsl:param>
 <xsl:param name="atamishkyhome">http</xsl:param>
 <xsl:param name="atamishkyembeddingurl">http</xsl:param>
+<xsl:param name="nodetails">false</xsl:param>
 
 <xsl:template match="/">
 <br />
-<span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
-<div class="content_pager">
+<!-- Esto no tendria que aparecer si es por ID, no tiene mucho sentido. -->
+<xsl:if test="$breadcrumb1 != 'por ID'">
+    <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
+</xsl:if>
+<div class="content_pager" id="cntt">
 
 
 <xsl:choose>
 	<xsl:when test="$categorytype='all'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-            <!--cambiado : Mostrar solo 5 entradas en lugar de tooooda la lista...-->
-			<xsl:with-param name="query" select="entries/entry[position() &lt; 6]" />
+            <!--cambiado : Mostrar 15 entradas en lugar de tooooda la lista (15 asi aparece el ++ js)-->
+			<xsl:with-param name="query" select="entries/entry[position() &lt; 16]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -55,7 +59,23 @@
 	<xsl:when test="$categoryby='address'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
-			<xsl:with-param name="query" select="entries/entry[address=$categorytype]" />
+			<xsl:with-param name="query" select="entries/entry[address/city=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+	<xsl:when test="$categoryby='lang'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[lang=$categorytype]" />
+			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+	<xsl:when test="$categoryby='soporte'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+			<xsl:with-param name="query" select="entries/entry[soporte=$categorytype]" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -124,6 +144,52 @@
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
 	</xsl:when>
+	<xsl:when test="$categoryby='searchTODO'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <!--este anduvo pero case sensitive y choto-->
+            <!--<xsl:with-param name="query" select="entries/entry/child::*[contains(.,$categorytype)]/.." />-->
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype)]/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchLIBROS'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='book']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchMUSICAS'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='musica']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchVIDEOS'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='video']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
+    <!--buscar por texto en entradas de cierto tipo-->
+	<xsl:when test="$categoryby='searchMISC'">
+		<xsl:call-template name="listPubs">
+			<xsl:with-param name="sortype" select="$sorttype" />
+            <xsl:with-param name="query" select="entries/entry/child::*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),$categorytype) and ../entrytype='misc']/.." />
+            <xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
+			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
+		</xsl:call-template>
+	</xsl:when>
 	<xsl:when test="$categoryby='searchtitle'">
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
@@ -160,7 +226,7 @@
 		<xsl:call-template name="listPubs">
 			<xsl:with-param name="sortype" select="$sorttype" />
 			<xsl:with-param name="query" select="entries/entry[@name=$categorytype]" />
-			<xsl:with-param name="categorybyID" select="'true'" />
+			<xsl:with-param name="categorybyID" select="$nodetails" />
 			<xsl:with-param name="atamishkyhome" select="$atamishkyhome" />
 			<xsl:with-param name="atamishkyembeddingurl" select="$atamishkyembeddingurl" />
 		</xsl:call-template>
@@ -175,6 +241,7 @@
 	</xsl:otherwise>
 </xsl:choose>
 
+<!--final del content pager.-->
 </div> <!-- /content -->
 
 </xsl:template>
@@ -189,18 +256,21 @@
 <xsl:variable name="vMonthNames" 
     select="'|January|February|March|April|May|June|July|August|September|October|November|December'"/>
 
-
+<!-- No imprimir ni el total, ni el ++ si hay un único resultado.-->
 <xsl:variable name="count" select="count($query)"/>
-<div class="total">Total: <xsl:value-of select="$count" /></div>
+<xsl:if test="$count &gt; 1">
+    <div class="total">Total: <xsl:value-of select="$count" /> 
+    <xsl:if test="$count &lt; 16">
+        <a href="javascript:void(0)" onclick="dale()">++</a>
+    </xsl:if>
+</div>
+</xsl:if>
 
 <xsl:for-each select="$query">
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
-<xsl:sort select="year" order="descending"/>
-<xsl:sort 
-           select="string-length(concat(substring-before($vMonthNames,substring-before(month,' ')), substring-before($vMonthNames,month)))" data-type="number" order="descending" />
-
+<xsl:sort select="authors/author" order="ascending"/>
 <!-- Paper box -->
-<div class="entry1">
+<div class="entry1" id="ATAMISHKY_{@name}">
 
 <xsl:choose>
     <xsl:when test="entrytype='misc' and substring-after(@name, substring-before(@name,'PATENT'))='PATENT'">
@@ -222,7 +292,7 @@
     <xsl:when test="entrytype='musica' or entrytype='MUSICA'">
 		<xsl:call-template name="printMusic" />
 	</xsl:when>
-	<xsl:when test="entrytype='musica' or entrytype='VIDEO'">
+	<xsl:when test="entrytype='video' or entrytype='VIDEO'">
 		<xsl:call-template name="printVideo" />
 	</xsl:when>
     <!--BASTA-->
@@ -239,7 +309,7 @@
 <!-- /bottomleft -->
 
 <div class="bottomright">
-<a href="javascript:void(0)" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" />mas info</a>
+<a href="javascript:void(0)" class="clicky" onclick="getEntryDetail('{@name}')"><img src="{$atamishkyhome}/img/more.jpg" class="moreButton" alt="toggle details" title="toggle details" />mas info</a>
 </div>
 
 <xsl:choose>
@@ -256,7 +326,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <div class="bibbody" id="bib{@name}" style="visbility:hidden;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
@@ -264,10 +334,12 @@
   </xsl:when>
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
-    <div class="entrybody" id="entrydetail{@name}">&#160;</div>
+    <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
+    <div class="entrybody" id="entrydetail{@name}" style="visbility:hidden;">&#160;</div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}">&#160;</div>
+    <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
+    <div class="bibbody" id="bib{@name}" style="visbility:hidden;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>
@@ -285,7 +357,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
     <!--<xsl:call-template name="printBiblio" />-->
 	<xsl:call-template name="printYear" />
 </xsl:template>
@@ -296,7 +369,8 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 <!--Videos-->
@@ -305,9 +379,10 @@
 	<xsl:apply-templates select="authors" />
 	<xsl:call-template name="printTitle" />
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
-    <!--<xsl:call-template name="printSoporte" />-->
+    <xsl:call-template name="printSoporte" />
 </xsl:template>
 <!--BASTA-->
 
@@ -318,7 +393,8 @@
     <!--<xsl:value-of select="howpublished" />,&#160;-->
     <!--</xsl:if>-->
 	<xsl:call-template name="printPublisher" />
-	<xsl:call-template name="printAddress" />
+    <!--<xsl:call-template name="printAddress" />-->
+	<xsl:apply-templates select="address" />
 	<xsl:call-template name="printYear" />
 </xsl:template>
 
@@ -369,19 +445,38 @@
 	</xsl:if>
 </xsl:template>
 
-<xsl:template name="printAddress">
-		<xsl:if test="address">
-            <a href="javascript:void(0)" onclick="showCategory('address','{address}')">
-            <xsl:value-of select="address" />
-            </a>.&#160;
-		</xsl:if>
+<!--Como puede haber mas de una ciudad, hay que hacer algo como esto para que funke-->
+<!--<xsl:template name="printAddress">-->
+<xsl:template match="address">
+    <xsl:choose>
+        <xsl:when test="count(city)=1">
+            <a href="javascript:void(0)" onclick="showCategory('address','{city}')"><xsl:value-of select="city"/></a>,&#160;
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:for-each select="city">
+                <a href="javascript:void(0)" onclick="showCategory('address','{.}')"><xsl:value-of select="."/></a>
+                <xsl:if test="position()  = last()">,&#160;</xsl:if>
+                <xsl:if test="position() != last()">-</xsl:if>
+            </xsl:for-each>
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:template>
+
+<!--<xsl:template name="printAddress">-->
+<!--<xsl:if test="address">-->
+<!--<a href="javascript:void(0)" onclick="showCategory('address','{address}')">-->
+<!--<xsl:value-of select="address" />-->
+<!--</a>.&#160;-->
+<!--</xsl:if>-->
+<!--</xsl:template>-->
 
 
 <!--Videos :: soporte (vhs|dvd)-->
 <xsl:template name="printSoporte">
 		<xsl:if test="soporte">
-			<xsl:value-of select="soporte" />,&#160;
+		    [<a href="javascript:void(0)" onclick="showCategory('soporte','{soporte}')">
+			<xsl:value-of select="soporte"/>
+            </a>].&#160;
 		</xsl:if>
 </xsl:template>
 

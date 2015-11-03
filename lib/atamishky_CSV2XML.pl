@@ -4,12 +4,15 @@
 # Transform a stupid csv into something even more stupid: XML !
 ######################################################################
 use strict;
+use utf8;
 use autodie;
 use feature             "say";
 use Getopt::Std;
 use Pod::Usage;
 use File::Slurp;
 use Text::Capitalize    "capitalize"; # ahorra algo de tiempo
+use Text::Language::Guess;
+use List::MoreUtils     qw( uniq any ); # FILTRAR TAGS, ahorra algo de tiempo.
 
 my %opts = ();
 getopts( 'hdcto:f:', \%opts );
@@ -27,12 +30,20 @@ my $padre_del_xml = 'entries';
 my $index     = 837;
 my $TUTTI_XML = '<' . $padre_del_xml . '>' . "\n";
 
+my @filter_tags = qw/según sobre hasta luego contra/;
+my $rgx_filter_tags = join (q'|', @filter_tags);
+
 # para codificar las entidades: funcionó mejor regexearlo que usar XML::Entities.
 my @entities_bare          = qw/&(?!\w{2,4};) " ' < >/;
 my @entities_bare_txt_pass = qw/& " ' < >/;
 my @entities_encoded       = qw/&amp; &quot; &apos; &lt; &gt;/;
 
 my $catalogo_txt = ''; # berreta.
+
+# esto va a ser usado despues para sacar el lenguaje.
+#my $guesser = Text::Language::Guess->new(languages =>['es','en','it','de']);
+my $guesser = Text::Language::Guess->new(languages =>['es','en', 'fr']);
+
 
 foreach my $ln_csv_raw (@csv_lns){
 #saltearse la linea de encabezados.
@@ -44,21 +55,23 @@ foreach my $ln_csv_raw (@csv_lns){
 
 #Estos campos son directos.
     my $tipo            = $campos[0];
-    my $titulo          = $campos[1];
+    my $titulo          = sacar_punto_del_final($campos[1]);
     my $editorial       = $campos[3] || "none";
     my $agno            = $campos[4] || "none";
-    my $city            = $campos[5];
+    my $city            = do_city($campos[5]);
 
 #estos necesitan atencion
     my $bibliografia    = $campos[6] || "none";
     my $link            = $campos[7] || "none";
     my $soporte         = $campos[8] || "none";
     my $descripcion     = $campos[9] || "none";
+    my $lenguaje        = $campos[10] || "pipo";
+    my $pag_capi        = $campos[11] || "none";
 
 #salida a un mugroso txt.
 #author . titulo . editorial . ciudad , año
     my $autores_txt = $campos[2];
-    my $catalogo_txt_add = join('. ',$autores_txt,$titulo,$editorial,$city);
+    my $catalogo_txt_add = join('. ',$autores_txt,$titulo,$editorial,$campos[5]);
     $catalogo_txt_add .= ', ' . $agno . '.';
     $catalogo_txt .= decode_some_shitty_entities($catalogo_txt_add);
     $catalogo_txt .= "\n";
@@ -89,6 +102,10 @@ foreach my $ln_csv_raw (@csv_lns){
         my $tapv = "\t" . '<publisher>' . $editorial . '</publisher>' . "\n";
         $editorial = $tapv;
     }
+    unless ( $pag_capi eq 'none' ) {
+        my $taput = "\t" . '<pages>' . $pag_capi. '</pages>' . "\n";
+        $pag_capi = $taput;
+    }
 
 #son keywords todas las palabras del titulo de mas de 4 letras.
     my $keywords = make_keywords($titulo);
@@ -105,7 +122,7 @@ my $esqueleto_entry =
     <entrytype>@@TIPO@@</entrytype>
     <title>@@TITULO@@</title>
     @@AGNO@@
-    <address>@@CIUDAD@@</address>
+    @@CIUDAD@@
     @@EDITORIAL@@
     @@KEYWORDS@@
     @@AUTORES@@
@@ -113,11 +130,26 @@ my $esqueleto_entry =
     @@LINK@@
     @@SOPORTE@@
     @@DESCRIPCION@@
+    <lang>@@LANG@@</lang>
+    @@PAGINAS@@
 </entry>
 ';
    
    $esqueleto_entry =~ s/\@\@NOMBRE\@\@/$nombre/gi; 
    $esqueleto_entry =~ s/\@\@TITULO\@\@/$titulo/gi; 
+
+   #sacar el lenguaje desde el titulo.
+if ( $lenguaje eq 'pipo' ) {
+    my $pre_lang = $guesser->language_guess_string($titulo);
+    if ( $pre_lang =~ /es/ ) {
+        $lenguaje = 'español';
+    } elsif ( $pre_lang =~ /fr/ ) {
+        $lenguaje = 'francés';
+    } else {
+        $lenguaje = 'inglés';
+    }
+}
+   
    $esqueleto_entry =~ s/\@\@TIPO\@\@/$tipo/gi; 
    $esqueleto_entry =~ s/\@\@AGNO\@\@/$agno/gi; 
    $esqueleto_entry =~ s/\@\@CIUDAD\@\@/$city/gi; 
@@ -128,6 +160,8 @@ my $esqueleto_entry =
    $esqueleto_entry =~ s/\@\@KEYWORDS\@\@/$keywords/gi;
    $esqueleto_entry =~ s/\@\@SOPORTE\@\@/$soporte/gi;
    $esqueleto_entry =~ s/\@\@DESCRIPCION\@\@/$descripcion/gi;
+   $esqueleto_entry =~ s/\@\@LANG\@\@/$lenguaje/gi;
+   $esqueleto_entry =~ s/\@\@PAGINAS\@\@/$pag_capi/gi;
 
    $esqueleto_entry =~ s/none//gi; # Esto vuela las etiquetas vacias.
    
@@ -167,7 +201,8 @@ sub ayudas {
 
 sub make_keywords {
     my $t = shift;
-    my @palabras = grep { length > 4 } split ' ', $t;
+    # Evitar repeticiones de tags aka keywords.
+    my @palabras = uniq ( grep { length > 4 } split ' ', $t );
     my $gf = '<keywords>' . "\n";
     foreach my $gypa (@palabras){
         my $gy = lc($gypa);
@@ -179,6 +214,17 @@ sub make_keywords {
         $gy =~ s/\;$//g;
         $gy =~ s/\:$//g;
         $gy =~ s/\.$//g;
+        $gy =~ s/\.+//g;
+        # Agregado: sacar caracteres innecesarios y numeros
+        $gy =~ s/\(//g;
+        $gy =~ s/\)//g;
+        $gy =~ s/\-//g;
+        $gy =~ s/\d+//g;
+        # Agregado: comprobar nuevamente si la longitud sigue siendo > 4
+        next if (length($gy) <= 4);
+        # Agregado sacar preposiciónes
+        next if ($gy =~ /$rgx_filter_tags/g);
+        next if ( any { $gf =~ m/$gy/i } @palabras ); # quiere decir que esta repetido o casi. 
         my $str = "\t" . '<keyword>' . $gy . '</keyword>' . "\n"; 
         $gf .= $str;
     }
@@ -189,18 +235,19 @@ sub make_keywords {
 sub make_authors {
     my $st = shift; 
     my @autores = split /; /, $st;
-    my $finalputos = '<authors>'  . "\n";
+    my $finalenjutos = '<authors>'  . "\n";
     foreach my $au (@autores){
         chomp($au);
         lc($au);
         capitalize($au);
         $au =~ s/^ //g;
         $au =~ s/ $//g;
+        $au =~ s/\.$//g;
         my $uylaputa = "\t" . '<author>' . $au . '</author>' . "\n";
-        $finalputos .= $uylaputa;
+        $finalenjutos .= $uylaputa;
     }
-    $finalputos .= "\t" . '</authors>';
-    return $finalputos;   
+    $finalenjutos .= "\t" . '</authors>';
+    return $finalenjutos;   
 }
 
 sub compactar {
@@ -225,6 +272,37 @@ sub decode_some_shitty_entities {
         $stringy =~ s/$entities_encoded[$ni]/$entities_bare_txt_pass[$ni]/gie;
     }
     return $stringy;
+}
+
+sub sacar_punto_del_final{
+    my $sting = shift;
+    $sting =~ s/\.$//g;
+    return $sting;
+}
+
+
+sub sacar_comillas_ampersands{
+    my $r = shift;
+    $r =~ s/\'/ /g;
+    $r =~ s/\&/y/g;
+    return $r;
+}
+
+sub do_city{
+    my $innie = shift;
+    my @ciudades = split /\./, $innie;
+    if ($#ciudades < 0){
+        return "none";
+    }
+    my $outing = '<address>' . "\n";
+    foreach my $c (@ciudades){
+        $c =~ s/^ //g;
+        $c =~ s/ $//g;
+        my $cc = "\t" . '<city>' . $c . '</city>' . "\n";
+        $outing .= $cc;
+    }
+    $outing .= '</address>' . "\n";
+    return $outing;
 }
 
 =pod
@@ -268,6 +346,8 @@ El archivo csv tiene que respetar en su encabezado, el siguiente orden:
 * link
 * soporte
 * descripcion
+* idioma
+* paginas-capitulos.
 
 Los valores en todo el csv se separan con la pipa B<|>.
 
