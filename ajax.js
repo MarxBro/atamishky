@@ -435,8 +435,9 @@ function done(pub) {
         url_p  += "&sid="+Math.random();
         xmlHttp.onreadystatechange=function(){ 
             if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                // Hay que recargar para ver los nuevos prestamos... lamentablemente.
+                /*Cuando se presta un item, redireccionar al index. -NO-*/
                 /*window.location = url; */
+                /*Cuando se presta un item, mostrar todos los préstamos actuales.*/
                 getprs_items();
             }                
         };
