@@ -430,7 +430,7 @@ function prestar(pub) {
 
 function done(pub) { 
     /*document.getElementById("popup").style.display = "none"; */
-    hide_bibtex_div();
+    hide_bibtex_div(pub);
     var pd = document.getElementById("pass").value;
     console.log(pd);
     if (pd != null){
