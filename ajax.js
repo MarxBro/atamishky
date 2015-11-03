@@ -419,17 +419,13 @@ function stateChangedKeywords_prs(){
     } 
 }
 function prestar(pub) {
-    /*el div donde pedir el passwd.*/
     var nombre_div = 'bib' + pub;
-    /*el codigo para promptear el passwd.*/
     var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
         '\'' + pub + '\'' + ')">OK</button></div>';
     document.getElementById(nombre_div).innerHTML = inputin;
     document.getElementById(nombre_div).style.visibility="visible";
 }
-
 function done(pub) { 
-    /*document.getElementById("popup").style.display = "none"; */
     var pd = document.getElementById("pass").value;
     hide_bibtex_div(pub);
     console.log(pd);
@@ -441,7 +437,8 @@ function done(pub) {
         url_p  += "&sid="+Math.random();
         xmlHttp.onreadystatechange=function(){ 
             if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                window.location = url;
+                // Hay que recargar para ver los nuevos prestamos... lamentablemente.
+                window.location = url; 
             }                
         };
         xmlHttp.open("GET",url_p,true);
