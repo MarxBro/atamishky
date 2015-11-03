@@ -54,8 +54,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </xsl:if>
         <xsl:if test="soporte">
             <xsl:value-of select="soporte" />
-            </pre>
         </xsl:if>
+            </pre>
         </body></html>
 	</description>
     	</item>
