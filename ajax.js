@@ -420,7 +420,7 @@ function stateChangedKeywords_prs(){
 }
 function prestar(pub) {
     /*el div donde pedir el passwd.*/
-    var nombre_div = 'bibbook' + pub;
+    var nombre_div = 'bib' + pub;
     /*el codigo para promptear el passwd.*/
     var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
         '\'' + pub + '\'' + ')">Done</button></div>';
