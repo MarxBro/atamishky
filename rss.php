@@ -1,6 +1,6 @@
 <?php
 include_once "functions.inc.php";
-include_once "atamishky.conf.inc.php";
+include_once "user.conf.inc.php";
 
 $xmlfile                    ='catalogo.xml';
 $xslfile                    ='lib/rss.xsl';
