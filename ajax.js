@@ -419,7 +419,18 @@ function stateChangedKeywords_prs(){
     } 
 }
 function prestar(pub) {
-    var pd = prompt("Escriba la contraseña a continuación:");
+    /*el div donde pedir el passwd.*/
+    var nombre_div = 'bibbook' + pub;
+    /*el codigo para promptear el passwd.*/
+    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
+        '\'' + pub + '\'' + ')">Done</button></div>';
+    nombre_div.innerHTML = inputin;
+}
+
+function done(pub) { 
+    document.getElementById("popup").style.display = "none"; 
+    hide_bibtex_div();
+    var pd = document.getElementById("pass").value;
     if (pd != null){
         var url =  atamishky_home_dir;
         url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
@@ -433,5 +444,4 @@ function prestar(pub) {
         xmlHttp.open("GET",url_p,true);
         xmlHttp.send(null);
     }
-}
-
+};
