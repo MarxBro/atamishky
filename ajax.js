@@ -425,13 +425,16 @@ function prestar(pub) {
     var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
         '\'' + pub + '\'' + ')">Done</button></div>';
     document.getElementById(nombre_div).innerHTML = inputin;
+    document.getElementById(nombre_div).style.visibility="visible";
 }
 
 function done(pub) { 
-    document.getElementById("popup").style.display = "none"; 
+    /*document.getElementById("popup").style.display = "none"; */
     hide_bibtex_div();
     var pd = document.getElementById("pass").value;
+    console.log(pd);
     if (pd != null){
+        console.log("llego aca.");
         var url =  atamishky_home_dir;
         url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
         url_p  += "&prestamo=" + pd;
