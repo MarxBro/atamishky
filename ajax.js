@@ -419,7 +419,15 @@ function stateChangedKeywords_prs(){
     } 
 }
 function prestar(pub) {
-    var pd = prompt("Escriba la contraseña a continuación:");
+    var nombre_div = 'bib' + pub;
+    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
+        '\'' + pub + '\'' + ')">OK</button></div>';
+    document.getElementById(nombre_div).innerHTML = inputin;
+    document.getElementById(nombre_div).style.visibility="visible";
+}
+function done(pub) { 
+    var pd = document.getElementById("pass").value;
+    hide_bibtex_div(pub);
     if (pd != null){
         var url =  atamishky_home_dir;
         url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
@@ -427,11 +435,11 @@ function prestar(pub) {
         url_p  += "&sid="+Math.random();
         xmlHttp.onreadystatechange=function(){ 
             if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-                window.location = url;
+                // Hay que recargar para ver los nuevos prestamos... lamentablemente.
+                window.location = url; 
             }                
         };
         xmlHttp.open("GET",url_p,true);
         xmlHttp.send(null);
     }
-}
-
+};

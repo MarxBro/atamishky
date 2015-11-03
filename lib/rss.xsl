@@ -39,23 +39,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             ;&#160;
             </h2>
         </xsl:for-each>
-	    <p>Tipo:<xsl:value-of select="entrytype"/></p>
-	    <p><xsl:value-of select="publisher"/>. 
-        <xsl:for-each select="address/city">
-            <xsl:value-of select="."/>
-            &#160;
-        </xsl:for-each>
-        <xsl:value-of select="year"/>.
-            </p>
-        <xsl:if test="link">
-            <p><xsl:value-of select="link"/></p>
-        </xsl:if>
-        <xsl:if test="description">
-            <p><xsl:value-of select="decripcion"/></p>
-        </xsl:if>
-        <xsl:if test="soporte">
-            <p><xsl:value-of select="soporte" /></p>
-        </xsl:if>
+	    <p><xsl:value-of select="entrytype"/></p>
+<pre><xsl:value-of select="publisher"/>.<xsl:for-each select="address/city"><xsl:value-of select="."/>&#160;</xsl:for-each><xsl:value-of select="year"/>.<xsl:if test="link"><xsl:value-of select="link"/></xsl:if><xsl:if test="description"><xsl:value-of select="decripcion"/></xsl:if><xsl:if test="soporte"><xsl:value-of select="soporte"/></xsl:if>
+            </pre>
         </body></html>
 	</description>
     	</item>
