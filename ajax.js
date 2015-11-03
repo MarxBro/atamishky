@@ -424,7 +424,7 @@ function prestar(pub) {
     /*el codigo para promptear el passwd.*/
     var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
         '\'' + pub + '\'' + ')">Done</button></div>';
-    document.getElementById("nombre_div").innerHTML = inputin;
+    document.getElementById(nombre_div).innerHTML = inputin;
 }
 
 function done(pub) { 
