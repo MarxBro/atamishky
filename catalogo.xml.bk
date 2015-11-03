@@ -33,7 +33,6 @@
 	<keyword>wagner</keyword>
 	<keyword>mahler</keyword>
 	<keyword>fisionomía</keyword>
-	<keyword>musical</keyword>
 	<keyword>maestro</keyword>
 	<keyword>transición</keyword>
 	<keyword>mínima</keyword>
@@ -625,7 +624,7 @@
 	<author>Bourriaud, Nicolás</author>
 	</authors>
     	<bibliografia>Bibliografía Específica de la carrera</bibliografia>
-    	<link>http://200.61.152.38/Bourriaud_Postproduccion.pdf</link>
+    	<link>Disponible</link>
     <lang>es</lang>
 </entry>
 <entry name="book2015-870">
@@ -3939,7 +3938,7 @@
 	<author>Colección</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>inglés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="musica2015-1041">
     <entrytype>musica</entrytype>
@@ -4108,7 +4107,7 @@
 	<author>Barboza, Raúl</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="musica2015-1048">
     <entrytype>musica</entrytype>
@@ -4231,7 +4230,7 @@
 	<author>Boulez, Pierre</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>español</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="musica2015-1054">
     <entrytype>musica</entrytype>
@@ -4366,7 +4365,7 @@
 	<author>Kenneth</author>
 	</authors>
     	<bibliografia>Cdteca</bibliografia>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="musica2015-1060">
     <entrytype>musica</entrytype>
@@ -4406,8 +4405,6 @@
 	<keyword>ravel</keyword>
 	<keyword>complete</keyword>
 	<keyword>music</keyword>
-	<keyword>piano</keyword>
-	<keyword>complete</keyword>
 	<keyword>piano</keyword>
 	<keyword>concertos</keyword>
 	</keywords>
@@ -4584,7 +4581,6 @@
 	<keyword>música</keyword>
 	<keyword>jornadas</keyword>
 	<keyword>argentinas</keyword>
-	<keyword>música</keyword>
 	<keyword>contemporánea</keyword>
 	<keyword>investigación</keyword>
 	</keywords>
@@ -4657,7 +4653,6 @@
 	<keyword>premiadas</keyword>
 	<keyword>concurso</keyword>
 	<keyword>universitario</keyword>
-	<keyword>composición</keyword>
 	<keyword>musical</keyword>
 	</keywords>
     <authors>
@@ -4896,7 +4891,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1085">
     <entrytype>video</entrytype>
@@ -4985,7 +4980,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1090">
     <entrytype>video</entrytype>
@@ -5017,7 +5012,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>inglés</lang>
 </entry>
 <entry name="video2015-1092">
     <entrytype>video</entrytype>
@@ -5303,7 +5298,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1108">
     <entrytype>video</entrytype>
@@ -5370,7 +5365,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1112">
     <entrytype>video</entrytype>
@@ -5462,7 +5457,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1117">
     <entrytype>video</entrytype>
@@ -5480,7 +5475,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1118">
     <entrytype>video</entrytype>
@@ -5764,7 +5759,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1134">
     <entrytype>video</entrytype>
@@ -5817,7 +5812,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1137">
     <entrytype>video</entrytype>
@@ -5833,7 +5828,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1138">
     <entrytype>video</entrytype>
@@ -5905,7 +5900,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1142">
     <entrytype>video</entrytype>
@@ -5999,7 +5994,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1147">
     <entrytype>video</entrytype>
@@ -6192,7 +6187,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1158">
     <entrytype>video</entrytype>
@@ -6281,7 +6276,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1163">
     <entrytype>video</entrytype>
@@ -6315,7 +6310,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1165">
     <entrytype>video</entrytype>
@@ -6350,7 +6345,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1167">
     <entrytype>video</entrytype>
@@ -6708,7 +6703,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1187">
     <entrytype>video</entrytype>
@@ -6743,7 +6738,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1189">
     <entrytype>video</entrytype>
@@ -6907,7 +6902,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1198">
     <entrytype>video</entrytype>
@@ -7016,7 +7011,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1204">
     <entrytype>video</entrytype>
@@ -7088,7 +7083,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1208">
     <entrytype>video</entrytype>
@@ -7138,7 +7133,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1211">
     <entrytype>video</entrytype>
@@ -7192,7 +7187,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1214">
     <entrytype>video</entrytype>
@@ -7311,7 +7306,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1221">
     <entrytype>video</entrytype>
@@ -7328,7 +7323,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1222">
     <entrytype>video</entrytype>
@@ -7415,7 +7410,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1227">
     <entrytype>video</entrytype>
@@ -7450,7 +7445,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1229">
     <entrytype>video</entrytype>
@@ -7557,7 +7552,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1235">
     <entrytype>video</entrytype>
@@ -7946,7 +7941,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1257">
     <entrytype>video</entrytype>
@@ -8379,7 +8374,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1281">
     <entrytype>video</entrytype>
@@ -8757,7 +8752,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1302">
     <entrytype>video</entrytype>
@@ -9035,14 +9030,13 @@
 </address>
     <keywords>
 	<keyword>burgués…pequeño</keyword>
-	<keyword>pequeño</keyword>
 	</keywords>
     <authors>
 	<author>Monicelli, Mario</author>
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1318">
     <entrytype>video</entrytype>
@@ -9380,7 +9374,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1337">
     <entrytype>video</entrytype>
@@ -9398,7 +9392,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1338">
     <entrytype>video</entrytype>
@@ -9520,7 +9514,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1345">
     <entrytype>video</entrytype>
@@ -9590,7 +9584,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1349">
     <entrytype>video</entrytype>
@@ -9624,7 +9618,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1351">
     <entrytype>video</entrytype>
@@ -9641,7 +9635,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1352">
     <entrytype>video</entrytype>
@@ -9786,7 +9780,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1360">
     <entrytype>video</entrytype>
@@ -9824,7 +9818,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1362">
     <entrytype>video</entrytype>
@@ -9951,7 +9945,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1369">
     <entrytype>video</entrytype>
@@ -10007,7 +10001,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1372">
     <entrytype>video</entrytype>
@@ -10060,7 +10054,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1375">
     <entrytype>video</entrytype>
@@ -10080,7 +10074,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1376">
     <entrytype>video</entrytype>
@@ -10218,7 +10212,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1384">
     <entrytype>video</entrytype>
@@ -10538,7 +10532,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1402">
     <entrytype>video</entrytype>
@@ -10676,7 +10670,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1410">
     <entrytype>video</entrytype>
@@ -10958,7 +10952,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1426">
     <entrytype>video</entrytype>
@@ -10977,7 +10971,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1427">
     <entrytype>video</entrytype>
@@ -11010,7 +11004,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1429">
     <entrytype>video</entrytype>
@@ -11399,7 +11393,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1451">
     <entrytype>video</entrytype>
@@ -11416,7 +11410,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>francés</lang>
+    <lang>español</lang>
 </entry>
 <entry name="video2015-1452">
     <entrytype>video</entrytype>
@@ -11588,7 +11582,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1462">
     <entrytype>video</entrytype>
@@ -11623,7 +11617,7 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
-    <lang>español</lang>
+    <lang>francés</lang>
 </entry>
 <entry name="video2015-1464">
     <entrytype>video</entrytype>
@@ -11640,6 +11634,3228 @@
 	</authors>
     	<bibliografia>Videoteca</bibliografia>
     	<soporte>dvd</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1465">
+    <entrytype>video</entrytype>
+    <title>Dos extraños amantes</title>
+    	<year>1977</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>extraños</keyword>
+	<keyword>amantes</keyword>
+	</keywords>
+    <authors>
+	<author>Allen, Woody</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1466">
+    <entrytype>video</entrytype>
+    <title>Todos dicen te quiero</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>todos</keyword>
+	<keyword>dicen</keyword>
+	<keyword>quiero</keyword>
+	</keywords>
+    <authors>
+	<author>Allen, Woody</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1467">
+    <entrytype>video</entrytype>
+    <title>La flor de mi secreto</title>
+    	<year>1995</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>secreto</keyword>
+	</keywords>
+    <authors>
+	<author>Almodóvar, Pedro</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1468">
+    <entrytype>video</entrytype>
+    <title>Matador</title>
+    	<year>1986</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>matador</keyword>
+	</keywords>
+    <authors>
+	<author>Almodóvar, Pedro</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1469">
+    <entrytype>video</entrytype>
+    <title>Ciudad de Ángeles</title>
+    	<year>1993</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>ciudad</keyword>
+	<keyword>ángeles</keyword>
+	</keywords>
+    <authors>
+	<author>Altman, Robert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1470">
+    <entrytype>video</entrytype>
+    <title>La fortuna de Cookie</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fortuna</keyword>
+	<keyword>cookie</keyword>
+	</keywords>
+    <authors>
+	<author>Altman, Robert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1471">
+    <entrytype>video</entrytype>
+    <title>La emboscada</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+	<city>Alemania</city>
+</address>
+    <keywords>
+	<keyword>emboscada</keyword>
+	</keywords>
+    <authors>
+	<author>Amiel, Jon</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1472">
+    <entrytype>video</entrytype>
+    <title>Magnolia</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>magnolia</keyword>
+	</keywords>
+    <authors>
+	<author>Anderson, Paul Thomas</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1473">
+    <entrytype>video</entrytype>
+    <title>La mirada de Ulises</title>
+    	<year>1995</year>
+    <address>
+	<city>Grecia</city>
+</address>
+    <keywords>
+	<keyword>mirada</keyword>
+	<keyword>ulises</keyword>
+	</keywords>
+    <authors>
+	<author>Angelopoulos, Theo</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1474">
+    <entrytype>video</entrytype>
+    <title>El nombre de la rosa</title>
+    	<year>1986</year>
+    <address>
+	<city>Francia</city>
+	<city>Alemania</city>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>nombre</keyword>
+	</keywords>
+    <authors>
+	<author>Annaud, Jean-Jacques</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1475">
+    <entrytype>video</entrytype>
+    <title>Pelle el conquistador</title>
+    	<year>1987</year>
+    <address>
+	<city>Suecia</city>
+</address>
+    <keywords>
+	<keyword>pelle</keyword>
+	<keyword>conquistador</keyword>
+	</keywords>
+    <authors>
+	<author>August, Bille</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1476">
+    <entrytype>video</entrytype>
+    <title>Algo muy personal</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>personal</keyword>
+	</keywords>
+    <authors>
+	<author>Avnet, Jon</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1477">
+    <entrytype>video</entrytype>
+    <title>Nada más que problemas</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>problemas</keyword>
+	</keywords>
+    <authors>
+	<author>Aykroyd, Dan</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1478">
+    <entrytype>video</entrytype>
+    <title>Dick Tracy</title>
+    	<year>1990</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>tracy</keyword>
+	</keywords>
+    <authors>
+	<author>Beatty, Warren</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1479">
+    <entrytype>video</entrytype>
+    <title>Las cosas de la vida</title>
+    	<year>1994</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>cosas</keyword>
+	</keywords>
+    <authors>
+	<author>Benton, Robert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1480">
+    <entrytype>video</entrytype>
+    <title>Fanny y Alexander</title>
+    	<year>1982</year>
+    <address>
+	<city>Suecia</city>
+</address>
+    <keywords>
+	<keyword>fanny</keyword>
+	<keyword>alexander</keyword>
+	</keywords>
+    <authors>
+	<author>Bergman, Ingmar</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1481">
+    <entrytype>video</entrytype>
+    <title>Actos privados</title>
+    	<year>1994</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>actos</keyword>
+	<keyword>privados</keyword>
+	</keywords>
+    <authors>
+	<author>Bird, Antonia</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1482">
+    <entrytype>video</entrytype>
+    <title>Trainspotting</title>
+    	<year>1996</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>trainspotting</keyword>
+	</keywords>
+    <authors>
+	<author>Boyle, Danny</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1483">
+    <entrytype>video</entrytype>
+    <title>Romance</title>
+    	<year>1999</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>romance</keyword>
+	</keywords>
+    <authors>
+	<author>Breillat, Catherine</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1484">
+    <entrytype>video</entrytype>
+    <title>Marcianos al ataque</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>marcianos</keyword>
+	<keyword>ataque</keyword>
+	</keywords>
+    <authors>
+	<author>Burton, Tim</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1485">
+    <entrytype>video</entrytype>
+    <title>Titanic</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>titanic</keyword>
+	</keywords>
+    <authors>
+	<author>Cameron, James</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1486">
+    <entrytype>video</entrytype>
+    <title>Retrato de una dama</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>retrato</keyword>
+	</keywords>
+    <authors>
+	<author>Campion, Jane</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1487">
+    <entrytype>video</entrytype>
+    <title>Juan Nadie</title>
+    	<year>1940</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>nadie</keyword>
+	</keywords>
+    <authors>
+	<author>Capra, Frank</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1488">
+    <entrytype>video</entrytype>
+    <title>El negociador</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>negociador</keyword>
+	</keywords>
+    <authors>
+	<author>Carter, Thomas</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1489">
+    <entrytype>video</entrytype>
+    <title>El último padrino</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>último</keyword>
+	<keyword>padrino</keyword>
+	</keywords>
+    <authors>
+	<author>Clifford, Graeme</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1490">
+    <entrytype>video</entrytype>
+    <title>Barton Fink</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>barton</keyword>
+	</keywords>
+    <authors>
+	<author>Coen, Joel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1491">
+    <entrytype>video</entrytype>
+    <title>Fargo. El asombroso thriller de Joel y Ethan Coen</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fargo</keyword>
+	<keyword>asombroso</keyword>
+	<keyword>thriller</keyword>
+	<keyword>ethan</keyword>
+	</keywords>
+    <authors>
+	<author>Coen, Joel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1492">
+    <entrytype>video</entrytype>
+    <title>Barton Fink</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>barton</keyword>
+	</keywords>
+    <authors>
+	<author>Coen, Joel</author>
+	<author>Coen, Ethan</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1493">
+    <entrytype>video</entrytype>
+    <title>Candyman</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>candyman</keyword>
+	</keywords>
+    <authors>
+	<author>Condon, Bill</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1494">
+    <entrytype>video</entrytype>
+    <title>Dioses y monstruos</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>dioses</keyword>
+	<keyword>monstruos</keyword>
+	</keywords>
+    <authors>
+	<author>Condon, Bill</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1495">
+    <entrytype>video</entrytype>
+    <title>Golpe al Corazón</title>
+    	<year>1982</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>golpe</keyword>
+	<keyword>corazón</keyword>
+	</keywords>
+    <authors>
+	<author>Coppola, Francis Ford</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1496">
+    <entrytype>video</entrytype>
+    <title>Z</title>
+    	<year>1969</year>
+    <address>
+	<city>Francia</city>
+	<city>Argelia</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Costa-Gavras</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1497">
+    <entrytype>video</entrytype>
+    <title>Sueño de libertad</title>
+    	<year>1994</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>sueño</keyword>
+	<keyword>libertad</keyword>
+	</keywords>
+    <authors>
+	<author>Darabont, Frank</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1498">
+    <entrytype>video</entrytype>
+    <title>El fugitivo</title>
+    	<year>1993</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fugitivo</keyword>
+	</keywords>
+    <authors>
+	<author>Davis, Andrew</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1499">
+    <entrytype>video</entrytype>
+    <title>Un crimen perfecto</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>crimen</keyword>
+	<keyword>perfecto</keyword>
+	</keywords>
+    <authors>
+	<author>Davis, Andrew</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1500">
+    <entrytype>video</entrytype>
+    <title>Viaje al principio del mundo</title>
+    	<year>1997</year>
+    <address>
+	<city>Portugal</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>viaje</keyword>
+	<keyword>principio</keyword>
+	<keyword>mundo</keyword>
+	</keywords>
+    <authors>
+	<author>De Oliveira, Manoel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1501">
+    <entrytype>video</entrytype>
+    <title>El fantasma del paraíso</title>
+    	<year>1974</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fantasma</keyword>
+	<keyword>paraíso</keyword>
+	</keywords>
+    <authors>
+	<author>De Palma, Brian</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1502">
+    <entrytype>video</entrytype>
+    <title>El silencio de los inocentes</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>silencio</keyword>
+	<keyword>inocentes</keyword>
+	</keywords>
+    <authors>
+	<author>Demme, Jonathan</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1503">
+    <entrytype>video</entrytype>
+    <title>La fuga</title>
+    	<year>1994</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Donaldson, Roger</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1504">
+    <entrytype>video</entrytype>
+    <title>Sirens</title>
+    	<year>1994</year>
+    <address>
+	<city>Australia</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>sirens</keyword>
+	</keywords>
+    <authors>
+	<author>Duigan, John</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1505">
+    <entrytype>video</entrytype>
+    <title>Historia General del Arte. Grandes genios de la pintura. Velázquez-Rembrandt. Nº1</title>
+    	<year>1997</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>historia</keyword>
+	<keyword>general</keyword>
+	<keyword>grandes</keyword>
+	<keyword>genios</keyword>
+	<keyword>pintura</keyword>
+	<keyword>velázquezrembrandt</keyword>
+	</keywords>
+    <authors>
+	<author>Ediciones del Prado</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1506">
+    <entrytype>video</entrytype>
+    <title>Historia General del Arte. Grandes genios de la pintura. Vermeer-Van Eyck. Nº3</title>
+    	<year>1997</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>historia</keyword>
+	<keyword>general</keyword>
+	<keyword>grandes</keyword>
+	<keyword>genios</keyword>
+	<keyword>pintura</keyword>
+	<keyword>vermeervan</keyword>
+	</keywords>
+    <authors>
+	<author>Ediciones del Prado</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1507">
+    <entrytype>video</entrytype>
+    <title>Historia General del Arte. Grandes genios de la pintura. De La Tour. Nº7</title>
+    	<year>1997</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>historia</keyword>
+	<keyword>general</keyword>
+	<keyword>grandes</keyword>
+	<keyword>genios</keyword>
+	<keyword>pintura</keyword>
+	</keywords>
+    <authors>
+	<author>Ediciones del Prado</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1508">
+    <entrytype>video</entrytype>
+    <title>El mono</title>
+    	<year>1993</year>
+    <address>
+	<city>Argentina</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Favio, Leonardo</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1509">
+    <entrytype>video</entrytype>
+    <title>Giulietta de los Espiritus</title>
+    	<year>1965</year>
+    <address>
+	<city>Italia</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>giulietta</keyword>
+	<keyword>espiritus</keyword>
+	</keywords>
+    <authors>
+	<author>Fellini, Federico</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1510">
+    <entrytype>video</entrytype>
+    <title>The blackout</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>blackout</keyword>
+	</keywords>
+    <authors>
+	<author>Ferrara, Abel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1511">
+    <entrytype>video</entrytype>
+    <title>Pecados capitales</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>pecados</keyword>
+	<keyword>capitales</keyword>
+	</keywords>
+    <authors>
+	<author>Fincher, David</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1512">
+    <entrytype>video</entrytype>
+    <title>Lo que el viento se llevó</title>
+    	<year>1939</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>viento</keyword>
+	<keyword>llevó</keyword>
+	</keywords>
+    <authors>
+	<author>Fleming, Victor</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1513">
+    <entrytype>video</entrytype>
+    <title>Un día para recordar</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>recordar</keyword>
+	</keywords>
+    <authors>
+	<author>Foley, James</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1514">
+    <entrytype>video</entrytype>
+    <title>Los marginados</title>
+    	<year>1983</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>marginados</keyword>
+	</keywords>
+    <authors>
+	<author>Ford Coppola, Francis</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1515">
+    <entrytype>video</entrytype>
+    <title>Amadeus</title>
+    	<year>1984</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>amadeus</keyword>
+	</keywords>
+    <authors>
+	<author>Forman, Milos</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1516">
+    <entrytype>video</entrytype>
+    <title>Atrapado sin salida</title>
+    	<year>1975</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>atrapado</keyword>
+	<keyword>salida</keyword>
+	</keywords>
+    <authors>
+	<author>Forman, Milos</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1517">
+    <entrytype>video</entrytype>
+    <title>Cabaret</title>
+    	<year>1972</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>cabaret</keyword>
+	</keywords>
+    <authors>
+	<author>Fosse, Bob</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1518">
+    <entrytype>video</entrytype>
+    <title>La isla del Dr. Moreau</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>moreau</keyword>
+	</keywords>
+    <authors>
+	<author>Frankenheimer, John</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1519">
+    <entrytype>video</entrytype>
+    <title>Contacto en Francia</title>
+    	<year>1971</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>contacto</keyword>
+	<keyword>francia</keyword>
+	</keywords>
+    <authors>
+	<author>Friedkin, William</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1520">
+    <entrytype>video</entrytype>
+    <title>Corazón valiente</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>corazón</keyword>
+	<keyword>valiente</keyword>
+	</keywords>
+    <authors>
+	<author>Gibson, Mel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1521">
+    <entrytype>video</entrytype>
+    <title>Amigas para siempre</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>amigas</keyword>
+	<keyword>siempre</keyword>
+	</keywords>
+    <authors>
+	<author>Glatter, Lesli Linka</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1522">
+    <entrytype>video</entrytype>
+    <title>Memorias de Antonia</title>
+    	<year>1995</year>
+    <address>
+	<city>Holanda</city>
+	<city>Bélgica</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>memorias</keyword>
+	<keyword>antonia</keyword>
+	</keywords>
+    <authors>
+	<author>Gorris, Marleen</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1523">
+    <entrytype>video</entrytype>
+    <title>La Tempestad</title>
+    	<year>1991</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>tempestad</keyword>
+	</keywords>
+    <authors>
+	<author>Greenaway, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1524">
+    <entrytype>video</entrytype>
+    <title>Guantanamera</title>
+    	<year>1994</year>
+    <address>
+	<city>Cuba</city>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>guantanamera</keyword>
+	</keywords>
+    <authors>
+	<author>Gutiérrez Alea, Tomás</author>
+	<author>Tabío Juan Carlos</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1525">
+    <entrytype>video</entrytype>
+    <title>Ángeles e insectos</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>ángeles</keyword>
+	<keyword>insectos</keyword>
+	</keywords>
+    <authors>
+	<author>Haas, Philip</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1526">
+    <entrytype>video</entrytype>
+    <title>Los ángeles al desnudo</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>ángeles</keyword>
+	<keyword>desnudo</keyword>
+	</keywords>
+    <authors>
+	<author>Hanson, Curtis</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1527">
+    <entrytype>video</entrytype>
+    <title>El largo beso del adios</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>largo</keyword>
+	<keyword>adios</keyword>
+	</keywords>
+    <authors>
+	<author>Harlin, Renny</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1528">
+    <entrytype>video</entrytype>
+    <title>Los caballeros las prefieren rubias</title>
+    	<year>1953</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>caballeros</keyword>
+	<keyword>prefieren</keyword>
+	<keyword>rubias</keyword>
+	</keywords>
+    <authors>
+	<author>Hawks, Howard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1529">
+    <entrytype>video</entrytype>
+    <title>Luna nueva</title>
+    	<year>1940</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>nueva</keyword>
+	</keywords>
+    <authors>
+	<author>Hawks, Howard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1530">
+    <entrytype>video</entrytype>
+    <title>Querido maestro</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>querido</keyword>
+	<keyword>maestro</keyword>
+	</keywords>
+    <authors>
+	<author>Herek, Stephen</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1531">
+    <entrytype>video</entrytype>
+    <title>Tocando el viento</title>
+    	<year>1996</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>tocando</keyword>
+	<keyword>viento</keyword>
+	</keywords>
+    <authors>
+	<author>Herman, Mark</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1532">
+    <entrytype>video</entrytype>
+    <title>Nadie vive demasiado</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>nadie</keyword>
+	<keyword>demasiado</keyword>
+	</keywords>
+    <authors>
+	<author>Herzfeld, John</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1533">
+    <entrytype>video</entrytype>
+    <title>El golpe</title>
+    	<year>1973</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>golpe</keyword>
+	</keywords>
+    <authors>
+	<author>Hill, George Roy</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1534">
+    <entrytype>video</entrytype>
+    <title>Entre dos fuegos</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>entre</keyword>
+	<keyword>fuegos</keyword>
+	</keywords>
+    <authors>
+	<author>Hill, Walter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1535">
+    <entrytype>video</entrytype>
+    <title>Atormentada</title>
+    	<year>1949</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>atormentada</keyword>
+	</keywords>
+    <authors>
+	<author>Hitchcock, Alfred</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1536">
+    <entrytype>video</entrytype>
+    <title>El casamiento de Muriel</title>
+    	<year>1994</year>
+    <address>
+	<city>Australia</city>
+</address>
+    <keywords>
+	<keyword>casamiento</keyword>
+	<keyword>muriel</keyword>
+	</keywords>
+    <authors>
+	<author>Hogan, P.J</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1537">
+    <entrytype>video</entrytype>
+    <title>El fuego y la sombra</title>
+    	<year>1995</year>
+    <address>
+	<city>Inglaterra</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>fuego</keyword>
+	<keyword>sombra</keyword>
+	</keywords>
+    <authors>
+	<author>Holland, Christopher</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1538">
+    <entrytype>video</entrytype>
+    <title>Alto Riesgo</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>riesgo</keyword>
+	</keywords>
+    <authors>
+	<author>Hooks, Kevin</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1539">
+    <entrytype>video</entrytype>
+    <title>Buscando mi destino</title>
+    	<year>1969</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>buscando</keyword>
+	<keyword>destino</keyword>
+	</keywords>
+    <authors>
+	<author>Hopper, Dennis</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1540">
+    <entrytype>video</entrytype>
+    <title>Apolo 13</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>apolo</keyword>
+	</keywords>
+    <authors>
+	<author>Howard, Ron</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1541">
+    <entrytype>video</entrytype>
+    <title>Carrozas de fuego</title>
+    	<year>1981</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>carrozas</keyword>
+	<keyword>fuego</keyword>
+	</keywords>
+    <authors>
+	<author>Hudson, Hugh</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1542">
+    <entrytype>video</entrytype>
+    <title>Sicilia!</title>
+    	<year>1998</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>sicilia!</keyword>
+	</keywords>
+    <authors>
+	<author>Huillet, Daniele, Straub, Jean-Marie</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1543">
+    <entrytype>video</entrytype>
+    <title>El día final</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>final</keyword>
+	</keywords>
+    <authors>
+	<author>Hyams, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1544">
+    <entrytype>video</entrytype>
+    <title>Jefferson en París</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>jefferson</keyword>
+	<keyword>parís</keyword>
+	</keywords>
+    <authors>
+	<author>Ivory, James</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1545">
+    <entrytype>video</entrytype>
+    <title>Un amor en Florencia</title>
+    	<year>1986</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>florencia</keyword>
+	</keywords>
+    <authors>
+	<author>Ivory, James</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1546">
+    <entrytype>video</entrytype>
+    <title>Criaturas Celestiales</title>
+    	<year>1994</year>
+    <address>
+	<city>Nueva Zelanda</city>
+</address>
+    <keywords>
+	<keyword>criaturas</keyword>
+	<keyword>celestiales</keyword>
+	</keywords>
+    <authors>
+	<author>Jackson, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1547">
+    <entrytype>video</entrytype>
+    <title>Anges et bourreaux</title>
+    	<year>1998</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>anges</keyword>
+	<keyword>bourreaux</keyword>
+	</keywords>
+    <authors>
+	<author>Jaubert, Alain</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1548">
+    <entrytype>video</entrytype>
+    <title>Los gritos del silencio</title>
+    	<year>1984</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>gritos</keyword>
+	<keyword>silencio</keyword>
+	</keywords>
+    <authors>
+	<author>Joffé, Roland</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1549">
+    <entrytype>video</entrytype>
+    <title>El juego de las lágrimas</title>
+    	<year>1992</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>juego</keyword>
+	<keyword>lágrimas</keyword>
+	</keywords>
+    <authors>
+	<author>Jordan, Neil</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1550">
+    <entrytype>video</entrytype>
+    <title>Adios mi concubina</title>
+    	<year>1993</year>
+    <address>
+	<city>China</city>
+</address>
+    <keywords>
+	<keyword>adios</keyword>
+	<keyword>concubina</keyword>
+	</keywords>
+    <authors>
+	<author>Kaige, Chen</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1551">
+    <entrytype>video</entrytype>
+    <title>De amor y de sombra</title>
+    	<year>1994</year>
+    <address>
+	<city>Argentina</city>
+	<city>EUA</city>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>sombra</keyword>
+	</keywords>
+    <authors>
+	<author>Kaplan, Betty</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1552">
+    <entrytype>video</entrytype>
+    <title>Quiero decirte que te amo</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>quiero</keyword>
+	<keyword>decirte</keyword>
+	</keywords>
+    <authors>
+	<author>Kasdan, Lawrence</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1553">
+    <entrytype>video</entrytype>
+    <title>Bleu</title>
+    	<year>1993</year>
+    <address>
+	<city>Francia</city>
+	<city>Polonia</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Kieslowski, Krzysztof</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1554">
+    <entrytype>video</entrytype>
+    <title>Los fabulosos Baker Boys</title>
+    	<year>1989</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fabulosos</keyword>
+	<keyword>baker</keyword>
+	</keywords>
+    <authors>
+	<author>Kloves, Steve</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1555">
+    <entrytype>video</entrytype>
+    <title>Perfect Blue</title>
+    	<year>1997</year>
+    <address>
+	<city>Japón</city>
+</address>
+    <keywords>
+	<keyword>perfect</keyword>
+	</keywords>
+    <authors>
+	<author>Kon, Satoshi</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1556">
+    <entrytype>video</entrytype>
+    <title>Cumbres borrascosas</title>
+    	<year>1992</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>cumbres</keyword>
+	<keyword>borrascosas</keyword>
+	</keywords>
+    <authors>
+	<author>Kosminsky, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1557">
+    <entrytype>video</entrytype>
+    <title>Rapsodia en agosto</title>
+    	<year>1991</year>
+    <address>
+	<city>Japón</city>
+</address>
+    <keywords>
+	<keyword>rapsodia</keyword>
+	<keyword>agosto</keyword>
+	</keywords>
+    <authors>
+	<author>Kurosawa, Akira</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1558">
+    <entrytype>video</entrytype>
+    <title>El globo rojo</title>
+    	<year>1956</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>globo</keyword>
+	</keywords>
+    <authors>
+	<author>Lamorisse, Albert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1559">
+    <entrytype>video</entrytype>
+    <title>Doctor Zhivago</title>
+    	<year>1965</year>
+    <address>
+	<city>EUA</city>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>doctor</keyword>
+	<keyword>zhivago</keyword>
+	</keywords>
+    <authors>
+	<author>Lean, David</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1560">
+    <entrytype>video</entrytype>
+    <title>Los profesionales</title>
+    	<year>1997</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>profesionales</keyword>
+	</keywords>
+    <authors>
+	<author>Leconte, Patrice</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1561">
+    <entrytype>video</entrytype>
+    <title>Secretos y mentiras</title>
+    	<year>1996</year>
+    <address>
+	<city>Francia</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>secretos</keyword>
+	<keyword>mentiras</keyword>
+	</keywords>
+    <authors>
+	<author>Leigh, Mike</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1562">
+    <entrytype>video</entrytype>
+    <title>Érase una vez en el oeste</title>
+    	<year>1968</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>érase</keyword>
+	<keyword>oeste</keyword>
+	</keywords>
+    <authors>
+	<author>Leone, Sergio</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1563">
+    <entrytype>video</entrytype>
+    <title>Don Juan de Marco</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>marco</keyword>
+	</keywords>
+    <authors>
+	<author>Leven, Jeremy</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1564">
+    <entrytype>video</entrytype>
+    <title>Mentiras que matan</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>mentiras</keyword>
+	<keyword>matan</keyword>
+	</keywords>
+    <authors>
+	<author>Levinson, Barry</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1565">
+    <entrytype>video</entrytype>
+    <title>Rain Man</title>
+    	<year>1988</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Levinson, Barry</author>
+	<author>Hoffman, Dustin</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1566">
+    <entrytype>video</entrytype>
+    <title>Antes del atardecer</title>
+    	<year>2004</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>antes</keyword>
+	<keyword>atardecer</keyword>
+	</keywords>
+    <authors>
+	<author>Linklater, Richard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1567">
+    <entrytype>video</entrytype>
+    <title>Tierra y libertad</title>
+    	<year>1995</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>tierra</keyword>
+	<keyword>libertad</keyword>
+	</keywords>
+    <authors>
+	<author>Loach, Ken</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1568">
+    <entrytype>video</entrytype>
+    <title>Ricardo III</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>ricardo</keyword>
+	</keywords>
+    <authors>
+	<author>Loncraine, Richard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1569">
+    <entrytype>video</entrytype>
+    <title>Fuera de control</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>fuera</keyword>
+	<keyword>control</keyword>
+	</keywords>
+    <authors>
+	<author>Longo, Robert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1570">
+    <entrytype>video</entrytype>
+    <title>Carretera perdida</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>carretera</keyword>
+	<keyword>perdida</keyword>
+	</keywords>
+    <authors>
+	<author>Lynch, David</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1571">
+    <entrytype>video</entrytype>
+    <title>El hombre elefante</title>
+    	<year>1980</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>hombre</keyword>
+	<keyword>elefante</keyword>
+	</keywords>
+    <authors>
+	<author>Lynch, David</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1572">
+    <entrytype>video</entrytype>
+    <title>Una historia sencilla</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>historia</keyword>
+	<keyword>sencilla</keyword>
+	</keywords>
+    <authors>
+	<author>Lynch, David</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1573">
+    <entrytype>video</entrytype>
+    <title>Lolita</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>lolita</keyword>
+	</keywords>
+    <authors>
+	<author>Lyne, Adrian</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1574">
+    <entrytype>video</entrytype>
+    <title>Mi vecino, el asesino</title>
+    	<year>2000</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>vecino</keyword>
+	<keyword>asesino</keyword>
+	</keywords>
+    <authors>
+	<author>Lynn, Jonathan</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1575">
+    <entrytype>video</entrytype>
+    <title>Shakespeare apasionado</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>shakespeare</keyword>
+	<keyword>apasionado</keyword>
+	</keywords>
+    <authors>
+	<author>Madden, John</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1576">
+    <entrytype>video</entrytype>
+    <title>La huella</title>
+    	<year>1972</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>huella</keyword>
+	</keywords>
+    <authors>
+	<author>Mankiewicz, J.L</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1577">
+    <entrytype>video</entrytype>
+    <title>Los desconocidos de siempre</title>
+    	<year>1958</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>desconocidos</keyword>
+	<keyword>siempre</keyword>
+	</keywords>
+    <authors>
+	<author>Monicelli, Mario</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1578">
+    <entrytype>video</entrytype>
+    <title>Aprile</title>
+    	<year>1998</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>aprile</keyword>
+	</keywords>
+    <authors>
+	<author>Moretti, Nanni</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1579">
+    <entrytype>video</entrytype>
+    <title>Muerto al llegar</title>
+    	<year>1988</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>muerto</keyword>
+	<keyword>llegar</keyword>
+	</keywords>
+    <authors>
+	<author>Morton, Rocky</author>
+	<author>Jankel, Annabel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1580">
+    <entrytype>video</entrytype>
+    <title>Moebius</title>
+    	<year>1996</year>
+    <address>
+	<city>Buenos Aires</city>
+	<city>Argentina</city>
+</address>
+    <keywords>
+	<keyword>moebius</keyword>
+	</keywords>
+    <authors>
+	<author>Mosquera, Gustavo R</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1581">
+    <entrytype>video</entrytype>
+    <title>Kamasutra. Lecciones de amor</title>
+    	<year>1996</year>
+    <address>
+	<city>India</city>
+</address>
+    <keywords>
+	<keyword>kamasutra</keyword>
+	<keyword>lecciones</keyword>
+	</keywords>
+    <authors>
+	<author>Nair, Mira</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1582">
+    <entrytype>video</entrytype>
+    <title>Colores primarios</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>colores</keyword>
+	<keyword>primarios</keyword>
+	</keywords>
+    <authors>
+	<author>Nichols, Mike</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1583">
+    <entrytype>video</entrytype>
+    <title>El oro de Ulises</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>ulises</keyword>
+	</keywords>
+    <authors>
+	<author>Núñez, Víctor</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1584">
+    <entrytype>video</entrytype>
+    <title>Microcosmos</title>
+    	<year>1996</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>microcosmos</keyword>
+	</keywords>
+    <authors>
+	<author>Nuridsany, Claude, Perennou, Marie</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1585">
+    <entrytype>video</entrytype>
+    <title>Bailando entre sueños</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>bailando</keyword>
+	<keyword>entre</keyword>
+	<keyword>sueños</keyword>
+	</keywords>
+    <authors>
+	<author>O’Connor, Pat</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1586">
+    <entrytype>video</entrytype>
+    <title>Orquesta Filarmónica Italiana Nº 0-8: Mozart (II), Mozart (III), Mozart (IV), Mozart (V), Mozart (VI), Mozart (VII), Mozart (VIII), Mozart (X)</title>
+    	<year>2003</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>orquesta</keyword>
+	<keyword>filarmónica</keyword>
+	<keyword>italiana</keyword>
+	<keyword>mozart</keyword>
+	</keywords>
+    <authors>
+	<author>Colección Música Maestro</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1587">
+    <entrytype>video</entrytype>
+    <title>Orquesta Sinfónica de Moscú. Nº 0-9: Bach, Mendelsshon, Haydn, Mozart, Mozart (I), Vivaldi, Chopin, Schubert, Grieg</title>
+    	<year>2003</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>orquesta</keyword>
+	<keyword>sinfónica</keyword>
+	<keyword>moscú</keyword>
+	<keyword>mendelsshon</keyword>
+	<keyword>haydn</keyword>
+	<keyword>mozart</keyword>
+	<keyword>vivaldi</keyword>
+	<keyword>chopin</keyword>
+	<keyword>schubert</keyword>
+	<keyword>grieg</keyword>
+	</keywords>
+    <authors>
+	<author>Colección Música Maestro</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1588">
+    <entrytype>video</entrytype>
+    <title>¿Qué tal Bob?</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Oz, Frank</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1589">
+    <entrytype>video</entrytype>
+    <title>Una tormenta perfecta</title>
+    	<year>2000</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>tormenta</keyword>
+	<keyword>perfecta</keyword>
+	</keywords>
+    <authors>
+	<author>Petersen Wolfgang</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1590">
+    <entrytype>video</entrytype>
+    <title>Taxi</title>
+    	<year>1998</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Pires, Gérard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1591">
+    <entrytype>video</entrytype>
+    <title>África mía</title>
+    	<year>1985</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>áfrica</keyword>
+	</keywords>
+    <authors>
+	<author>Pollack, Sydney</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1592">
+    <entrytype>video</entrytype>
+    <title>Hollow Reed</title>
+    	<year>1995</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>hollow</keyword>
+	</keywords>
+    <authors>
+	<author>Pope, Angela</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1593">
+    <entrytype>video</entrytype>
+    <title>Un plan simple</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>simple</keyword>
+	</keywords>
+    <authors>
+	<author>Raimi, Sam</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1594">
+    <entrytype>video</entrytype>
+    <title>Analízame</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>analízame</keyword>
+	</keywords>
+    <authors>
+	<author>Ramis, Harold</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1595">
+    <entrytype>video</entrytype>
+    <title>La cara oculta</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>oculta</keyword>
+	</keywords>
+    <authors>
+	<author>Ravich, Rand</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1596">
+    <entrytype>video</entrytype>
+    <title>Misery</title>
+    	<year>1990</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>misery</keyword>
+	</keywords>
+    <authors>
+	<author>Reiner, Rob</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1597">
+    <entrytype>video</entrytype>
+    <title>Los Bajos Fondos</title>
+    	<year>1936</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>bajos</keyword>
+	<keyword>fondos</keyword>
+	</keywords>
+    <authors>
+	<author>Renoir, Jean</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1598">
+    <entrytype>video</entrytype>
+    <title>Mí tío de América</title>
+    	<year>1980</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>américa</keyword>
+	</keywords>
+    <authors>
+	<author>Resnais, Alain</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1599">
+    <entrytype>video</entrytype>
+    <title>Gladiador</title>
+    	<year>2000</year>
+    <address>
+	<city>EUA</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	<keyword>gladiador</keyword>
+	</keywords>
+    <authors>
+	<author>Ridley, Scott</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1600">
+    <entrytype>video</entrytype>
+    <title>Caro Papá</title>
+    	<year>1979</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Risi, Dino</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1601">
+    <entrytype>video</entrytype>
+    <title>Mientras estés conmigo</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>mientras</keyword>
+	<keyword>estés</keyword>
+	<keyword>conmigo</keyword>
+	</keywords>
+    <authors>
+	<author>Robbins, Tim</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1602">
+    <entrytype>video</entrytype>
+    <title>Un hombre de hoy</title>
+    	<year>1970</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>hombre</keyword>
+	</keywords>
+    <authors>
+	<author>Rosenberg, Stuart</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1603">
+    <entrytype>video</entrytype>
+    <title>Morir en Madrid</title>
+    	<year>1962</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>morir</keyword>
+	<keyword>madrid</keyword>
+	</keywords>
+    <authors>
+	<author>Rossif, Frédéric</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1604">
+    <entrytype>video</entrytype>
+    <title>Picado Fino</title>
+    	<year>1993</year>
+    <address>
+	<city>Argentina</city>
+</address>
+    <keywords>
+	<keyword>picado</keyword>
+	</keywords>
+    <authors>
+	<author>Sapir, Esteban</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1605">
+    <entrytype>video</entrytype>
+    <title>Si estas paredes hablaran</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>estas</keyword>
+	<keyword>paredes</keyword>
+	<keyword>hablaran</keyword>
+	</keywords>
+    <authors>
+	<author>Savoca, Cher</author>
+	<author>Savoca, Nancy</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1606">
+    <entrytype>video</entrytype>
+    <title>El tambor</title>
+    	<year>1979</year>
+    <address>
+	<city>Alemania</city>
+</address>
+    <keywords>
+	<keyword>tambor</keyword>
+	</keywords>
+    <authors>
+	<author>Schlondorff, Volker</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1607">
+    <entrytype>video</entrytype>
+    <title>Días de furia</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>furia</keyword>
+	</keywords>
+    <authors>
+	<author>Schrader, Paul</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1608">
+    <entrytype>video</entrytype>
+    <title>La Familia</title>
+    	<year>1987</year>
+    <address>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>familia</keyword>
+	</keywords>
+    <authors>
+	<author>Scola, Ettore</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1609">
+    <entrytype>video</entrytype>
+    <title>Los infiltrados</title>
+    	<year>2006</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>infiltrados</keyword>
+	</keywords>
+    <authors>
+	<author>Scorsese, Martin</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1610">
+    <entrytype>video</entrytype>
+    <title>Taxi Driver</title>
+    	<year>1976</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>driver</keyword>
+	</keywords>
+    <authors>
+	<author>Scorsese, Martin</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1611">
+    <entrytype>video</entrytype>
+    <title>Corazón de héroes</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>corazón</keyword>
+	<keyword>héroes</keyword>
+	</keywords>
+    <authors>
+	<author>Scott, Ridley</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1612">
+    <entrytype>video</entrytype>
+    <title>El extraño mundo de Jack</title>
+    	<year>1993</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>extraño</keyword>
+	<keyword>mundo</keyword>
+	</keywords>
+    <authors>
+	<author>Selick, Henry</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1613">
+    <entrytype>video</entrytype>
+    <title>Un angel enamorado</title>
+    	<year>1997</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>angel</keyword>
+	<keyword>enamorado</keyword>
+	</keywords>
+    <authors>
+	<author>Siberling, Brad</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1614">
+    <entrytype>video</entrytype>
+    <title>Bean</title>
+    	<year>1997</year>
+    <address>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Smith, Mel</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1615">
+    <entrytype>video</entrytype>
+    <title>Pizza, birra y faso</title>
+    	<year>1997</year>
+    <address>
+	<city>Argentina</city>
+</address>
+    <keywords>
+	<keyword>pizza</keyword>
+	<keyword>birra</keyword>
+	</keywords>
+    <authors>
+	<author>Stagnaro, Bruno</author>
+	<author>Caetano, Adrián</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1616">
+    <entrytype>video</entrytype>
+    <title>La radio ataca</title>
+    	<year>1988</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>radio</keyword>
+	<keyword>ataca</keyword>
+	</keywords>
+    <authors>
+	<author>Stone, Oliver</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1617">
+    <entrytype>video</entrytype>
+    <title>Pelotón</title>
+    	<year>1986</year>
+    <address>
+	<city>Inglaterra</city>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>pelotón</keyword>
+	</keywords>
+    <authors>
+	<author>Stone, Oliver</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1618">
+    <entrytype>video</entrytype>
+    <title>Rosencrantz y Guildenstern están muertos</title>
+    	<year>1990</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>rosencrantz</keyword>
+	<keyword>guildenstern</keyword>
+	<keyword>están</keyword>
+	<keyword>muertos</keyword>
+	</keywords>
+    <authors>
+	<author>Stoppard, Tom</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1619">
+    <entrytype>video</entrytype>
+    <title>Abuso de poder</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>abuso</keyword>
+	<keyword>poder</keyword>
+	</keywords>
+    <authors>
+	<author>Tamahori, Lee</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1620">
+    <entrytype>video</entrytype>
+    <title>Cinema Paradiso</title>
+    	<year>1988</year>
+    <address>
+	<city>Italia</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>cinema</keyword>
+	<keyword>paradiso</keyword>
+	</keywords>
+    <authors>
+	<author>Tornatore, Giuseppe</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1621">
+    <entrytype>video</entrytype>
+    <title>Belle Epoque</title>
+    	<year>1992</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	<keyword>belle</keyword>
+	<keyword>epoque</keyword>
+	</keywords>
+    <authors>
+	<author>Trueba, Fernando</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1622">
+    <entrytype>video</entrytype>
+    <title>Loco de amor</title>
+    	<year>1995</year>
+    <address>
+	<city>España</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Trueba, Fernando</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1623">
+    <entrytype>video</entrytype>
+    <title>Desafío Mortal</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>desafío</keyword>
+	<keyword>mortal</keyword>
+	</keywords>
+    <authors>
+	<author>Van Damme, Jean-Claude</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1624">
+    <entrytype>video</entrytype>
+    <title>Mi mundo privado</title>
+    	<year>1991</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>mundo</keyword>
+	<keyword>privado</keyword>
+	</keywords>
+    <authors>
+	<author>Van Sant, Gus</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1625">
+    <entrytype>video</entrytype>
+    <title>Stalingrado</title>
+    	<year>1992</year>
+    <address>
+	<city>Alemania</city>
+</address>
+    <keywords>
+	<keyword>stalingrado</keyword>
+	</keywords>
+    <authors>
+	<author>Vilsmaier, Joseph</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1626">
+    <entrytype>video</entrytype>
+    <title>Ludwig</title>
+    	<year>1973</year>
+    <address>
+	<city>Italia</city>
+	<city>Francia</city>
+	<city>Alemania</city>
+</address>
+    <keywords>
+	<keyword>ludwig</keyword>
+	</keywords>
+    <authors>
+	<author>Visconti, Luchino</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1627">
+    <entrytype>video</entrytype>
+    <title>Contra viento y marea</title>
+    	<year>1996</year>
+    <address>
+	<city>Dinamarca</city>
+	<city>Holanda</city>
+	<city>Suecia</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>viento</keyword>
+	<keyword>marea</keyword>
+	</keywords>
+    <authors>
+	<author>Von Trier, Lars</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1628">
+    <entrytype>video</entrytype>
+    <title>Los idiotas</title>
+    	<year>1998</year>
+    <address>
+	<city>Dinamarca</city>
+</address>
+    <keywords>
+	<keyword>idiotas</keyword>
+	</keywords>
+    <authors>
+	<author>Von Trier, Lars</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1629">
+    <entrytype>video</entrytype>
+    <title>Matrix</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+	<city>Australia</city>
+</address>
+    <keywords>
+	<keyword>matrix</keyword>
+	</keywords>
+    <authors>
+	<author>Wachowski, Andy</author>
+	<author>Wachowski, Lana</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1630">
+    <entrytype>video</entrytype>
+    <title>Cigarros</title>
+    	<year>1995</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>cigarros</keyword>
+	</keywords>
+    <authors>
+	<author>Wang Wayne</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1631">
+    <entrytype>video</entrytype>
+    <title>Indochine</title>
+    	<year>1992</year>
+    <address>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>indochine</keyword>
+	</keywords>
+    <authors>
+	<author>Wargnier, Regis</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1632">
+    <entrytype>video</entrytype>
+    <title>Gallipoli</title>
+    	<year>1981</year>
+    <address>
+	<city>Australia</city>
+</address>
+    <keywords>
+	<keyword>gallipoli</keyword>
+	</keywords>
+    <authors>
+	<author>Weir, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1633">
+    <entrytype>video</entrytype>
+    <title>La costa mosquito</title>
+    	<year>1986</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>costa</keyword>
+	<keyword>mosquito</keyword>
+	</keywords>
+    <authors>
+	<author>Weir, Peter</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1634">
+    <entrytype>video</entrytype>
+    <title>Paris, Texas</title>
+    	<year>1984</year>
+    <address>
+	<city>Alemania</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>paris</keyword>
+	<keyword>texas</keyword>
+	</keywords>
+    <authors>
+	<author>Wenders, Wim</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1635">
+    <entrytype>video</entrytype>
+    <title>Como caído del cielo</title>
+    	<year>1999</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>caído</keyword>
+	<keyword>cielo</keyword>
+	</keywords>
+    <authors>
+	<author>Wenk, Richard</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1636">
+    <entrytype>video</entrytype>
+    <title>La novicia rebelde</title>
+    	<year>1965</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>novicia</keyword>
+	<keyword>rebelde</keyword>
+	</keywords>
+    <authors>
+	<author>Wise, Robert</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1637">
+    <entrytype>video</entrytype>
+    <title>Amor sin barreras</title>
+    	<year>1961</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>barreras</keyword>
+	</keywords>
+    <authors>
+	<author>Wise, Robert</author>
+	<author>Robbins, Jerome</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1638">
+    <entrytype>video</entrytype>
+    <title>Mission: Impossible II</title>
+    	<year>2000</year>
+    <address>
+	<city>EUA</city>
+	<city>Alemania</city>
+</address>
+    <keywords>
+	<keyword>mission</keyword>
+	<keyword>impossible</keyword>
+	</keywords>
+    <authors>
+	<author>Woo, John</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1639">
+    <entrytype>video</entrytype>
+    <title>Ben-hur</title>
+    	<year>1959</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>benhur</keyword>
+	</keywords>
+    <authors>
+	<author>Wyler, William</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1640">
+    <entrytype>video</entrytype>
+    <title>La reina de Shanghai</title>
+    	<year>1995</year>
+    <address>
+	<city>China</city>
+	<city>Francia</city>
+</address>
+    <keywords>
+	<keyword>reina</keyword>
+	<keyword>shanghai</keyword>
+	</keywords>
+    <authors>
+	<author>Yimou, Zhang</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>francés</lang>
+</entry>
+<entry name="video2015-1641">
+    <entrytype>video</entrytype>
+    <title>La novia de Chucky</title>
+    	<year>1998</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>novia</keyword>
+	<keyword>chucky</keyword>
+	</keywords>
+    <authors>
+	<author>Yu, Ronny</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>español</lang>
+</entry>
+<entry name="video2015-1642">
+    <entrytype>video</entrytype>
+    <title>Reencuentro</title>
+    	<year>1996</year>
+    <address>
+	<city>EUA</city>
+</address>
+    <keywords>
+	<keyword>reencuentro</keyword>
+	</keywords>
+    <authors>
+	<author>Zaks, Jerry</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1643">
+    <entrytype>video</entrytype>
+    <title>Jane Eyre</title>
+    	<year>1995</year>
+    <address>
+	<city>Francia</city>
+	<city>Italia</city>
+	<city>Inglaterra</city>
+</address>
+    <keywords>
+	</keywords>
+    <authors>
+	<author>Zeffirelli, Franco</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
+    <lang>inglés</lang>
+</entry>
+<entry name="video2015-1644">
+    <entrytype>video</entrytype>
+    <title>Asterix y Obelix contra el César</title>
+    	<year>1999</year>
+    <address>
+	<city>Francia</city>
+	<city>Alemania</city>
+	<city>Italia</city>
+</address>
+    <keywords>
+	<keyword>asterix</keyword>
+	<keyword>obelix</keyword>
+	<keyword>césar</keyword>
+	</keywords>
+    <authors>
+	<author>Zidi, Claude</author>
+	</authors>
+    	<bibliografia>Videoteca</bibliografia>
+    	<soporte>vhs</soporte>
     <lang>español</lang>
 </entry>
 </entries>
