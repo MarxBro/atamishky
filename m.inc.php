@@ -11,8 +11,8 @@
  ***************************************************************
 */
 
-$PASS_BIBLIO_MASTER = 'prueba';
-$PASS_BIBLIO_MASTER_append = 'sabaduba$$&/()N';
+$PASS_BIBLIO_MASTER = 'somepasswd';
+$PASS_BIBLIO_MASTER_append = '$$&asdasdpoasjdpoajkspod/()N';
 $SALTI = '$5/HSm7=#u8nkhaahhaojno//8na=)=)????(j,.ksny61nnm18m1io"3g"u"W';
 $PASS_PRESTAMO = md5(md5($PASS_BIBLIO_MASTER) . $SALTI) . $PASS_BIBLIO_MASTER_append;
 
