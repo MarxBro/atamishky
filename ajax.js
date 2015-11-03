@@ -428,9 +428,7 @@ function prestar(pub) {
 function done(pub) { 
     var pd = document.getElementById("pass").value;
     hide_bibtex_div(pub);
-    console.log(pd);
     if (pd != null){
-        console.log("llego aca.");
         var url =  atamishky_home_dir;
         url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
         url_p  += "&prestamo=" + pd;
