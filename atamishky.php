@@ -122,7 +122,7 @@ if ($action == "showkeywordscloud"){
 
 echo "<div id=\"CfPTable\">";
 if($action != "showkeywordscloud" && $action != "showauthorlist")
-    include("ajax.php");  // 'include' is google-friendly, allows index.php?blahblah
+    include("ajax.php");  
 echo "</div>";
 ?>
 
