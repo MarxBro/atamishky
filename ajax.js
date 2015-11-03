@@ -436,7 +436,8 @@ function done(pub) {
         xmlHttp.onreadystatechange=function(){ 
             if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
                 // Hay que recargar para ver los nuevos prestamos... lamentablemente.
-                window.location = url; 
+                /*window.location = url; */
+                getprs_items();
             }                
         };
         xmlHttp.open("GET",url_p,true);
