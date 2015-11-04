@@ -382,14 +382,17 @@ function getprs_items(){
     xmlHttp.send(null);
 }
 /*  Esta función sirve para reorganizar el contenido del div central.   */
-/*  de la página de préstamos Sip, apesto en javascript...              */
+/*  de la página de préstamos.                                          */
 function sacar_div_molesto(dd){
+    /*  Si es -mi viejo y querido- Opera (Presto engine), no parsear.   */
+    var prest = new RegExp("Presto");
+    if (prest.test(navigator.userAgent)){
+        return dd;
+    }
     var data        = '<html>' + dd + '</html>';
     var parserwq    = new DOMParser();
     var cntts       = parserwq.parseFromString(data,"text/xml");
-    /*console.log(cntts);*/
     var div_cntts   = cntts.querySelectorAll("div.content_pager");
-    console.log(div_cntts);
     var paponer     = '<div class="content_pager" id="cntt">';
     for (var i = 0; i <  div_cntts.length; i++){
         paponer += div_cntts[i].innerHTML;
