@@ -387,7 +387,7 @@ function sacar_div_molesto(dd){
     var data        = '<html><body>' + dd + '</body></html>';
     var parser      = new DOMParser();
     var cntts       = parser.parseFromString(data,"text/xml");
-    var div_cntts   = cntts.querySelectorAll('.content_pager');
+    var div_cntts   = cntts.querySelectorAll(' .content_pager');
     var paponer     = '<div class="content_pager" id="cntt">';
     for (var i = 0; i <  div_cntts.length; i++){
         paponer += div_cntts[i].innerHTML;
