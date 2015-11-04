@@ -428,6 +428,7 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vwantedta += "No hubo resultados";
         }
+        console.log(vwantedta);
         var grr = sacar_div_molesto(vwantedta);
         document.getElementById("CfPTable").innerHTML= grr;
         document.getElementById("keywordsCloud").innerHTML= ""; 
