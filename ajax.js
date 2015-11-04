@@ -425,12 +425,11 @@ function sacar_div_molesto(dd){
     var parser      = new DOMParser();
     var cntts       = parser.parseFromString(data,"text/xml");
     var div_cntts   = cntts.querySelectorAll('.content_pager');
-    var paponer     = '<div class="content_pager" id"cntt">';
+    var paponer     = '<div class="content_pager" id="cntt">';
     for (var i = 0; i <  div_cntts.length; i++){
         paponer += div_cntts[i].innerHTML;
-        console.log(div_cntts[i].innerHTML);
     }
-    paponer += 'hizo esto</div>';
+    paponer += '</div>';
     return paponer;
 }
 function prestar(pub) {
