@@ -421,8 +421,7 @@ function stateChangedKeywords_prs(){
 /*  Esta función sirve para reorganizar el contenido del div central.   */
 /*  de la página de préstamos Sip, apesto en javascript...              */
 function sacar_div_molesto(dd){
-    var data        = '<html>' + dd + '</html>';
-                                                console.log(data);
+    var data        = '<html><body>' + dd + '</body></html>';
     var parser      = new DOMParser();
     var cntts       = parser.parseFromString(data,"text/xml");
     var div_cntts   = cntts.querySelectorAll('.content_pager');
@@ -431,8 +430,7 @@ function sacar_div_molesto(dd){
         paponer += div_cntts[i].innerHTML;
         console.log(div_cntts[i].innerHTML);
     }
-    paponer += '</div>';
-                                                console.log(paponer);
+    paponer += 'hizo esto</div>';
     return paponer;
 }
 function prestar(pub) {
