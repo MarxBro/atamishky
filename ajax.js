@@ -384,7 +384,7 @@ function getprs_items(){
 /*  Esta función sirve para reorganizar el contenido del div central.   */
 /*  de la página de préstamos Sip, apesto en javascript...              */
 function sacar_div_molesto(dd){
-    var data        = '<html><body>' + dd + '</body></html>';
+    var data        = '<html>' + dd + '</html>';
     var parserwq    = new DOMParser();
     var cntts       = parserwq.parseFromString(data,"text/xml");
     console.log(cntts);
