@@ -395,7 +395,7 @@ function sacar_div_molesto(dd){
         for (var i = 0; i <  div_cntts.length; i++){
             ppner += div_cntts[i].innerHTML;
         }
-    i   ppner += '</div>';
+        ppner += '</div>';
         return ppner;
     }
     var data        = '<html>' + dd + '</html>';
