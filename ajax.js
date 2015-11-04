@@ -429,6 +429,7 @@ function stateChangedKeywords_prs(){
             vwantedta += "No hubo resultados";
         }
         var grr = sacar_div_molesto(vwantedta);
+        console.log("grrrrrr" +  grr);
         document.getElementById("CfPTable").innerHTML= grr;
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
