@@ -414,9 +414,25 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vwantedta += "No hubo resultados";
         }
-        document.getElementById("CfPTable").innerHTML= vwantedta;
+        document.getElementById("CfPTable").innerHTML= sacar_div_molesto(vwantedta);
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
+}
+/*  Esta función sirve para reorganizar el contenido del div central.   */
+/*  de la página de préstamos Sip, apesto en javascript...              */
+function sacar_div_molesto(dd){
+    var data        = '<html>' + dd + '</html>';
+                                                console.log(data);
+    var parser      = new DOMParser();
+    var cntts       = parser.parseFromString(data,"text/xml");
+    var div_cntts   = cntts.querySelectorAll('.content_pager');
+    var paponer     = '<div class="content_pager" id"cntt">';
+    for (var i = 0; i <  div_cntts.length; i++){
+        paponer += div_cntts[i].innerHTML;
+    }
+    paponer += '</div>';
+                                                console.log(paponer);
+    return paponer;
 }
 function prestar(pub) {
     var nombre_div = 'bib' + pub;
