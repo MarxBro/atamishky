@@ -429,6 +429,7 @@ function sacar_div_molesto(dd){
     var paponer     = '<div class="content_pager" id"cntt">';
     for (var i = 0; i <  div_cntts.length; i++){
         paponer += div_cntts[i].innerHTML;
+        console.log(div_cntts[i].innerHTML);
     }
     paponer += '</div>';
                                                 console.log(paponer);
