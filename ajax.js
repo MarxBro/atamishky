@@ -384,30 +384,16 @@ function getprs_items(){
 /*  Esta función sirve para reorganizar el contenido del div central.   */
 /*  de la página de préstamos.                                          */
 function sacar_div_molesto(dd){
-    /*  Si es -mi viejo y querido- Opera (Presto engine), no parsear.   */
     var prest = new RegExp("Presto");
-    /*if (prest.test(navigator.userAgent)){*/
-        var wrapper = document.createElement('div');
-        wrapper.innerHTML = dd;
-        /*console.log(wrapper);*/
-        var div_cntts = wrapper.querySelectorAll("div.content_pager");
-        var ppner     = '<div class="content_pager" id="cntt">';
-        for (var i = 0; i <  div_cntts.length; i++){
-            ppner += div_cntts[i].innerHTML;
-        }
-        ppner += '</div>';
-        return ppner;
-        /*}*/
-        /*var data        = '<html>' + dd + '</html>';*/
-        /*var parserwq    = new DOMParser();*/
-        /*var cntts       = parserwq.parseFromString(data,"text/xml");*/
-        /*var div_cntts   = cntts.querySelectorAll("div.content_pager");*/
-        /*var paponer     = '<div class="content_pager" id="cntt">';*/
-        /*for (var i = 0; i <  div_cntts.length; i++){*/
-        /*paponer += div_cntts[i].innerHTML;*/
-        /*}*/
-        /*paponer += '</div>';*/
-        /*return paponer;*/
+    var wrapper = document.createElement('div');
+    wrapper.innerHTML = dd;
+    var div_cntts = wrapper.querySelectorAll("div.content_pager");
+    var ppner     = '<div class="content_pager" id="cntt">';
+    for (var i = 0; i <  div_cntts.length; i++){
+        ppner += div_cntts[i].innerHTML;
+    }
+    ppner += '</div>';
+    return ppner;
 }
 function stateChangedKeywords_prs(){
     if (xmlHttp.readyState<4) { 
