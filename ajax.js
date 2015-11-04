@@ -387,7 +387,16 @@ function sacar_div_molesto(dd){
     /*  Si es -mi viejo y querido- Opera (Presto engine), no parsear.   */
     var prest = new RegExp("Presto");
     if (prest.test(navigator.userAgent)){
-        return dd;
+        var wrapper = document.createElement('div');
+        wrapper.innerHTML = dd;
+        console.log(wrapper);
+        var div_cntts = wrapper.querySelectorAll("div.content_pager");
+        var ppner     = '<div class="content_pager" id="cntt">';
+        for (var i = 0; i <  div_cntts.length; i++){
+            ppner += div_cntts[i].innerHTML;
+        }
+    i   ppner += '</div>';
+        return ppner;
     }
     var data        = '<html>' + dd + '</html>';
     var parserwq    = new DOMParser();
