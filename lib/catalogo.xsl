@@ -27,7 +27,7 @@
 <xsl:if test="$breadcrumb1 != 'por ID'">
     <span class="tag8"> / <xsl:value-of select="$breadcrumb1" /> / <xsl:value-of select="$breadcrumb2" /></span>
 </xsl:if>
-<div class="content_pager">
+<div class="content_pager" id="cntt">
 
 
 <xsl:choose>
@@ -241,6 +241,7 @@
 	</xsl:otherwise>
 </xsl:choose>
 
+<!--final del content pager.-->
 </div> <!-- /content -->
 
 </xsl:template>
@@ -269,7 +270,7 @@
 <xsl:sort select="*[name()=$sortype]" order="descending"/>
 <xsl:sort select="authors/author" order="ascending"/>
 <!-- Paper box -->
-<div class="entry1">
+<div class="entry1" id="ATAMISHKY_{@name}">
 
 <xsl:choose>
     <xsl:when test="entrytype='misc' and substring-after(@name, substring-before(@name,'PATENT'))='PATENT'">
@@ -325,7 +326,7 @@
     </div>
     <!--hr /-->
     <!--bibcode-->
-    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
+    <div class="bibbody" id="bib{@name}" style="visbility:hidden;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
     <!-- finally set it as toggled -->
@@ -334,11 +335,11 @@
   <xsl:otherwise>
     <!-- entrybody and bib to appear here -->
     <!--<div class="entrybody" id="entrydetail{@name}">&#160;</div>-->
-    <div class="entrybody" id="entrydetail{@name}" style="visbility: none;">&#160;</div>
+    <div class="entrybody" id="entrydetail{@name}" style="visbility:hidden;">&#160;</div>
     <!--hr /-->
     <!--bibcode-->
     <!--<div class="bibbody" id="bib{@name}">&#160;</div>-->
-    <div class="bibbody" id="bib{@name}" style="visbility: none;">&#160;</div>
+    <div class="bibbody" id="bib{@name}" style="visbility:hidden;">&#160;</div>
     <!--/bibcode-->
     <abbr class="unapi-id" title="{@name}"></abbr>
   </xsl:otherwise>

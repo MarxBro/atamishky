@@ -14,7 +14,7 @@ Archivo en la entrada
     El archivo csv tiene que respetar en su encabezado, el siguiente orden:
 
     * tipo * titulo * autores * editorial * año * ciudad * bibliografia *
-    link * soporte * descripcion
+    link * soporte * descripcion * idioma * paginas-capitulos.
 
     Los valores en todo el csv se separan con la pipa |.
 

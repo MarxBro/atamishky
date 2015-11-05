@@ -19,7 +19,7 @@ Header append Vary User-Agent env=!dont-vary
 <IfModule mod_expires.c>
 # Feed
   #ExpiresByType application/atom+xml      "access plus 10 hours"
-  ExpiresByType application/rss+xml       "access plus 10 hours"
+  ExpiresByType application/rss+xml       "access plus 1 month"
  
 # Favicon (cannot be renamed)
   ExpiresByType image/x-icon              "access plus 1 week"
