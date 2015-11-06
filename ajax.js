@@ -1,3 +1,4 @@
+'onkeydown="if (event.keyCode == 13) document.getElementById(' + '\'boton\''+').click()"'
 var xmlHttp;
 var toggleBib = {};
 var toggleAPA = {}; 
@@ -378,8 +379,22 @@ function getprs_items(){
     url=url+"?action=getprs";
     url=url+"&sid="+Math.random();
     xmlHttp.onreadystatechange=function(){ stateChangedKeywords_prs(); };
-    xmlHttp.open("GET",url,true);
+    xmlHttp.open("GET",url,false);
     xmlHttp.send(null);
+}
+/*  Esta función sirve para reorganizar el contenido del div central.   */
+/*  de la página de préstamos.                                          */
+function sacar_div_molesto(dd){
+    var prest = new RegExp("Presto");
+    var wrapper = document.createElement('div');
+    wrapper.innerHTML = dd;
+    var div_cntts = wrapper.querySelectorAll("div.content_pager");
+    var ppner     = '<div class="content_pager" id="cntt">';
+    for (var i = 0; i <  div_cntts.length; i++){
+        ppner += div_cntts[i].innerHTML;
+    }
+    ppner += '</div>';
+    return ppner;
 }
 function stateChangedKeywords_prs(){
     if (xmlHttp.readyState<4) { 
@@ -414,14 +429,17 @@ function stateChangedKeywords_prs(){
         if (cuenta == 0){
             vwantedta += "No hubo resultados";
         }
-        document.getElementById("CfPTable").innerHTML= vwantedta;
+        var grr = sacar_div_molesto(vwantedta);
+        document.getElementById("CfPTable").innerHTML= grr;
         document.getElementById("keywordsCloud").innerHTML= ""; 
     } 
 }
 function prestar(pub) {
     var nombre_div = 'bib' + pub;
-    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
-        '\'' + pub + '\'' + ')">OK</button></div>';
+    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password" ' + 
+        'onkeydown="if (event.keyCode == 13) document.getElementById(' + 
+        '\'boton\'' + ').click()"' + '/><button id="boton" onclick="done(' +
+        '\'' + pub  + '\'' + ')">OK</button></div>';
     document.getElementById(nombre_div).innerHTML = inputin;
     document.getElementById(nombre_div).style.visibility="visible";
 }
