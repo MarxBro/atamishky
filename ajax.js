@@ -1,4 +1,3 @@
-'onkeydown="if (event.keyCode == 13) document.getElementById(' + '\'boton\''+').click()"'
 var xmlHttp;
 var toggleBib = {};
 var toggleAPA = {}; 
