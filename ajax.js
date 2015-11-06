@@ -1,3 +1,4 @@
+'onkeydown="if (event.keyCode == 13) document.getElementById(' + '\'boton\''+').click()"'
 var xmlHttp;
 var toggleBib = {};
 var toggleAPA = {}; 
@@ -435,8 +436,10 @@ function stateChangedKeywords_prs(){
 }
 function prestar(pub) {
     var nombre_div = 'bib' + pub;
-    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password"/><button onclick="done(' +
-        '\'' + pub + '\'' + ')">OK</button></div>';
+    var inputin = '<div id="popup"><div>Contraseña:</div><input id="pass" type="password" ' + 
+        'onkeydown="if (event.keyCode == 13) document.getElementById(' + 
+        '\'boton\'' + ').click()"' + '/><button id="boton" onclick="done(' +
+        '\'' + pub  + '\'' + ')">OK</button></div>';
     document.getElementById(nombre_div).innerHTML = inputin;
     document.getElementById(nombre_div).style.visibility="visible";
 }
