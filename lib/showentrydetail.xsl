@@ -75,7 +75,7 @@
 
         <!-- Los libros tienen numero de catalogo -->
         <xsl:if test="numero">
-        <tr><td><b>NRO</b></td>
+        <tr><td><b>Catalogo NRO</b></td>
             <td><xsl:value-of select="numero" /></td></tr>
         </xsl:if>
     </xsl:if>
