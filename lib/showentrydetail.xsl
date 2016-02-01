@@ -72,6 +72,12 @@
             </a>
             </td></tr>
         </xsl:if>
+
+        <!-- Los libros tienen numero de catalogo -->
+        <xsl:if test="numero">
+        <tr><td><b>NRO</b></td>
+            <td><xsl:value-of select="numero" /></td></tr>
+        </xsl:if>
     </xsl:if>
 
     <xsl:if test="pages">
@@ -92,11 +98,6 @@
         <td><xsl:value-of select="descripcion" /></td></tr>
     </xsl:if>
 
-    <!-- Los libros tienen numero de catalogo -->
-    <xsl:if test="numero">
-    <tr><td><b>NRO</b></td>
-        <td><xsl:value-of select="numero" /></td></tr>
-    </xsl:if>
    
     <!--la referencia tendria que estar incluso si no hay link . Vigilar si el margin se corre cuando si hay. -->
     <tr><td><b>Documento</b></td><td>
