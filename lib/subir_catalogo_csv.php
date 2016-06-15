@@ -41,7 +41,7 @@ if ($uploadOk == 0) {
         morir(); // EXIT
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "El archivo". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
+        echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
         cataloguear();
     } else {
         echo "Hubo un error al subir el archivo.";
