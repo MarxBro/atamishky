@@ -2,8 +2,7 @@
 
 $target_dir = ".";
 //$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$target_file = basename($HTTP_POST_FILES["fileToUpload"]["name"]);
-//$target_file = basename($_FILES["fileToUpload"]["name"]);
+$target_file = basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $iFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 $ctlg_name = 'catalogo.xml';
@@ -31,20 +30,18 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
         morir(); // EXIT
  }
 // Allow certain file formats
-if($iFileType != "csv" ) {
-    echo "Solamente subir archivos  de formato CSV; Intente nuevamente, Gracias.";
-    $uploadOk = 0;
-        morir(); // EXIT
-}
+//if($iFileType != "csv" ) {
+//echo "Solamente subir archivos  de formato CSV; Intente nuevamente, Gracias.";
+//$uploadOk = 0;
+//morir(); // EXIT
+//}
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
     echo "El archivo no puede ser subido.";
         morir(); // EXIT
 } else {
-    if (move_uploaded_file($HTTP_POST_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        //if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "El archivo ". basename( $HTTP_POST_FILES["fileToUpload"]["name"]) . " fué subido.";
-        //echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
+    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
         cataloguear();
     } else {
         echo "Hubo un error al subir el archivo.";
