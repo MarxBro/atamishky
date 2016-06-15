@@ -1,4 +1,5 @@
 <?php
+
 $target_dir = ".";
 //$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $target_file = basename($_FILES["fileToUpload"]["name"]);
