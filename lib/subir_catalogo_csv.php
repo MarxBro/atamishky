@@ -76,7 +76,7 @@ function respaldame_el_catalogo_putin ($nombre_posta){
 
 function morir(){
     echo "ERRORORORORORO";
-    die "Error en el archivo, Final no feliz!";
+    //die "Error en el archivo, Final no feliz!";
 }
 
 ?>
