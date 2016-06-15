@@ -8,14 +8,14 @@ $iFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 $ctlg_name = '../catalogo.xml';
 
 // Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    if (mime_content_type($target_file == 'text/plain')){
-        $uploadOk = 1;
-    } else {
-        $uploadOk = 0;
-        morir(); // EXIT
-    }
-}
+//if(isset($_POST["submit"])) {
+    //if (mime_content_type($target_file == 'text/plain')){
+        //$uploadOk = 1;
+    //} else {
+        //$uploadOk = 0;
+        //morir(); // EXIT
+    //}
+//}
 
 // Check if file already exists
 if (file_exists($target_file)) {
