@@ -53,11 +53,13 @@ if ($uploadOk == 0) {
 // ------------------------------
 
 function cataloguear (){
-    if (respaldame_el_catalogo_putin($ctlg_name)){
+    $ctlg_name_x = $ctlg_name;
+    $target_file_x = $target_file;
+    if (respaldame_el_catalogo_putin($ctlg_name_x)){
         // Ejecutar el script de lib con el catalogo
         $pathy   = './';
-        $comando = $pathy . 'atamishky_CSV2XML.pl -f ' . $target_file . 
-            ' -t -d -o ' . '../'. $ctlg_name; 
+        $comando = $pathy . 'atamishky_CSV2XML.pl -f ' . $target_file_x . 
+            ' -t -d -o ' . '../'. $ctlg_name_x; 
         echo "Regenerando el catálogo...";
         $salida = shell_exec($comando);
         echo '<pre>' . $salida . '</pre>';
