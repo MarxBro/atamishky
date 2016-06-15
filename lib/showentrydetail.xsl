@@ -118,7 +118,8 @@
     <xsl:if test="link">
           <td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="pdfSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="enlace" />
-          <a href="{link}">Documento</a>
+          <!--<a href="{link}">Documento</a>-->
+          Documento
           </td>
     </xsl:if>
     </tr>
@@ -132,7 +133,7 @@
 
     <div class="sociable">
     <ul>
-    <li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}&amp;body={$atamishkyhome}/index.php?action=showcategory%25%32%36by=ID%25%32%36pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li>
+    <li class="sociablefirst"><a rel="nofollow"  target="_blank" href="mailto:?subject={title}&amp;body={$atamishkyhome}/?action=showcategory%26by=ID%26pub={@name}" title="email"><img src="{$atamishkyhome}/img/services-sprite.gif" title="email" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-325px -1px" class="sociable-hovers" /></a></li>
     <li><a rel="nofollow"  target="_blank" href="https://twitter.com/intent/tweet?text={title} - {$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}" title="Twitter"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Twitter" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -55px" class="sociable-hovers" /></a></li>
     <li><a rel="nofollow"  target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]={$atamishkyembeddingurl}?action=showcategory%26by=ID%26pub={@name}&amp;p[title]={title}&amp;p[images][0]={$atamishkyhome}/img/type-icons/atamishky-logo_w100.png" title="Facebook"><img src="{$atamishkyhome}/img/services-sprite.gif" title="Facebook" alt="" style="width: 16px; height: 16px; background: transparent url('{$atamishkyhome}/img/services-sprite.png') no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>
 

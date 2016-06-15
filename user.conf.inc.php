@@ -2,7 +2,7 @@
 
 include_once("functions.inc.php");
 
-$atamishky_HOME="http://biblio.atamvirtual.com.ar";
+$atamishky_HOME="https://mediateca.atamvirtual.com.ar";
 $atamishky_EMBEDDING_URL=$atamishky_HOME."/";
 
 // OPTIONAL: page title

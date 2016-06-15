@@ -30,7 +30,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<item>
 	<title><xsl:value-of select="title"/></title>
 	<xsl:variable name="pubid" select="@name" />
-	<link><xsl:value-of select="$atamishkyhome" />/index.php?action=showcategory&amp;by=ID&amp;pub=<xsl:value-of select="@name"/></link>
+	<link><xsl:value-of select="$atamishkyhome" />/?action=showcategory&amp;by=ID&amp;pub=<xsl:value-of select="@name"/></link>
 	<description>
     <html><body>
         <h1><xsl:value-of select="title"/></h1>
