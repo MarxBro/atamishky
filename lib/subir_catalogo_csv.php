@@ -5,7 +5,7 @@ $target_dir = ".";
 $target_file = basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $iFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-$ctlg_name = '';
+$ctlg_name = '../catalogo.xml';
 
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
@@ -41,7 +41,7 @@ if ($uploadOk == 0) {
         morir(); // EXIT
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "El archivo". basename( $_FILES["fileToUpload"]["name"]). " fué subido."
+        echo "El archivo". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
         cataloguear();
     } else {
         echo "Hubo un error al subir el archivo.";
