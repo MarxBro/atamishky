@@ -18,11 +18,11 @@ $ctlg_name = 'catalogo.xml';
 //}
 
 // Check if file already exists
-if (file_exists($target_file)) {
+//if (file_exists($target_file)) {
     // renombrar el archivo viejo preexistente.
-    $uploadOk = 0;
-        morir(); // EXIT
-}
+    //$uploadOk = 0;
+    //morir(); // EXIT
+        //}
  // Check file size
 if ($_FILES["fileToUpload"]["size"] > 500000) {
     echo "El archivo es demasiado grande!";
