@@ -9,7 +9,7 @@ $ctlg_name = '';
 
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
-    if (mime_content_type($target_file == 'text/plain'){
+    if (mime_content_type($target_file == 'text/plain')){
         $uploadOk = 1;
     } else {
         $uploadOk = 0;
