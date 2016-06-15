@@ -53,8 +53,8 @@ if ($uploadOk == 0) {
 // ------------------------------
 
 function cataloguear (){
-    $ctlg_name_x = $ctlg_name;
-    $target_file_x = $target_file;
+    $ctlg_name_x = global $ctlg_name;
+    $target_file_x = global $target_file;
     if (respaldame_el_catalogo_putin($ctlg_name_x)){
         // Ejecutar el script de lib con el catalogo
         $pathy   = './';
