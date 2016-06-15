@@ -5,7 +5,7 @@ $target_dir = ".";
 $target_file = basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $iFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-$ctlg_name = '../catalogo.xml';
+$ctlg_name = 'catalogo.xml';
 
 // Check if image file is a actual image or fake image
 //if(isset($_POST["submit"])) {
@@ -57,7 +57,7 @@ function cataloguear (){
         // Ejecutar el script de lib con el catalogo
         $pathy   = './';
         $comando = $pathy . 'atamishky_CSV2XML.pl -f ' . $target_file . 
-            ' -t -d -o ' . $ctlg_name; 
+            ' -t -d -o ' . '../'. $ctlg_name; 
         echo "Regenerando el catálogo...";
         $salida = shell_exec($comando);
         echo '<pre>' . $salida . '</pre>';
