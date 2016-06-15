@@ -2,7 +2,8 @@
 
 $target_dir = ".";
 //$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$target_file = basename($_FILES["fileToUpload"]["name"]);
+$target_file = basename($HTTP_POST_FILES["fileToUpload"]["name"]);
+//$target_file = basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $iFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 $ctlg_name = 'catalogo.xml';
@@ -40,8 +41,10 @@ if ($uploadOk == 0) {
     echo "El archivo no puede ser subido.";
         morir(); // EXIT
 } else {
-    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
+    if (move_uploaded_file($HTTP_POST_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        //if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        echo "El archivo ". basename( $HTTP_POST_FILES["fileToUpload"]["name"]) . " fué subido.";
+        //echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
         cataloguear();
     } else {
         echo "Hubo un error al subir el archivo.";
