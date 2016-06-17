@@ -1,4 +1,8 @@
 BASURAS/*
 *.swp
 *.csv
+*.xls
+*.odt
 lib/prestamos.sec
+lib/*.swp
+lib*.csv
