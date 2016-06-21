@@ -125,7 +125,7 @@
     </tr>
 
     <!-- Estado del material. -->
-    <tr><td><b>Estado</b></td><td>Documento</td></tr>
+    <tr><td><b>Estado</b></td><td>Disponible</td></tr>
 
     <!--social craps -->
     <tr><td><b>Compartir</b></td>
