@@ -119,13 +119,13 @@
           <td>
     <img align="absmiddle" src="{$atamishkyhome}/img/spacer.gif" class="pdfSprite" style="background-image:url('{$atamishkyhome}/img/sprites.gif');margin:2px 0 0 0;" title="enlace" />
           <!--<a href="{link}">Documento</a>-->
-          Documento
+          Texto Digitalizado
           </td>
     </xsl:if>
     </tr>
 
     <!-- Estado del material. -->
-    <tr><td><b>Estado</b></td><td>Texto Digitalizado</td></tr>
+    <tr><td><b>Estado</b></td><td>Documento</td></tr>
 
     <!--social craps -->
     <tr><td><b>Compartir</b></td>
