@@ -2,7 +2,7 @@
 $header_bit=<<<EOF
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="../atamishky.css">
+<link rel="stylesheet" type="text/css" href="../../site.css">
 <title>Autentificación ATAM - UNA</title>
 </head>
 EOF;
