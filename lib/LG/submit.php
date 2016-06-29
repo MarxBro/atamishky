@@ -120,7 +120,7 @@ function give_me_info ($tok){
     $url_pag             = "<h2>" . $xml->SINGLE->KEY[7]->VALUE . "</h2>";
     $nombre_visitante    = "<strong>" . $xml->SINGLE->KEY[4]->VALUE . "</strong>";
     $user_id             = $xml->SINGLE->KEY[6]->VALUE;
-    $user_pic            = '<div class="bottomright"><img src="' . $xml->SINGLE->KEY[8]->VALUE . '" alt="profile_pic"></div>';
+    $user_pic            = '<img src="' . $xml->SINGLE->KEY[8]->VALUE . '" alt="profile_pic">';
     $user_quota          = $xml->SINGLE->KEY[17]->VALUE / 1024 / 1024;
 
     $link_super_privado = '<br><div><strong><a target="_blank" href="' . 
@@ -132,13 +132,13 @@ function give_me_info ($tok){
         '<div class="whitebox">' .
         $nombre_pag . 
         $url_pag . 
-        '</div><div class="book">'.
+        '</div><div class="entry1">'.
         $nombre_visitante . 
         $user_pic . 
         '</div>' . 
-        '<div class="book"><div class="bottomleft">' . 
+        '<div class="entry1">' . 
         $link_super_privado . 
-        '</div></div>' . 
+        '</div>' . 
         '</div></body></html>';
     echo $choclito;
 }
