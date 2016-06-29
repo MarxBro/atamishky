@@ -134,6 +134,7 @@ function give_me_info ($tok){
         $url_pag . 
         '</div><div class="entry1">'.
         $nombre_visitante . 
+        '</div><div class="entry1">' . 
         $user_pic . 
         '</div>' . 
         '<div class="entry1">' . 
