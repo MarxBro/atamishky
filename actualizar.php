@@ -20,8 +20,8 @@
     <fieldset>
     <legend>Subir un archivo CSV:</legend>
     <input class="elemento" type="file" name="fileToUpload" id="fileToUpload" type="file">
-            <br/>
-    <input class="elemento" type="submit" value="Subir CSV" name="submit">
+        <br/>
+    <input class="elemento" type="submit" value="Subir" name="submit">
     </fieldset>
  </form>
 </div>
