@@ -10,7 +10,7 @@
 <h1 style="color: grey;">Actualización Catálogo</h1>
 
 <div class="entry1">
-    <p><b>Utilice un archivo CSV con la estructura correcta.</b>.</p>
+    <p><b>Utilice un archivo CSV con la estructura correcta</b>.</p>
 </div>
 
 <div class="whitebox">
