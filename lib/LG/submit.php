@@ -28,7 +28,7 @@ if(isset($_POST["formSubmit"])){
             $submitter_info[1],
             );
     $contenido_ugly_csv = join(',' , $contenido_ugly_csv_arr);
-    escribir_todo_en_el_LOG( $contenido_ugly_csv);
+    //escribir_todo_en_el_LOG( $contenido_ugly_csv);
     do_moodle_stuff($submitter_info[0],$submitter_info[1]);
     } else {
         //ERROR de SESSION ID
