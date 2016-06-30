@@ -124,7 +124,8 @@ function give_me_info ($tok){
     $user_quota          = $xml->SINGLE->KEY[17]->VALUE / 1024 / 1024;
 
     $link_super_privado = '<br><div><strong><a target="_blank" href="' . 
-        'http://cloud.iuna-atam.com.ar/index.php/s/N4b1bjxvfKqCMp2' . 
+        'http://cloud.iuna-atam.com.ar/index.php/s/xNcsdteoo94zhet' .
+        //'http://cloud.iuna-atam.com.ar/index.php/s/N4b1bjxvfKqCMp2' . 
         '">Enlace a la Bibliografía de la Carrera.</a></strong></div>';
     
     $choclito = '<html>'. $header_bit . 
