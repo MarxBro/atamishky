@@ -128,6 +128,34 @@ function give_me_info ($tok){
         //'http://cloud.iuna-atam.com.ar/index.php/s/N4b1bjxvfKqCMp2' . 
         '">Enlace a la Bibliografía de la Carrera.</a></strong></div>';
     
+    //P R O B A R R R R R 
+    $functionname = 'mod_forum_get_forum_discussions_paginated';
+    $serverurl = 'http://www.atamvirtual.com.ar/webservice/rest/server.php'. '?wstoken=' . $tok . '&wsfunction='.$functionname;
+    $serverurl .= '&forumid=1';
+    $curleao = curl_init();
+    curl_setopt_array($curleao, array(
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => $serverurl,
+    ));
+    $resp = curl_exec($curleao);
+    curl_close($curleao);
+    $xml_foro = simplexml_load_string($resp);
+
+    $thingy_forra = '<ul>';
+    for ($n = 0; $n < 5 ; $n++){
+        $titulo_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[13]->VALUE;
+        //$fecha_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[3]->VALUE;
+        $autor_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[21]->VALUE;
+        $link_discussion_f = 'http://www.atamvirtual.com.ar/mod/forum/discuss.php?d=' . $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[7]->VALUE;
+        $html_f = '<li>' . '<span><a href="' . $link_discussion_f . '" target="_blank">' . 
+            '<b>' . $titulo_f . '</b></a></strong>' .  
+            //'<span>' . $fecha_f . '</span>' . 
+            '<span>' . $autor_f . '</span>' . 
+            '</li>';
+        $thingy_forra .= $html_f;
+    }
+    $thingy_forra .= '</ul>';
+    
     $choclito = '<html>'. $header_bit . 
         '<body><div class="atamishky">' . 
         '<div class="whitebox">' .
@@ -141,8 +169,12 @@ function give_me_info ($tok){
         '<div class="entry1">' . 
         $link_super_privado . 
         '</div>' . 
+        '<div class="entry1">' . 
+        $thingy_forra . 
+        '</div>' . 
         '</div></body></html>';
     echo $choclito;
 }
+
 
 ?>
