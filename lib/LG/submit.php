@@ -141,7 +141,7 @@ function give_me_info ($tok){
     curl_close($curleao);
     $xml_foro = simplexml_load_string($resp);
 
-    $thingy_forra = '<ul>';
+    $thingy_forra = '<h2>Noticias Recientes</h2><ul>';
     for ($n = 0; $n < 5 ; $n++){
         $titulo_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[13]->VALUE;
         //$fecha_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[3]->VALUE;
@@ -150,7 +150,7 @@ function give_me_info ($tok){
         $html_f = '<li>' . '<span><a href="' . $link_discussion_f . '" target="_blank">' . 
             '<b>' . $titulo_f . '</b></a></strong>' .  
             //'<span>' . $fecha_f . '</span>' . 
-            '<span>' . $autor_f . '</span>' . 
+            ' por <span>' . $autor_f . '</span>' . 
             '</li>';
         $thingy_forra .= $html_f;
     }
