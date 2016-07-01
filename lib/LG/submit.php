@@ -161,13 +161,13 @@ function give_me_info ($tok){
         '<div class="whitebox">' .
         $nombre_pag . 
         $url_pag . 
+        '<div class="bottomright">' . 
+        $link_super_privado . 
+        '</div>' . 
         '</div><div class="entry1">'.
         $nombre_visitante . 
         '</div><div class="entry1">' . 
         $user_pic . 
-        '</div>' . 
-        '<div class="entry1">' . 
-        $link_super_privado . 
         '</div>' . 
         '<div class="entry1">' . 
         $thingy_forra . 
