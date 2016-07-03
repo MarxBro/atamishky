@@ -40,10 +40,21 @@
 						</xsl:for-each>},
                         <br />
 					</xsl:when>
+                    <!--Estos no hacen falta, son de la interface y no van en una referencia-->
 					<xsl:when test="name(.)='link'">
 					</xsl:when>
 					<xsl:when test="name(.)='keywords'">
 					</xsl:when>
+                    <!--Estos no necesitan corchetes-->
+					<xsl:when test="name(.)='year'">
+                        <xsl:value-of select="name(.)"/>
+                        <br />
+					</xsl:when>
+					<xsl:when test="name(.)='numero'">
+                        <xsl:value-of select="name(.)"/>
+                        <br />
+					</xsl:when>
+                    <!--Cualquier otra cosa, la ponemos... no se bien porque.-->
 					<xsl:otherwise>
 						<xsl:value-of select="name(.)"/>={<xsl:value-of select="."/>}<xsl:if test="position()!=last()">,</xsl:if>
                         <br />
