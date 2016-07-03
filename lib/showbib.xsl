@@ -47,11 +47,11 @@
 					</xsl:when>
                     <!--Estos no necesitan corchetes-->
 					<xsl:when test="name(.)='year'">
-                        <xsl:value-of select="name(.)"/>
+                        <xsl:value-of select="name(.)"/>=<xsl:value-of select="."/>
                         <br />
 					</xsl:when>
 					<xsl:when test="name(.)='numero'">
-                        <xsl:value-of select="name(.)"/>
+                        <xsl:value-of select="name(.)"/>=<xsl:value-of select="."/>
                         <br />
 					</xsl:when>
                     <!--Cualquier otra cosa, la ponemos... no se bien porque.-->
