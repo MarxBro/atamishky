@@ -40,7 +40,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             </h2>
         </xsl:for-each>
 	    <p><xsl:value-of select="entrytype"/></p>
-<pre><xsl:value-of select="publisher"/>.<xsl:for-each select="address/city"><xsl:value-of select="."/>&#160;</xsl:for-each><xsl:value-of select="year"/>.<xsl:if test="link"><xsl:value-of select="link"/></xsl:if><xsl:if test="description"><xsl:value-of select="decripcion"/></xsl:if><xsl:if test="soporte"><xsl:value-of select="soporte"/></xsl:if>
+<pre><xsl:value-of select="publisher"/>.<xsl:for-each select="address/city"><xsl:value-of select="."/>&#160;</xsl:for-each><xsl:value-of select="year"/>.<xsl:if test="description"><xsl:value-of select="decripcion"/></xsl:if><xsl:if test="soporte"><xsl:value-of select="soporte"/></xsl:if>
             </pre>
         </body></html>
 	</description>

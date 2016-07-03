@@ -40,6 +40,8 @@
 						</xsl:for-each>},
                         <br />
 					</xsl:when>
+					<xsl:when test="name(.)='link'">
+					</xsl:when>
 					<xsl:when test="name(.)='keywords'">
 					</xsl:when>
 					<xsl:otherwise>
