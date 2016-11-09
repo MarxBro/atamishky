@@ -64,8 +64,8 @@
                     <xsl:if test="entrytype != 'video'">:
                     </xsl:if>
                 </xsl:if>
-                <xsl:if test="position() != last()">&#160;-</xsl:if>
-                <xsl:if test="position() = last()">:</xsl:if>
+                <xsl:if test="position() != last()">&#160;-&#160;</xsl:if>
+                <xsl:if test="position() = last()">:&#160;</xsl:if>
             </xsl:for-each>
         </xsl:if>
     </xsl:otherwise>
