@@ -61,7 +61,7 @@
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--<xsl:when test="name(.)='title'">-->
 <!--Titulo-->
-<em><xsl:value-of select="title"/></em>.&#160;
+<em><xsl:value-of select="title"/></em>,&#160;
 <!--</xsl:when>-->
 <!--</xsl:when>-->
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
@@ -97,7 +97,7 @@
 <!--"entrytype"/> not equal 'video'-->
 <xsl:if test="entrytype != 'video'">
 <xsl:if test="publisher">
-    <xsl:value-of select="publisher"/>,&#160;
+    <xsl:value-of select="publisher"/>&#160;
 </xsl:if>
 </xsl:if>
 					

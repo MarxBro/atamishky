@@ -38,24 +38,16 @@
         </xsl:for-each>
     </xsl:otherwise>
 </xsl:choose>
-<!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-<!--Agno-->
-<xsl:if test="year">
-    <xsl:value-of select="year"/>,&#160;
-</xsl:if>
-<xsl:if test="not(year)">
-    Sin fecha,&#160;
-</xsl:if>
 
 					
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Titulo-->
-"<xsl:value-of select="title"/>".&#160;
+<em><xsl:value-of select="title"/></em>.&#160;
+
 
 
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!-- Ciudad/es-->
-    (
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
         <xsl:value-of select="address/city"/>
@@ -77,13 +69,21 @@
         </xsl:if>
     </xsl:otherwise>
 </xsl:choose>
-
+:&#160;
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Editorial-->
 <xsl:if test="entrytype != 'video'">
     <xsl:if test="publisher">
-        <xsl:value-of select="publisher"/>&#160;)
+        <xsl:value-of select="publisher"/>,&#160;
     </xsl:if>
+</xsl:if>
+<!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
+<!--Agno-->
+<xsl:if test="year">
+    <xsl:value-of select="year"/>.&#160;
+</xsl:if>
+<xsl:if test="not(year)">
+    Sin fecha.&#160;
 </xsl:if>
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Paginas-->
@@ -94,7 +94,6 @@
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Soporte-->
 <xsl:if test="entrytype = 'video'">
-),
     <xsl:if test="soporte">
         [<xsl:value-of select="soporte" />].&#160;
     </xsl:if>
