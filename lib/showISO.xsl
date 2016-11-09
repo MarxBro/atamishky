@@ -69,7 +69,6 @@
         </xsl:if>
     </xsl:otherwise>
 </xsl:choose>
-:&#160;
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--Editorial-->
 <xsl:if test="entrytype != 'video'">
