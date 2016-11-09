@@ -50,7 +50,7 @@
 <!-- Ciudad/es-->
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
-        <xsl:value-of select="address/city"/>
+        <xsl:value-of select="address/city"/>:&#160;
         <!-- <xsl:if test="entrytype != 'video'">:&#160;</xsl:if> -->
     </xsl:when>
     <xsl:otherwise>
