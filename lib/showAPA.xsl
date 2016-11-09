@@ -47,9 +47,21 @@
 <!--</xsl:when>-->
 					
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
+					
+                    
+<!--<xsl:when test="name(.)='year'">-->
+<!--Agno-->
+<xsl:if test="year">
+    (<xsl:value-of select="year"/>),&#160;
+</xsl:if>
+<xsl:if test="not(year)">
+    (Sin fecha),&#160;
+</xsl:if>
+<!--</xsl:when>-->
+<!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--<xsl:when test="name(.)='title'">-->
 <!--Titulo-->
-"<xsl:value-of select="title"/>".&#160;
+<em><xsl:value-of select="title"/></em>.&#160;
 <!--</xsl:when>-->
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 <!--<xsl:when test="name(.)='publisher'">-->
@@ -85,18 +97,6 @@
     </xsl:otherwise>
 </xsl:choose>
 					
-<!--</xsl:when>-->
-<!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
-					
-                    
-<!--<xsl:when test="name(.)='year'">-->
-<!--Agno-->
-<xsl:if test="year">
-    <xsl:value-of select="year"/>.&#160;
-</xsl:if>
-<xsl:if test="not(year)">
-    Sin fecha.&#160;
-</xsl:if>
 <!--</xsl:when>-->
 <!--ccccccccccccccccccccccccccccccccccccccccccccccccccc-->
 					
