@@ -92,14 +92,14 @@ function do_moodle_stuff($user,$pass){
 
     if ($obj_moodle_token->{'token'}){
         //Hacer algo lindo
-        $token_putos = $obj_moodle_token->{'token'};
-        give_me_info($token_putos);
+        $token_p = $obj_moodle_token->{'token'};
+        give_me_info($token_p);
     } else {
         error_caca("no token no love");
     }
 }
 
-//OJO que NO es JSON, es puto XML
+//OJO que NO es JSON, es XML
 function give_me_info ($tok){
     global $header_bit;
     $url_moodle_rest = 'http://www.atamvirtual.com.ar/webservice/rest/server.php?wstoken=';
@@ -128,7 +128,7 @@ function give_me_info ($tok){
         //'http://cloud.iuna-atam.com.ar/index.php/s/N4b1bjxvfKqCMp2' . 
         '">Enlace a la Bibliografía de la Carrera.</a></strong></div>';
     
-    //P R O B A R R R R R 
+    //DBG 
     $functionname = 'mod_forum_get_forum_discussions_paginated';
     $serverurl = 'http://www.atamvirtual.com.ar/webservice/rest/server.php'. '?wstoken=' . $tok . '&wsfunction='.$functionname;
     $serverurl .= '&forumid=1';
@@ -141,7 +141,7 @@ function give_me_info ($tok){
     curl_close($curleao);
     $xml_foro = simplexml_load_string($resp);
 
-    $thingy_forra = '<h2>Noticias Recientes</h2><ul>';
+    $thingy_show = '<h2>Noticias Recientes</h2><ul>';
     for ($n = 0; $n < 5 ; $n++){
         $titulo_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[13]->VALUE;
         //$fecha_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[3]->VALUE;
@@ -152,9 +152,9 @@ function give_me_info ($tok){
             //'<span>' . $fecha_f . '</span>' . 
             ' por <span>' . $autor_f . '</span>' . 
             '</li>';
-        $thingy_forra .= $html_f;
+        $thingy_show .= $html_f;
     }
-    $thingy_forra .= '</ul>';
+    $thingy_show .= '</ul>';
     
     $choclito = '<html>'. $header_bit . 
         '<body><div class="atamishky">' . 
@@ -170,7 +170,7 @@ function give_me_info ($tok){
         $user_pic . 
         '</div>' . 
         '<div class="entry1">' . 
-        $thingy_forra . 
+        $thingy_show . 
         '</div>' . 
         '</div></body></html>';
     echo $choclito;
