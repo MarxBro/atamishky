@@ -51,7 +51,7 @@
 <xsl:choose>
     <xsl:when test="count(address/city)=1">
         <xsl:value-of select="address/city"/>
-        <xsl:if test="entrytype != 'video'">&#160;:&#160;</xsl:if>
+        <xsl:if test="entrytype != 'video'">:&#160;</xsl:if>
     </xsl:when>
     <xsl:otherwise>
         <xsl:if test="entrytype = 'book'">
@@ -64,7 +64,8 @@
                     <xsl:if test="entrytype != 'video'">:
                     </xsl:if>
                 </xsl:if>
-                <xsl:if test="position() != last()">-</xsl:if>
+                <xsl:if test="position() != last()">&#160;-</xsl:if>
+                <xsl:if test="position() = last()">:</xsl:if>
             </xsl:for-each>
         </xsl:if>
     </xsl:otherwise>
