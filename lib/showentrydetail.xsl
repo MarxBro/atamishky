@@ -80,6 +80,14 @@
         </xsl:if>
     </xsl:if>
 
+    <!--ISBN-->
+        <xsl:if test="entrytype = 'book'">
+            <xsl:if test="isbn">
+            <tr><td><b>ISBN</b></td>
+                <td><xsl:value-of select="isbn" /></td></tr>
+            </xsl:if>
+        </xsl:if>
+
     <xsl:if test="pages">
     <tr><td><b>Parte</b></td>
         <td>

@@ -68,6 +68,7 @@ foreach my $ln_csv_raw (@csv_lns){
     my $lenguaje        = $campos[10] || "pipo";
     my $pag_capi        = $campos[11] || "none";
     my $numero_catalogo = $campos[12] || "none";
+    my $isbn            = $campos[13] || "none";
 
 #salida a un mugroso txt.
 #author . titulo . editorial . ciudad , año
@@ -111,6 +112,10 @@ foreach my $ln_csv_raw (@csv_lns){
         my $taputin = "\t" . '<numero>' . $numero_catalogo. '</numero>' . "\n";
         $numero_catalogo = $taputin;
     }
+    unless ( $isbn eq 'none' ) {
+        my $taputino = "\t" . '<isbn>' . $isbn. '</isbn>' . "\n";
+        $isbn = $taputino;
+    }
 
 #son keywords todas las palabras del titulo de mas de 4 letras.
     my $keywords = make_keywords($titulo);
@@ -138,6 +143,7 @@ my $esqueleto_entry =
     <lang>@@LANG@@</lang>
     @@PAGINAS@@
     @@NUMERO@@
+    @@ISBN@@
 </entry>
 ';
    
@@ -169,6 +175,7 @@ if ( $lenguaje eq 'pipo' ) {
    $esqueleto_entry =~ s/\@\@LANG\@\@/$lenguaje/gi;
    $esqueleto_entry =~ s/\@\@PAGINAS\@\@/$pag_capi/gi;
    $esqueleto_entry =~ s/\@\@NUMERO\@\@/$numero_catalogo/gi;
+   $esqueleto_entry =~ s/\@\@ISBN\@\@/$isbn/gi;
 
    $esqueleto_entry =~ s/none//gi; # Esto vuela las etiquetas vacias.
    
