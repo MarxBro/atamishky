@@ -2,7 +2,7 @@
 include_once("functions.inc.php");
 include_once("user.conf.inc.php");
 
-include "lib/CustomSecureHeaders.php";
+include "lib/SecureHeaders.php";
 
 $headers = new SecureHeaders();
 $headers->hsts();
