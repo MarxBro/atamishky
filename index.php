@@ -6,9 +6,9 @@ include "lib/SecureHeaders.php";
 
 $headers = new SecureHeaders();
 $headers->hsts();
-$headers->csp('default' , 'self', 'https://mediateca.atamvirtual.com.ar//');
-$headers->csp('script'  , 'self', 'https://mediateca.atamvirtual.com.ar//');
-$headers->csp('connect' , 'self', 'https://mediateca.atamvirtual.com.ar//');
+//$headers->csp('default' , 'self');
+//$headers->csp('script'  , 'self');
+//$headers->csp('connect' , 'self');
 $headers->done();
 
 
