@@ -25,11 +25,14 @@ if ($uploadOk == 0) {
     echo "El archivo no puede ser subido.";
         morir(); // EXIT
 } else {
+    header("refresh:5;url=/");
+    print "<html><head><link rel='stylesheet' href='/site.css'></head>";
+    echo "<body><div class='atamishky'>";
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "El archivo ". basename( $_FILES["fileToUpload"]["name"]) . " fué subido.";
+        echo "<h1 style='color: grey'>El archivo <strong>". basename( $_FILES["fileToUpload"]["name"]) . "</strong> fué subido.</h1>";
         cataloguear();
     } else {
-        echo "Hubo un error al subir el archivo.";
+        echo "<h1>Hubo un error al subir el archivo.</h1>";
     }
 }
 
@@ -47,9 +50,10 @@ function cataloguear (){
         $pathy   = './';
         $comando = $pathy . 'atamishky_CSV2XML.pl -f ' . $target_file_x . 
             ' -t -d -o ' . '../'. $ctlg_name_x; 
-        echo "Regenerando el catálogo...";
+        echo '<div class="entry1">Regenerando el catálogo...</div>';
+        echo "</div></body></html>";
         $salida = shell_exec($comando);
-        echo '<pre>' . $salida . '</pre>';
+        # echo '<pre>' . $salida . '</pre>';
     }
 }
 
