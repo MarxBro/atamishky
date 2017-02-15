@@ -442,6 +442,37 @@ function prestar(pub) {
     document.getElementById(nombre_div).innerHTML = inputin;
     document.getElementById(nombre_div).style.visibility="visible";
 }
+function mensaje_prs(pub) {
+    var nombre_div = 'bib' + pub;
+    var inputin = '<div id="popup"><div>Mail:</div><input type="email" name="email" required /><div>Contraseña:</div><input id="pass" type="password" ' + 
+        'onkeydown="if (event.keyCode == 13) document.getElementById(' + 
+        '\'boton\'' + ').click()"' + '/><button id="boton" onclick="done_msj(' +
+        '\'' + pub  + '\'' + ')">OK</button></div>';
+    document.getElementById(nombre_div).innerHTML = inputin;
+    document.getElementById(nombre_div).style.visibility="visible";
+}
+function done_msj(pub) { 
+    var pd = document.getElementById("pass").value;
+    var emaily = document.getElementById("email").value;
+    hide_bibtex_div(pub);
+    if (pd != null){
+        var url =  atamishky_home_dir;
+        url_p   =  url + "?action=showcategory&by=ID&pub=" + pub;
+        url_p  += "&prestamo_msj=" + pd;
+        url_p  += "&mail_msj=" + emaily;
+        url_p  += "&sid="+Math.random();
+        xmlHttp.onreadystatechange=function(){ 
+            if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
+                /*Cuando se presta un item, redireccionar al index. -NO-*/
+                /*window.location = url; */
+                /*Cuando se presta un item, mostrar todos los préstamos actuales.*/
+                getprs_items();
+            }                
+        };
+        xmlHttp.open("GET",url_p,true);
+        xmlHttp.send(null);
+    }
+};
 function done(pub) { 
     var pd = document.getElementById("pass").value;
     hide_bibtex_div(pub);

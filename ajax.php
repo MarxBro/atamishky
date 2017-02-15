@@ -49,7 +49,7 @@ if($action != null){
         if ($pub){
             if (booked_items_check_status($pub)){
                 $prestamos_gilattas = '<a href="javascript:void(0)" style="color:red;" title="Cambiar estado del préstamo" onclick="prestar(\'' . 
-                        $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" title="Ver todos los préstamos" style="color: red;" onclick="getprs_items()">(++)</a>'; 
+                        $pub . '\')">' . 'PRESTADO</a> <a href="javascript:void(0)" title="Ver todos los préstamos" style="color: red;" onclick="getprs_items()">(++)</a><a href=javascript:void(0)" title="mensaje vencimiento de préstamo" style="color: black;" onclick="mensaje_prs()">Vencimiento Préstamo</a>'; 
                 $resultado_pre_prestamo = str_replace('Disponible', $prestamos_gilattas, $resultado_pre_prestamo);
             } else {
                 $cambio = '<a href="javascript:void(0)" title="Cambiar estado del préstamo" onclick="prestar(\'' . $pub . '\')">Disponible</a>';
@@ -129,6 +129,14 @@ if($action != null){
 
         //Procesar los prestamos.
         if ($pub){
+            if($_GET["prestamo_msj"] and $_GET["mail_msj"]){
+                $pass    =  $_GET["prestamo_msj"];
+                $email   =  $_GET["mail_msj"];
+                if (pass_prestamo($pass)){
+                    //Acá mandar el mensaje.
+                    mensajear($email, $pub);
+                }
+            }
             //solo aca es posible cambiar el estado del prestamo.
             if ($_GET["prestamo"]){
                 $pass    =  $_GET["prestamo"];

@@ -18,6 +18,7 @@ $longname['searchMUSICAS']      = 'musica';
 $longname['searchVIDEOS']       = 'video';
 $longname['searchMISC']         = 'otros';
 $longname['prestamos']          = 'Préstamos';
+$longname['mail_contacto']      = 'allthemarxbrothers@gmail.com';
 
 //$longnameEntrytype['paper'] = 'Journal article';
 //$longnameEntrytype['inproceedings'] = 'Inproceedings/Talk';
@@ -181,5 +182,27 @@ function booked_items_change_status ($it){
             file_put_contents($archivo_prestamos,$contt);
     }
 } 
+
+function mensajear($email, $publicacion){
+    $xmlfile         = 'catalogo.xml';
+    $xslfile         = validar_xsl('lib/showAPA.xsl');
+    $params['pubid'] = $publicacion;
+    $tituloLibro=transform($xmlfile, $xslfile, $params);
+    $mensaje_mail = '<html><head><title>Recordatorio Mediateca ATAM</title></head><body>' .
+        '<p>Le recordamos que el tiempo de su pr&eacute;stamo venci&oacute;.</p>' ."\n" . 
+        $tituloLibro . "\n" . 
+        '<p>Puede ver el reglamento <a href="https://mediateca.atamvirtual.com.ar/index.php?action=reglamento">aqu&iacute;</a></p>.' . "\n" . 
+        '<span>Mediateca ATAM</span>' .
+        '</body></html>';
+    $subject = "Recordatorio Mediateca ATAM";
+     // Always set content-type when sending HTML email
+     $headers = "MIME-Version: 1.0" . "\r\n";
+     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+     $headers .= 'From: multimedia.biblioteca@una.edu.ar' . "\r\n";
+     $headers .= 'Reply-to: multimedia.biblioteca@una.edu.ar' . "\r\n";
+    mail($email,$subject,$mensaje_mail,$headers);
+}
+
+
 
 ?>
