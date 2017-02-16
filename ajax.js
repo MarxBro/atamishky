@@ -444,7 +444,8 @@ function prestar(pub) {
 }
 function mensaje_prs(pub) {
     var nombre_div = 'bib' + pub;
-    var inputin = '<div id="popup"><div>Mail:</div><input type="email" name="email" required /><div>Contraseña:</div><input id="pass" type="password" ' + 
+    var inputin = '<div id="popup"><div>Mail:</div><input type="email" name="email" required />' +
+        '<div>Contraseña:</div><input id="pass" type="password" ' + 
         'onkeydown="if (event.keyCode == 13) document.getElementById(' + 
         '\'boton\'' + ').click()"' + '/><button id="boton" onclick="done_msj(' +
         '\'' + pub  + '\'' + ')">OK</button></div>';

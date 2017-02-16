@@ -83,7 +83,7 @@
     <!--ISBN-->
         <xsl:if test="entrytype = 'book'">
             <xsl:if test="isbn">
-            <tr><td><b>ISBN</b></td>
+            <tr><td><b>ISBN-ISSN</b></td>
                 <td><xsl:value-of select="isbn" /></td></tr>
             </xsl:if>
         </xsl:if>
