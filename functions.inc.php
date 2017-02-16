@@ -193,10 +193,11 @@ function mensajear($email, $publicacion){
         '<html><head><title>Recordatorio Mediateca ATAM</title></head><body>' .
         '<p>Le recordamos que el plazo de ' . 
         '<a href="' . $id_libro . '">su pr&eacute;stamo</a>' . 
-        'venci&oacute;.</p>' . "\n" . $tituloLibro . "\n" . 
+        ' venci&oacute;:</p>' . "\n" . $tituloLibro . "\n" . 
         '<p>Puede ver el reglamento de la Mediateca en ' . 
         '<a href="https://mediateca.atamvirtual.com.ar/index.php?action=reglamento">este enlace</a>.</p>' . "\n" . 
-        '<span><a href="https://mediateca.atamvirtual.com.ar">Mediateca ATAM</a>.</span>' .
+        '<span><a href="https://mediateca.atamvirtual.com.ar">Mediateca</a>' . 
+        ' - Area Transdepartamental de Artes Multimediales (UNA).</span>' .
         '</body></html>';
     $subject = "Recordatorio Mediateca ATAM";
      // Always set content-type when sending HTML email
