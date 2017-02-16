@@ -188,11 +188,15 @@ function mensajear($email, $publicacion){
     $xslfile         = validar_xsl('lib/showAPA.xsl');
     $params['pubid'] = $publicacion;
     $tituloLibro=transform($xmlfile, $xslfile, $params);
-    $mensaje_mail = '<html><head><title>Recordatorio Mediateca ATAM</title></head><body>' .
-        '<p>Le recordamos que el tiempo de su pr&eacute;stamo venci&oacute;.</p>' ."\n" . 
-        $tituloLibro . "\n" . 
-        '<p>Puede ver el reglamento <a href="https://mediateca.atamvirtual.com.ar/index.php?action=reglamento">aqu&iacute;</a></p>.' . "\n" . 
-        '<span>Mediateca ATAM</span>' .
+    $id_libro = 'https://mediateca.atamvirtual.com.ar/?action=showcategory&by=ID&pub=' . $publicacion; 
+    $mensaje_mail = 
+        '<html><head><title>Recordatorio Mediateca ATAM</title></head><body>' .
+        '<p>Le recordamos que el plazo de ' . 
+        '<a href="' . $id_libro . '">su pr&eacute;stamo</a>' . 
+        'venci&oacute;.</p>' . "\n" . $tituloLibro . "\n" . 
+        '<p>Puede ver el reglamento de la Mediateca en ' . 
+        '<a href="https://mediateca.atamvirtual.com.ar/index.php?action=reglamento">este enlace</a>.</p>' . "\n" . 
+        '<span><a href="https://mediateca.atamvirtual.com.ar">Mediateca ATAM</a>.</span>' .
         '</body></html>';
     $subject = "Recordatorio Mediateca ATAM";
      // Always set content-type when sending HTML email
