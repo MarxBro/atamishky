@@ -79,7 +79,7 @@ function getRealIpAddr(){
 }
 
 function do_moodle_stuff($user,$pass){
-    $url_moodle = 'http://www.atamvirtual.com.ar/login/token.php?username=' . $user . '&password='. $pass . '&service=FATAMUNA';
+    $url_moodle = 'https://www.atamvirtual.com.ar/login/token.php?username=' . $user . '&password='. $pass . '&service=FATAMUNAA';
     //curlear
     $curl = curl_init();
     curl_setopt_array($curl, array(
@@ -102,7 +102,7 @@ function do_moodle_stuff($user,$pass){
 //OJO que NO es JSON, es XML
 function give_me_info ($tok){
     global $header_bit;
-    $url_moodle_rest = 'http://www.atamvirtual.com.ar/webservice/rest/server.php?wstoken=';
+    $url_moodle_rest = 'https://www.atamvirtual.com.ar/webservice/rest/server.php?wstoken=';
     $token_bit = $tok . '&wsfunction=core_webservice_get_site_info';
     $url_moodle_rest .= $token_bit;
     //-------
@@ -124,13 +124,13 @@ function give_me_info ($tok){
     $user_quota          = $xml->SINGLE->KEY[17]->VALUE / 1024 / 1024;
 
     $link_super_privado = '<br><div><strong><a target="_blank" href="' . 
-        'http://cloud.iuna-atam.com.ar/index.php/s/xNcsdteoo94zhet' .
+        'https://cloud.atamvirtual.com.ar/index.php/s/xNcsdteoo94zhet' .
         //'http://cloud.iuna-atam.com.ar/index.php/s/N4b1bjxvfKqCMp2' . 
         '">Enlace a la Bibliografía de la Carrera.</a></strong></div>';
     
     //DBG 
     $functionname = 'mod_forum_get_forum_discussions_paginated';
-    $serverurl = 'http://www.atamvirtual.com.ar/webservice/rest/server.php'. '?wstoken=' . $tok . '&wsfunction='.$functionname;
+    $serverurl = 'https://www.atamvirtual.com.ar/webservice/rest/server.php'. '?wstoken=' . $tok . '&wsfunction='.$functionname;
     $serverurl .= '&forumid=1';
     $curleao = curl_init();
     curl_setopt_array($curleao, array(
@@ -146,7 +146,7 @@ function give_me_info ($tok){
         $titulo_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[13]->VALUE;
         //$fecha_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[3]->VALUE;
         $autor_f = $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[21]->VALUE;
-        $link_discussion_f = 'http://www.atamvirtual.com.ar/mod/forum/discuss.php?d=' . $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[7]->VALUE;
+        $link_discussion_f = 'https://www.atamvirtual.com.ar/mod/forum/discuss.php?d=' . $xml_foro->SINGLE->KEY[0]->MULTIPLE->SINGLE[$n]->KEY[7]->VALUE;
         $html_f = '<li>' . '<span><a href="' . $link_discussion_f . '" target="_blank">' . 
             '<b>' . $titulo_f . '</b></a></strong>' .  
             //'<span>' . $fecha_f . '</span>' . 
